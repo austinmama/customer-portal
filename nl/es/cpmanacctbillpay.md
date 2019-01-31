@@ -18,7 +18,7 @@ lastupdated: "2019-01-09"
 # Gestión de los elementos de facturación
 {: #manage-billing}
 
-Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de clientes. Para gestionar la facturación y los pagos de la plataforma {{site.data.keyword.Bluemix_notm}}, utilice la ventana Gestionar elementos de facturación en el [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
+Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de clientes. Para gestionar la facturación y los pagos de la plataforma {{site.data.keyword.Bluemix_notm}}, utilice la ventana Gestionar elementos de facturación en el [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
 {:shortdesc}
 
 ## Acceso a los elementos de facturación
