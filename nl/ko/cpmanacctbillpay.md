@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2018, 2019 
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-09"
 
 ---
 
@@ -18,12 +18,11 @@ lastupdated: "2018-11-28"
 # 청구 항목 관리
 {: #manage-billing}
 
-SoftLayer 계정에 대한 {{site.data.keyword.Bluemix}} 인프라 청구를 관리하는 경우 고객 포털에서 청구 및 결제를 관리할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 플랫폼 청구 및 결제를 관리하려면 [결제 관리](/docs/billing-usage/manage_billing.html#linkedusage)를 참조하십시오.  
+SoftLayer 계정에 대한 {{site.data.keyword.Bluemix}} 인프라 청구를 관리하는 경우 고객 포털에서 청구 및 결제를 관리할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 플랫폼 청구 및 결제를 관리하려면 [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}의 청구 항목 관리 창을 사용하십시오.    
 {:shortdesc}
 
 ## 청구 항목 액세스
 {: #cp_accbillitems}
-
 필요한 경우 [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}에서 청구 항목 관리 창을 사용하여 청구 항목을 특정 디바이스에 연관시키고 해당 항목을 취소할 수 있습니다.
 
 청구 항목 관리 창은 연관된 청구 항목을 표시합니다. **표시** 드롭 다운 목록에서 다른 옵션을 선택하여 보기를 변경할 수 있습니다. 청구 항목이 표시되는 경우 연관되지 않은 청구 항목을 연관되도록 변경하고 연관된 항목을 연관 해제하도록 변경할 수 있습니다. 일괄 처리 기능을 사용하여 개별적으로 또는 한 번에 둘 이상의 항목씩 연관 및 연관 해제된 항목을 변경할 수 있습니다. 청구 항목 관리 창에서 언제든지 개별 청구 항목을 취소할 수 있습니다.

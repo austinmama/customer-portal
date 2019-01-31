@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2018, 2019 
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-09"
 
 ---
 
@@ -18,12 +18,11 @@ lastupdated: "2018-11-28"
 # Gestion de vos éléments de facturation
 {: #manage-billing}
 
-Si vous gérez la facturation de l'infrastructure {{site.data.keyword.Bluemix}} pour un compte SoftLayer, vous pouvez gérer votre facturation et vos règlements sur le portail client. Pour gérer la facturation et les paiements de la plateforme {{site.data.keyword.Bluemix_notm}}, voir [Gestion des paiements](/docs/billing-usage/manage_billing.html#linkedusage).  
+Si vous gérez la facturation de l'infrastructure {{site.data.keyword.Bluemix}} pour un compte SoftLayer, vous pouvez gérer votre facturation et vos règlements sur le portail client. Pour gérer les paiements et la facturation de la plateforme {{site.data.keyword.Bluemix_notm}}, accédez à la fenêtre Gérer éléments de facturation dans le [portail client![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
 {:shortdesc}
 
 ## Accès à vos éléments de facturation
 {: #cp_accbillitems}
-
 Vous pouvez utiliser la fenêtre Gérer éléments de facturation du [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} pour associer des éléments de facturation à des appareils spécifiques et annuler ces éléments si nécessaire.
 
 La fenêtre Gérer éléments de facturation affiche les éléments de facturation associés. Vous pouvez modifier la vue en sélectionnant une autre option dans la liste déroulante **Affichage**. Lorsque vous affichez des éléments de facturation, vous pouvez associer des éléments qui ne l'étaient pas, et inversement. Vous pouvez associer/dissocier des éléments de manière individuelle, ou plusieurs éléments à la fois à l'aide de la fonction Actions groupées. Vous pouvez à tout moment annuler des éléments de facturation individuels depuis la fenêtre Gérer éléments de facturation.

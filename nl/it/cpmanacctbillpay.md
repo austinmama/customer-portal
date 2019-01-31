@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2018, 2019 
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-09"
 
 ---
 
@@ -18,12 +18,11 @@ lastupdated: "2018-11-28"
 # Gestione dei tuoi elementi di fatturazione
 {: #manage-billing}
 
-Se stai gestendo la fatturazione dell'infrastruttura {{site.data.keyword.Bluemix}} per un account SoftLayer, puoi gestire la fatturazione e i pagamenti nel portale clienti. Per gestire la fatturazione e i pagamenti della piattaforma {{site.data.keyword.Bluemix_notm}}, vedi [Gestione dei pagamenti](/docs/billing-usage/manage_billing.html#linkedusage).  
+Se stai gestendo la fatturazione dell'infrastruttura {{site.data.keyword.Bluemix}} per un account SoftLayer, puoi gestire la fatturazione e i pagamenti nel portale clienti. Per gestire la fatturazione e i pagamenti della piattaforma {{site.data.keyword.Bluemix_notm}}, utilizza la finestra Gestisci elementi di fatturazione nel [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
 {:shortdesc}
 
 ## Accesso ai tuoi elementi di fatturazione
 {: #cp_accbillitems}
-
 Puoi utilizzare la finestra Gestisci elementi di fatturazione nel [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} per associare gli elementi di fatturazione a specifici dispositivi e, se necessario, annullare questi elementi.
 
 La finestra Gestisci elementi di fatturazione mostra gli elementi di fatturazione associati. Puoi modificare la vista selezionando un'altra opzione dall'elenco a discesa **Visualizza**. Mentre visualizzi gli elementi di fatturazione, puoi modificare gli elementi di fatturazione non associati in modo che siano associati e gli elementi associati in modo che siano dissociati. Puoi modificare gli elementi associati e dissociati individualmente o per più di un elemento alla volta utilizzando la funzione Azioni in blocco. Puoi annullare singoli elementi di fatturazione in qualsiasi momento dalla finestra Gestisci elementi di fatturazione.
