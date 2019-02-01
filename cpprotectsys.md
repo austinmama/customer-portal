@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -39,7 +39,7 @@ You can schedule backups to ensure that your data is safely stored outside of yo
 
 {{site.data.keyword.BluSoftlayer_notm}} infrastructure offers multiple backup solutions to ensure that you can retrieve your data if the drive fails or if user makes an error. Backup solutions currently include NAS, EVault backup, and R1Soft CDP, which are all available in various storage options.
 For example, you can choose one of the following backup services to store your data in a secure location:
-  * EVault backup is an automated, agent-based backup system and a popular “set-and-forget” solution for managing your device. It's compatible with Microsoft software that includes Exchange and SQL through plug-ins. EVault users interact with this service through EVault’s WebCC Web-based application.
+  * EVault backup is an automated, agent-based backup system, and a popular “set-and-forget” solution for managing your device. It's compatible with Microsoft software that includes Exchange and SQL through plug-ins. EVault users interact with this service through EVault’s WebCC Web-based application.
   * R1Soft Continuous Data Protection (CDP) can be installed on your server or self-managed virtual machine. You can use it if you're looking for a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for more functions.
 
  Check out the [Storage ![External link icon](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} page for more information on each backup solution and see [Getting started with backup services](/docs/infrastructure/Backup/index.html) for more information about backing up your data.

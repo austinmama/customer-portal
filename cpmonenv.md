@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -37,7 +37,7 @@ From time to time, scheduled and emergency network maintenance is unavoidable. {
 Use {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile to manage your {{site.data.keyword.BluSoftlayer_notm}} infrastructure devices on the go by using your iOS or Android mobile device. Functionality within {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile includes ticket support, basic device control, and bandwidth monitoring.
 
 The {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile application compliments the functionality of the customer portal because you can monitor critical information about your infrastructure from anywhere using your network-connected mobile device. The application evolves quickly and new functionality is added regularly, but you can use the mobile application to perform tasks like the following:
-  * View, create and update Support tickets
+  * View, create, and update Support tickets
   * Monitor device status, including bandwidth and alarms
   * Shut down and restart Bare Metal Servers and virtual servers
   * View account invoices and make one-time payments

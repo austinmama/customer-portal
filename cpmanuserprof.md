@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -155,7 +155,7 @@ You're allotted one PPTP connection with extra connections available. You can re
 
 You can select which email notifications you want to receive from {{site.data.keyword.BluSoftlayer_notm}} infrastructure, and which you don't. By default, you receive all email notifications but you can change them at any time. To change your email notification settings, use the following steps:
 1. Access the customer portal by using your unique credentials for the account that is associated with the email address that receives notifications.
-2. Click **Account** > **Users** > **E-mail Preferences** from the menu bar.
+2. Click **Account** > **Users** > **Email Preferences** from the menu bar.
 3. From the list of notification types, clear any notifications that you no longer want to receive.
 
 Your changes are saved automatically. These settings affect the emails that are sent to you, however, they don't affect the email notifications of any other users on your account.

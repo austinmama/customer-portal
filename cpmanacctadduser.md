@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -51,7 +51,7 @@ Use the following steps to add a user to an account.
 * Click the **Use Portal Password for VPN** check box to sync the customer portal and VPN passwords.
 6. Click **Add User**.
 
-After you create an account for a user, the user receives an email notification to finish setting up their account. The user must set a password and, optionally, create security questions if you indicated that they're required.
+After you create an account for a user, the user receives an email notification to finish setting up their account. The user must set a password and optionally, create security questions if you indicated that they're required.
 
 How users without the administrative access of a master user log in to the customer portal depends on the master user who provided the user access in their SoftLayer accounts:
   * If the master user has an IBMid to authenticate, each user that the master user creates has an IBMid.

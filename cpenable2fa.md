@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019 
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -69,7 +69,7 @@ After you add PhoneFactor, you must manually activate external authentication wi
 5. Select **Active** from the **Status** list.
 6. Edit the **Primary Phone Number** for authentication.
   1. Click the **Edit** link.
-  2. Enter the **Country Code**, **Phone Number** and **Extension**, if applicable, in the associated fields.
+  2. Enter the **Country Code**, **Phone Number**, and **Extension**, if applicable, in the associated fields.
   3. Click **Authenticate and Save Number** to complete authentication.
 
     When you add a phone number for authentication, you must be by the phone. After you click **Authenticate**, the number is called and you are prompted to complete a step to authenticate the number. Phone numbers cannot be authenticated without completion of these steps.

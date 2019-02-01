@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -37,7 +37,7 @@ For the notification system to be fully effective, subscribe to the process. If 
 ## Notification timing policy
 {: #cp_bpgsnotiftimpol}
 
-The period of time {{site.data.keyword.BluSoftlayer_notm}} infrastructure gives to users in advance of a pending event differs, depending on whether the event is an unplanned infrastructure issue or planned or scheduled maintenance. Generally, the {{site.data.keyword.BluSoftlayer_notm}} infrastructure policy is to remedy problems as quickly as possible to remove or minimize the risk of further issues developing which might have a larger impact. This means that sometimes even planned maintenance is performed with only a short advanced notification.
+The time {{site.data.keyword.BluSoftlayer_notm}} infrastructure gives to users in advance of a pending event differs, depending on whether the event is an unplanned infrastructure issue or planned or scheduled maintenance. Generally, the {{site.data.keyword.BluSoftlayer_notm}} infrastructure policy is to remedy problems as quickly as possible to remove or minimize the risk of further issues developing which might have a larger impact. This means that sometimes even planned maintenance is performed with only a short advanced notification.
 
 ### Policy overview
 {: #cp_bpgsnotifpolover}

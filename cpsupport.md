@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -84,7 +84,7 @@ After you add a ticket, you can view it at any time from the **Tickets** window.
 
 1. Access the [Customer Portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Tickets** from the menu.
-3. Select the status of the ticket from the drop down menu to filter the view.
+3. Select the status of the ticket from the drop-down menu to filter the view.
 4. Click the ticket number to view the details of the ticket.
 
 ## Updating a ticket
@@ -94,7 +94,7 @@ You can update an existing support ticket at any time to include additional comm
 
 1. Access the [Customer Portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Tickets** from the menu.
-3. Select the status of the ticket from the drop down menu to filter the view.
+3. Select the status of the ticket from the drop-down menu to filter the view.
 4. Click the ticket number to view the details of the ticket.
 5. Update the ticket, as necessary. You can perform the following tasks:
   * Reassign a Ticket: from the **Reassign** drop down list, select the user to reassign the ticket to.   

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -95,7 +95,7 @@ You must invite them to {{site.data.keyword.Bluemix_notm}}. In the {{site.data.k
 {: #bicp_ibmidswitchemail}
 {: faq}
 
-If you followed the wizard to switch to IBMid and haven't received the email, it can take from minutes to hours for the email with your registration code to be sent to you. You can go back to the **Edit User Profile** page in the customer portal, and click **Resend Email** to try again.
+If you followed the wizard to switch to IBMid and haven't received the email, it can take from minutes to hours for the email with your registration code to be sent to you. You can go back to the **Edit User Profile** page in the customer portal, and click **Resend email** to try again.
 
 ## Will I have full root access to my account?
 {: #bicp_fullrootaccaccess}
