@@ -2,15 +2,16 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-28"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
@@ -48,6 +49,9 @@ Sie können außerdem eine Rechnungszusammenfassung für das Konto anzeigen; hie
 2. Sie können die Rechnung entweder im Kundenportal anzeigen oder herunterladen.
 
 Falls Sie die Rechnung im Kundenportal anzeigen, wird eine Liste mit einzeln aufgeführten Rechnungspositionen für die ausgewählte Rechnung angezeigt. Wenn Sie auf eine Stelle in der Zeile für eine Rechnungsposition klicken, werden zusätzliche Einzelangaben zur Gebühr angezeigt. Falls Sie die Rechnung heruntergeladen haben, können Sie sie entsprechend Ihren Browsereinstellungen anzeigen. Heruntergeladene Rechnungen bieten sowohl eine aufgegliederte Zusammenfassung als auch einzeln aufgeführte Abrechnungsdetails für jede Rechnungsposition.
+
+Außerhalb der Vereinigte Staaten verwenden Sie das Tool [Invoices](http://www.ibm.com/support/customer/invoices){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") zum Anzeigen Ihrer Rechnungen. Die jeweiligen Schritte für die einzelnen Länder sind unter [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") aufgeführt. Sollten Probleme auftreten, kontaktieren Sie uns unter 1-866-325-0045, um Zugriff auf Ihre Rechnung zu erhalten.
+{: note}
 
 ## Zahlungsmethode hinzufügen
 {: #cp_cpmanacctbillpay}
