@@ -2,15 +2,16 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-28"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
@@ -48,6 +49,9 @@ También puede ver un resumen de facturación de la cuenta, incluida la informac
 2. Puede ver la factura en el portal de clientes o descargarla.
 
 Si está viendo la factura en el portal de clientes, se mostrará una lista detallada de elementos de facturación para la factura seleccionada. Pulse en cualquier lugar de la línea para un elemento de facturación para ver más detalles sobre el cargo. Si ha descargado la factura, podrá verla en función de los valores del navegador. Las facturas descargadas proporcionan una factura de resumen desglosada y una factura detallada desglosada para cada elemento de facturación.
+
+Si está situado fuera de los Estados Unidos, debe utilizar una herramienta llamada [Invoices](http://www.ibm.com/support/customer/invoices){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") para ver sus facturas. Los detalles específicos para cada país se muestran en [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo"). Si tiene algún problema, póngase en contacto con nosotros llamando al 1-866-325-0045 y solicite acceso a su factura.
+{: note}
 
 ## Adición de un método de pago
 {: #cp_cpmanacctbillpay}
