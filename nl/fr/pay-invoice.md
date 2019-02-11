@@ -2,15 +2,16 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-28"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
@@ -49,6 +50,9 @@ Vous pouvez également afficher un récapitulatif de facturation pour le compte,
 
 Si vous affichez la facture dans le portail client, une liste détaillée des éléments de facturation s'affiche pour la facture sélectionnée. Cliquez sur la ligne d'un élément de facturation pour afficher des détails supplémentaires concernant les frais. Si vous avez téléchargé la facture, vous pouvez l'afficher en fonction des paramètres de votre navigateur. Les factures téléchargées fournissent un récapitulatif détaillé ainsi que des détails pour chaque élément de facturation.
 
+Si vous n'êtes pas aux Etats-Unis, vous utilisez un outil appelé [Invoices](http://www.ibm.com/support/customer/invoices){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") pour afficher vos factures. Les procédures des différents pays sont présentées sur la page [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe"). Si les problèmes persistent, contactez-nous en nous appelant au numéro 1-866-325-0045 et demandez à avoir accès à votre facture.
+{: note}
+
 ## Ajout d'un mode de règlement
 {: #cp_cpmanacctbillpay}
 
@@ -59,7 +63,7 @@ Chaque compte SoftLayer doit comporter une carte de crédit enregistrée sur laq
 > **Remarque :** Cochez la case **Utiliser les informations de la société** pour renseigner automatiquement les zones à l'aide des informations de la société que l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} a enregistrées pour le compte.
 3. Entrez les informations de carte de crédit dans chaque zone de la section **Informations de paiement**.
 4. Cliquez sur **Ajouter carte de crédit** pour ajouter la carte de crédit en tant que mode de règlement mensuel.
-5. Facultatif : Sélectionnez **Support dans l'Union européenne** pour vous assurer que l'équipe de support en Europe gère vos problèmes de maintenance et de support. Pour plus d'informations sur cette option, voir la rubrique traitant de la [définition de l'option de support européen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+5. Facultatif : Sélectionnez **Support dans l'Union européenne** pour vous assurer que l'équipe de support en Europe gère vos problèmes de maintenance et de support.  Pour plus d'informations sur cette option, voir la rubrique traitant de la [définition de l'option de support européen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
 
 Une fois le mode de règlement ajouté, la demande est traitée par les représentants de compte SoftLayer afin de garantir la validité de la carte. Les cartes validées sont disponibles pour utilisation sur le compte sous 24 heures. Le changement de statut du mode de règlement est envoyé par e-mail au contact fourni lors de l'ajout du mode de règlement.
 
