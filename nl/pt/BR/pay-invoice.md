@@ -2,15 +2,16 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-28"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
@@ -48,6 +49,9 @@ Também é possível visualizar um resumo de faturamento para a conta, incluindo
 2. É possível visualizar a fatura no portal do cliente ou fazer download da fatura.
 
 Se você estiver visualizando a fatura no portal do cliente, uma lista detalhada de itens de faturamento será mostrada para a fatura selecionada. Clique em qualquer lugar na linha de um item de faturamento para visualizar mais detalhes divididos em itens sobre a cobrança. Se você transferiu a fatura por download, será possível visualizá-la com base em suas configurações do navegador. As faturas transferidas por download fornecem um resumo detalhado e o faturamento detalhado em itens para cada item de faturamento.
+
+Se você estiver localizado fora dos Estados Unidos, use uma ferramenta chamada [Invoices](http://www.ibm.com/support/customer/invoices){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") para visualizar suas faturas. As etapas específicas para cada país são listadas em [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"). Se você tiver algum problema, entre em contato conosco em 1-866-325-0045 e solicite acesso à sua fatura.
+{: note}
 
 ## Incluindo um método de pagamento
 {: #cp_cpmanacctbillpay}

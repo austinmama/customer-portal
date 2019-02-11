@@ -2,15 +2,16 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-28"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
@@ -48,6 +49,9 @@ lastupdated: "2018-10-11"
 2. 고객 포털에서 송장을 보거나 송장을 다운로드할 수 있습니다.
 
 고객 포털에서 송장을 보는 경우 청구 항목의 항목별 목록이 선택된 송장에 대해 표시됩니다. 청구 항목의 행에서 임의의 위치를 클릭하여 청구에 대한 추가 항목별 세부사항을 보십시오. 송장을 다운로드한 경우 브라우저 설정에 따라 송장을 볼 수 있습니다. 다운로드한 송장은 각 청구 항목에 대한 항목별 요약 및 항목별 세부 청구를 모두 제공합니다.
+
+미국 이외의 지역에 있는 경우 [송장(Invoices) ](http://www.ibm.com/support/customer/invoices){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")이라는 도구를 사용하여 송장을 확인할 수 있습니다. 각 국가에 대한 특정 단계는 [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")에 나열되어 있습니다. 문제가 있는 경우 1-866-325-0045로 연락하여 송장에 대한 액세스를 요청하십시오.
+{: note}
 
 ## 청구 방법 추가
 {: #cp_cpmanacctbillpay}
