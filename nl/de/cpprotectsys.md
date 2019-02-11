@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -35,7 +35,7 @@ Das öffentliche Netz ist für viele Zwecke hervorragend geeignet. Es gibt jedoc
 ## Daten durch regelmäßige Sicherungen schützen
 {: #cp_bpsafedataregback}
 
-Sie können Sicherungen planen, um sicherzustellen, dass Ihre Daten sicher außerhalb Ihres Geräts gespeichert werden, und um sie bei Verlust erneut laden zu können. 
+Sie können Sicherungen planen, um sicherzustellen, dass Ihre Daten sicher außerhalb Ihres Geräts gespeichert werden, und um sie bei Verlust erneut laden zu können.
 
 Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bietet mehrere Sicherungslösungen, die gewährleisten, dass Sie Ihre Daten bei einem Laufwerkausfall oder Benutzerfehler abrufen können. Zu den Sicherungslösungen gehören derzeit NAS, EVault Backup und R1Soft CDP; alle diese Lösungen sind in verschiedenen Speicheroptionen verfügbar.
 Sie können einen der folgenden Backup-Services auswählen, um Ihre Daten an einer sicheren Position zu speichern:
@@ -47,12 +47,12 @@ Sie können einen der folgenden Backup-Services auswählen, um Ihre Daten an ein
 ### Redundanz nicht voraussetzen, sondern sicherstellen
 {: #cp_bpknowredundant}
 
-Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bietet mehrere Add-on-Redundanzen, die doppelte Pfade, redundante Stromversorgungssysteme und RAID-Konfigurationen umfassen. Vergewissern Sie sich, dass Sie eine oder mehrere dieser Funktionen bereitgestellt haben, damit sichergestellt ist, dass Sie in einer redundanten Umgebung arbeiten und im Fall einer Störung geschützt sind. 
+Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bietet mehrere Add-on-Redundanzen, die doppelte Pfade, redundante Stromversorgungssysteme und RAID-Konfigurationen umfassen. Vergewissern Sie sich, dass Sie eine oder mehrere dieser Funktionen bereitgestellt haben, damit sichergestellt ist, dass Sie in einer redundanten Umgebung arbeiten und im Fall einer Störung geschützt sind.
 
 ### Sicherung der Informationen vor einem erneuten Laden des Betriebssystems überprüfen
 {: #cp_bpnoperfOSwobackupconf}
 
-Beim erneuten Laden des Betriebssystems werden alle Daten von der Festplatte des Geräts entfernt. Bevor Sie das erneute Laden des Betriebssystems einleiten, müssen Sie Ihre Informationen sichern und den Erfolg der Sicherung verifizieren, damit keine Daten verlorengehen. Nach dem erneuten Laden des Betriebssystem können verlorene Informationen nicht mehr abgerufen werden. 
+Beim erneuten Laden des Betriebssystems werden alle Daten von der Festplatte des Geräts entfernt. Bevor Sie das erneute Laden des Betriebssystems einleiten, müssen Sie Ihre Informationen sichern und den Erfolg der Sicherung verifizieren, damit keine Daten verlorengehen. Nach dem erneuten Laden des Betriebssystem können verlorene Informationen nicht mehr abgerufen werden.
 
 ## Adaptec Storage Manager (ASM) nicht entfernen
 {: #cp_bpsupdontremovasm}

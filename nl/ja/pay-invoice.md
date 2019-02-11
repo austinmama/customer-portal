@@ -2,15 +2,16 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-28"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
@@ -48,6 +49,9 @@ lastupdated: "2018-10-11"
 2. カスタマー・ポータルで請求書を表示したり、請求書をダウンロードしたりできます。
 
 カスタマー・ポータルで請求書を表示すると、選択した請求書について、請求項目の明細リストが表示されます。 請求項目の行のどこかをクリックすると、その料金に関する項目別の詳細が表示されます。 請求書をダウンロードすると、ブラウザーの設定に基づいてそれを表示できます。 ダウンロードした請求書には、各請求項目について、項目別の要約と項目別の請求詳細の両方が示されます。
+
+住所が米国外の場合は、[送り状](http://www.ibm.com/support/customer/invoices){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")というツールを使用して送り状を表示します。国別の具体的な手順は、[https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") に記載されています。問題がある場合は、1-866-325-0045 に問い合わせて、お客様の送り状へのアクセスを依頼してください。
+{: note}
 
 ## 支払い方法の追加
 {: #cp_cpmanacctbillpay}

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -29,7 +29,7 @@ Abhängig von Ihrem Zugriff können Sie entweder Ihr eigenes SoftLayer-Konto ode
   Falls Sie die Masteranmeldeberechtigungsnachweise für Ihr Konto gemeinsam nutzen müssen, gehen Sie hierbei umsichtig vor. Über Ihre Masteranmeldung werden alle Aspekte Ihres Kontos gesteuert. Daher sollten Sie sie sorgfältig schützen. Um anderen Benutzern die Verwendung des Kundenportals zu ermöglichen, konfigurieren Sie einzelne oder berechtigungsbasierte Benutzer. Durch Erstellen berechtigungsbasierter Benutzer stellen Sie sicher, dass Sie über die größtmögliche Kontrolle darüber verfügen, wer mit bestimmten Aspekten Ihres Kontos interagieren kann.
 {:tip}
 
-  * Falls Sie Verwaltungszugriff besitzen, können Sie alle von Ihnen hinzugefügten Benutzer anzeigen. Wenn Sie diesen Benutzern die Berechtigung zum Verwalten anderer Benutzer erteilt haben, können Sie außerdem alle von diesen Benutzern hinzugefügten Benutzer anzeigen. Außerdem können Sie jeden Benutzer verwalten, der dem Konto zugeordnet ist. Dies schließt das Bearbeiten des Zugriffs auf das Kundenportal, das Ändern des Benutzerstatus und das Entfernen von Benutzern ein. 
+  * Falls Sie Verwaltungszugriff besitzen, können Sie alle von Ihnen hinzugefügten Benutzer anzeigen. Wenn Sie diesen Benutzern die Berechtigung zum Verwalten anderer Benutzer erteilt haben, können Sie außerdem alle von diesen Benutzern hinzugefügten Benutzer anzeigen. Außerdem können Sie jeden Benutzer verwalten, der dem Konto zugeordnet ist. Dies schließt das Bearbeiten des Zugriffs auf das Kundenportal, das Ändern des Benutzerstatus und das Entfernen von Benutzern ein.
 
 Informationen zur Verwaltung von Benutzern über die {{site.data.keyword.Bluemix_notm}}-Konsole enthalten die Abschnitte [Kontoeinrichtung](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) und [Identität und Zugriff verwalten](/docs/iam/quickstart.html#getstarted). Weitere Informationen zur {{site.data.keyword.Bluemix_notm}}-Konsole enthält [In der {{site.data.keyword.Bluemix_notm}}-Konsole navigieren](/docs/overview/ui.html#ui).
 
@@ -73,4 +73,4 @@ Führen Sie zum Festlegen der Berechtigungen für einen gerade hinzugefügten Be
 
 Sie erhalten daraufhin eine E-Mail mit Links und Informationen, die Sie durch die Einrichtung einer IBMid für die Authentifizierung bei diesem Konto führen. Diese Schritte können die Erstellung einer neuen IBMid umfassen, falls das Konto eine IBMid für die Authentifizierung verwendet. Die Einladung läuft nach 7 Tagen ab. Sie können jedoch Ihren Administrator bitten, die Einladung erneut zu senden.
 
-Bei allen anderen Authentifizierungsfällen kann sich der Benutzer jederzeit beim Kundenportal anmelden, nachdem er hinzugefügt wurde. Benutzer können mit den verschiedenen Produkten und Services arbeiten, die dem Konto zugeordnet sind. Sie können einen Benutzer jederzeit inaktivieren.
+Bei allen anderen Authentifizierungsfällen kann sich der neue Benutzer jederzeit beim Kundenportal anmelden, nachdem er hinzugefügt wurde. Benutzer können mit den verschiedenen Produkten und Services arbeiten, die dem Konto zugeordnet sind. Sie können einen Benutzer jederzeit inaktivieren.

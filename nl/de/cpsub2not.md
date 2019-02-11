@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -18,8 +18,7 @@ lastupdated: "2018-11-20"
 # Benachrichtigungen abonnieren
 {: #cp_bpnotifications}
 
-Manchmal treten Ereignisse in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur auf, die eine Aktion erforderlich machen.
-Einige dieser Ereignisse treten unerwartet auf, andere sind geplante Wartungsaktivitäten, die zur Aufrechterhaltung einer hohen Leistungsfähigkeit der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur erforderlich sind. Kunden werden von diesen Ereignissen weitestmöglich isoliert; bisweilen ist es jedoch nötig, Geräte in den Offlinemodus zu versetzen. Es ist immer erforderlich gegenüber Kunden transparent, zeitgerecht und informativ vorzugehen.
+Manchmal treten Ereignisse in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur auf, die eine Aktion erforderlich machen. Einige dieser Ereignisse treten unerwartet auf, andere sind geplante Wartungsaktivitäten, die zur Aufrechterhaltung einer hohen Leistungsfähigkeit der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur erforderlich sind. Kunden werden von diesen Ereignissen weitestmöglich isoliert; bisweilen ist es jedoch nötig, Geräte in den Offlinemodus zu versetzen. Es ist immer erforderlich gegenüber Kunden transparent, zeitgerecht und informativ vorzugehen.
 {:shortdesc}
 
 Damit Sie bei der Nutzung der Cloud keine unangenehmen Überraschungen erleben, müssen Sie rechtzeitig über Wartungsaktivitäten informiert werden. Um diese Informationen zu erhalten, können Sie im Kundenportal Benachrichtigungen abonnieren. Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur nutzt den Benachrichtigungsprozess von EMS (Event Management System, Ereignismanagementsystem) für die folgenden Typen von wichtigen Betriebsereignissen:
@@ -38,7 +37,7 @@ Damit das Benachrichtigungssystem seine volle Wirksamkeit erzielen kann, müssen
 ## Ablaufsteuerungsrichtlinie für Benachrichtigungen
 {: #cp_bpgsnotiftimpol}
 
-Der Zeitraum, den die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur den Benutzern vor einem anstehenden Ereignis einräumt, variiert abhängig davon, ob es sich bei dem Ereignis um ein ungeplantes infrastrukturelles Problem oder um eine planmäßige bzw. terminierte Wartung handelt. Generell gibt die Richtlinie für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur vor, dass Probleme so schnell wie möglich behoben werden müssen, um das Risiko der Entstehung weiterer Probleme mit einer größeren Auswirkung zu verhindern oder zu begrenzen. Dies bedeutet, dass selbst planmäßige Wartungen bisweilen mit einer nur kurzfristigen Vorabbenachrichtigung durchgeführt werden.
+Die Zeit, die die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur den Benutzern vor einem anstehenden Ereignis einräumt, variiert abhängig davon, ob es sich bei dem Ereignis um ein ungeplantes infrastrukturelles Problem oder um eine planmäßige bzw. terminierte Wartung handelt. Generell gibt die Richtlinie für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur vor, dass Probleme so schnell wie möglich behoben werden müssen, um das Risiko der Entstehung weiterer Probleme mit einer größeren Auswirkung zu verhindern oder zu begrenzen. Dies bedeutet, dass selbst planmäßige Wartungen bisweilen mit einer nur kurzfristigen Vorabbenachrichtigung durchgeführt werden.
 
 ### Richtlinien im Überblick
 {: #cp_bpgsnotifpolover}

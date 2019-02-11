@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -47,7 +47,7 @@ Als Masterbenutzer des SoftLayer-Kontos melden Sie sich beim Kundenportal an und
 {: #bicp_bmxusertolink}
 {: faq}
 
-Nein. Sie können ein neues {{site.data.keyword.Bluemix_notm}}-Konto erstellen oder ein bestehendes {{site.data.keyword.Bluemix_notm}}-Lite-Konto bzw. nutzungsabhängiges Konto für {{site.data.keyword.Bluemix_notm}} verknüpfen.
+Nein. Sie können ein neues {{site.data.keyword.Bluemix_notm}}-Konto erstellen oder ein bestehendes {{site.data.keyword.Bluemix_notm}}-Lite-Konto bzw. nutzungsabhängiges Konto verknüpfen.
 
 ## Wie funktioniert die Zwei-Faktor-Authentifizierung?
 {: #bicp_2fa}

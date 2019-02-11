@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019 
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -29,7 +29,7 @@ Die Zwei-Faktor-Authentifizierung für Ihr SoftLayer-Konto erfolgt nicht pro IBM
 
 Es gibt zwei Arten von Zwei-Faktor-Authentifizierung. Beide Methoden der externen Authentifizierung können gegen eine geringe monatliche Gebühr für jeden Benutzer hinzugefügt werden.
 
-* Symantec Identity Protection ist das am häufigsten genutzte Tool für die externe Authentifizierung. Es stellt beim Zugriff auf das Kundenportal zusätzlich zum Benutzernamen und Kennwort einen dynamischen Sicherheitscode bereit. 
+* Symantec Identity Protection ist das am häufigsten genutzte Tool für die externe Authentifizierung. Es stellt beim Zugriff auf das Kundenportal zusätzlich zum Benutzernamen und Kennwort einen dynamischen Sicherheitscode bereit.
 * Die Authentifizierung mit PhoneFactor stellt die externe Benutzerauthentifizierung mittels Telefonanruf, SMS oder mobiler App bereit.
 
  Wenn Sie über ein verknüpftes Konto verfügen, können Sie die Einstellung für die Mehrfaktorauthentifizierung nutzen, indem Sie die [Mehrfaktorauthentifizierung](/docs/iam/mfa.html) für Ihr gesamtes {{site.data.keyword.Bluemix_notm}}-Konto aktivieren.

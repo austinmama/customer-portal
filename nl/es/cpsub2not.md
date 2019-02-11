@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -37,7 +37,7 @@ Para que el sistema de notificación sea totalmente efectivo, suscríbase al pro
 ## Política de tiempo de notificación
 {: #cp_bpgsnotiftimpol}
 
-El periodo de tiempo que la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} da a los usuarios antes de un suceso pendiente difiere, dependiendo de si el suceso es un problema de infraestructura no planeado o un mantenimiento previsto o planificado. Generalmente, la política de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} es remediar problemas lo antes posible para eliminar o minimizar el riesgo de más problemas al desarrollar lo que podría tener un mayor impacto. Esto significa que a veces incluso el mantenimiento planificado se realiza con solo una notificación brevemente avanzada.
+El tiempo que la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} da a los usuarios antes de un suceso pendiente difiere, dependiendo de si el suceso es un problema de infraestructura no planeado o un mantenimiento previsto o planificado. Generalmente, la política de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} es remediar problemas lo antes posible para eliminar o minimizar el riesgo de más problemas al desarrollar lo que podría tener un mayor impacto. Esto significa que a veces incluso el mantenimiento planificado se realiza con solo una notificación brevemente avanzada.
 
 ### Visión general de políticas
 {: #cp_bpgsnotifpolover}

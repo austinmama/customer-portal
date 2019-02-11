@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -31,15 +31,15 @@ Ein im Kundenportal erstelltes Benutzerprofil kann jederzeit bearbeitet werden. 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
 2. Wählen Sie in der Navigationsleiste die Optionen **Konto > Benutzer** aus.
 3. Klicken Sie auf den Benutzernamen, um auf das zugehörige Benutzerprofil für diesen Benutzer zuzugreifen.
-4. Bearbeiten Sie die Details für das **Benutzerprofil** wie gewünscht. Für Benutzer in Konten, die die IBMid für die Authentifizierung verwenden, aktualisieren Sie Ihre E-Mail-Adresse und Ihr Kennwort im IBMid-Profil. Weitere Informationen enthält Tabelle 1. 
-5. Falls Sie Ihr Kennwort nach der Anmeldung zurücksetzen wollen, klicken Sie auf **Kennwort zurücksetzen**, um eine E-Mail zum Ändern des Kennworts zu generieren. 
+4. Bearbeiten Sie die Details für das **Benutzerprofil** wie gewünscht. Für Benutzer in Konten, die die IBMid für die Authentifizierung verwenden, aktualisieren Sie Ihre E-Mail-Adresse und Ihr Kennwort im IBMid-Profil. Weitere Informationen enthält Tabelle 1.
+5. Falls Sie Ihr Kennwort nach der Anmeldung zurücksetzen wollen, klicken Sie auf **Kennwort zurücksetzen**, um eine E-Mail zum Ändern des Kennworts zu generieren.
 6. Klicken Sie auf **Benutzer bearbeiten**, um die Änderungen zu übergeben.
 
 | Feld | Definition |
 |-----|----------|
-| Vorname, Nachname | Vorname und Nachname des Benutzers, der dem Benutzerprofil zugeordnet ist. |
+| Vorname, Nachname | Vorname und Nachname des Benutzers, der dem Benutzerprofil zugeordnet ist.|
 | E-Mail-Adresse | Die bevorzugte E-Mail-Adresse für den Empfang von Benachrichtigungen aus der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur zum Konto. Eine Änderung der E-Mail-Adresse ändert den Datensatz in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur. Auf die Verknüpfung mit den IBMid-Authentifizierungsnachweisen hat diese Änderung keinen Einfluss. Die E-Mail-Adresse für die IBMid müssen Sie im IBMid-Profil ändern.|
-| Zeitzone | Die bevorzugte Zeitzone bei der Anzeige von Daten mit Zeitmarken. |
+| Zeitzone | Die bevorzugte Zeitzone bei der Anzeige von Daten mit Zeitmarken.|
 | Telefon, Telefon (alternativ)| Die bevorzugten Telefonnummern für Ansprechpartner, die von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwendet werden sollen.|
 | Straße, Stadt, Land, Bundesland/Kanton, Postleitzahl | Die vollständige Adresse für Ansprechpartner, die von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwendet werden soll.|
 {: caption="Tabelle 1. Konfigurationseinstellungen für personenbezogene Angaben bei der Bearbeitung eines Benutzerprofils" caption-side="top"}
@@ -62,7 +62,7 @@ Ein im Kundenportal erstelltes Benutzerprofil kann jederzeit bearbeitet werden. 
 {: caption="Tabelle 3. Weitere Konfigurationseinstellungen beim Bearbeiten eines Benutzerprofils" caption-side="top"}
 Nachdem Sie Bearbeitungen eines Benutzerprofils übergeben haben, werden die Änderungen sofort angewendet. Sie können das Benutzerprofil jederzeit erneut ändern, indem Sie die obigen Schritte wiederholen.
 
-Weitere Informationen zur Einstellung eines IBMid-Kontos finden Sie unter [Zur IBMid wechseln](/docs/account/softlayerlink.html#switching-to-ibmid). 
+Weitere Informationen zur Einstellung eines IBMid-Kontos finden Sie unter [Zur IBMid wechseln](/docs/account/softlayerlink.html#switching-to-ibmid).
 
 ## Berechtigungen eines Benutzers für das Kundenportal bearbeiten
 {: #cp_editusercpperm}
@@ -85,12 +85,12 @@ Führen Sie zum Bearbeiten der Berechtigungen eines Benutzers für das Kundenpor
 6. Klicken Sie auf **Portalberechtigungen bearbeiten**, um Änderungen zu übergeben und die Berechtigungen des Benutzers zu aktualisieren.
 7. Wenn Sie die Berechtigungen des Benutzers auf die ursprünglichen Einstellungen zurücksetzen wollen, statt sie zu speichern, klicken Sie auf **Berechtigungen zurücksetzen**. Klicken Sie auf **Abbrechen**, um die Änderungen zu stornieren und zum Fenster 'Benutzer' zurückzukehren.
 
-Benutzerberechtigungen werden sofort aktualisiert, nachdem Sie die Änderungen übergeben haben. Falls Berechtigungen erteilt wurden, kann der Benutzer die ausgewählten Funktionen anzeigen bzw. mit ihnen interagieren. Falls Berechtigungen entfernt wurden, kann der Benutzer die ausgewählten Funktionen nicht anzeigen bzw. nicht mit ihnen interagieren. Sie können die Berechtigungen jederzeit durch Wiederholen der obigen Schritte erneut aktualisieren. 
+Benutzerberechtigungen werden sofort aktualisiert, nachdem Sie die Änderungen übergeben haben. Falls Berechtigungen erteilt wurden, kann der Benutzer die ausgewählten Funktionen anzeigen bzw. mit ihnen interagieren. Falls Berechtigungen entfernt wurden, kann der Benutzer die ausgewählten Funktionen nicht anzeigen bzw. nicht mit ihnen interagieren. Sie können die Berechtigungen jederzeit durch Wiederholen der obigen Schritte erneut aktualisieren.
 
 ## Externe Authentifizierung für einen Benutzer hinzufügen
 {: #cp_addextauthuser}
 
-Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie unter [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal/cpenable2fa.html#customerportal_2fa). 
+Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie unter [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal/cpenable2fa.html#customerportal_2fa).
 
 
 ## Status eines Benutzers ändern
@@ -105,9 +105,9 @@ Ihr Status im Kundenportal bestimmt Ihre Zugriffsmöglichkeit auf das Kundenport
 <dt>Nur VPN</dt>
 <dd>Der Benutzer besitzt gemäß der für ihn festgelegten Benutzerberechtigung uneingeschränkten Zugriff auf die VPN-Konnektivität, kann jedoch nicht auf das Kundenportal zugreifen. Dieser Status kann jederzeit manuell ausgewählt oder geändert werden.</dd>
 <dt>Inaktiv</dt>
-<dd>Der Benutzer hat in den vergangenen 60 Tagen nicht auf das Kundenportal oder das VPN zugegriffen. Dies ist ein systemgenerierter Status. </dd>
+<dd>Der Benutzer hat in den vergangenen 60 Tagen nicht auf das Kundenportal oder das VPN zugegriffen. Dies ist ein systemgenerierter Status.</dd>
 <dt>Stornierung anstehend</dt>
-<dd>Ein Administrator für das Konto hat diesen Benutzer storniert und die Stornierung wird gerade verarbeitet. Dies ist ein systemgenerierter Status. </dd>
+<dd>Ein Administrator für das Konto hat diesen Benutzer storniert und die Stornierung wird gerade verarbeitet. Dies ist ein systemgenerierter Status.</dd>
 </dl>
 
 Führen Sie die folgenden Schritte aus, um den Status eines Benutzers im Kundenportal zu ändern.
