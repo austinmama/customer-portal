@@ -25,7 +25,7 @@ Todos os detalhes de faturamento da infraestrutura do {{site.data.keyword.Bluemi
 ## Visualizando sua fatura
 {: #cp_viewinvoice}
 
-Na janela Faturas, cada fatura individual é resumida pelo número da fatura, data, tipo de fatura e vários saldos monetários. As faturas podem ser qualquer um dos tipos a seguir:
+Na janela Faturas, cada fatura individual é resumida por seu número, data, tipo e por diversos saldos monetários. As faturas podem ser qualquer um dos tipos a seguir:
 
 <dl>
 <dt>Nova</dt>
@@ -50,7 +50,7 @@ Também é possível visualizar um resumo de faturamento para a conta, incluindo
 
 Se você estiver visualizando a fatura no portal do cliente, uma lista detalhada de itens de faturamento será mostrada para a fatura selecionada. Clique em qualquer lugar na linha de um item de faturamento para visualizar mais detalhes divididos em itens sobre a cobrança. Se você transferiu a fatura por download, será possível visualizá-la com base em suas configurações do navegador. As faturas transferidas por download fornecem um resumo detalhado e o faturamento detalhado em itens para cada item de faturamento.
 
-Se você estiver localizado fora dos Estados Unidos, use uma ferramenta chamada [Invoices](http://www.ibm.com/support/customer/invoices){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") para visualizar suas faturas. As etapas específicas para cada país são listadas em [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"). Se você tiver algum problema, entre em contato conosco em 1-866-325-0045 e solicite acesso à sua fatura.
+Se estiver fora dos Estados Unidos, use uma ferramenta chamada [Invoices](http://www.ibm.com/support/customer/invoices){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") para visualizar suas faturas. As etapas específicas para cada país são listadas em [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"). Se você tiver algum problema, entre em contato conosco em 1-866-325-0045 e solicite acesso à sua fatura.
 {: note}
 
 ## Incluindo um método de pagamento
@@ -76,7 +76,7 @@ Após você incluir o método de pagamento, a solicitação será processada pel
  * No menu: acesse **Conta** > **Fazer um pagamento**.
  * Na página Faturas: clique em **Pagar saldo**.
 2. Insira a quantia de pagamento no campo **Quantia de pagamento**.
-3. Se você estiver fazendo seu pagamento com PayPal, clique em **PayPal** e siga os prompts do PayPal para concluir o pagamento. Nenhuma ação adicional é necessária. Se você estiver fazendo seu pagamento com um cartão de crédito, insira o **Número do cartão, a Expiração e o Código de segurança** nos campos apropriados.
+3. Se você estiver fazendo seu pagamento com PayPal, clique em **PayPal** e siga os prompts do PayPal para concluir o pagamento. Nenhuma ação adicional é necessária. Se estiver fazendo o pagamento com um cartão de crédito, insira o **Número do Cartão, a Expiração e o Código de Segurança** nos campos adequados.
 4. Insira as informações de faturamento nos campos apropriados na seção **Endereço para cobrança do cartão de crédito**.
 5. Opcionalmente, selecione **Suportado na EU** para assegurar que a equipe de suporte na Europa lida com os seus problemas de manutenção e suporte.  Para obter mais informações sobre essa opção, consulte [Configurando a opção europeia suportada](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
 6. Clique em **Pagar com cartão de crédito** para iniciar o pagamento.

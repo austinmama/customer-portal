@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019 
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -69,7 +69,7 @@ Depois de incluir o PhoneFactor, deve-se ativar manualmente a autenticação ext
 5. Selecione **Ativo** na lista **Status**.
 6. Edite o **Número do telefone principal** para autenticação.
   1. Clique no link **Editar**.
-  2. Insira o **Código do país**, o **Número do telefone** e o **Ramal**, se aplicável, nos campos associados.
+  2. Insira o **Código do País**, o **Número de Telefone** e a **Extensão**, se aplicável, nos campos associados.
   3. Clique em **Autenticar e salvar número** para concluir a autenticação.
 
     Quando você inclui um número de telefone para autenticação, deve-se estar no telefone. Depois de clicar em **Autenticar**, o número é chamado e é solicitado que você conclua uma etapa para autenticar o número. Os números de telefone não podem ser autenticados sem a conclusão dessas etapas.

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -37,7 +37,7 @@ Para que o sistema de notificação seja totalmente eficaz, assine o processo. S
 ## Política de sincronização de notificação
 {: #cp_bpgsnotiftimpol}
 
-O período de tempo que a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} fornece aos usuários antecipadamente sobre um evento pendente difere, dependendo de se o evento é um problema de infraestrutura não planejado ou uma manutenção planejada. Geralmente, a política de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} é solucionar problemas o mais rápido possível para remover ou minimizar o risco de desenvolvimento de problemas adicionais que possam ter um impacto maior. Isso significa que, às vezes, até mesmo a manutenção planejada é executada com uma curta notificação prévia.
+O tempo que a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} concede aos usuários antes de um evento pendente é diferente, dependendo se o evento é um problema de infraestrutura não planejado ou uma manutenção planejada. Geralmente, a política de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} é solucionar problemas o mais rápido possível para remover ou minimizar o risco de desenvolvimento de problemas adicionais que possam ter um impacto maior. Isso significa que, às vezes, até mesmo a manutenção planejada é executada com uma curta notificação prévia.
 
 ### Visão geral da política
 {: #cp_bpgsnotifpolover}

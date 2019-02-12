@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -95,7 +95,7 @@ Deve-se convidá-los para o {{site.data.keyword.Bluemix_notm}}. No console do {{
 {: #bicp_ibmidswitchemail}
 {: faq}
 
-Se você seguiu o assistente para alternar para o IBMid e não recebeu o e-mail, poderá levar de minutos a horas para que o e-mail com seu código de registro seja enviado a você. É possível voltar para a página **Editar perfil do usuário** no portal do cliente e clicar em **Reenviar e-mail** para tentar novamente.
+Se você seguiu o assistente para alternar para o IBMid e não recebeu o e-mail, poderá levar de minutos a horas para que o e-mail com seu código de registro seja enviado a você. É possível voltar para a página **Editar Perfil do Usuário** no portal do cliente e clicar em **Reenviar o e-mail** para tentar novamente.
 
 ## Eu terei acesso raiz total à minha conta?
 {: #bicp_fullrootaccaccess}

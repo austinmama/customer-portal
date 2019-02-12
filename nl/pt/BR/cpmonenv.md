@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -37,7 +37,7 @@ De vez em quando, a manutenção de rede planejada e emergencial é inevitável.
 Use o dispositivo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para gerenciar seus dispositivos de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} em movimento usando seu dispositivo móvel iOS ou Android. A funcionalidade dentro do dispositivo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} inclui suporte de chamado, controle de dispositivo básico e monitoramento de largura da banda.
 
 O aplicativo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} complementa a funcionalidade do portal do cliente porque você pode monitorar informações críticas sobre sua infraestrutura de qualquer lugar usando seu dispositivo móvel conectado à rede. O aplicativo evolui rapidamente e a nova funcionalidade é incluída regularmente, mas é possível usar o aplicativo móvel para executar tarefas como as seguintes:
-  * Visualizar, criar e atualizar chamados de suporte
+  * Visualize, crie e atualize os chamados de Suporte
   * Monitorar o status do dispositivo, incluindo a largura da banda e os alarmes
   * Encerrar e reiniciar Bare Metal Servers e servidores virtuais
   * Visualizar faturas de contas e fazer pagamentos únicos

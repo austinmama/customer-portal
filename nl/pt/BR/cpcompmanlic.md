@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2017-11-19"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -36,7 +36,7 @@ Depois de fazer download do arquivo de licença para o dispositivo, os detalhes 
 ## Cancelando uma licença do painel de controle
 {: #cp_compcanlisc}
 
-As licenças do painel de controle são faturadas mensalmente, com base nos termos acordados no momento em que a licença foi comprada. É possível cancelar licenças a qualquer momento e o cancelamento é feito na próxima data de aniversário do faturamento. Para assegurar-se de que um cancelamento seja aplicado ao ciclo de faturamento atual, os cancelamentos devem ser feitos pelo menos 24 horas antes da data de aniversário do faturamento. Informações específicas sobre o aniversário do faturamento da conta são exibidas durante o processo de cancelamento. Use as etapas a seguir para cancelar uma licença do painel de controle.
+As licenças do painel de controle são faturadas mensalmente, com base nos termos acordados no momento em que a licença foi comprada. É possível cancelar licenças a qualquer momento e o cancelamento é feito na próxima data de aniversário do faturamento. Para assegurar-se de que um cancelamento seja aplicado ao ciclo de faturamento atual, os cancelamentos devem ser feitos pelo menos 24 horas antes da data de aniversário do faturamento. As informações específicas sobre o aniversário do faturamento da conta são exibidas durante o processo de cancelamento. Use as etapas a seguir para cancelar uma licença do painel de controle.
 
 1. Faça backup ou transfira quaisquer dados associados à licença do painel de controle.
 2. Efetue login no portal do cliente com as suas credenciais exclusivas.

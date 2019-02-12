@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -158,8 +158,7 @@ infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} e quais você não des
 você recebe todas as notificações por e-mail, mas é possível mudá-las a qualquer momento. Para mudar suas
 configurações de notificação por e-mail, use as etapas a seguir:
 1. Acesse o portal do cliente usando suas credenciais exclusivas para a conta que está associada ao endereço de e-mail que recebe notificações.
-2. Clique em **Conta** > **Usuários** > **Preferências
-de e-mail** na barra de menus.
+2. Clique em **Conta** > **Usuários** > **Preferências de E-mail** na barra de menus.
 3. Na lista de tipos de notificação, limpe as notificações que não deseja mais receber.
 
 Suas mudanças são salvas automaticamente. Essas configurações afetam os e-mails enviados a você, no entanto, eles não afetam as notificações por e-mail de nenhum outro usuário de sua conta.
