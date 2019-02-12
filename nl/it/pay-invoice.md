@@ -2,15 +2,16 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-28"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
@@ -48,6 +49,9 @@ Puoi anche visualizzare un riepilogo di fatturazione per l'account, che include 
 2. Puoi anche visualizzare la fattura nel portale clienti o scaricare la fattura.
 
 Se visualizzi la fattura nel portale clienti, viene mostrato un elenco dettagliato di elementi di fatturazione per la fattura selezionata. Fai clic in qualsiasi punto della riga di una voce di fatturazione per visualizzare ulteriori dettagli sull'addebito. Se hai scaricato la fattura, puoi visualizzarla in base alle impostazioni del tuo browser. Le fatture scaricate forniscono sia un riepilogo dettagliato che una fatturazione dettagliata per ciascuna voce di fatturazione.
+
+Se sei al di fuori degli Stati Uniti utilizza uno strumento denominato [Invoices](http://www.ibm.com/support/customer/invoices){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") per visualizzare le tue fatture. I passi specifici per ogni paese sono elencati in [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno"). Se hai qualche problema, contattaci al numero 1-866-325-0045 e richiedi l'accesso alla tua fattura.
+{: note}
 
 ## Aggiunta di un metodo di pagamento
 {: #cp_cpmanacctbillpay}
