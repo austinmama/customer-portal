@@ -25,7 +25,7 @@ Tous les détails de facturation de votre infrastructure {{site.data.keyword.Blu
 ## Affichage de votre facture
 {: #cp_viewinvoice}
 
-Dans la fenêtre Factures, chaque facture individuelle est récapitulé par numéro de facture, date, type de facture, ainsi que divers soldes monétaires. Les factures peuvent être de l'un des types suivants :
+La fenêtre Factures indique le numéro de facture, la date, le type de facture, ainsi que divers soldes monétaires pour chaque facture. Les factures peuvent être de l'un des types suivants :
 
 <dl>
 <dt>Nouveau</dt>
@@ -63,7 +63,7 @@ Chaque compte SoftLayer doit comporter une carte de crédit enregistrée sur laq
 > **Remarque :** Cochez la case **Utiliser les informations de la société** pour renseigner automatiquement les zones à l'aide des informations de la société que l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} a enregistrées pour le compte.
 3. Entrez les informations de carte de crédit dans chaque zone de la section **Informations de paiement**.
 4. Cliquez sur **Ajouter carte de crédit** pour ajouter la carte de crédit en tant que mode de règlement mensuel.
-5. Facultatif : Sélectionnez **Support dans l'Union européenne** pour vous assurer que l'équipe de support en Europe gère vos problèmes de maintenance et de support.  Pour plus d'informations sur cette option, voir la rubrique traitant de la [définition de l'option de support européen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+5. Facultatif : Sélectionnez **Support dans l'Union européenne** pour vous assurer que l'équipe de support en Europe gère vos problèmes de maintenance et de support. Pour plus d'informations sur cette option, voir la rubrique traitant de la [définition de l'option de support européen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
 
 Une fois le mode de règlement ajouté, la demande est traitée par les représentants de compte SoftLayer afin de garantir la validité de la carte. Les cartes validées sont disponibles pour utilisation sur le compte sous 24 heures. Le changement de statut du mode de règlement est envoyé par e-mail au contact fourni lors de l'ajout du mode de règlement.
 
@@ -76,9 +76,9 @@ Vous pouvez effectuer des paiements ponctuels à l'aide d'un compte PayPal ou d'
  * Depuis le menu : Accédez à **Compte** > **Effectuer un règlement**.
  * Depuis la page Factures : Cliquez sur **Régler solde**.
 2. Entrez le montant du règlement dans la zone **Montant du Règlement**.
-3. Si vous effectuez votre règlement via PayPal, cliquez sur **PayPal** et suivez les invites PayPal pour procéder au paiement. Aucune autre action n'est requise. Si vous effectuez votre règlement avec une carte de crédit, entrez les **numéro de carte, date d'expiration et code de sécurité** dans les zones appropriées.
+3. Si vous effectuez votre règlement via PayPal, cliquez sur **PayPal** et suivez les invites PayPal pour procéder au paiement. Aucune autre action n'est requise. Si vous effectuez votre règlement avec une carte de crédit, entrez le numéro de carte, la date d'expiration et le code de sécurité**** dans les zones appropriées.
 4. Entrez les informations de facturation dans les zones appropriées de la section **Adresse de facturation de la carte de crédit**.
-5. Facultatif : Sélectionnez **Support dans l'Union européenne** pour vous assurer que l'équipe de support en Europe gère vos problèmes de maintenance et de support.  Pour plus d'informations sur cette option, voir la rubrique traitant de la [définition de l'option de support européen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+5. Facultatif : Sélectionnez **Support dans l'Union européenne** pour vous assurer que l'équipe de support en Europe gère vos problèmes de maintenance et de support. Pour plus d'informations sur cette option, voir la rubrique traitant de la [définition de l'option de support européen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
 6. Cliquez sur **Payer avec la carte de crédit** pour initier le paiement.
 
 Une fois le règlement initié, il est traité. En cas de problème au niveau du paiement, suivez les invites de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} ou de PayPal jusqu'à résolution du problème. Le règlement est traité. Le montant est appliqué et le solde en cours est mis à jour.

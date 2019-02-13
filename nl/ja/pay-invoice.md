@@ -25,7 +25,7 @@ lastupdated: "2019-01-28"
 ## 請求書の表示
 {: #cp_viewinvoice}
 
-「請求書」ウィンドウで、個々の請求書は、請求書番号、日付、請求書タイプ、および各種の請求金額によって要約されます。 請求書には、以下のタイプが可能です。
+「請求書」ウィンドウで、個々の請求書は、請求書番号、日付、請求書タイプ、および各種の請求金額によって要約されます。請求書には、以下のタイプが可能です。
 
 <dl>
 <dt>新規</dt>
@@ -50,7 +50,7 @@ lastupdated: "2019-01-28"
 
 カスタマー・ポータルで請求書を表示すると、選択した請求書について、請求項目の明細リストが表示されます。 請求項目の行のどこかをクリックすると、その料金に関する項目別の詳細が表示されます。 請求書をダウンロードすると、ブラウザーの設定に基づいてそれを表示できます。 ダウンロードした請求書には、各請求項目について、項目別の要約と項目別の請求詳細の両方が示されます。
 
-住所が米国外の場合は、[送り状](http://www.ibm.com/support/customer/invoices){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")というツールを使用して送り状を表示します。国別の具体的な手順は、[https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") に記載されています。問題がある場合は、1-866-325-0045 に問い合わせて、お客様の送り状へのアクセスを依頼してください。
+住所が米国外の場合は、[送り状](http://www.ibm.com/support/customer/invoices){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")というツールを使用して送り状を表示します。国別の具体的な手順は、[https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") に記載されています。 問題がある場合は、1-866-325-0045 に問い合わせて、お客様の送り状へのアクセスを依頼してください。
 {: note}
 
 ## 支払い方法の追加

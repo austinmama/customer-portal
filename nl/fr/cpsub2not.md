@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -18,7 +18,8 @@ lastupdated: "2018-11-20"
 # Abonnement aux notifications
 {: #cp_bpnotifications}
 
-Des événements surviennent parfois au niveau de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} qui nécessitent une action. Certains sont inattendus et d'autres correspondent à des activités de maintenance planifiée requises pour conserver l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} à ses conditions optimales de fonctionnement. Les clients sont isolés au maximum de ces événements, mais il est parfois nécessaire de déconnecter l'équipement. Il est toujours nécessaire d'être transparent, opportun et informatif pour le client. {:shortdesc}
+Des événements surviennent parfois au niveau de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} qui nécessitent une action. Certains sont inattendus et d'autres correspondent à des activités de maintenance planifiée requises pour conserver l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} à ses conditions optimales de fonctionnement. Les clients sont isolés au maximum de ces événements, mais il est parfois nécessaire de déconnecter l'équipement. Il est toujours nécessaire d'être transparent, opportun et informatif pour le client.
+{:shortdesc}
 
 Parce que vous devez rester maître de votre expérience cloud, vous avez besoin d'informations en temps utile sur les activités de maintenance. Pour obtenir ces informations, vous pouvez vous abonner aux notifications du portail client. L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} utilise le processus de notification EMS (système de gestion d'événements) pour les types suivants d'événements opérationnels importants :
 * Problèmes d'infrastructure imprévus : Problèmes pouvant causer une indisponibilité sous certaines conditions pour des clients spécifiques
@@ -30,13 +31,13 @@ Les notifications de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} on
 * Evolutivité pour atteindre une communauté importante et grandissante
 * Activation ciblée de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} afin d'identifier les seuls clients et sous-réseaux de ressources affectés par l'événement
 
-Pour que le système de notification soit pleinement efficace, abonnez-vous au processus. Si vous possédez un environnement critique qui le nécessite, établissez également une couverture 24/24.
+Pour que le système de notification soit pleinement efficace, abonnez-vous au processus. Si vous possédez un environnement critique qui le nécessite, établissez également une couverture 24 h/24.
 
 
 ## Principes de diffusion des notifications
 {: #cp_bpgsnotiftimpol}
 
-L'avance avec laquelle l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} indique aux utilisateurs un événement en attente varie selon que l'événement est un problème d'infrastructure imprévu ou une opération de maintenance planifiée. En règle générale, la politique de infrastructure {{site.data.keyword.BluSoftlayer_notm}} consiste à remédier au problème aussi rapidement que possible afin de supprimer ou de réduire le risque de voir des problèmes supplémentaires se développer qui pourraient avoir un impact plus large. En d'autres termes, il arrive parfois qu'une maintenance planifiée soit effectuée en ayant été notifiée très peu de temps auparavant.
+L'avance avec laquelle l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} indique aux utilisateurs un événement en attente varie selon le type d'événement (problème d'infrastructure imprévu ou opération de maintenance planifiée). En règle générale, la politique de infrastructure {{site.data.keyword.BluSoftlayer_notm}} consiste à remédier au problème aussi rapidement que possible afin de supprimer ou de réduire le risque de voir des problèmes supplémentaires se développer qui pourraient avoir un impact plus large. En d'autres termes, il arrive parfois qu'une maintenance planifiée soit effectuée en ayant été notifiée très peu de temps auparavant.
 
 ### Présentation des règles
 {: #cp_bpgsnotifpolover}

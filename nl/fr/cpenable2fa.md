@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019 
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -69,7 +69,7 @@ Après que vous avez ajouté PhoneFactor, vous devez activer manuellement l'auth
 5. Sélectionnez **Actif** dans la liste **Statut**.
 6. Editez le **numéro de téléphone principal** pour l'authentification.
   1. Cliquez sur le lien **Editer**.
-  2. Entrez les **Code pays**, **Numéro de téléphone** et **Extension**, le cas échéant, dans les zones associées.
+  2. Entrez des données dans les zones **Code pays**, **Numéro de téléphone** et **Extension**, si nécessaire.
   3. Cliquez sur **Authentifier et sauvegarder le numéro** pour terminer l'authentification;
 
     Lors de l'ajout d'un numéro de téléphone pour l'authentification, vous devez rester à côté du téléphone. Une fois que vous avez cliqué sur **Authentifier**, le numéro est appelé et vous êtes invité à exécuter une étape pour authentifier le numéro. Les numéros de téléphone ne peuvent pas être authentifiés sans l'exécution de ces étapes.
@@ -95,7 +95,7 @@ Si vous configurez PhoneFactor comme type d'authentification, vous pouvez choisi
 <dt>Appel téléphonique et standard (pas de code confidentiel)</dt>
 <dd>Avec cette option, lorsque vous vous connectez au portail, vous recevez un appel téléphonique sur le numéro principal activé. Lorsque vous répondez à l'appel, il vous est demandé d'appuyer sur la touche dièse (#) pour terminer l'authentification.</dd>
 <dt>Appel téléphonique avec code confidentiel</dt>
-<dd>Avec cette option, vous entrez une valeur de code confidentiel sur le portail client. Le code confidentiel doit comporter entre 4 et 8 chiffres. Lorsque vous essayez de vous connecter au portail, vous recevez un appel sur le numéro de téléphone principal figurant sur le portail. Lorsque vous répondez, vous êtes invité à entrer votre numéro d'identification personnel suivi du signe # pour terminer l'authentification. </dd>
+<dd>Avec cette option, vous entrez une valeur de code confidentiel sur le portail client. Le code confidentiel doit comporter entre 4 et 8 chiffres. Lorsque vous essayez de vous connecter au portail, vous recevez un appel sur le numéro de téléphone principal figurant sur le portail. Lorsque vous répondez, vous êtes invité à entrer votre numéro d'identification personnel suivi du signe # pour terminer l'authentification.</dd>
 <dt>SMS et code confidentiel unique</dt>
 <dd>Avec cette option, vous recevez un message texte avec un code confidentiel à utiliser pour répondre au message. Lorsque vous entrez le code confidentiel fourni, le processus d'authentification aboutit et vous connecte au portail.</dd>
 <dt>SMS avec valeur de code confidentiel unique</dt>

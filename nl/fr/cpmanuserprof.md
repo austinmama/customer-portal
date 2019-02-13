@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -31,7 +31,7 @@ Après qu'un profil utilisateur ait été créé sur le portail client, vous pou
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte > Utilisateurs** dans la barre de navigation.
 3. Cliquez sur le nom d'utilisateur pour accéder au profil utilisateur associé pour cet utilisateur.
-4. Editez les détails du **Profil utilisateur** selon les besoins. Pour les utilisateurs de comptes utilisant IBMid pour l'authentification, mettez à jour vos adresse e-mail et mot de passe dans votre profil IBMid. Voir le tableau 1 pour plus d'informations. 
+4. Editez les détails du **Profil utilisateur** selon les besoins. Pour les utilisateurs de comptes utilisant IBMid pour l'authentification, mettez à jour vos adresse e-mail et mot de passe dans votre profil IBMid. Voir le tableau 1 pour plus d'informations.
 5. Si vous désirez réinitialiser votre mot de passe après vous être connecté, cliquez sur **Réinitialiser le mot de passe** afin de générer un courrier électronique qui vous permet de changer votre mot de passe.
 6. Cliquez sur **Editer l'utilisateur** pour soumettre les modifications.
 
@@ -41,7 +41,7 @@ Après qu'un profil utilisateur ait été créé sur le portail client, vous pou
 | Adresse e-mail | Adresse e-mail préférée pour réception de notifications de l'infrastructure  {{site.data.keyword.BluSoftlayer_notm}} sur le compte. La modification de l'adresse e-mail change l'enregistrement dans l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Ce changement n'affecte pas la liaison vers les données d'authentification IBMid. Vous devez modifier l'adresse e-mail pour l'IBMid depuis le profil IBMid.|
 | Fuseau horaire | Fuseau horaire à utiliser de préférence lors de l'affichage des données horodatées.|
 | Téléphone, Autre téléphone| Numéros de téléphone préférés à utiliser par l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.|
-| Rue, Ville, Pays, Etat/Province, Code postal | Adresse complète du contact, à utiliser par l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.|
+| Rue, Ville, Pays, Département/Région, Code postal | Adresse complète du contact, à utiliser par l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.|
 {: caption="Tableau 1. Paramètres de configuration des informations personnelles pour l'édition d'un profil utilisateur" caption-side="top"}
 
 |Zone|Définition|
@@ -55,9 +55,10 @@ Après qu'un profil utilisateur ait été créé sur le portail client, vous pou
 
 |Section|Zone|Définition|
 |-------|-----|----------|
-| Informations d'accès à l'API | Adresses IP autorisées | Adresses IP autorisées à s'authentifier auprès de l'API avec la clé d'API unique associée au profil utilisateur|
+| Informations d'accès à l'API | Adresses IP autorisées | Adresses IP autorisées à s'authentifier auprès de l'API avec la clé d'API unique associée au profil utilisateur |
 | Abonnements notification utilisateur | Facturation | Cochez la case **Facturation** pour recevoir une facturation par courrier électronique après sa création. |
-| Questions de sécurité | Question de sécurité |Lorsque vous modifiez votre profil, vous devez répondre à cette question pour vous connecter lorsque des questions de sécurité sont activées pour votre profil. | Réponses de sécurité | Réponse | Réponse à la question de sécurité applicable (sensible à la casse). |
+| Questions de sécurité | Question de sécurité | Lorsque vous modifiez votre profil, vous devez répondre à cette question pour vous connecter lorsque des questions de sécurité sont activées pour votre profil.
+| Réponses de sécurité | Réponse | Réponse à la question de sécurité applicable (sensible à la casse). |
 {: caption="Tableau 3. Autres paramètres de configuration pour l'édition d'un profil utilisateur" caption-side="top"}
 Une fois que les modifications apportées à un profil utilisateur sont soumises, les changements sont immédiatement appliqués. Vous pouvez modifier à nouveau le profil utilisateur quand vous le souhaitez en répétant les étapes précédentes.
 
@@ -75,7 +76,8 @@ Utilisez la procédure suivante pour éditer les droits d'accès au portail clie
 3. Cliquez sur le nom de l'utilisateur pour accéder à son profil.
 4. Cliquez sur l'icône **Autorisations** pour accéder à la fenêtre du même nom.
 
-  Il se peut qu'un message s'affiche pour vous aviser qu'aucune modification n'a été apportée au profil utilisateur. Dans ce cas, cliquez pour ignorer les modifications et accéder à la fenêtre Droits. {: tip}
+  Il se peut qu'un message s'affiche pour vous aviser qu'aucune modification n'a été apportée au profil utilisateur. Dans ce cas, cliquez pour ignorer les modifications et accéder à la fenêtre Droits.
+  {: tip}
 
 5. Sélectionnez les droits :
   * Pour définir des droits rapides, sélectionnez l'ensemble de droits dans la liste **Droits rapides**. Après avoir sélectionné un ensemble de droits, chaque droit associé à cet ensemble est affiché en orange avec une flèche orange pointant sur la case à cocher. Cliquez ensuite sur **Définir les droits** pour chaque onglet.
@@ -83,7 +85,7 @@ Utilisez la procédure suivante pour éditer les droits d'accès au portail clie
 6. Cliquez sur **Modifier droits pour le portail** pour soumettre des modifications et mettre à jour les droits de l'utilisateur.
 7. Pour restaurer les paramètres initiaux des droits de l'utilisateur, cliquez sur **Réinitialiser droits**. Cliquez sur **Annuler** pour annuler les changements et revenir à la fenêtre Utilisateurs.
 
-Les droits utilisateur sont mis à jour immédiatement après que vous avez soumis les changements. Si des droits ont été octroyés, l'utilisateur peut afficher les fonctions sélectionnées ou interagir avec celles-ci. Si des droits ont été retirés, l'utilisateur ne peut pas afficher les fonctions sélectionnées ni interagir avec celles-ci. Les droits peuvent être mis à jour à tout moment en répétant les étapes précédentes. 
+Les droits utilisateur sont mis à jour immédiatement après que vous avez soumis les changements. Si des droits ont été octroyés, l'utilisateur peut afficher les fonctions sélectionnées ou interagir avec celles-ci. Si des droits ont été retirés, l'utilisateur ne peut pas afficher les fonctions sélectionnées ni interagir avec celles-ci. Les droits peuvent être mis à jour à tout moment en répétant les étapes précédentes.
 
 ## Ajout d'authentification externe pour un utilisateur
 {: #cp_addextauthuser}
@@ -103,9 +105,9 @@ Votre statut dans le portail client détermine votre accessibilité au portail c
 <dt>VPN uniquement</dt>
 <dd>L'utilisateur dispose d'un accès complet à la connectivité du réseau privé virtuel (compte tenu de son ensemble de droits), mais ne peut pas accéder au portail client. Ce statut peut être sélectionné manuellement ou changé à tout moment.</dd>
 <dt>Inactive</dt>
-<dd>L'utilisateur n'a pas accédé au portail client ou au réseau privé virtuel au cours des 60 derniers jours. Il s'agit d'un statut généré par le système. </dd>
+<dd>L'utilisateur n'a pas accédé au portail client ou au réseau privé virtuel au cours des 60 derniers jours. Il s'agit d'un statut généré par le système.</dd>
 <dt>cancel_pending (annulation en attente)</dt>
-<dd>Un administrateur du compte a annulé cet utilisateur et l'annulation est en cours de traitement. Il s'agit d'un statut généré par le système. </dd>
+<dd>Un administrateur du compte a annulé cet utilisateur et l'annulation est en cours de traitement. Il s'agit d'un statut généré par le système.</dd>
 </dl>
 
 Utilisez la procédure suivante pour changer le statut d'un utilisateur dans le portail client.

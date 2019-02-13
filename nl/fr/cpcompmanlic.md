@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2017-11-19"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-11-19"
 # Gestion des équipements
 {: #cp_compacclisc}
 
-Vous pouvez gérer les licences du logiciel de panneau de commande actif, comme cPanel et Parallels, depuis le portail client, dans la fenêtre Licences du panneau de configuration. Vous pouvez afficher des licences et leurs IP associées, télécharger des fichiers de licence et annuler des licences individuelles. Vous pouvez également gérer les mots de passe du logiciel sur chaque appareil, depuis le portail client.
+Vous pouvez gérer les licences du logiciel de panneau de commande actif, comme cPanel et Parallels, depuis le portail client, dans la fenêtre Licences du panneau de configuration. Vous pouvez afficher des licences et leurs adresses IP associées, télécharger des fichiers de licence et annuler des licences individuelles. Vous pouvez également gérer les mots de passe du logiciel sur chaque appareil, depuis le portail client.
 {:shortdesc}
 
 
@@ -36,7 +36,7 @@ Après que vous avez téléchargé le fichier de licence sur l'appareil, les dé
 ## Annulation d'une licence de panneau de configuration
 {: #cp_compcanlisc}
 
-Les licences de panneau de configuration sont facturées sur une base mensuelle, en fonction des dispositions acceptées au moment de l'achat de la licence. Vous pouvez annuler des licences à tout moment, et elles seront annulées à la prochaine date anniversaire de facturation suivante. Pour s'assurer qu'une annulation est appliquée au cycle de facturation en cours, elle doit être faite au moins 24 heures avant la date anniversaire de facturation. Des informations spécifiques sur la date anniversaire de facturation pour le compte sont affichées durant le processus d'annulation. Utilisez la procédure suivante pour annuler une licence de panneau de configuration.
+Les licences de panneau de configuration sont facturées sur une base mensuelle, en fonction des dispositions acceptées au moment de l'achat de la licence. Vous pouvez annuler des licences à tout moment, et elles seront annulées à la prochaine date anniversaire de facturation suivante. Pour s'assurer qu'une annulation est appliquée au cycle de facturation en cours, elle doit être faite au moins 24 heures avant la date anniversaire de facturation. Des informations spécifiques sur la date anniversaire de facturation du compte sont affichées durant le processus d'annulation. Utilisez la procédure suivante pour annuler une licence de panneau de configuration.
 
 1. Effectuez une sauvegarde ou transférez les données associées à la licence.
 2. Connectez-vous au portail client à l'aide de vos données d'identification uniques.
@@ -46,7 +46,8 @@ Les licences de panneau de configuration sont facturées sur une base mensuelle,
 6. Cliquez sur **Continuer** pour passer à l'écran de confirmation.
 7. Sélectionnez la case à cocher d'**accusé de réception de perte de données**.
 
-  Si vous n'avez pas sauvegardé des données importantes, revenez à la première étape et sauvegardez toutes les données avant d'annuler la licence.  {: tip}
+  Si vous n'avez pas sauvegardé des données importantes, revenez à la première étape et sauvegardez toutes les données avant d'annuler la licence.
+  {: tip}
 
 8. Cliquez sur **Annuler la licence**.
 

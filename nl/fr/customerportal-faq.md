@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -41,7 +41,7 @@ Les nouveaux comptes nécessitent un IBMid pour l'authentification. Les comptes 
 {: #bicp_linkbmxacct}
 {: faq}
 
-Si vous êtes l'utilisateur principal sur votre compte SoftLayer, connectez-vous au portail client et cliquez sur **Lier le compte** dans l'en-tête.  Voir [Liaison de comptes utilisateur IBMid](/docs/account/softlayerlink.html) pour plus d'informations.
+Si vous êtes l'utilisateur principal sur votre compte SoftLayer, connectez-vous au portail client et cliquez sur **Lier le compte** dans l'en-tête. Voir [Liaison de comptes utilisateur IBMid](/docs/account/softlayerlink.html) pour plus d'informations.
 
 ## Dois-je être un utilisateur {{site.data.keyword.Bluemix_notm}} existant pour lier des comptes ?
 {: #bicp_bmxusertolink}

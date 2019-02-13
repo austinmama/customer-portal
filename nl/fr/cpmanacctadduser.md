@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -18,7 +18,8 @@ lastupdated: "2018-11-20"
 # Ajout d'utilisateurs à un compte SoftLayer
 {: #customerportal_addusertocpacct}
 
-Un ou plusieurs utilisateurs peuvent interagir avec les produits et services associés à un compte. Si vous êtes l'utilisateur principal ou si vous avez un accès administrateur, vous pouvez ajouter des utilisateurs. {:shortdesc}
+Un ou plusieurs utilisateurs peuvent interagir avec les produits et services associés à un compte. Si vous êtes l'utilisateur principal ou si vous avez un accès administrateur, vous pouvez ajouter des utilisateurs.
+{:shortdesc}
 
 Si vous gérez des utilisateurs de l'infrastructure {{site.data.keyword.BluSoftlayer_full}}, les comptes SoftLayer que vous pouvez gérer dépendent de l'accès affecté à votre compte utilisateur. Ils dépendent également de la façon dont votre compte a été configuré. Si vous êtes l'utilisateur principal, ou si vous disposez d'un accès administrateur en tant que propriétaire de compte, vous pouvez gérer d'autres utilisateurs du portail client. Si votre compte n'est pas configuré en tant qu'utilisateur principal, vous pouvez gérer votre profil utilisateur.
 
