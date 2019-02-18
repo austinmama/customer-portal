@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-11-19"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -36,7 +36,7 @@ After you download the license file to the device, the control panel software's 
 ## Canceling a control panel license
 {: #cp_compcanlisc}
 
-Control panel licenses are invoiced monthly, based on the agreed-upon terms at the time the license was purchased. You can cancel licenses at any time and they're canceled on the next upcoming billing anniversary date. To ensure that a cancellation is applied to the current billing cycle, cancellations must be made no less than 24 hours before the billing anniversary date. Specific information on the billing anniversary for the account is displayeddisplayed during the cancellation process. Use the following steps to cancel a control panel license.
+Control panel licenses are invoiced monthly, based on the agreed-upon terms at the time the license was purchased. You can cancel licenses at any time and they're canceled on the next upcoming billing anniversary date. To ensure that a cancellation is applied to the current billing cycle, cancellations must be made no less than 24 hours before the billing anniversary date. Specific information on the billing anniversary for the account is displayed during the cancellation process. Use the following steps to cancel a control panel license.
 
 1. Back up or transfer any data that is associated with the control panel license.
 2. Log in to the customer portal with your unique credentials.
