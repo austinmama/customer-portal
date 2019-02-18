@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2018-11-20"
 
 
 # Managing passwords
-{: #customerportal_manpws}
+{: #cp_manpws}
 
 If you're a master user or the owner of an account, you can enable password tracking and you can also set up a password for one-time access to the account. Password tracking enables users to store software password data for devices and their associated software.
 {:shortdesc}
 
 ## Enabling password tracking
-{: #customerportal_enabpwtrak}
+{: #cp_enabpwtrak}
 
 The customer portal has an optional [password tracking ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/devices/passwords){:new_window} tool for every account. Users can retrieve their user names and passwords through the tool if the information is lost or forgotten.
 
@@ -46,7 +46,7 @@ Tracking passwords within the customer portal is optional. Any user with appropr
 After you add the user to the password tracking tool, the information is stored within the tool until it's manually deleted. All user name and password combinations are stored based on the device name by default. Entries are alphabetically displayed by device name, then by user name.
 
 ### Filtering information in the password tracking tool
-{: #cp_filterusinfopwtracktool}
+{: #cp_tracktool}
 
 To view, edit, or delete user information from the password tracking tool, you can filter to quickly locate a user. Filtering to find a user is helpful when the list of users spans several rows or pages. Use the following steps to filter by device, software, or user in the password tracking tool.
 
@@ -59,7 +59,7 @@ To view, edit, or delete user information from the password tracking tool, you c
 You can select the user information to view, edit, or remove.
 
 ### Editing user information in the password tracking tool
-{: #cp_editusinfopwtracktool}
+{: #cp_editusinfo}
 
 After you add a user to the password tracking tool, you can edit the details that are associated with the user or password. Use the following steps to edit information for a user in the password tracking tool.
 
@@ -73,7 +73,7 @@ After you add a user to the password tracking tool, you can edit the details tha
 After you edit a user or password in the password tracking tool, the information is updated immediately.
 
 ## Configuring an account for one time password access
-{: #cp_confportacc1timpwacc}
+{: #cp_one-time}
 
 Before you can configure the account, you must first set up the Verisign "VIP Access" application. If VIP Access isn't set up, first download the application for one of the following devices:
 * For your phone:  [https://m.vip.symantec.com/home.v ![External link icon](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
@@ -100,12 +100,12 @@ Save your original Verisign Identity Protection credential ID in a safe location
 How you reset your password is based on whether you use an IBMid for authentication to log in to your account.  
 
 ### Resetting an IBMid account password
-{: #cp_reset-IBMid-password}
+{: #cp_reset}
 
 If you use IBMid for authentication, to reset or recover your password go to your IBMid profile and follow the instructions under the **Sign In** section.
 
 ### Resetting a SoftLayer account password
-{: #cp_reset-password}
+{: #cp_reset-sl}
 
 If you don't use an IBMid for account authentication, complete the following steps:
 
@@ -116,5 +116,5 @@ If you don't use an IBMid for account authentication, complete the following ste
 
 You have 5 attempts to answer the security questions. If you make more than 5 attempts, the reset password form is locked for 15 minutes before you can try again.
 
-For information on working with VPN passwords, see [Update a User's VPN Password](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password).
+For information on working with VPN passwords, see [Update a User's VPN Password](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
 {: tip}

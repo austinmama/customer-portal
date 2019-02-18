@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-11"
+  years: 2015, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -31,7 +31,7 @@ After you link your {{site.data.keyword.Bluemix_notm}} and SoftLayer billing acc
 
 Your {{site.data.keyword.Bluemix_notm}} usage cycle is on a calendar month basis. So, your account is billed each month on the billing day that was established for your charge agreement. With SoftLayer, your usage cycle begins from when you started with SoftLayer, so you're billed each month on the same day of the month as when you signed up for your SoftLayer account.
 
-Your {{site.data.keyword.Bluemix_notm}} usage continues to be measured for the current month's cycle, and you're billed for that usage on a {{site.data.keyword.Bluemix_notm}} invoice. Starting on the first of the next month, your {{site.data.keyword.Bluemix_notm}} and SoftLayer charges are combined on your {{site.data.keyword.Bluemix_notm}} invoice. For more information about invoices and usage, click [Viewing your usage](/docs/billing-usage/viewing_usage.html#viewingusage).
+Your {{site.data.keyword.Bluemix_notm}} usage continues to be measured for the current month's cycle, and you're billed for that usage on a {{site.data.keyword.Bluemix_notm}} invoice. Starting on the first of the next month, your {{site.data.keyword.Bluemix_notm}} and SoftLayer charges are combined on your {{site.data.keyword.Bluemix_notm}} invoice. For more information about invoices and usage, click [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage#viewingusage).
 
 For example, if you link your accounts on 16 April 2017, you get a {{site.data.keyword.Bluemix_notm}} invoice for your April usage. Depending on when you linked your accounts, you might get a separate bill for your SoftLayer usage. Your combined usage during May is billed through your {{site.data.keyword.Bluemix_notm}} account.
 

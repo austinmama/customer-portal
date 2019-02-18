@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -42,9 +42,11 @@ In this model, the following process occurs:
 Accounts for users that need access to {{site.data.keyword.BluSoftlayer}} infrastructure are first created in {{site.data.keyword.BluSoftlayer}} infrastructure with random passwords. All permissions must be configured in {{site.data.keyword.BluSoftlayer}} infrastructure before the user can use SSO through the identity provider. Currently, permissions are set up based on the individual user.
 
 ### Setting up a user
+{: #cp_user-setup}
+
 Use the following steps to set up a user:
 
-1. [Adding users to a SoftLayer account](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [Adding users to a SoftLayer account](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct).
 2. Assign permissions in {{site.data.keyword.BluSoftlayer}} infrastructure.
 3. Create users in the identity provider.
 
@@ -82,7 +84,7 @@ Use the following steps to set up a role for a user:
 3. Ensure that the roles that are defined in {{site.data.keyword.BluSoftlayer}} infrastructure and the identity provider have the same name.
 
 ### Setting up a user
-{: #setupuser}
+{: #identity-setupuser}
 
 Use the following steps to set up a user:
 

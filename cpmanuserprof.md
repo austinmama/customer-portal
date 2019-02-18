@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -62,7 +62,7 @@ After a user profile is created in the customer portal, you can edit it at any t
 {: caption="Table 3. Other configuration settings for editing a user profile" caption-side="top"}
 After you submit edits to a user profile, the changes are applied immediately. You can change the user profile again at any time by repeating the previous steps.
 
-See [Switching to IBMid](/docs/account/softlayerlink.html#switching-to-ibmid) for more information about setting up an IBMid account.
+See [Switching to IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) for more information about setting up an IBMid account.
 
 ## Editing a user's customer portal permissions
 {: #cp_editusercpperm}
@@ -90,7 +90,7 @@ User permissions are updated immediately after you submit the changes. If permis
 ## Adding external authentication for a user
 {: #cp_addextauthuser}
 
-From the customer portal, you can activate external two-factor authentication (2FA) to add protection when you log in to the portal. This extra layer of security protects the account from unverified access, ensuring devices, data, and account information are protected. See [Setting up two-factor authentication](/docs/customer-portal/cpenable2fa.html#customerportal_2fa) for more information.
+From the customer portal, you can activate external two-factor authentication (2FA) to add protection when you log in to the portal. This extra layer of security protects the account from unverified access, ensuring devices, data, and account information are protected. See [Setting up two-factor authentication](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication) for more information.
 
 
 ## Changing a user's status
@@ -124,7 +124,7 @@ After you update a user's status, changes to customer portal accessibility align
 ## Editing a user's VPN access
 {: #cp_edituservpnaccess}
 
-When a [new user is added](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct) to a customer portal account, VPN access is selected from various connection methods, including SSL, PPTP, or a combination of the two. With VPN access, the private network can be accessed in its entirety or network access can be limited to one or more specific subnets. You can manage and update VPN access at any time from the Users window. Use the following steps to edit a user's VPN access.
+When a [new user is added](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct) to a customer portal account, VPN access is selected from various connection methods, including SSL, PPTP, or a combination of the two. With VPN access, the private network can be accessed in its entirety or network access can be limited to one or more specific subnets. You can manage and update VPN access at any time from the Users window. Use the following steps to edit a user's VPN access.
 
 1. Access the customer portal by using your unique credentials.
 2. Select **Account** > **VPN Access** from the navigation bar.
@@ -155,7 +155,7 @@ You're allotted one PPTP connection with extra connections available. You can re
 
 You can select which email notifications you want to receive from {{site.data.keyword.BluSoftlayer_notm}} infrastructure, and which you don't. By default, you receive all email notifications but you can change them at any time. To change your email notification settings, use the following steps:
 1. Access the customer portal by using your unique credentials for the account that is associated with the email address that receives notifications.
-2. Click **Account** > **Users** > **Email Preferences** from the menu bar.
+2. Click **Account** > **Users** > **E-mail Preferences** from the menu bar.
 3. From the list of notification types, clear any notifications that you no longer want to receive.
 
 Your changes are saved automatically. These settings affect the emails that are sent to you, however, they don't affect the email notifications of any other users on your account.
@@ -170,6 +170,6 @@ You can indicate that you want support exclusively from a support team that is p
 3. Select the **EU Supported** check box.
 4. Click **Request Profile Update**.
 
-If the **EU Supported** option isn't available, you might have users in your account with PPTP VPN access enabled. Disable the PPTP VPN access for all of the users in your account first to enable the **EU Supported** option. For more information, see [Activating or deactivating PPTP VPN access](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
+If the **EU Supported** option isn't available, you might have users in your account with PPTP VPN access enabled. Disable the PPTP VPN access for all of the users in your account first to enable the **EU Supported** option. For more information, see [Activating or deactivating PPTP VPN access](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn).
 
-For more information about implementing the **EU Supported** option when you open a support ticket, see [Requesting support for resources in the European Union](/docs/get-support/howtogetsupport.html#eusupported).
+For more information about implementing the **EU Supported** option when you open a support ticket, see [Requesting support for resources in the European Union](/docs/get-support?topic=get-support-eusupported#eusupported).

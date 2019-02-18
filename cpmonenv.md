@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,20 +16,20 @@ lastupdated: "2019-02-01"
 
 
 # Monitoring your environment and system events
-{: #customerportal_cpmonenvsysevent}
+{: #cp_environment-events}
 
 Monitoring your environment means that you have the ability to check on devices at any time and you're automatically notified if one of your devices goes down. You can also monitor system events to keep your systems running smoothly.  
 {: shortdesc}
 
 ## Monitoring your environment
-{: #cpmonenv}
+{: #cp-monitorenvi}
 
 At a minimum, use basic ping monitoring but you can customize your monitoring options in a way that best suits your business needs.
 
 ### Staying informed of network maintenance and unplanned events
-{: #cp_stayinfomaintevent}
+{: #cp-informedmaintenance}
 
-From time to time, scheduled and emergency network maintenance is unavoidable. {{site.data.keyword.BluSoftlayer_full}} infrastructure maintains many channels to keep you informed of all scheduled and emergency maintenance events. Additionally, you can [subscribe to email notifications](/docs/customer-portal/cpsub2not.html) from the Event Management System. This complimentary service automatically emails subscribed users regarding unplanned events, which might impact services.
+From time to time, scheduled and emergency network maintenance is unavoidable. {{site.data.keyword.BluSoftlayer_full}} infrastructure maintains many channels to keep you informed of all scheduled and emergency maintenance events. Additionally, you can [subscribe to email notifications](/docs/customer-portal?topic=customer-portal-cp_bpnotifications#cp_bpnotifications) from the Event Management System. This complimentary service automatically emails subscribed users regarding unplanned events, which might impact services.
 
 ### Using {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile
 {: #cp_bmxinframobile}
@@ -37,7 +37,7 @@ From time to time, scheduled and emergency network maintenance is unavoidable. {
 Use {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile to manage your {{site.data.keyword.BluSoftlayer_notm}} infrastructure devices on the go by using your iOS or Android mobile device. Functionality within {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile includes ticket support, basic device control, and bandwidth monitoring.
 
 The {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile application compliments the functionality of the customer portal because you can monitor critical information about your infrastructure from anywhere using your network-connected mobile device. The application evolves quickly and new functionality is added regularly, but you can use the mobile application to perform tasks like the following:
-  * View, create, and update Support tickets
+  * View, create and update Support tickets
   * Monitor device status, including bandwidth and alarms
   * Shut down and restart Bare Metal Servers and virtual servers
   * View account invoices and make one-time payments
@@ -46,12 +46,12 @@ The {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile application co
 The {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile application is available on several popular mobile device platforms and is available free from the related application stores for each platform.
 
 ## Monitoring servers
-{: #customerportal_monservers}
+{: #cp_monservers}
 
-Set up monitoring to check the status of your server and to know when to scale. You can use either standard monitoring or Nimsoft monitoring services. You can use standard, or basic, monitoring in the ping-and-respond method by using either a slow or service ping from the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal. You can also use Nimsoft, or advanced, monitoring from the customer portal or in 1 of 3 tiers: basic, advanced, and premium. For more information about Bare Metal servers, specifically, see [Getting started with Bare Metal servers](/docs/bare-metal/index.html#getting-started).
+Set up monitoring to check the status of your server and to know when to scale. You can use either standard monitoring or Nimsoft monitoring services. You can use standard, or basic, monitoring in the ping-and-respond method by using either a slow or service ping from the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal. You can also use Nimsoft, or advanced, monitoring from the customer portal or in 1 of 3 tiers: basic, advanced, and premium. For more information about Bare Metal servers, specifically, see [Getting started with Bare Metal servers](/docs/bare-metal?topic=bare-metal-getting-started#getting-started).
 
 ## Monitoring system events
-{: #customerportal_monevent}
+{: #cp_monevent}
 
 You can monitor system events by viewing audit logs and access logs.
 

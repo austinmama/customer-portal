@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-01"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2019-02-01"
 If you experience problems with {{site.data.keyword.BluSoftlayer_full}} infrastructure and you don't have a linked account, you can get help with determining the cause of the problem and finding a solution by using the customer portal.
 {:shortdesc}
 
-If you have a [linked account](/docs/account/softlayerlink.html#link_user_accounts), you can get support through the {{site.data.keyword.Bluemix_notm}} console. See [Getting support](/docs/get-support/howtogetsupport.html) for more information.
+If you have a [linked account](/docs/account?topic=account-link_customer_accounts#link_customer_accounts), you can get support through the {{site.data.keyword.Bluemix_notm}} console. See [Getting support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for more information.
 
 If you don't have a linked account, you can open support tickets in {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal for general technical issues or to assist with issues that are related to your account.
 
@@ -62,7 +62,7 @@ You can open {{site.data.keyword.BluSoftlayer_full}} infrastructure tickets for 
   Select **None** if you don't require that your support team is physically located in Europe.
   {: tip}
 
-  See [Setting the EU supported option](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported) for information about initializing this function for your account.
+  See [Setting the EU supported option](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported) for information about initializing this function for your account.
 
 11. Click **Add Ticket**.
 
@@ -84,7 +84,7 @@ After you add a ticket, you can view it at any time from the **Tickets** window.
 
 1. Access the [Customer Portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Tickets** from the menu.
-3. Select the status of the ticket from the drop-down menu to filter the view.
+3. Select the status of the ticket from the drop down menu to filter the view.
 4. Click the ticket number to view the details of the ticket.
 
 ## Updating a ticket
@@ -94,7 +94,7 @@ You can update an existing support ticket at any time to include additional comm
 
 1. Access the [Customer Portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Tickets** from the menu.
-3. Select the status of the ticket from the drop-down menu to filter the view.
+3. Select the status of the ticket from the drop down menu to filter the view.
 4. Click the ticket number to view the details of the ticket.
 5. Update the ticket, as necessary. You can perform the following tasks:
   * Reassign a Ticket: from the **Reassign** drop down list, select the user to reassign the ticket to.   
@@ -110,4 +110,4 @@ If you reassign the ticket, the new assignee becomes the primary point of contac
 ## Escalating a support ticket
 {: #cp_bpsupescalflow}
 
-You can request further assistance by escalating your ticket. See [Escalating support tickets](/docs/get-support/quicktickresp.html#escalation) for more information.
+You can request further assistance by escalating your ticket. See [Escalating support tickets](/docs/get-support?topic=get-support-escalation#escalation) for more information.

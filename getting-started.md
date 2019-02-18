@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -24,7 +24,7 @@ In this tutorial, we walk through the process of getting you up and running with
 ## Before you begin
 {: #prereqs}
 
-You need an [{{site.data.keyword.Bluemix}} account ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window}. Log in to the customer portal with your IBMid credentials. Most new users use [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) for authentication.
+You need an [{{site.data.keyword.Bluemix}} account ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window}. Log in to the customer portal with your IBMid credentials. Most new users use [IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) for authentication.
 
 If you don't use IBMid for authentication to log in to your account, log in to the customer portal with your unique {{site.data.keyword.BluSoftlayer_notm}} infrastructure credentials.
 {: tip}
@@ -41,10 +41,10 @@ Setting up your account includes verifying your account contact information and 
 {: #users-permissions}
 
 To add users to your account and set initial permissions, go to **Account** > **Users**.
- * To invite users to both platform and infrastructure resources in your account based on the specific permissions you assign, click **Invite Users**. You're then directed to the {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) UI to invite users and assign access. See [Inviting users](/docs/iam/iamuserinv.html) for more information.
+ * To invite users to both platform and infrastructure resources in your account based on the specific permissions you assign, click **Invite Users**. You're then directed to the {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) UI to invite users and assign access. See [Inviting users](/docs/iam?topic=iam-iamuserinv#iamuserinv) for more information.
  * To add users with VPN access only, click **Add VPN Only User**. Enter the personal information, set portal permissions, and set device access for the user.
 
-When you set infrastructure permissions in the initial invitation, you choose from one of three permission sets: View Only, Basic User, Super User. After users accept the invitation, you can customize their access by editing their portal permissions. For more information, see [Infrastructure permissions](/docs/iam/infrastructureaccess.html).
+When you set infrastructure permissions in the initial invitation, you choose from one of three permission sets: View Only, Basic User, Super User. After users accept the invitation, you can customize their access by editing their portal permissions. For more information, see [Infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission).
 {: tip}
 
 ## Step 3. Enable access to the {{site.data.keyword.Bluemix_notm}} infrastructure private network
@@ -63,7 +63,7 @@ To enable user access to the private network, edit the VPN access in the custome
 For users in accounts that use IBMid authentication, the SoftLayer VPN user name for VPN access is used. The VPN user name is defined in the user profile. The VPN user name is different from the user name that defaults to the IBMid email address and account ID.
 {: tip}
 
-For more information about using a VPN connection, see [About VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
+For more information about using a VPN connection, see [About VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn).
 
 ## Step 4. Subscribe to notifications
 {: #get-notified}

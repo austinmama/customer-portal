@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-29"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -22,7 +22,7 @@ Each SoftLayer account has an associated company profile that contains the compa
 {:shortdesc}
 
 ## Updating your company profile
-{: #cp_updcompprof}
+{: #cp_updateprofile}
 
 {{site.data.keyword.BluSoftlayer_full}} infrastructure uses the information in the company profile to contact you. If your phone number or primary contact email changes, be sure to update them. The company profile information is entered into {{site.data.keyword.BluSoftlayer_notm}} infrastructure at the time the account was created and can be found in various places on the customer portal.
 
@@ -32,13 +32,13 @@ You can change the company profile at any time by submitting a change request. A
 2. Select **Account** > **Manage** > **Company Profile** from the menu to access the Account Profile window.
 3. Update the details in the **Company Information** or **Primary Account Holder** section, or both.
 > **Note:** Information in the account profile is used for internal, administrative purposes only.
-4. Optionally, select **EU Supported** if you want to ensure that the support team in Europe handles your maintenance and support issues. For more information about this option, see [Setting the European supported option](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+4. Optionally, select **EU Supported** if you want to ensure that the support team in Europe handles your maintenance and support issues. For more information about this option, see [Setting the European supported option](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported).
 5. Click **Submit Update Request**.
 
 After you request an update to the company profile, a {{site.data.keyword.BluSoftlayer_notm}} infrastructure team member reviews the request. If any additional information requires verification, the information is verified. After all changes are approved, the account profile is updated as requested.
 
 ## Adding or editing an account contact
-{: #cp_addoreditacctcont}
+{: #cp_addoreditacct}
 
 Keep the information about the contacts for your account complete and up-to-date in case an inquiry is required. Ensure that the account contacts are the appropriate people to be contacted for each type of request. You might have more than one contact entry for each account, but only one contact for each type of service. Account-specific contact information doesn't include the account profile, which is the primary contact information that is associated with an account. Use the following steps to add or edit an account contact.
 

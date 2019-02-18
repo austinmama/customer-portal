@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019 
+  years: 2018, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2019-02-01"
 
 
 # Setting up two-factor authentication
-{: #customerportal_2fa}
+{: cp_setup-2fa}
 
 Within the customer portal, external two-factor authentication (2FA) can be activated to add extra protection when you log in to the portal. This extra layer of security protects the account from unverified access, ensuring that devices, data, and account information are protected.
 {:shortdesc}
@@ -26,13 +26,14 @@ If you enable 2FA in the customer portal for your existing SoftLayer account, yo
 2FA for your SoftLayer account isn't per IBMid. It's still per account. When an IBMid is associated with multiple accounts, and you switch between accounts, you must confirm your identity every time you switch to a different account. You must confirm your identity when you switch between accounts even if the prior account and the new account are both configured with the same 2FA mechanism.
 
 ## Enabling 2FA
+{: #cp-enable-2fa}
 
 2FA authentication is available in two forms. Both methods of external authentication can be added for each user for a small monthly fee:
 
 * Symantec Identify Protection is the most commonly used external authentication tool, providing a dynamic security code that is used in addition to the user name and password when you access the Customer Portal.
 * PhoneFactor authentication provides out-of-band authentication with a phone call, SMS, or mobile app.
 
- If you have a linked account, you can take advantage of the multi-factor authentication (MFA) setting by [enabling multi-factor authentication](/docs/iam/mfa.html) for your entire {{site.data.keyword.Bluemix_notm}} account.
+ If you have a linked account, you can take advantage of the multi-factor authentication (MFA) setting by [enabling multi-factor authentication](/docs/iam?topic=iam-enablemfa#enablemfa) for your entire {{site.data.keyword.Bluemix_notm}} account.
  {: tip}
 
 To set up 2FA, complete the following steps:
@@ -54,7 +55,7 @@ After you add the external authentication for a user, the next steps depend on t
 * If PhoneFactor is enabled, the user must activate PhoneFactor to use this type of two-factor authentication with the account.
 
 ### Activating PhoneFactor authentication
-{: #cp_actphonefacauth}
+{: #cp_phonefacauth}
 
 After you add PhoneFactor, you must manually activate external authentication with PhoneFactor through the customer portal. Because PhoneFactor uses manual contact, it's important to ensure that all phone numbers that are associated with the account are up-to-date always. Failure to keep contact information updated might result in being unable to access the customer portal and VPN when PhoneFactor is active. When PhoneFactor is successfully added, you receive an email to confirm that PhoneFactor is added. After you receive the email, use the following steps to activate PhoneFactor authentication.
 
@@ -69,7 +70,7 @@ After you add PhoneFactor, you must manually activate external authentication wi
 5. Select **Active** from the **Status** list.
 6. Edit the **Primary Phone Number** for authentication.
   1. Click the **Edit** link.
-  2. Enter the **Country Code**, **Phone Number**, and **Extension**, if applicable, in the associated fields.
+  2. Enter the **Country Code**, **Phone Number** and **Extension**, if applicable, in the associated fields.
   3. Click **Authenticate and Save Number** to complete authentication.
 
     When you add a phone number for authentication, you must be by the phone. After you click **Authenticate**, the number is called and you are prompted to complete a step to authenticate the number. Phone numbers cannot be authenticated without completion of these steps.
@@ -87,7 +88,7 @@ After you activate PhoneFactor, authentication through PhoneFactor is required b
  {: tip}
 
 #### PhoneFactor authentication methods
-{: #cp_phonefacauthmeths}
+{: #cp_authmeths}
 
 If you set up PhoneFactor as the authentication type, you can choose one of the following options as an authentication method:
 

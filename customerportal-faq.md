@@ -41,7 +41,7 @@ New accounts require IBMid for authentication. Existing accounts continue to use
 {: #bicp_linkbmxacct}
 {: faq}
 
-If you're the master user on your SoftLayer account, log in to the customer portal and click **Link an account** in the header. See [Linking IBMid user accounts](/docs/account/softlayerlink.html) for more information.
+If you're the master user on your SoftLayer account, log in to the customer portal and click **Link an account** in the header. See [Linking IBMid user accounts](/docs/account?topic=account-unifyingaccounts#unifyingaccounts) for more information.
 
 ## Do I must be an existing {{site.data.keyword.Bluemix_notm}} user to link accounts?
 {: #bicp_bmxusertolink}
@@ -55,7 +55,7 @@ No. You can create a new {{site.data.keyword.Bluemix_notm}} account or link an e
 
 There's no impact to two-factor authentication (2FA) configuration at the account level. 2FA isn't per IBMid; it's still per account. When an IBMid is associated with many accounts, and you switch between accounts, you must confirm your identity every time you switch to a different account that requires 2FA. This is true even if the prior account and the new account are both configured with the same 2FA mechanism.
 
-For more information about IBMid with 2FA, see [Multifactor authentication usage in linked accounts](/docs/account/softlayerlink.html#2fa).
+For more information about IBMid with 2FA, see [Multifactor authentication usage in linked accounts](/docs/account?topic=account-2fa#2fa).
 
 ## Who can link accounts?
 {: #bicp_wholinkaccts}
@@ -95,13 +95,13 @@ You must invite them to {{site.data.keyword.Bluemix_notm}}. In the {{site.data.k
 {: #bicp_ibmidswitchemail}
 {: faq}
 
-If you followed the wizard to switch to IBMid and haven't received the email, it can take from minutes to hours for the email with your registration code to be sent to you. You can go back to the **Edit User Profile** page in the customer portal, and click **Resend email** to try again.
+If you followed the wizard to switch to IBMid and haven't received the email, it can take from minutes to hours for the email with your registration code to be sent to you. You can go back to the **Edit User Profile** page in the customer portal, and click **Resend Email** to try again.
 
 ## Will I have full root access to my account?
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Master users, and those with administrator permissions, have full root access to accounts on the customer portal and API. Users without administrator permissions have accessibility that is controlled by those with admin roles. These permissions can be updated by administrators from the customer portal by [editing a user profile](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Without administrator permissions, you can edit your user profile in the customer portal by clicking your user name on the top panel.
+Master users, and those with administrator permissions, have full root access to accounts on the customer portal and API. Users without administrator permissions have accessibility that is controlled by those with admin roles. These permissions can be updated by administrators from the customer portal by [editing a user profile](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Without administrator permissions, you can edit your user profile in the customer portal by clicking your user name on the top panel.
 
 ## Can I link an {{site.data.keyword.Bluemix_notm}} Subscription account?
 {: #bicp_linkbmxsubacct}
@@ -120,13 +120,13 @@ After accounts are linked, they can't be unlinked.
 {: #bicp_whatfindcompprof}
 {: faq}
 
-The company profile is the information that is submitted at the time the account is created and includes a primary contact for your company, along with the company name, address, and phone number. This information is used for various reasons and should be kept current always. To view the company profile for your account or to request changes, see [Updating your company profile](/docs/customer-portal/cpmanacctcompprofcont.html#cp_updcompprof).
+The company profile is the information that is submitted at the time the account is created and includes a primary contact for your company, along with the company name, address, and phone number. This information is used for various reasons and should be kept current always. To view the company profile for your account or to request changes, see [Updating your company profile](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile).
 
 ## Where do I find my device and software passwords?
 {: #bicp_devswpw}
 {: faq}
 
-Device and software passwords are stored in two locations within the customer portal. To retrieve device credentials, including the root or admin user name and password for both {{site.data.keyword.baremetal_short}} and {{site.data.keyword.virtualmachinesshort}}, see [Interact with a Device in the Snapshot View](/docs/vsi/vsi_interact_device_snapshot_view.html). To quickly view and retrieve software credentials that are manually tracked by using the customer portal, see [Managing device access](/docs/vsi/vsi_device_access.html).
+Device and software passwords are stored in two locations within the customer portal. To retrieve device credentials, including the root or admin user name and password for both {{site.data.keyword.baremetal_short}} and {{site.data.keyword.virtualmachinesshort}}, see [Interact with a Device in the Snapshot View](/docs/vsi?topic=virtual-servers-interacting-with-a-device-in-snapshot-view#interacting-with-a-device-in-snapshot-view). To quickly view and retrieve software credentials that are manually tracked by using the customer portal, see [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access#managing-device-access).
 
 ## How do I keep my web data in sync?
 {: #bicp_webdatasync}
@@ -144,4 +144,4 @@ The Event Management System is a toolset that optimizes the way {{site.data.keyw
 {: #bicp_candev}
 {: faq}
 
-You can cancel a device at any time through the customer portal. See [Cancel a Device](/docs/vsi/vsi_managing.html) for more information about completing a cancellation request.
+You can cancel a device at any time through the customer portal. See [Cancel a Device](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers) for more information about completing a cancellation request.

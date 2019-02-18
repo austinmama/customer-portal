@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -13,6 +13,7 @@ lastupdated: "2019-02-01"
 {:tip: .tip}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:note: .note}
 
 
 # Adding users to a SoftLayer account
@@ -31,7 +32,7 @@ Depending on your access, you can manage either your SoftLayer account or the ac
 
   * If you have administrative access, you can see all of the users that you added. If you gave those users permissions to administer other users, you can also see any users that they added. You can also manage any user who is associated with the account. This includes editing access to the customer portal, changing user status, and removing users.
 
-To manage users from the {{site.data.keyword.Bluemix_notm}} console, see the [Account setup](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) section and [Managing identity and access](/docs/iam/quickstart.html#getstarted). For more information about the {{site.data.keyword.Bluemix_notm}} console, see [Navigating the {{site.data.keyword.Bluemix_notm}} console](/docs/overview/ui.html#ui).
+To manage users from the {{site.data.keyword.Bluemix_notm}} console, see the [Account setup](/docs/account?topic=account-signup#signup) section and [Managing identity and access](/docs/iam?topic=iam-getstarted#getstarted). For more information about the {{site.data.keyword.Bluemix_notm}} console, see [Navigating the {{site.data.keyword.Bluemix_notm}} console](/docs/overview?topic=overview-ui#ui).
 
 Different people within an organization have different roles and responsibilities, and user permission sets aren't one–size-fits-all. You can add users to the customer portal with roles to provide access to exactly what they need for their specific role. If changes are made in error or are unauthorized, you can trace them back to the user or group. Therefore, you can provide proper training or update user permission to minimize risk. Your users can then focus on their specified role within the customer portal.
 
@@ -46,12 +47,12 @@ Use the following steps to add a user to an account.
   {: tip}
 
 5. Complete the required fields in the **Log In Settings** section. Specify whether the settings can be edited by the user, if the IP address is restricted, and whether the user is required to set up and use security questions. Also, for any users that aren't using IBMid, you can set the length of time before the password expires.
-**Notes:**
-* If you use IBMid for authentication, update passwords in your [IBMid profiles ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} by following the instructions under **Sign In**.
-* Click the **Use Portal Password for VPN** check box to sync the customer portal and VPN passwords.
+    **Notes:**
+    * If you use IBMid for authentication, update passwords in your [IBMid profiles ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} by following the instructions under **Sign In**.
+    * Click the **Use Portal Password for VPN** check box to sync the customer portal and VPN passwords.
 6. Click **Add User**.
 
-After you create an account for a user, the user receives an email notification to finish setting up their account. The user must set a password and optionally, create security questions if you indicated that they're required.
+After you create an account for a user, the user receives an email notification to finish setting up their account. The user must set a password and, optionally, create security questions if you indicated that they're required.
 
 How users without the administrative access of a master user log in to the customer portal depends on the master user who provided the user access in their SoftLayer accounts:
   * If the master user has an IBMid to authenticate, each user that the master user creates has an IBMid.
@@ -65,7 +66,10 @@ Use the following steps to set the permissions for the user you just added.
 
 1. Click the **Permissions** icon, indicated by a user figure with a lock.
 2. Update the **User Permissions** on all tabs for the new user.
-> **Note:** Select an option from the **Quick Permissions** list to view permission sets for three types of users. Click **Set Permissions** to select the permissions set, or customize the user's accessibility by selecting individual options on each tab available.
+
+    Select an option from the **Quick Permissions** list to view permission sets for three types of users. Click **Set             Permissions** to select the permissions set, or customize the user's accessibility by selecting individual options on each     tab available.
+    {: note}
+    
 3. Click **Add Portal Permissions** to add the permissions or click **Reset Permissions** to reset permissions for the user.
 4. Click the **Device Access** icon, indicated by three servers.
 5. Click the device check box for each device you want the user to access.
