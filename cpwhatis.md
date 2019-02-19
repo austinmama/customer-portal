@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -28,7 +28,7 @@ You would use the {{site.data.keyword.BluSoftlayer_notm}} infrastructure custome
 
 You would then use the {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal for the following tasks:
   * Managing access of your resources, monitoring resources, and viewing access logs
-  * Ordering and interacting with infrastructure products and services, for example, adding and managing devices and [virtual servers](/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers).
+  * Ordering and interacting with infrastructure products and services, for example, adding and managing devices and [virtual servers](/docs/vsi?topic=virtual-servers-getting-started-tutorial#getting-started-tutorial).
   * Managing and maintaining your linked or unlinked SoftLayer accounts
   * Viewing and paying monthly infrastructure resource invoices
   * Opening, viewing, and updating tickets associated with any {{site.data.keyword.BluSoftlayer_notm}} infrastructure product or service
