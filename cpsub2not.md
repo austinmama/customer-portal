@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-20"
 
 ---
 
@@ -61,7 +61,7 @@ You're notified of the following types of outages or issues as described in each
 One of the more frequent targets for security breaches is virtual infrastructure software. {{site.data.keyword.BluSoftlayer_notm}} infrastructure uses popular open source and partner technology to deliver its Virtual Server offering. To implement a security fix, customer servers running virtual infrastructure software might have to be taken offline to patch and restart the environment, causing disruption. To minimize the impact to customers, {{site.data.keyword.BluSoftlayer_notm}} infrastructure has recently implemented an enhancement to the notification process for virtual infrastructure: Improved communications. Customers are notified with a specific start time and a 90-minute window for each pod, which results in a shorter disruption time and more accurate timing to help you better prepare. The notification system isolates maintenance to each account, allowing {{site.data.keyword.BluSoftlayer_notm}} infrastructure to notify customers as soon as their specific hosts are serviced, which most often occurs well before the 90-minute window.
 
 #### Multiple PODs or data centers affected
-{: #cp_bpgsnotifpolover}
+{: #cp_multi_pod}
 
 {{site.data.keyword.BluSoftlayer_notm}} infrastructure endeavors to give longer advanced notice, unless there's an extreme urgency to implement the fix to avoid even greater secondary impact.
 
