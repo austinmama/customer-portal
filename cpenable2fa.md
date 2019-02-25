@@ -4,7 +4,11 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-25"
+
+keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
+
+subcollection: customer-portal
 
 ---
 
