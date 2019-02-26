@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -62,7 +62,7 @@ Depois que um perfil do usuário é criado no portal do cliente, é possível ed
 {: caption="Tabela 3. Outras definições de configuração para editar um perfil do usuário" caption-side="top"}
 Depois de enviar edições para um perfil do usuário, as mudanças são aplicadas imediatamente. É possível mudar o perfil do usuário novamente a qualquer momento repetindo as etapas anteriores.
 
-Consulte [Alternando para IBMid](/docs/account/softlayerlink.html#switching-to-ibmid) para obter mais informações sobre como configurar uma conta do IBMid.
+Consulte [Alternando para IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) para obter mais informações sobre como configurar uma conta do IBMid.
 
 ## Editando permissões do portal do cliente de um usuário
 {: #cp_editusercpperm}
@@ -90,7 +90,7 @@ As permissões de usuário são atualizadas imediatamente após você enviar as 
 ## Incluindo autenticação externa para um usuário
 {: #cp_addextauthuser}
 
-No portal do cliente, é possível ativar a autenticação externa de dois fatores (2FA) para incluir proteção quando você efetuar login no portal. Essa camada extra de segurança protege a conta contra acesso não verificado, assegurando que dispositivos, dados e informações de conta sejam protegidos. Veja [Configurando a autenticação de dois fatores](/docs/customer-portal/cpenable2fa.html#customerportal_2fa) para obter mais informações.
+No portal do cliente, é possível ativar a autenticação externa de dois fatores (2FA) para incluir proteção quando você efetuar login no portal. Essa camada extra de segurança protege a conta contra acesso não verificado, assegurando que dispositivos, dados e informações de conta sejam protegidos. Veja [Configurando a autenticação de dois fatores](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication) para obter mais informações.
 
 
 ## Mudando o status de um usuário
@@ -124,7 +124,7 @@ Depois de atualizar o status de um usuário, as mudanças na acessibilidade do p
 ## Editando o acesso de um usuário à VPN
 {: #cp_edituservpnaccess}
 
-Quando um [novo usuário é incluído](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct) em uma conta do portal do cliente, o acesso à VPN é selecionado por meio de vários métodos de conexão, incluindo SSL, PPTP ou uma combinação dos dois. Com o acesso à VPN, a rede privada pode ser acessada em sua totalidade ou o acesso à rede pode ser limitado a uma ou mais sub-redes específicas. É possível gerenciar e atualizar o acesso à VPN a qualquer momento na janela Usuários. Use as etapas a seguir para editar o acesso de um usuário à VPN.
+Quando um [novo usuário é incluído](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct) em uma conta do portal do cliente, o acesso à VPN é selecionado por meio de vários métodos de conexão, incluindo SSL, PPTP ou uma combinação dos dois. Com o acesso à VPN, a rede privada pode ser acessada em sua totalidade ou o acesso à rede pode ser limitado a uma ou mais sub-redes específicas. É possível gerenciar e atualizar o acesso à VPN a qualquer momento na janela Usuários. Use as etapas a seguir para editar o acesso de um usuário à VPN.
 
 1. Acesse o portal do cliente usando as suas credenciais exclusivas.
 2. Selecione **Conta** > **Acesso à VPN** na barra de navegação.
@@ -158,7 +158,8 @@ infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} e quais você não des
 você recebe todas as notificações por e-mail, mas é possível mudá-las a qualquer momento. Para mudar suas
 configurações de notificação por e-mail, use as etapas a seguir:
 1. Acesse o portal do cliente usando suas credenciais exclusivas para a conta que está associada ao endereço de e-mail que recebe notificações.
-2. Clique em **Conta** > **Usuários** > **Preferências de E-mail** na barra de menus.
+2. Clique em **Conta** > **Usuários** > **Preferências
+de e-mail** na barra de menus.
 3. Na lista de tipos de notificação, limpe as notificações que não deseja mais receber.
 
 Suas mudanças são salvas automaticamente. Essas configurações afetam os e-mails enviados a você, no entanto, eles não afetam as notificações por e-mail de nenhum outro usuário de sua conta.
@@ -173,6 +174,6 @@ Suas mudanças são salvas automaticamente. Essas configurações afetam os e-ma
 3. Selecione a caixa de seleção **Suportado pela União Europeia**.
 4. Clique em **Solicitar atualização de perfil**.
 
-Caso a opção **Suportado pela União Europeia** não esteja disponível, é possível que você tenha usuários em sua conta com o acesso à VPN PPTP ativado. Para ativar a opção **Suportado pela União Europeia**, primeiro desative o acesso à VPN PPTP para todos os usuários em sua conta. Para obter mais informações, veja [Ativando ou desativando o acesso à VPN PPTP](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
+Caso a opção **Suportado pela União Europeia** não esteja disponível, é possível que você tenha usuários em sua conta com o acesso à VPN PPTP ativado. Para ativar a opção **Suportado pela União Europeia**, primeiro desative o acesso à VPN PPTP para todos os usuários em sua conta. Para obter mais informações, veja [Ativando ou desativando o acesso à VPN PPTP](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn).
 
-Para obter mais informações sobre como implementar a opção **Suportado pela União Europeia** ao abrir um chamado de suporte, consulte [Solicitando suporte para recursos na União Europeia](/docs/get-support/howtogetsupport.html#eusupported).
+Para obter mais informações sobre como implementar a opção **Suportado pela União Europeia** ao abrir um chamado de suporte, consulte [Solicitando suporte para recursos na União Europeia](/docs/get-support?topic=get-support-eusupported#eusupported).

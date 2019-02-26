@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2018-11-20"
 
 
 # Gerenciando senhas
-{: #customerportal_manpws}
+{: #cp_manpws}
 
 Se você for um usuário principal ou o proprietário de uma conta, será possível ativar o rastreamento de senha e também configurar uma senha para acesso único à conta. O rastreamento de senha permite que os usuários armazenem dados de senha de software para dispositivos e seu software associado.
 {:shortdesc}
 
 ## Ativando o rastreamento de senha
-{: #customerportal_enabpwtrak}
+{: #cp_enabpwtrak}
 
 O portal do cliente tem uma ferramenta de [rastreamento de senha ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/devices/passwords){:new_window} opcional para cada conta. Os usuários podem recuperar seus nomes de usuário e senhas por meio da ferramenta se as informações são perdidas ou esquecidas.
 
@@ -46,7 +46,7 @@ O rastreamento de senhas no portal do cliente é opcional. Qualquer usuário com
 Após a inclusão do usuário na ferramenta de rastreamento de senha, as informações são armazenadas na ferramenta até que ela seja excluída manualmente. Por padrão, todas as combinações de nome de usuário e de senha são armazenadas com base no nome do dispositivo. As entradas são exibidas alfabeticamente por nome de dispositivo, em seguida, por nome de usuário.
 
 ### Filtrando informações na ferramenta de rastreamento de senha
-{: #cp_filterusinfopwtracktool}
+{: #cp_tracktool}
 
 Para visualizar, editar ou excluir informações sobre o usuário da ferramenta de rastreamento de senha, é possível filtrar para localizar rapidamente um usuário. Filtrar para localizar um usuário é útil quando a lista de usuários abrange várias linhas ou páginas. Use as etapas a seguir para filtrar por dispositivo, software ou usuário na ferramenta de rastreamento de senha.
 
@@ -59,7 +59,7 @@ Para visualizar, editar ou excluir informações sobre o usuário da ferramenta 
 É possível selecionar as informações do usuário para visualizar, editar ou remover.
 
 ### Editando informações sobre o usuário na ferramenta de rastreamento de senha
-{: #cp_editusinfopwtracktool}
+{: #cp_editusinfo}
 
 Após a inclusão de um usuário na ferramenta de rastreamento de senha, é possível editar os detalhes associados ao usuário ou à senha. Use as etapas a seguir para editar informações para um usuário na ferramenta de rastreamento de senha.
 
@@ -73,7 +73,7 @@ Após a inclusão de um usuário na ferramenta de rastreamento de senha, é poss
 Depois que uma senha ou um usuário é editado na ferramenta de rastreamento de senha, as informações são atualizadas imediatamente.
 
 ## Configurando uma conta para acesso de senha descartável
-{: #cp_confportacc1timpwacc}
+{: #cp_one-time}
 
 Antes que seja possível configurar a conta, deve-se primeiro configurar o aplicativo "VIP Access" da Verisign. Se o Acesso VIP não estiver configurado, primeiro faça download do aplicativo para um dos dispositivos a seguir:
 * Para seu telefone: [https://m.vip.symantec.com/home.v ![Ícone de link externo](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
@@ -100,12 +100,12 @@ Guarde seu ID de credencial original do Verisign Identity Protection em um local
 O modo como sua senha é reconfigurada baseia-se em se você usa um IBMid para autenticação para efetuar login em sua conta.  
 
 ### Reconfigurando uma senha de conta do IBMid
-{: #cp_reset-IBMid-password}
+{: #cp_reset}
 
 Se você usa o IBMid para autenticação, para reconfigurar ou recuperar sua senha, acesse seu perfil do IBMid e siga as instruções sob a seção **Conectar**.
 
 ### Reconfigurando uma senha da conta do SoftLayer
-{: #cp_reset-password}
+{: #cp_reset-sl}
 
 Se você não usa um IBMid para autenticação de conta, conclua as etapas a seguir:
 
@@ -116,5 +116,5 @@ Se você não usa um IBMid para autenticação de conta, conclua as etapas a seg
 
 Você tem 5 tentativas para responder às perguntas de segurança. Se fizer mais de 5 tentativas, o formulário de reconfiguração de senha será bloqueado por 15 minutos antes de ser possível tentar novamente.
 
-Para obter informações sobre como trabalhar com senhas de VPN, veja [Atualizar a senha de VPN de um usuário](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password).
+Para obter informações sobre como trabalhar com senhas de VPN, veja [Atualizar a senha de VPN de um usuário](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
 {: tip}

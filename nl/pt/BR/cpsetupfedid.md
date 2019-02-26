@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -42,9 +42,11 @@ Nesse modelo, o processo a seguir ocorre:
 Contas para usuários que precisam de acesso à infraestrutura do {{site.data.keyword.BluSoftlayer}} são criadas primeiro na infraestrutura do {{site.data.keyword.BluSoftlayer}} com senhas aleatórias. Todas as permissões devem ser configuradas na infraestrutura do {{site.data.keyword.BluSoftlayer}} antes que o usuário possa usar a SSO por meio do provedor de identidade. Atualmente, as permissões são configuradas com base no usuário individual.
 
 ### Configurando um usuário
+{: #cp_user-setup}
+
 Use as etapas a seguir para configurar um usuário:
 
-1. [Incluindo usuários em uma conta do SoftLayer](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [Incluindo usuários em uma conta do SoftLayer](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct).
 2. Designe permissões na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 3. Crie usuários no provedor de identidade.
 
@@ -82,7 +84,7 @@ Use as etapas a seguir para configurar uma função para um usuário:
 3. Assegure-se de que as funções definidas na infraestrutura do {{site.data.keyword.BluSoftlayer}} e no provedor de identidade tenham o mesmo nome.
 
 ### Configurando um usuário
-{: #setupuser}
+{: #identity-setupuser}
 
 Use as etapas a seguir para configurar um usuário:
 

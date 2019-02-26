@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-01"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2019-02-01"
 Se você tiver problemas com a infraestrutura do {{site.data.keyword.BluSoftlayer_full}} e não tiver uma conta vinculada, será possível obter ajuda para determinar a causa do problema e localizar uma solução usando o portal do cliente.
 {:shortdesc}
 
-Se você tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_accounts), será possível obter suporte por meio do console do {{site.data.keyword.Bluemix_notm}}. Consulte [Obtendo suporte](/docs/get-support/howtogetsupport.html) para obter mais informações.
+Se você tiver uma [conta vinculada](/docs/account?topic=account-link_customer_accounts#link_customer_accounts), será possível obter suporte por meio do console do {{site.data.keyword.Bluemix_notm}}. Consulte [Obtendo suporte](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) para obter mais informações.
 
 Se você não tiver uma conta vinculada, será possível abrir chamados de suporte no portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para problemas técnicos gerais ou para ajudar com problemas relacionados à sua conta.
 
@@ -62,7 +62,7 @@ Se você não tiver uma conta vinculada, será possível abrir chamados de supor
   Selecione **Nenhum** se não for necessário que sua equipe de suporte esteja localizada fisicamente na Europa.
   {: tip}
 
-  Consulte [Configurando a opção Suportado pela União Europeia](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported) para obter informações sobre como inicializar essa função para sua conta.
+  Consulte [Configurando a opção Suportado pela União Europeia](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported) para obter informações sobre como inicializar essa função para sua conta.
 
 11. Clique em **Incluir chamado**.
 
@@ -110,4 +110,4 @@ Se você redesignar o chamado, o novo designado se tornará o ponto principal de
 ## Escalando um chamado de suporte
 {: #cp_bpsupescalflow}
 
-É possível solicitar assistência adicional escalando seu chamado. Veja [Escalando chamados de suporte](/docs/get-support/quicktickresp.html#escalation) para obter mais informações.
+É possível solicitar assistência adicional escalando seu chamado. Veja [Escalando chamados de suporte](/docs/get-support?topic=get-support-escalation#escalation) para obter mais informações.

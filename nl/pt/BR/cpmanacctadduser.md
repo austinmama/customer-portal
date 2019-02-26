@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -13,6 +13,7 @@ lastupdated: "2019-02-01"
 {:tip: .tip}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:note: .note}
 
 
 # Incluindo usuários em uma conta do SoftLayer
@@ -31,7 +32,7 @@ Dependendo de seu acesso, será possível gerenciar sua conta do SoftLayer ou as
 
   * Se você tiver acesso administrativo, será possível ver todos os usuários incluídos. Se tiver dado a esses usuários permissões para administrar outros usuários, também será possível ver quaisquer usuários incluídos. Também é possível gerenciar qualquer usuário que esteja associado à conta. Isso inclui editar o acesso ao portal do cliente, mudar o status do usuário e remover usuários.
 
-Para gerenciar usuários do console do {{site.data.keyword.Bluemix_notm}}, consulte a seção [Configuração da conta](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) e [Gerenciando a identidade e o acesso](/docs/iam/quickstart.html#getstarted). Para obter mais informações sobre o console do {{site.data.keyword.Bluemix_notm}}, consulte [Navegando no console do {{site.data.keyword.Bluemix_notm}}](/docs/overview/ui.html#ui).
+Para gerenciar usuários do console do {{site.data.keyword.Bluemix_notm}}, consulte a seção [Configuração da conta](/docs/account?topic=account-signup#signup) e [Gerenciando a identidade e o acesso](/docs/iam?topic=iam-getstarted#getstarted). Para obter mais informações sobre o console do {{site.data.keyword.Bluemix_notm}}, consulte [Navegando no console do {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-ui#ui).
 
 Pessoas diferentes dentro de uma organização têm diferentes funções e responsabilidades e os conjuntos de permissões do usuário não são de tamanho único. É possível incluir usuários no portal do cliente com funções para fornecer acesso a exatamente o que eles precisam para sua função específica. Se forem feitas mudanças por engano ou sem autorização, será possível rastreá-las de volta para o usuário ou o grupo. Portanto, é possível fornecer treinamento adequado ou atualizar a permissão do usuário para minimizar o risco. Seus usuários poderão então se concentrar em sua função especificada dentro do portal do cliente.
 
@@ -46,9 +47,9 @@ Use as etapas a seguir para incluir um usuário em uma conta.
   {: tip}
 
 5. Preencha os campos obrigatórios na seção **Configurações de login**. Especifique se as configurações poderão ser editadas pelo usuário, se o endereço IP será restrito e se o usuário precisará configurar e usar perguntas de segurança. Além disso, para quaisquer usuários que não estão usando o IBMid, é possível configurar o período de tempo antes da expiração da senha.
-**Notas:**
-* Se você usar o IBMid para autenticação, atualize as senhas em seus [perfis do IBMid ![Ícone de link externo](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} seguindo as instruções em **Conectar**.
-* Clique na caixa de seleção **Usar senha do portal para VPN** para sincronizar as senhas do portal do cliente e da VPN.
+    **Notas:**
+    * Se você usar o IBMid para autenticação, atualize as senhas em seus [perfis do IBMid ![Ícone de link externo](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} seguindo as instruções em **Conectar**.
+    * Clique na caixa de seleção **Usar senha do portal para VPN** para sincronizar as senhas do portal do cliente e da VPN.
 6. Clique em **Incluir usuário**.
 
 Depois que você criar uma conta para um usuário, ele receberá uma notificação por e-mail para concluir a configuração de sua conta. O usuário deve configurar uma senha e, opcionalmente, criar perguntas de segurança, no caso de você indicar que elas são necessárias.
@@ -65,7 +66,10 @@ Use as etapas a seguir para configurar as permissões para o usuário que você 
 
 1. Clique no ícone **Permissões**, indicado por uma figura de usuário com um bloqueio.
 2. Atualize as **Permissões do usuário** em todas as guias para o novo usuário.
-> **Nota:** selecione uma opção na lista **Permissões rápidas** para visualizar os conjuntos de permissões para três tipos de usuários. Clique em **Configurar permissões** para selecionar o conjunto de permissões ou customize a acessibilidade do usuário selecionando opções individuais em cada guia disponível.
+
+    Selecione uma opção na lista **Permissões rápidas** para visualizar os conjuntos de permissões de três tipos de usuários. Clique em **Configurar permissões** para selecionar o conjunto de permissões ou customize a acessibilidade do usuário selecionando opções individuais em cada guia disponível.
+    {: note}
+    
 3. Clique em **Incluir permissões do portal** para incluir as permissões ou clique em **Reconfigurar permissões** para reconfigurar permissões para o usuário.
 4. Clique no ícone **Acesso ao dispositivo**, indicado por três servidores.
 5. Clique na caixa de seleção de cada dispositivo que você deseja que o usuário acesse.

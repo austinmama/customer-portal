@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,20 +16,20 @@ lastupdated: "2019-02-01"
 
 
 # Monitorando seu ambiente e eventos do sistema
-{: #customerportal_cpmonenvsysevent}
+{: #cp_environment-events}
 
 Monitorar seu ambiente significa que você tem a capacidade de verificar dispositivos a qualquer momento e que será notificado automaticamente se um deles ficar inativo. Também é possível monitorar eventos do sistema para manter seus sistemas em execução sem problemas.  
 {: shortdesc}
 
 ## Monitorando seu ambiente
-{: #cpmonenv}
+{: #cp-monitorenvi}
 
 No mínimo, use monitoramento de ping básico, mas você pode customizar suas opções de monitoramento de uma maneira que se adeque melhor às suas necessidades de negócios.
 
 ### Ficando informado sobre manutenção de rede e eventos não planejados
-{: #cp_stayinfomaintevent}
+{: #cp-informedmaintenance}
 
-De vez em quando, a manutenção de rede planejada e emergencial é inevitável. A infraestrutura do {{site.data.keyword.BluSoftlayer_full}} mantém vários canais para deixá-lo informado sobre todos os eventos de manutenção planejados e emergenciais. Além disso, é possível [assinar notificações por e-mail](/docs/customer-portal/cpsub2not.html) do Sistema de Gerenciamento de Eventos. Esse serviço de cortesia envia e-mails automaticamente aos usuários inscritos em relação a eventos não planejados que podem afetar os serviços.
+De vez em quando, a manutenção de rede planejada e emergencial é inevitável. A infraestrutura do {{site.data.keyword.BluSoftlayer_full}} mantém vários canais para deixá-lo informado sobre todos os eventos de manutenção planejados e emergenciais. Além disso, é possível [assinar notificações por e-mail](/docs/customer-portal?topic=customer-portal-cp_bpnotifications#cp_bpnotifications) do Sistema de Gerenciamento de Eventos. Esse serviço de cortesia envia e-mails automaticamente aos usuários inscritos em relação a eventos não planejados que podem afetar os serviços.
 
 ### Usando a infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}}
 {: #cp_bmxinframobile}
@@ -37,7 +37,7 @@ De vez em quando, a manutenção de rede planejada e emergencial é inevitável.
 Use o dispositivo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para gerenciar seus dispositivos de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} em movimento usando seu dispositivo móvel iOS ou Android. A funcionalidade dentro do dispositivo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} inclui suporte de chamado, controle de dispositivo básico e monitoramento de largura da banda.
 
 O aplicativo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} complementa a funcionalidade do portal do cliente porque você pode monitorar informações críticas sobre sua infraestrutura de qualquer lugar usando seu dispositivo móvel conectado à rede. O aplicativo evolui rapidamente e a nova funcionalidade é incluída regularmente, mas é possível usar o aplicativo móvel para executar tarefas como as seguintes:
-  * Visualize, crie e atualize os chamados de Suporte
+  * Visualizar, criar e atualizar chamados de suporte
   * Monitorar o status do dispositivo, incluindo a largura da banda e os alarmes
   * Encerrar e reiniciar Bare Metal Servers e servidores virtuais
   * Visualizar faturas de contas e fazer pagamentos únicos
@@ -46,12 +46,12 @@ O aplicativo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}
 O aplicativo móvel de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} está disponível em várias plataformas populares de dispositivo móvel e está disponível de graça nas lojas de aplicativos relacionadas para cada plataforma.
 
 ## Monitorando servidores
-{: #customerportal_monservers}
+{: #cp_monservers}
 
-Configure o monitoramento para verificar o status de seu servidor e saber quando escalar. É possível usar o monitoramento padrão ou serviços de monitoramento Nimsoft. É possível usar o monitoramento padrão ou básico no método executar ping e responder, usando um ping lento ou de serviço do portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Também é possível usar Nimsoft, ou avançado, monitorando pelo portal do cliente ou em 1 de 3 camadas: básica, avançada e premium. Para obter mais informações sobre os servidores Bare Metal, especificamente, consulte [Introdução aos servidores Bare Metal](/docs/bare-metal/index.html#getting-started).
+Configure o monitoramento para verificar o status de seu servidor e saber quando escalar. É possível usar o monitoramento padrão ou serviços de monitoramento Nimsoft. É possível usar o monitoramento padrão ou básico no método executar ping e responder, usando um ping lento ou de serviço do portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Também é possível usar Nimsoft, ou avançado, monitorando pelo portal do cliente ou em 1 de 3 camadas: básica, avançada e premium. Para obter mais informações sobre os servidores Bare Metal, especificamente, consulte [Introdução aos servidores Bare Metal](/docs/bare-metal?topic=bare-metal-getting-started#getting-started).
 
 ## Monitorando eventos do sistema
-{: #customerportal_monevent}
+{: #cp_monevent}
 
 É possível monitorar eventos do sistema visualizando logs de auditoria e logs de acesso.
 

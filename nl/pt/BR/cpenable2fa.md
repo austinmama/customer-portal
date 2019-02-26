@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019 
+  years: 2018, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2019-02-01"
 
 
 # Configurando a autenticação de dois fatores
-{: #customerportal_2fa}
+{: cp_setup-2fa}
 
 No portal do cliente, a autenticação externa de dois fatores (2FA) poderá ser ativada para incluir proteção extra quando você efetuar login no portal. Essa camada extra de segurança protege a conta contra acesso não verificado, assegurando que dispositivos, dados e informações de conta sejam protegidos.
 {:shortdesc}
@@ -26,13 +26,14 @@ Se você ativar a 2FA no portal do cliente de sua conta existente do SoftLayer, 
 A 2FA para a sua conta do SoftLayer não é por IBMid. Ainda é por conta. Quando um IBMid está associado a múltiplas contas e você alterna entre as contas, deve-se confirmar sua identidade toda vez que alterna para uma conta diferente. Deve-se confirmar sua identidade quando você alterna entre contas mesmo se a conta anterior e a nova conta são configuradas com o mesmo mecanismo 2FA.
 
 ## Ativando a 2FA
+{: #cp-enable-2fa}
 
 A autenticação 2FA está disponível em duas formas. Ambos os métodos de autenticação externa podem ser incluídos para cada usuário por uma pequena taxa mensal:
 
 * O Symantec Identify Protection é a ferramenta de autenticação externa mais comumente usada, que fornece um código de segurança dinâmico usado além do nome de usuário e da senha ao acessar o Portal do cliente.
 * A autenticação PhoneFactor fornece autenticação fora da banda com um telefonema, SMS ou aplicativo móvel.
 
- Se você tiver uma conta vinculada, será possível aproveitar a configuração da autenticação de diversos fatores (MFA) [ativando a autenticação de diversos fatores](/docs/iam/mfa.html) para toda a sua conta do {{site.data.keyword.Bluemix_notm}}.
+ Se você tiver uma conta vinculada, será possível aproveitar a configuração da autenticação de diversos fatores (MFA) [ativando a autenticação de diversos fatores](/docs/iam?topic=iam-enablemfa#enablemfa) para toda a sua conta do {{site.data.keyword.Bluemix_notm}}.
  {: tip}
 
 Para configurar a 2FA, conclua as etapas a seguir:
@@ -54,7 +55,7 @@ Depois de incluir a autenticação externa para um usuário, as próximas etapas
 * Se o PhoneFactor está ativado, o usuário deve ativar o PhoneFactor para usar esse tipo de autenticação de dois fatores com a conta.
 
 ### Ativando a autenticação do PhoneFactor
-{: #cp_actphonefacauth}
+{: #cp_phonefacauth}
 
 Depois de incluir o PhoneFactor, deve-se ativar manualmente a autenticação externa com o PhoneFactor por meio do portal do cliente. Como o PhoneFactor usa contato manual, é importante assegurar que todos os números de telefone associados à conta estejam sempre atualizados. A falha em manter as informações de contato atualizadas poderá resultar na impossibilidade de acessar o portal do cliente e a VPN quando o PhoneFactor estiver ativo. Quando o PhoneFactor for incluído com êxito, você receberá um e-mail para confirmar que o PhoneFactor foi incluído. Depois de receber o e-mail, use as etapas a seguir para ativar a autenticação do PhoneFactor.
 
@@ -69,7 +70,7 @@ Depois de incluir o PhoneFactor, deve-se ativar manualmente a autenticação ext
 5. Selecione **Ativo** na lista **Status**.
 6. Edite o **Número do telefone principal** para autenticação.
   1. Clique no link **Editar**.
-  2. Insira o **Código do País**, o **Número de Telefone** e a **Extensão**, se aplicável, nos campos associados.
+  2. Insira o **Código do país**, o **Número do telefone** e o **Ramal**, se aplicável, nos campos associados.
   3. Clique em **Autenticar e salvar número** para concluir a autenticação.
 
     Quando você inclui um número de telefone para autenticação, deve-se estar no telefone. Depois de clicar em **Autenticar**, o número é chamado e é solicitado que você conclua uma etapa para autenticar o número. Os números de telefone não podem ser autenticados sem a conclusão dessas etapas.
@@ -87,7 +88,7 @@ Depois de ativar o PhoneFactor, a autenticação por meio dele é necessária pa
  {: tip}
 
 #### Métodos de autenticação do PhoneFactor
-{: #cp_phonefacauthmeths}
+{: #cp_authmeths}
 
 Se você configura o PhoneFactor como o tipo de autenticação, é possível escolher uma das opções a seguir como um método de autenticação:
 

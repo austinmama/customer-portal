@@ -41,7 +41,7 @@ Novas contas requerem o IBMid para autenticação. As contas existentes continua
 {: #bicp_linkbmxacct}
 {: faq}
 
-Se você for o usuário principal na conta do SoftLayer, efetue login no portal do cliente e clique em **Vincular uma conta** no cabeçalho. Veja [Vinculando contas do usuário IBMid](/docs/account/softlayerlink.html) para obter informações adicionais.
+Se você for o usuário principal na conta do SoftLayer, efetue login no portal do cliente e clique em **Vincular uma conta** no cabeçalho. Veja [Vinculando contas do usuário IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts) para obter informações adicionais.
 
 ## Devo ser um usuário existente do {{site.data.keyword.Bluemix_notm}} para vincular contas?
 {: #bicp_bmxusertolink}
@@ -55,7 +55,7 @@ Não. É possível criar uma nova conta do {{site.data.keyword.Bluemix_notm}} ou
 
 Não há nenhum impacto na configuração de autenticação de dois fatores (2FA) no nível da conta. A 2FA não é por IBMid; ainda é por conta. Quando um IBMid está associado a muitas contas e você alterna entre elas, deve-se confirmar sua identidade toda vez que alterna para uma conta diferente que requer 2FA. Isso é verdadeiro mesmo caso a conta anterior e a nova conta sejam ambas configuradas com o mesmo mecanismo de 2FA.
 
-Para obter mais informações sobre o IBMid com 2FA, consulte [Uso de autenticação de diversos fatores em contas vinculadas](/docs/account/softlayerlink.html#2fa).
+Para obter mais informações sobre o IBMid com 2FA, consulte [Uso de autenticação de diversos fatores em contas vinculadas](/docs/account?topic=account-2fa#2fa).
 
 ## Quem pode vincular contas?
 {: #bicp_wholinkaccts}
@@ -95,13 +95,13 @@ Deve-se convidá-los para o {{site.data.keyword.Bluemix_notm}}. No console do {{
 {: #bicp_ibmidswitchemail}
 {: faq}
 
-Se você seguiu o assistente para alternar para o IBMid e não recebeu o e-mail, poderá levar de minutos a horas para que o e-mail com seu código de registro seja enviado a você. É possível voltar para a página **Editar Perfil do Usuário** no portal do cliente e clicar em **Reenviar o e-mail** para tentar novamente.
+Se você seguiu o assistente para alternar para o IBMid e não recebeu o e-mail, poderá levar de minutos a horas para que o e-mail com seu código de registro seja enviado a você. É possível voltar para a página **Editar perfil do usuário** no portal do cliente e clicar em **Reenviar e-mail** para tentar novamente.
 
 ## Eu terei acesso raiz total à minha conta?
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Os usuários principais e aqueles com permissões de administrador têm acesso raiz completo às contas no portal do cliente e à API. Os usuários sem permissões de administrador têm acessibilidade que é controlada por aqueles com funções administrativas. Essas permissões podem ser atualizadas pelos administradores do portal do cliente [editando um perfil do usuário](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Sem permissões de administrador, é possível editar seu perfil do usuário no portal do cliente clicando em seu nome do usuário no painel superior.
+Os usuários principais e aqueles com permissões de administrador têm acesso raiz completo às contas no portal do cliente e à API. Os usuários sem permissões de administrador têm acessibilidade que é controlada por aqueles com funções administrativas. Essas permissões podem ser atualizadas pelos administradores do portal do cliente [editando um perfil do usuário](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Sem permissões de administrador, é possível editar seu perfil do usuário no portal do cliente clicando em seu nome do usuário no painel superior.
 
 ## Posso vincular uma conta de Assinatura do  {{site.data.keyword.Bluemix_notm}} ?
 {: #bicp_linkbmxsubacct}
@@ -120,13 +120,13 @@ Depois que as contas são vinculadas, não é possível desvinculá-las.
 {: #bicp_whatfindcompprof}
 {: faq}
 
-O perfil da empresa são as informações enviadas no momento em que a conta é criada e inclui um contato principal para sua empresa, junto ao nome, endereço e número do telefone da empresa. Essas informações são usadas por várias razões e devem ser mantidas sempre atuais. Para visualizar o perfil da empresa para sua conta ou para solicitar mudanças, consulte [Atualizando o perfil de sua empresa](/docs/customer-portal/cpmanacctcompprofcont.html#cp_updcompprof).
+O perfil da empresa são as informações enviadas no momento em que a conta é criada e inclui um contato principal para sua empresa, junto ao nome, endereço e número do telefone da empresa. Essas informações são usadas por várias razões e devem ser mantidas sempre atuais. Para visualizar o perfil da empresa para sua conta ou para solicitar mudanças, consulte [Atualizando o perfil de sua empresa](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile).
 
 ## Onde localizar minhas senhas de dispositivo e software?
 {: #bicp_devswpw}
 {: faq}
 
-As senhas do dispositivo e do software são armazenadas em dois locais dentro do portal do cliente. Para recuperar as credenciais do dispositivo, incluindo o nome do usuário raiz ou administrador e a senha para o {{site.data.keyword.baremetal_short}} e o {{site.data.keyword.virtualmachinesshort}}, consulte [Interagir com um dispositivo na visualização de captura instantânea](/docs/vsi/vsi_interact_device_snapshot_view.html). Para visualizar e recuperar rapidamente as credenciais de software rastreadas manualmente usando o portal do cliente, consulte [Gerenciando o acesso ao dispositivo](/docs/vsi/vsi_device_access.html).
+As senhas do dispositivo e do software são armazenadas em dois locais dentro do portal do cliente. Para recuperar as credenciais do dispositivo, incluindo o nome do usuário raiz ou administrador e a senha para o {{site.data.keyword.baremetal_short}} e o {{site.data.keyword.virtualmachinesshort}}, consulte [Interagir com um dispositivo na visualização de captura instantânea](/docs/vsi?topic=virtual-servers-interacting-with-a-device-in-snapshot-view#interacting-with-a-device-in-snapshot-view). Para visualizar e recuperar rapidamente as credenciais de software rastreadas manualmente usando o portal do cliente, consulte [Gerenciando o acesso ao dispositivo](/docs/vsi?topic=virtual-servers-managing-device-access#managing-device-access).
 
 ## Como manter meus dados da web em sincronia?
 {: #bicp_webdatasync}
@@ -144,4 +144,4 @@ O Sistema de Gerenciamento de Eventos é um conjunto de ferramentas que otimiza 
 {: #bicp_candev}
 {: faq}
 
-É possível cancelar um dispositivo a qualquer momento por meio do portal do cliente. Consulte [Cancelar um dispositivo](/docs/vsi/vsi_managing.html) para obter mais informações sobre como concluir uma solicitação de cancelamento.
+É possível cancelar um dispositivo a qualquer momento por meio do portal do cliente. Consulte [Cancelar um dispositivo](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers) para obter mais informações sobre como concluir uma solicitação de cancelamento.

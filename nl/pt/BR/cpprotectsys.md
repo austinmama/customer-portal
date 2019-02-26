@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -25,7 +25,7 @@ A proteção de seus sistemas assegura que seus sistemas sejam executados sem pr
 
 É possível gerenciar seus dispositivos no ambiente mais seguro possível usando a rede privada da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Quando possível, interaja com seus dispositivos usando uma conexão VPN e ative a ampliação de rede para que seus sistemas se comuniquem sobre a rede privada. Para acessar a rede privada, edite o acesso do usuário à VPN na [Lista de Usuários ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Use a lista [Rede privada virtual ![Ícone de link externo](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} para se conectar a uma das várias opções de VPN.
 
-Para obter mais informações sobre como usar uma conexão de VPN, veja [Sobre a VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
+Para obter mais informações sobre como usar uma conexão de VPN, veja [Sobre a VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn).
 
 ### Não deixe RDP, SSH ou portas de controle na rede pública
 {: #cp_bpnordpsshcponpubnet}
@@ -39,10 +39,10 @@ A rede pública é ótima para muitas coisas, mas certos aspectos, quando dispon
 
 A infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} oferece várias soluções de backup para assegurar que você possa recuperar seus dados se a unidade falhar ou se o usuário cometer um erro. As soluções de backup atualmente incluem NAS, backup EVault e R1Soft CDP, que estão todos disponíveis em várias opções de armazenamento.
 Por exemplo, é possível escolher um dos serviços de backup para armazenar seus dados em um local seguro:
-  * O backup do EVault é um sistema de backup automatizado e baseado em agente, além de ser uma solução popular de configuração única para o gerenciamento de seu dispositivo. Ele é compatível com o software da Microsoft que inclui o Exchange e o SQL por meio de plug-ins. Os usuários do EVault interagem com esse serviço por meio do aplicativo baseado na web WebCC do EVault.
+  * O backup EVault é um sistema de backup automatizado e baseado em agente e uma solução popular "configurar e esquecer" para gerenciar seu dispositivo. Ele é compatível com o software da Microsoft que inclui o Exchange e o SQL por meio de plug-ins. Os usuários do EVault interagem com esse serviço por meio do aplicativo baseado na web WebCC do EVault.
   * O R1Soft Continuous Data Protection (CDP) pode ser instalado em seu servidor ou na máquina virtual autogerenciada. Será possível usá-lo se você estiver procurando uma única interface para gerenciar todos os seus backups. Você interage com o R1Soft CDP por meio de seu sistema de gerenciamento proprietário, que permite que os agentes sejam instalados em máquinas virtuais e ofereça plug-ins de banco de dados para obter mais funções.
 
- Veja a página [Armazenamento ![Ícone de link externo](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} para obter mais informações sobre cada solução de backup e veja [Introdução aos serviços de backup](/docs/infrastructure/Backup/index.html) para obter mais informações sobre como fazer backup de seus dados.
+ Veja a página [Armazenamento ![Ícone de link externo](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} para obter mais informações sobre cada solução de backup e veja [Introdução aos serviços de backup](/docs/infrastructure/Backup?topic=Backup-GettingStarted#GettingStarted) para obter mais informações sobre como fazer backup de seus dados.
 
 ### Não presuma que você tem redundância; saiba que você tem
 {: #cp_bpknowredundant}

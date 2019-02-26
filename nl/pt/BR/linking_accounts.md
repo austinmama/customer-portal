@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-11"
+  years: 2015, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -34,7 +34,7 @@ SoftLayer, o próximo ciclo de faturamento é cobrado em uma conta única do
 
 Seu ciclo de uso do {{site.data.keyword.Bluemix_notm}} baseia-se em um mês-calendário. Portanto, sua conta é faturada todo mês no dia de faturamento estabelecido para seu contrato de encargo. Com o SoftLayer, seu ciclo de uso começa de quando você iniciou com o SoftLayer, portanto, você é faturado todo mês no mesmo dia de quando se inscreveu para a conta do SoftLayer.
 
-Seu uso do {{site.data.keyword.Bluemix_notm}} continua sendo medido para o ciclo do mês atual e você é cobrado por esse uso em uma fatura do {{site.data.keyword.Bluemix_notm}}. Iniciando no primeiro do próximo mês, seus encargos do {{site.data.keyword.Bluemix_notm}} e do SoftLayer são combinados em sua fatura do {{site.data.keyword.Bluemix_notm}}. Para obter mais informações sobre faturas e uso, clique em [Visualizando seu uso](/docs/billing-usage/viewing_usage.html#viewingusage).
+Seu uso do {{site.data.keyword.Bluemix_notm}} continua sendo medido para o ciclo do mês atual e você é cobrado por esse uso em uma fatura do {{site.data.keyword.Bluemix_notm}}. Iniciando no primeiro do próximo mês, seus encargos do {{site.data.keyword.Bluemix_notm}} e do SoftLayer são combinados em sua fatura do {{site.data.keyword.Bluemix_notm}}. Para obter mais informações sobre faturas e uso, clique em [Visualizando seu uso](/docs/billing-usage?topic=billing-usage-viewingusage#viewingusage).
 
 Por exemplo, se você vincular suas contas em 16 de abril de 2017, receberá uma fatura do
 {{site.data.keyword.Bluemix_notm}} para seu uso de abril. Dependendo de quando você vinculou as suas contas, você poderá ter uma conta separada para o uso do SoftLayer. Seu uso combinado durante maio é faturado por meio de sua conta do {{site.data.keyword.Bluemix_notm}}.
