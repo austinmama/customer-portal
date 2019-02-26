@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -13,6 +13,7 @@ lastupdated: "2019-02-01"
 {:tip: .tip}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:note: .note}
 
 
 # Ajout d'utilisateurs à un compte SoftLayer
@@ -31,7 +32,7 @@ En fonction de votre accès, vous pouvez gérer votre compte SoftLayer ou les co
 
   * Si vous disposez d'un accès administrateur, vous pouvez voir tous les utilisateurs que vous avez ajoutés. Si vous les avez autorisés à gérer d'autres utilisateurs, vous pouvez voir tous les utilisateurs qu'ils ont ajoutés. Vous pouvez également gérer tout utilisateur associé au compte. Vous pouvez aussi éditer l'accès au portail client, changer le statut utilisateur et retirer des utilisateurs.
 
-Pour gérer des utilisateurs depuis la console {{site.data.keyword.Bluemix_notm}}, voir [Gestion de votre compte](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) et [Gestion de l'identité et de l'accès](/docs/iam/quickstart.html#getstarted). Pour plus d'informations sur la console {{site.data.keyword.Bluemix_notm}}, voir la section [Navigation dans la console {{site.data.keyword.Bluemix_notm}}](/docs/overview/ui.html#ui).
+Pour gérer des utilisateurs depuis la console {{site.data.keyword.Bluemix_notm}}, voir [Gestion de votre compte](/docs/account?topic=account-signup#signup) et [Gestion de l'identité et de l'accès](/docs/iam?topic=iam-getstarted#getstarted). Pour plus d'informations sur la console {{site.data.keyword.Bluemix_notm}}, voir la section [Navigation dans la console {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-ui#ui).
 
 Différentes personnes au sein d'une organisation possèdent différents rôles et responsabilités, et les ensembles de droits utilisateur ne sont pas identiques pour tous. Vous pouvez ajouter au portail client des utilisateurs dotés de rôles leur permettant un accès uniquement à ce que requiert leur rôle spécifique. Si des changements sont faits par erreur ou n'ont pas été autorisés, vous pouvez les tracer jusqu'à l'utilisateur ou le groupe. Vous pouvez donc leur fournir une formation adéquate ou mettre à jour les droits utilisateur afin de minimiser les risques. Vos utilisateurs peuvent alors se concentrer sur leur rôle spécifié dans le portail client.
 
@@ -46,12 +47,12 @@ Utilisez la procédure suivante pour ajouter un utilisateur à un compte :
   {: tip}
 
 5. Renseignez les champs obligatoires dans la section **Paramètres de connexion**. Indiquez si les paramètres peuvent être modifiés par l'utilisateur, si l'adresse IP est restreinte et si l'utilisateur est requis de configurer et d'utiliser des questions de sécurité. En outre, pour les personnes n'utilisant pas d'IBMid, vous pouvez définir la durée avant expiration du mot de passe.
-**Remarques :**
-* Si vous utiliser IBMid pour l'authentification mettez à jour les mots de passe dans vos [profils IBMid ![Icône de lien externe](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} en suivant les instructions sous l'**ouverture de session**.
-* Cochez la case **Utiliser le mot de passe du portail pour le VPN** pour synchroniser les mots de passe du portail client et du réseau privé virtuel.
+    **Remarques :**
+    * Si vous utiliser IBMid pour l'authentification mettez à jour les mots de passe dans vos [profils IBMid ![Icône de lien externe](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} en suivant les instructions sous l'**ouverture de session**.
+    * Cochez la case **Utiliser le mot de passe du portail pour le VPN** pour synchroniser les mots de passe du portail client et du réseau privé virtuel.
 6. Cliquez sur **Ajouter un utilisateur**.
 
-Après que vous avez créé un compte pour l'utilisateur, ce dernier reçoit une notification par courrier électronique l'avisant de compléter la configuration de son compte. L'utilisateur doit configurer un mot de passe et éventuellement créer des questions de sécurité si vous avez indiqué qu'elles sont obligatoires.
+Une fois que vous avez créé un compte pour l'utilisateur, ce dernier reçoit une notification par courrier électronique l'avisant de compléter la configuration de son compte. Il doit configurer un mot de passe et éventuellement créer des questions de sécurité si vous avez indiqué qu'elles sont obligatoires.
 
 La façon dont les utilisateurs sans l'accès administrateur d'un utilisateur principal se connectent au portail client dépend de l'utilisateur principal qui a fourni l'accès utilisateur dans leurs comptes SoftLayer :
   * Si l'utilisateur principal utilise un IBMid pour s'authentifier, chaque utilisateur qu'il crée possède un IBMid.
@@ -65,7 +66,10 @@ Utilisez la procédure suivante pour définir les droits de l'utilisateur que vo
 
 1. Cliquez sur l'icône **Autorisations**, qui représente une silhouette d'utilisateur avec un verrou.
 2. Mettez à jour les **autorisations utilisateur** dans tous les onglets du nouvel utilisateur.
-> **Remarque :** Sélectionnez une option dans la liste **Droits rapides** pour afficher les ensembles de droits pour trois types d'utilisateur. Cliquez sur **Définir droits** pour sélectionner l'ensemble de droits ou personnalisez l'accessibilité de l'utilisateur en sélectionnant des options individuelles sur chaque onglet disponible.
+
+    Sélectionnez une option dans la liste **Droits rapides** pour afficher les ensembles de droits pour trois types d'utilisateur. Cliquez sur **Définir droits** pour sélectionner l'ensemble de droits ou personnalisez l'accessibilité de l'utilisateur en sélectionnant des options individuelles sur chaque onglet disponible.
+    {: note}
+    
 3. Cliquez sur **Ajouter droits pour le portail** pour ajouter les droits ou cliquez sur **Réinitialiser droits** pour réinitialiser les droits de l'utilisateur.
 4. Cliquez sur l'icône **Accès à l'Unité**, qui représente trois serveurs.
 5. Cochez la case de chaque unité à laquelle vous souhaitez que l'utilisateur puisse accéder.

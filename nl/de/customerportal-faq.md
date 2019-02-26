@@ -41,7 +41,7 @@ Neue Konten müssen zur Authentifizierung die IBMid verwenden. Bestehende Konten
 {: #bicp_linkbmxacct}
 {: faq}
 
-Als Masterbenutzer des SoftLayer-Kontos melden Sie sich beim Kundenportal an und klicken Sie im Header auf **Konto verknüpfen**. Weitere Informationen finden Sie unter [IBMid-Benutzerkonten verknüpfen](/docs/account/softlayerlink.html).
+Als Masterbenutzer des SoftLayer-Kontos melden Sie sich beim Kundenportal an und klicken Sie im Header auf **Konto verknüpfen**. Weitere Informationen finden Sie unter [IBMid-Benutzerkonten verknüpfen](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
 ## Muss ich bestehender {{site.data.keyword.Bluemix_notm}}-Benutzer sein, damit ich Konten verknüpfen kann?
 {: #bicp_bmxusertolink}
@@ -55,7 +55,7 @@ Nein. Sie können ein neues {{site.data.keyword.Bluemix_notm}}-Konto erstellen o
 
 Auf der Kontoebene gibt es keine Auswirkung auf die Konfiguration der Zwei-Faktor-Authentifizierung (2FA). 2FA erfolgt nicht pro IBMid, sondern weiterhin pro Konto. Wenn eine IBMid vielen Konten zugeordnet ist und Sie zwischen den Konten wechseln, müssen Sie Ihre Identität bei jedem Wechsel zu einem anderen Konto bestätigen, für das eine Zwei-Faktor-Authentifizierung erforderlich ist. Dies gilt sogar dann, wenn das vorherige Konto und das neue Konto beide mit demselben 2FA-Verfahren konfiguriert sind.
 
-Weitere Informationen zur IBMid im Zusammenhang mit der Zwei-Faktor-Authentifizierung finden Sie unter [Mehrfaktorauthentifizierung bei verknüpften Konten](/docs/account/softlayerlink.html#2fa).
+Weitere Informationen zur IBMid im Zusammenhang mit der Zwei-Faktor-Authentifizierung finden Sie unter [Mehrfaktorauthentifizierung bei verknüpften Konten](/docs/account?topic=account-2fa#2fa).
 
 ## Wer kann Konten verknüpfen?
 {: #bicp_wholinkaccts}
@@ -95,13 +95,13 @@ Sie müssen sie zu {{site.data.keyword.Bluemix_notm}} einladen. Klicken Sie in d
 {: #bicp_ibmidswitchemail}
 {: faq}
 
-Falls Sie den Assistenten für den Wechsel zur IBMid durchgearbeitet und die E-Mail noch nicht empfangen haben, kann es mehrere Minuten oder sogar Stunden dauern, bis die E-Mail mit Ihrem Registrierungscode an Sie gesendet wird. Sie können zur Seite **Benutzerprofil bearbeiten** im Kundenportal zurückkehren und auf **E-Mail erneut senden** klicken, um den Versuch zu wiederholen.
+Falls Sie den Assistenten für den Wechsel zur IBMid durchgearbeitet und die E-Mail noch nicht empfangen haben, kann es mehrere Minuten oder sogar Stunden dauern, bis die E-Mail mit Ihrem Registrierungscode an Sie gesendet wird. Sie können zur Seite **Benutzerprofil bearbeiten** im Kundenportal zurückkehren und auf **E-Mail erneut senden** klicken, um den Versuch zu wiederholen. 
 
 ## Besitze ich uneingeschränkten Rootzugriff auf mein Konto?
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Masterbenutzer sowie Personen mit Administratorberechtigungen besitzen im Kundenportal und über die API uneingeschränkten Rootzugriff auf Konten. Die Zugriffsmöglichkeit von Benutzern ohne Administratorberechtigungen wird durch Benutzer mit Verwaltungsrollen gesteuert. Diese Berechtigungen können von Administratoren im Kundenportal aktualisiert werden, indem sie ein [Benutzerprofil bearbeiten](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Ohne Administratorberechtigungen können Sie Ihr Benutzerprofil im Kundenportal bearbeiten, indem Sie oben in der Anzeige auf Ihren Benutzernamen klicken.
+Masterbenutzer sowie Personen mit Administratorberechtigungen besitzen im Kundenportal und über die API uneingeschränkten Rootzugriff auf Konten. Die Zugriffsmöglichkeit von Benutzern ohne Administratorberechtigungen wird durch Benutzer mit Verwaltungsrollen gesteuert. Diese Berechtigungen können von Administratoren im Kundenportal aktualisiert werden, indem sie ein [Benutzerprofil bearbeiten](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Ohne Administratorberechtigungen können Sie Ihr Benutzerprofil im Kundenportal bearbeiten, indem Sie oben in der Anzeige auf Ihren Benutzernamen klicken.
 
 ## Kann ich ein {{site.data.keyword.Bluemix_notm}}-Abonnementkonto verknüpfen?
 {: #bicp_linkbmxsubacct}
@@ -120,13 +120,13 @@ Nachdem Konten verknüpft worden sind, kann die Verknüpfung nicht mehr aufgehob
 {: #bicp_whatfindcompprof}
 {: faq}
 
-Beim Unternehmensprofil handelt es sich um die Informationen, die beim Erstellen des Kontos übergeben wurden und die einen Hauptansprechpartner für Ihr Unternehmen sowie Name, Adresse und Telefonnummer des Unternehmens enthalten. Diese Informationen werden zu vielen verschiedenen Zwecken verwendet und sollten jederzeit auf dem neuesten Stand sein. Wenn Sie das Unternehmensprofil für Ihr Konto anzeigen oder Änderungen anfordern wollen, finden Sie im Abschnitt [Unternehmensprofil aktualisieren](/docs/customer-portal/cpmanacctcompprofcont.html#cp_updcompprof) weiterführende Informationen.
+Beim Unternehmensprofil handelt es sich um die Informationen, die beim Erstellen des Kontos übergeben wurden und die einen Hauptansprechpartner für Ihr Unternehmen sowie Name, Adresse und Telefonnummer des Unternehmens enthalten. Diese Informationen werden zu vielen verschiedenen Zwecken verwendet und sollten jederzeit auf dem neuesten Stand sein. Wenn Sie das Unternehmensprofil für Ihr Konto anzeigen oder Änderungen anfordern wollen, finden Sie im Abschnitt [Unternehmensprofil aktualisieren](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile) weiterführende Informationen.
 
 ## Wo finde ich meine Kennwörter für Geräte und Software?
 {: #bicp_devswpw}
 {: faq}
 
-Geräte- und Softwarekennwörter werden im Kundenportal an zwei Stellen gespeichert. Informationen zum Abrufen von Geräteberechtigungsnachweisen (inklusive Name und Kennwort des Root- oder Administratorbenutzers für {{site.data.keyword.baremetal_short}} und {{site.data.keyword.virtualmachinesshort}}) finden Sie unter [Mit Geräten in der Snapshotansicht interagieren](/docs/vsi/vsi_interact_device_snapshot_view.html). Softwareberechtigungsnachweise, die mithilfe des Kundenportals manuell aufgezeichnet werden, können Sie anhand der Angaben im Abschnitt [Gerätezugriff verwalten](/docs/vsi/vsi_device_access.html) ohne großen Aufwand anzeigen und abrufen.
+Geräte- und Softwarekennwörter werden im Kundenportal an zwei Stellen gespeichert. Informationen zum Abrufen von Geräteberechtigungsnachweisen (inklusive Name und Kennwort des Root- oder Administratorbenutzers für {{site.data.keyword.baremetal_short}} und {{site.data.keyword.virtualmachinesshort}}) finden Sie unter [Mit Geräten in der Snapshotansicht interagieren](/docs/vsi?topic=virtual-servers-interacting-with-a-device-in-snapshot-view#interacting-with-a-device-in-snapshot-view). Softwareberechtigungsnachweise, die mithilfe des Kundenportals manuell aufgezeichnet werden, können Sie anhand der Angaben im Abschnitt [Gerätezugriff verwalten](/docs/vsi?topic=virtual-servers-managing-device-access#managing-device-access) ohne großen Aufwand anzeigen und abrufen.
 
 ## Wie sorge ich dafür, dass meine Webdaten synchron bleiben?
 {: #bicp_webdatasync}
@@ -144,4 +144,4 @@ Das Ereignismanagementsystem (Event Management System, EMS) ist ein Toolset, mit
 {: #bicp_candev}
 {: faq}
 
-Sie können ein Gerät jederzeit im Kundenportal stornieren. Weitere Informationen zur Ausführung einer Stornierungsanforderung finden Sie unter [Gerät stornieren](/docs/vsi/vsi_managing.html).
+Sie können ein Gerät jederzeit im Kundenportal stornieren. Weitere Informationen zur Ausführung einer Stornierungsanforderung finden Sie unter [Gerät stornieren](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers).

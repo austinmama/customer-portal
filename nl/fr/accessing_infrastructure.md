@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2017, 2018
-lastupdated: "2018-11-28"
+  years: 2017, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -22,7 +22,6 @@ Vous pouvez utiliser des ressources d'infrastructure lorsque vous générez vos 
 {: shortdesc}
 
 Utilisez des ressources d'infrastructure pour générer des environnements virtuels, fournir du stockage, établir un réseau et sécuriser votre environnement. Pour plus d'informations, voir [Qu'est-ce qu'une plateforme {{site.data.keyword.Bluemix_notm}} ?](/docs/overview/ibm-cloud-platform.html).
-
 
 Pour accéder aux ressources d'infrastructure, vous devez disposer d'un compte de type Paiement à la carte. Le tableau suivant répertorie les différents types de comptes ainsi que les options correspondantes d'accès aux ressources d'infrastructure.
 

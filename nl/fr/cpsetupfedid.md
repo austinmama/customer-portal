@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -42,9 +42,11 @@ Dans ce modèle, la procédure suivante est exécutée :
 Les comptes des utilisateurs ayant besoin d'accéder à l'infrastructure {{site.data.keyword.BluSoftlayer}} sont d'abord créés dans l'infrastructure {{site.data.keyword.BluSoftlayer}} avec des mots de passe aléatoires. Tous les droits doivent être configurés dans l'infrastructure {{site.data.keyword.BluSoftlayer}} pour que l'utilisateur puisse utiliser la connexion unique via le fournisseur d'identité. Actuellement, les droits sont configurés sur la base de l'utilisateur individuel.
 
 ### Configuration d'un utilisateur
+{: #cp_user-setup}
+
 Utilisez la procédure suivante pour configurer un utilisateur :
 
-1. [Ajout d'utilisateurs à un compte SoftLayer](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [Ajout d'utilisateurs à un compte SoftLayer](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct).
 2. Affectez des droits dans l'infrastructure {{site.data.keyword.BluSoftlayer}}.
 3. Créez des utilisateurs dans le fournisseur d'identité.
 
@@ -82,7 +84,7 @@ Utilisez la procédure suivante pour configurer un rôle pour un utilisateur :
 3. Assurez-vous que les rôles définis dans l'infrastructure {{site.data.keyword.BluSoftlayer}} et le fournisseur d'identité portent le même nom.
 
 ### Configuration d'un utilisateur
-{: #setupuser}
+{: #identity-setupuser}
 
 Utilisez la procédure suivante pour configurer un utilisateur :
 

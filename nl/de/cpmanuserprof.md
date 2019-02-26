@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -62,7 +62,7 @@ Ein im Kundenportal erstelltes Benutzerprofil kann jederzeit bearbeitet werden. 
 {: caption="Tabelle 3. Weitere Konfigurationseinstellungen beim Bearbeiten eines Benutzerprofils" caption-side="top"}
 Nachdem Sie Bearbeitungen eines Benutzerprofils übergeben haben, werden die Änderungen sofort angewendet. Sie können das Benutzerprofil jederzeit erneut ändern, indem Sie die obigen Schritte wiederholen.
 
-Weitere Informationen zur Einstellung eines IBMid-Kontos finden Sie unter [Zur IBMid wechseln](/docs/account/softlayerlink.html#switching-to-ibmid).
+Weitere Informationen zur Einstellung eines IBMid-Kontos finden Sie unter [Zur IBMid wechseln](/docs/account?topic=account-switchtoIBMid#switchtoIBMid).
 
 ## Berechtigungen eines Benutzers für das Kundenportal bearbeiten
 {: #cp_editusercpperm}
@@ -90,7 +90,7 @@ Benutzerberechtigungen werden sofort aktualisiert, nachdem Sie die Änderungen �
 ## Externe Authentifizierung für einen Benutzer hinzufügen
 {: #cp_addextauthuser}
 
-Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie unter [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal/cpenable2fa.html#customerportal_2fa).
+Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie unter [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication).
 
 
 ## Status eines Benutzers ändern
@@ -124,7 +124,7 @@ Nachdem Sie den Status eines Benutzers aktualisiert haben, werden Änderungen an
 ## VPN-Zugriff eines Benutzers bearbeiten
 {: #cp_edituservpnaccess}
 
-Wird ein [neuer Benutzer zum Kundenportal hinzugefügt](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct), wird für den VPN-Zugriff eine Methode zum Verbindungsaufbau (z. B. SSL, PPTP oder eine Kombination aus beiden) ausgewählt. Beim VPN-Zugriff kann auf das gesamte private Netz zugegriffen werden oder der Netzzugriff auf eines oder mehrere bestimmte Teilnetz beschränkt werden. Sie können den VPN-Zugriff jederzeit im Fenster 'Benutzer' verwalten und aktualisieren. Führen Sie zum Bearbeiten des VPN-Zugriffs für einen Benutzer die folgenden Schritte aus.
+Wird ein [neuer Benutzer zum Kundenportal hinzugefügt](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct), wird für den VPN-Zugriff eine Methode zum Verbindungsaufbau (z. B. SSL, PPTP oder eine Kombination aus beiden) ausgewählt. Beim VPN-Zugriff kann auf das gesamte private Netz zugegriffen werden oder der Netzzugriff auf eines oder mehrere bestimmte Teilnetz beschränkt werden. Sie können den VPN-Zugriff jederzeit im Fenster 'Benutzer' verwalten und aktualisieren. Führen Sie zum Bearbeiten des VPN-Zugriffs für einen Benutzer die folgenden Schritte aus.
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
 2. Wählen Sie in der Navigationsleiste die Optionen **Konto** > **VPN-Zugriff** aus.
@@ -155,7 +155,7 @@ Ihnen wird eine PPTP-Verbindung mit zusätzlich verfügbaren Verbindungen zugete
 
 Sie können auswählen, welche E-Mail-Benachrichtigungen Sie von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur empfangen wollen und welche nicht. Standardmäßig empfangen Sie alle E-Mail-Benachrichtigungen, aber Sie können diese Einstellung jederzeit ändern. Führen Sie die folgenden Schritte aus, um Ihre Einstellung für E-Mail-Benachrichtigungen zu ändern:
 1. Greifen Sie mit Ihren eindeutigen Berechtigungsnachweisen für das Konto, das der E-Mail-Adresse zugeordnet ist, die Benachrichtigungen empfängt, auf das Kundenportal zu.
-2. Klicken Sie in der Menüleiste auf **Kunde** > **Benutzer** > **Vorgaben für E-Mail**.
+2. Klicken Sie in der Menüleiste auf **Kunde** > **Benutzer** > **Vorgaben für E-Mail**. 
 3. Wählen Sie in der Liste der Benachrichtigungstypen jeweils die Benachrichtigungen ab, die Sie nicht mehr erhalten wollen.
 
 Ihre Änderungen werden automatisch gespeichert. Diese Einstellungen wirken sich auf die E-Mails aus, die an Sie gesendet werden. Sie haben jedoch keine Auswirkungen auf die E-Mail-Benachrichtigungen anderer Benutzer auf Ihrem Konto.
@@ -170,6 +170,6 @@ Sie können angeben, dass die Unterstützung ausschließlich durch ein Support-T
 3. Wählen Sie das Kontrollkästchen **Unterstützung in der EU** aus.
 4. Klicken Sie auf **Profilaktualisierung anfordern**.
 
-Falls die Option **Unterstützung in der EU** nicht verfügbar ist, ist möglicherweise für Benutzer in Ihrem Konto der PPTP-VPN-Zugriff aktiviert. Inaktivieren Sie den PPTP-VPN-Zugriff für alle Benutzer in Ihrem Konto, bevor Sie die Option **Unterstützung in der EU** aktivieren. Weitere Informationen zu diesem Thema finden Sie in [PPTP-VPN-Zugriff aktivieren oder inaktivieren](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
+Falls die Option **Unterstützung in der EU** nicht verfügbar ist, ist möglicherweise für Benutzer in Ihrem Konto der PPTP-VPN-Zugriff aktiviert. Inaktivieren Sie den PPTP-VPN-Zugriff für alle Benutzer in Ihrem Konto, bevor Sie die Option **Unterstützung in der EU** aktivieren. Weitere Informationen zu diesem Thema finden Sie in [PPTP-VPN-Zugriff aktivieren oder inaktivieren](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn).
 
-Weitere Informationen zum Implementieren der Option **Unterstützung in der EU** beim Öffnen eines Support-Tickets enthält der Abschnitt [Support für Ressourcen in der Europäischen Union anfordern](/docs/get-support/howtogetsupport.html#eusupported).
+Weitere Informationen zum Implementieren der Option **Unterstützung in der EU** beim Öffnen eines Support-Tickets enthält der Abschnitt [Support für Ressourcen in der Europäischen Union anfordern](/docs/get-support?topic=get-support-eusupported#eusupported).

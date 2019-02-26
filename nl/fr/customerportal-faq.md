@@ -41,7 +41,7 @@ Les nouveaux comptes nécessitent un IBMid pour l'authentification. Les comptes 
 {: #bicp_linkbmxacct}
 {: faq}
 
-Si vous êtes l'utilisateur principal sur votre compte SoftLayer, connectez-vous au portail client et cliquez sur **Lier le compte** dans l'en-tête. Voir [Liaison de comptes utilisateur IBMid](/docs/account/softlayerlink.html) pour plus d'informations.
+Si vous êtes l'utilisateur principal sur votre compte SoftLayer, connectez-vous au portail client et cliquez sur **Lier le compte** dans l'en-tête. Voir [Liaison de comptes utilisateur IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts) pour plus d'informations.
 
 ## Dois-je être un utilisateur {{site.data.keyword.Bluemix_notm}} existant pour lier des comptes ?
 {: #bicp_bmxusertolink}
@@ -56,7 +56,7 @@ Non. Vous pouvez créer un compte {{site.data.keyword.Bluemix_notm}} ou lier un 
 La configuration d'une authentification à deux facteurs (2FA) n'a pas d'impact au niveau du compte. L'authentification 2FA n'est pas effectuée par IBMid, mais par compte. Quand un IBMid est associé à plusieurs comptes et que vous basculez d'un compte à l'autre, vous devez confirmer votre identité chaque fois que vous passez à un compte différent qui nécessite une authentification 2FA. Cette règle s'applique même si le compte précédent et le nouveau compte sont tous les deux configurés avec le même mécanisme d'authentification 2FA.
 
 Pour plus d'informations sur l'IBMid avec authentification 2FA, voir [Utilisation de l'authentification multi-facteur
-dans les comptes liés](/docs/account/softlayerlink.html#2fa).
+dans les comptes liés](/docs/account?topic=account-2fa#2fa).
 
 ## Qui peut lier des comptes ?
 {: #bicp_wholinkaccts}
@@ -102,7 +102,7 @@ Si vous avez suivi l'assistant pour passer à IBMid et n'avez pas reçu l'e-mail
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Les utilisateurs principaux et les utilisateurs dotés de droits d'administrateur possèdent des droits d'accès root complets sur le portail client et l'API. L'accessibilité des utilisateurs dotés de droits d'administrateur est contrôlée par les utilisateurs ayant un rôle administratif. Ces droits peuvent être mis à jour par des administrateurs à partir du portail client en [éditant un profil utilisateur](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Si vous ne disposez pas de droits d'administrateur, vous pouvez éditer votre profil utilisateur dans le portail client en cliquant sur votre nom d'utilisateur dans le panneau supérieur.
+Les utilisateurs principaux et les utilisateurs dotés de droits d'administrateur possèdent des droits d'accès root complets sur le portail client et l'API. L'accessibilité des utilisateurs dotés de droits d'administrateur est contrôlée par les utilisateurs ayant un rôle administratif. Ces droits peuvent être mis à jour par des administrateurs à partir du portail client en [éditant un profil utilisateur](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Si vous ne disposez pas de droits d'administrateur, vous pouvez éditer votre profil utilisateur dans le portail client en cliquant sur votre nom d'utilisateur dans le panneau supérieur.
 
 ## Puis-je lier un compte {{site.data.keyword.Bluemix_notm}} de type Abonnement ?
 {: #bicp_linkbmxsubacct}
@@ -121,13 +121,13 @@ Une fois que des comptes sont liés, cette opération est irréversible.
 {: #bicp_whatfindcompprof}
 {: faq}
 
-Le profil de société correspond aux informations soumises lors de la création du compte et inclut un contact principal pour votre société, ainsi que le nom de la société, son adresse et son numéro de téléphone. Ces informations sont utilisées pour différentes raisons et doivent être conservées à jour en permanence. Pour afficher le profil de société de votre compte ou demander des modifications, voir [Mise à jour de votre profil de société](/docs/customer-portal/cpmanacctcompprofcont.html#cp_updcompprof).
+Le profil de société correspond aux informations soumises lors de la création du compte et inclut un contact principal pour votre société, ainsi que le nom de la société, son adresse et son numéro de téléphone. Ces informations sont utilisées pour différentes raisons et doivent être conservées à jour en permanence. Pour afficher le profil de société de votre compte ou demander des modifications, voir [Mise à jour de votre profil de société](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile).
 
 ## Où se trouvent les mots de passe de mon appareil et du logiciel ?
 {: #bicp_devswpw}
 {: faq}
 
-Les mots de passe du périphérique et du logiciel sont stockés à deux emplacements dans le portail client. Pour extraire les donnée d'identification de l'appareil, y compris le nom d'utilisateur root ou administrateur et les mots de passe pour {{site.data.keyword.baremetal_short}} et {{site.data.keyword.virtualmachinesshort}}, voir la rubrique sur l'[interaction avec un appareil dans la vue Instantané](/docs/vsi/vsi_interact_device_snapshot_view.html). Pour examiner et extraire rapidement les données d'identification auprès du logiciel suivies manuellement via le portail client, voir [Gestion des accès à l'équipement](/docs/vsi/vsi_device_access.html).
+Les mots de passe du périphérique et du logiciel sont stockés à deux emplacements dans le portail client. Pour extraire les donnée d'identification de l'appareil, y compris le nom d'utilisateur root ou administrateur et les mots de passe pour {{site.data.keyword.baremetal_short}} et {{site.data.keyword.virtualmachinesshort}}, voir la rubrique sur l'[interaction avec un appareil dans la vue Instantané](/docs/vsi?topic=virtual-servers-interacting-with-a-device-in-snapshot-view#interacting-with-a-device-in-snapshot-view). Pour examiner et extraire rapidement les données d'identification auprès du logiciel suivies manuellement via le portail client, voir [Gestion des accès à l'équipement](/docs/vsi?topic=virtual-servers-managing-device-access#managing-device-access).
 
 ## Comment garder mes données Web synchronisées ?
 {: #bicp_webdatasync}
@@ -145,4 +145,4 @@ Le système de gestion d'événements est un outil qui optimise la façon dont {
 {: #bicp_candev}
 {: faq}
 
-Vous pouvez à tout moment annuler un appareil via le portail client. Voir la rubrique relative à l'[annulation d'appareil](/docs/vsi/vsi_managing.html) pour plus d'informations sur l'exécution d'une demande d’annulation.
+Vous pouvez à tout moment annuler un appareil via le portail client. Voir la rubrique relative à l'[annulation d'appareil](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers) pour plus d'informations sur l'exécution d'une demande d’annulation.

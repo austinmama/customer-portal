@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -13,6 +13,7 @@ lastupdated: "2019-02-01"
 {:tip: .tip}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:note: .note}
 
 
 # Benutzer zu einem SoftLayer-Konto hinzufügen
@@ -31,7 +32,7 @@ Abhängig von Ihrem Zugriff können Sie entweder Ihr eigenes SoftLayer-Konto ode
 
   * Falls Sie Verwaltungszugriff besitzen, können Sie alle von Ihnen hinzugefügten Benutzer anzeigen. Wenn Sie diesen Benutzern die Berechtigung zum Verwalten anderer Benutzer erteilt haben, können Sie außerdem alle von diesen Benutzern hinzugefügten Benutzer anzeigen. Außerdem können Sie jeden Benutzer verwalten, der dem Konto zugeordnet ist. Dies schließt das Bearbeiten des Zugriffs auf das Kundenportal, das Ändern des Benutzerstatus und das Entfernen von Benutzern ein.
 
-Informationen zur Verwaltung von Benutzern über die {{site.data.keyword.Bluemix_notm}}-Konsole enthalten die Abschnitte [Kontoeinrichtung](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) und [Identität und Zugriff verwalten](/docs/iam/quickstart.html#getstarted). Weitere Informationen zur {{site.data.keyword.Bluemix_notm}}-Konsole enthält [In der {{site.data.keyword.Bluemix_notm}}-Konsole navigieren](/docs/overview/ui.html#ui).
+Informationen zur Verwaltung von Benutzern über die {{site.data.keyword.Bluemix_notm}}-Konsole enthalten die Abschnitte [Kontoeinrichtung](/docs/account?topic=account-signup#signup) und [Identität und Zugriff verwalten](/docs/iam?topic=iam-getstarted#getstarted). Weitere Informationen zur {{site.data.keyword.Bluemix_notm}}-Konsole enthält [In der {{site.data.keyword.Bluemix_notm}}-Konsole navigieren](/docs/overview?topic=overview-ui#ui).
 
 Unterschiedliche Personen in einer Organisation besitzen verschiedene Rollen und Zuständigkeiten; Benutzerberechtigungen können somit nicht universell für jeden Benutzer passend festgelegt werden. Sie können zum Kundenportal Benutzer mit Rollen hinzufügen, damit sichergestellt ist, dass Zugriff auf genau den Funktionsumfang erteilt wird, der für die jeweilige Rolle erforderlich ist. Falls irrtümlicherweise Änderungen durchgeführt oder Änderungen ohne die entsprechenden Berechtigungen vorgenommen wurden, können Sie diese bis zum Benutzer oder zur Gruppe zurückverfolgen. Zur Minimierung des Risikos können Sie so eine passende Schulung anbieten oder die Benutzerberechtigungen aktualisieren. Ihre Benutzer können sich dann ganz auf ihre angegebene Rolle im Kundenportal konzentrieren.
 
@@ -46,9 +47,9 @@ Führen Sie zum Hinzufügen eines Benutzers zu einem Konto die folgenden Schritt
   {: tip}
 
 5. Füllen Sie im Abschnitt **Einstellungen für Anmeldung** die als erforderlich gekennzeichneten Felder aus. Geben Sie an, ob die Einstellungen vom Benutzer bearbeitet werden können, ob Einschränkungen für die IP-Adresse gelten und ob der Benutzer Sicherheitsfragen definieren und verwenden muss. Außerdem können Sie für alle Benutzer, die keine IBMid verwenden, den Zeitraum angeben, nach dem das Kennwort abläuft.
-**Hinweise:**
-* Falls Sie die IBMid für die Authentifizierung verwenden, aktualisieren Sie die Kennwörter in Ihren [IBMid-Profilen ![Symbol für externen Link](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window}, indem Sie die Anweisungen unter **Anmelden** befolgen.
-* Klicken Sie auf das Kontrollkästchen **Portalkennwort für VPN verwenden**, um das Kundenportalkennwort und das VPN-Kennwort zu synchronisieren.
+    **Hinweise:**
+    * Falls Sie die IBMid für die Authentifizierung verwenden, aktualisieren Sie die Kennwörter in Ihren [IBMid-Profilen ![Symbol für externen Link](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window}, indem Sie die Anweisungen unter **Anmelden** befolgen.
+    * Klicken Sie auf das Kontrollkästchen **Portalkennwort für VPN verwenden**, um das Kundenportalkennwort und das VPN-Kennwort zu synchronisieren.
 6. Klicken Sie auf **Benutzer hinzufügen**.
 
 Nachdem Sie ein Konto für einen Benutzer erstellt haben, erhält der Benutzer eine E-Mail-Benachrichtigung mit der Aufforderung, die Einrichtung seines Kontos abzuschließen. Hierzu muss der Benutzer ein Kennwort festlegen und optional Sicherheitsfragen erstellen, sofern Sie die Festlegung von Sicherheitsfragen als erforderlich angegeben haben.
@@ -65,7 +66,10 @@ Führen Sie zum Festlegen der Berechtigungen für einen gerade hinzugefügten Be
 
 1. Klicken Sie auf das Symbol **Berechtigungen**, das als Benutzerbild mit einem Schloss dargestellt ist.
 2. Aktualisieren Sie die **Benutzerberechtigungen** auf allen Registerkarten für den neuen Benutzer.
-> **Hinweis:** Wählen Sie eine Option in der Liste **Schnellberechtigungen** aus, um Berechtigungssets für drei Benutzertypen anzuzeigen. Klicken Sie auf **Berechtigung festlegen**, um das Berechtigungsset auszuwählen, oder passen Sie die Zugriffsmöglichkeit des Benutzers durch Auswahl einzelner Optionen auf jeder verfügbaren Registerkarte an.
+
+    Wählen Sie eine Option in der Liste **Schnellberechtigungen** aus, um Berechtigungssets für drei Benutzertypen anzuzeigen. Klicken Sie auf **Berechtigung festlegen**, um das Berechtigungsset auszuwählen, oder passen Sie die Zugriffsmöglichkeit des Benutzers durch Auswahl einzelner Optionen auf jeder verfügbaren Registerkarte an.
+    {: note}
+    
 3. Klicken Sie auf **Portalberechtigungen hinzufügen**, um die Berechtigungen hinzuzufügen, oder klicken Sie auf **Berechtigungen zurücksetzen**, um die Berechtigungen für den Benutzer zurückzusetzen.
 4. Klicken Sie auf das Symbol **Gerätezugriff**, auf dem drei Server dargestellt sind.
 5. Klicken Sie auf das Kontrollkästchen für jedes Gerät, auf das der Benutzer zugreifen soll.

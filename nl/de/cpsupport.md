@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-01"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2019-02-01"
 Falls Sie Probleme mit der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur feststellen und kein verknüpftes Konto haben, können Sie Hilfe beim Bestimmen der Ursache des Problems und beim Finden einer Lösung über das Kundenportal abrufen.
 {:shortdesc}
 
-Wenn Sie ein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts) haben, können Sie den Support über die {{site.data.keyword.Bluemix_notm}}-Konsole abrufen. Weitere Informationen finden Sie unter [Unterstützung abrufen](/docs/get-support/howtogetsupport.html).
+Wenn Sie ein [verknüpftes Konto](/docs/account?topic=account-link_customer_accounts#link_customer_accounts) haben, können Sie den Support über die {{site.data.keyword.Bluemix_notm}}-Konsole abrufen. Weitere Informationen finden Sie unter [Unterstützung abrufen](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support).
 
 Wenn Sie kein verknüpftes Konto haben, können Sie bei allgemeinen technischen Problemen oder bei Problemen mit Ihrem Konto Support-Tickets im Kundenportal für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur öffnen.
 
@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um im Kundenportal in der {{site.data.ke
   Wählen Sie **Keine** aus, falls es nicht erforderlich ist, dass sich Ihr Support-Team physisch in Europa befindet.
   {: tip}
 
-  Informationen zur Initialisierung dieser Funktion für Ihr Konto finden Sie im Abschnitt [Option 'Unterstützung in der EU' festlegen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+  Informationen zur Initialisierung dieser Funktion für Ihr Konto finden Sie im Abschnitt [Option 'Unterstützung in der EU' festlegen](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported).
 
 11. Klicken Sie auf **Ticket hinzufügen**.
 
@@ -84,7 +84,7 @@ Nachdem Sie ein Ticket hinzugefügt haben, können Sie es jederzeit im Fenster *
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} zu.
 2. Wählen Sie im Menü die Optionen **Support** > **Tickets** aus.
-3. Wählen Sie den Status des Tickets im Dropdown-Menü aus, um die Ansicht zu filtern.
+3. Wählen Sie den Status des Tickets im Dropdown-Menü aus, um die Ansicht zu filtern. 
 4. Klicken Sie auf die Ticketnummer, um die Details des Tickets anzuzeigen.
 
 ## Ticket aktualisieren
@@ -94,7 +94,7 @@ Sie können ein bestehendes Support-Ticket jederzeit aktualisieren, um zusätzli
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} zu.
 2. Wählen Sie im Menü die Optionen **Support** > **Tickets** aus.
-3. Wählen Sie den Status des Tickets im Dropdown-Menü aus, um die Ansicht zu filtern.
+3. Wählen Sie den Status des Tickets im Dropdown-Menü aus, um die Ansicht zu filtern. 
 4. Klicken Sie auf die Ticketnummer, um die Details des Tickets anzuzeigen.
 5. Aktualisieren Sie das Ticket wie erforderlich. Sie können die folgenden Tasks ausführen:
   * Ticket neu zuordnen: Wählen Sie in der Dropdown-Liste **Neu zuordnen** den Benutzer aus, dem Sie das Ticket neu zuordnen wollen.   
@@ -110,4 +110,4 @@ Falls Sie das Ticket neu zuordnen, wird der neue Verantwortliche zum Hauptanspre
 ## Support-Ticket eskalieren
 {: #cp_bpsupescalflow}
 
-Sie können weitergehende Unterstützung anfordern, indem Sie Ihr Ticket eskalieren. Weitere Informationen finden Sie unter [Support-Tickets eskalieren](/docs/get-support/quicktickresp.html#escalation).
+Sie können weitergehende Unterstützung anfordern, indem Sie Ihr Ticket eskalieren. Weitere Informationen finden Sie unter [Support-Tickets eskalieren](/docs/get-support?topic=get-support-escalation#escalation).

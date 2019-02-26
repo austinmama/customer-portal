@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -62,7 +62,7 @@ Après qu'un profil utilisateur ait été créé sur le portail client, vous pou
 {: caption="Tableau 3. Autres paramètres de configuration pour l'édition d'un profil utilisateur" caption-side="top"}
 Une fois que les modifications apportées à un profil utilisateur sont soumises, les changements sont immédiatement appliqués. Vous pouvez modifier à nouveau le profil utilisateur quand vous le souhaitez en répétant les étapes précédentes.
 
-Voir [Passage à l'IBMid](/docs/account/softlayerlink.html#switching-to-ibmid) pour plus d'informations sur la configuration d'un compte IBMid.
+Voir [Passage à l'IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) pour plus d'informations sur la configuration d'un compte IBMid.
 
 ## Edition des droits du portail client pour un utilisateur
 {: #cp_editusercpperm}
@@ -90,7 +90,7 @@ Les droits utilisateur sont mis à jour immédiatement après que vous avez soum
 ## Ajout d'authentification externe pour un utilisateur
 {: #cp_addextauthuser}
 
-Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs (2FA)  pour ajouter une protection lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés. Voir [Configuration de l'authentification à deux facteurs](/docs/customer-portal/cpenable2fa.html#customerportal_2fa) pour plus d'informations.
+Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs (2FA)  pour ajouter une protection lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés. Voir [Configuration de l'authentification à deux facteurs](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication) pour plus d'informations.
 
 
 ## Changement du statut d'un utilisateur
@@ -103,7 +103,7 @@ Votre statut dans le portail client détermine votre accessibilité au portail c
 <dt>Désactivé</dt>
 <dd>L'utilisateur n'a accès à aucun droit ou abonnement du compte, y compris au portail client et au réseau privé virtuel. Si la catégorie de statut est définie sur désactivé par un autre utilisateur du compte, ce statut peut être sélectionné manuellement ou changé à tout moment.</dd>
 <dt>VPN uniquement</dt>
-<dd>L'utilisateur dispose d'un accès complet à la connectivité du réseau privé virtuel (compte tenu de son ensemble de droits), mais ne peut pas accéder au portail client. Ce statut peut être sélectionné manuellement ou changé à tout moment.</dd>
+<dd>L'utilisateur dispose d'un accès complet à la connectivité du réseau privé virtuel (en fonction de son ensemble de droits), mais ne peut pas accéder au portail client. Ce statut peut être sélectionné manuellement ou changé à tout moment.</dd>
 <dt>Inactive</dt>
 <dd>L'utilisateur n'a pas accédé au portail client ou au réseau privé virtuel au cours des 60 derniers jours. Il s'agit d'un statut généré par le système.</dd>
 <dt>cancel_pending (annulation en attente)</dt>
@@ -124,7 +124,7 @@ Après que vous avez mis à jour le statut d'un utilisateur, les modifications a
 ## Edition de l'accès VPN d'un utilisateur
 {: #cp_edituservpnaccess}
 
-Lorsqu'un [nouvel utilisateur est ajouté](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct), l'accès au réseau privé virtuel est sélectionné d'après diverses méthodes de connexion, notamment SSL, PPTP, ou une combinaison des deux. Avec l'accès VPN, le réseau privé est accessible dans sa totalité ou bien peut être limité à un ou plusieurs sous-réseaux spécifiques. Vous pouvez gérer et mettre à jour l'accès VPN à tout moment depuis la fenêtre Utilisateurs. Utilisez la procédure suivante pour éditer l'accès VPN d'un utilisateur.
+Lorsqu'un [nouvel utilisateur est ajouté](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct), l'accès au réseau privé virtuel est sélectionné d'après diverses méthodes de connexion, notamment SSL, PPTP, ou une combinaison des deux. Avec l'accès VPN, le réseau privé est accessible dans sa totalité ou bien peut être limité à un ou plusieurs sous-réseaux spécifiques. Vous pouvez gérer et mettre à jour l'accès VPN à tout moment depuis la fenêtre Utilisateurs. Utilisez la procédure suivante pour éditer l'accès VPN d'un utilisateur.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Accès VPN** dans la barre de navigation.
@@ -170,6 +170,6 @@ Vous pouvez indiquer que vous souhaitez l'aide exclusive d'une équipe de suppor
 3. Cochez la case **Support dans l'Union européenne**.
 4. Cliquez sur **Demander mise à jour du profil**.
 
-Si l'option **Support dans l'Union européenne** n'est pas disponible, il est possible que l'accès VPN PPTP de certains utilisateurs de votre compte soit activé. Désactivez d'abord l'accès de réseau privé virtuel sous PPTP pour tous les utilisateurs pour pouvoir activer l'option **Support dans l'Union européenne**. Pour plus d'informations, voir [Activation ou désactivation de l'accès VPN PPTP](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
+Si l'option **Support dans l'Union européenne** n'est pas disponible, il est possible que l'accès VPN PPTP de certains utilisateurs de votre compte soit activé. Désactivez d'abord l'accès de réseau privé virtuel sous PPTP pour tous les utilisateurs pour pouvoir activer l'option **Support dans l'Union européenne**. Pour plus d'informations, voir [Activation ou désactivation de l'accès VPN PPTP](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn).
 
-Pour plus d'informations sur la mise en oeuvre de l'option **Support dans l'Union européenne** lorsque vous ouvrez un ticket de demande de service, voir [Demande de support pour des ressources dans l'Union européenne](/docs/get-support/howtogetsupport.html#eusupported).
+Pour plus d'informations sur la mise en oeuvre de l'option **Support dans l'Union européenne** lorsque vous ouvrez un ticket de demande de service, voir [Demande de support pour des ressources dans l'Union européenne](/docs/get-support?topic=get-support-eusupported#eusupported).

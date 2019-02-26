@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-19"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -22,7 +22,7 @@ Désormais, l'authentification dans l'infrastructure {{site.data.keyword.BluSoft
 {:shortdesc}
 
 Si
-vous possédez un compte SoftLayer, vous pouvez passez à un IBMid. Un assistant de migration peut vous guider tout au long de cette opération. Pour plus d'informations, voir [Passage à l'IBMid](/docs/account/softlayerlink.html#switching-to-ibmid).
+vous possédez un compte SoftLayer, vous pouvez passez à un IBMid. Un assistant de migration peut vous guider tout au long de cette opération. Pour plus d'informations, voir [Passage à l'IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid).
 
 ## Mappage de plusieurs comptes SoftLayer à un IBMid
 {: #cp_mapmultclinfrto1ibmid}

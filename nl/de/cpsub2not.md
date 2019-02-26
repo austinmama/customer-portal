@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-02-20"
 
 ---
 
@@ -37,7 +37,7 @@ Damit das Benachrichtigungssystem seine volle Wirksamkeit erzielen kann, müssen
 ## Ablaufsteuerungsrichtlinie für Benachrichtigungen
 {: #cp_bpgsnotiftimpol}
 
-Die Zeit, die die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur den Benutzern vor einem anstehenden Ereignis einräumt, variiert abhängig davon, ob es sich bei dem Ereignis um ein ungeplantes infrastrukturelles Problem oder um eine planmäßige bzw. terminierte Wartung handelt. Generell gibt die Richtlinie für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur vor, dass Probleme so schnell wie möglich behoben werden müssen, um das Risiko der Entstehung weiterer Probleme mit einer größeren Auswirkung zu verhindern oder zu begrenzen. Dies bedeutet, dass selbst planmäßige Wartungen bisweilen mit einer nur kurzfristigen Vorabbenachrichtigung durchgeführt werden.
+Der Zeitraum, den die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur den Benutzern vor einem anstehenden Ereignis einräumt, variiert abhängig davon, ob es sich bei dem Ereignis um ein ungeplantes infrastrukturelles Problem oder um eine planmäßige bzw. terminierte Wartung handelt. Generell gibt die Richtlinie für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur vor, dass Probleme so schnell wie möglich behoben werden müssen, um das Risiko der Entstehung weiterer Probleme mit einer größeren Auswirkung zu verhindern oder zu begrenzen. Dies bedeutet, dass selbst planmäßige Wartungen bisweilen mit einer nur kurzfristigen Vorabbenachrichtigung durchgeführt werden.
 
 ### Richtlinien im Überblick
 {: #cp_bpgsnotifpolover}
@@ -45,17 +45,24 @@ Die Zeit, die die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur den Benu
 Sie werden bei den folgenden Typen von Betriebsunterbrechungen oder Problemen benachrichtigt, die in den einzelnen Abschnitten beschrieben sind.
 
 #### Ungeplante Probleme oder Betriebsunterbrechungen
+{: #cp_unplanned-issue}
+
 Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur versorgt betroffene Kunden so schnell wie möglich mit Informationen zum Infrastrukturbereich, zu Ausweichlösungen oder zur geschätzten Zeit für die Problemlösung, sobald diese Informationen vorliegen. Die rechtzeitige Kommunikation versorgt Sie mit den Informationen, die Sie zur Kontingentplanung benötigen, und enthält die Zusicherung, dass die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur das Problem behandelt.
 
 #### Planmäßige Wartung
+{: #cp_maintenance}
 Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur gibt Benachrichtigungen über planmäßige Wartungen im Vorfeld des Ereignisses aus. Es gibt Situationen, in denen die Wartung der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur aufgrund eines Notfalls stattfindet, was zu einer kurzfristigeren Benachrichtigung führen kann. Ziel ist hierbei immer ein optimaler Kompromiss zwischen einer rechtzeitigen Benachrichtigung, die Ihnen Zeit für die Kontingentplanung gibt, und einem Upgrade oder einer Erweiterung der Infrastruktur, die in der Regel zu Verbesserungen bei der Gesamtstabilität oder zu Erweiterungen durch benötigte Funktionalität führt.
 
 #### Sicherheitslücken
+{: #cp_vulnerabilities}
+
 Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur isoliert den betroffenen Bereich, erstellt ein Patch, um die Sicherheitslücke zu schließen, und testet den Patch, um sicherzustellen, dass keine verbundenen Funktionen beeinträchtigt werden. Diese Arbeiten erfolgen häufig in Kooperation mit einem anderen Anbieter, der möglicherweise Komponenten der betroffenen Technologie beschaffen kann. Normalerweise gibt es eine öffentliche Benachrichtigungssperre für Sicherheitspatches, die zum Schutz vor Öffentlichkeit kurz gehalten werden, was jedoch eine kurzfristigere Vorabbenachrichtigung erforderlich macht. Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur implementiert die Patches in der betroffenen Infrastruktur, bevor die Öffentlichkeit über das Problem informiert wird, da andernfalls das Risiko erhöht würde. Je schneller eine Sicherheitslücke geschlossen wird, desto früher wird das Risiko beseitigt; dies bringt mit sich, dass Sicherheitsprobleme ein kurzes Benachrichtigungsfenster erfordern.
 
 Eines der häufigsten Ziele von Sicherheitsverletzungen ist Software für virtuelle Infrastrukturen. Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur nutzt gängige Open-Source- und Partnertechnologie, um ihr Angebot für virtuelle Server bereitzustellen. Damit ein Sicherheitsfix implementiert werden kann, müssen möglicherweise Kundenserver, auf denen Software für virtuelle Infrastrukturen ausgeführt wird, für die Korrektur offline gesetzt werden und die Umgebung muss neu gestartet werden, was zu einer Betriebsunterbrechung führt. Um die Auswirkungen für die Kunden zu minimieren, hat die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur kürzlich eine Erweiterung des Benachrichtigungsprozesses für virtuelle Infrastrukturen implementiert und die Kommunikation verbessert. Kunden werden mit einer bestimmten Startzeit und einem 90-minütigen Fenster für jeden Pod benachrichtigt, was eine kürzere Unterbrechungsdauer und ein genaueres Timing bewirkt und Ihnen somit eine bessere Vorbereitung ermöglicht. Das Benachrichtigungssystem isoliert die Wartung für jedes Konto, was es der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur ermöglicht, Kunden nach dem Service für ihre jeweiligen Hosts umgehend zu benachrichtigen, meistens deutlich vor Ablauf des 90-minütigen Fensters.
 
 #### Mehrere betroffene Pods oder Rechenzentren
+{: #cp_multi_pod}
+
 Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bemüht sich um längerfristige Vorankündigungen, sofern die Implementierung des Fixes nicht extrem dringlich ist, um eine noch größere Folgewirkung zu vermeiden.
 
 

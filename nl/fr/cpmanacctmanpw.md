@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,17 +16,17 @@ lastupdated: "2018-11-20"
 
 
 # Gestion des mots de passe
-{: #customerportal_manpws}
+{: #cp_manpws}
 
 Si vous êtes utilisateur principal ou propriétaire d'un compte, vous pouvez activer le suivi des mots de passe et configurer un mot de passe à usage ponctuel pour le compte. Le suivi des mots de passe permet aux utilisateurs de stocker les données de mot de passe logiciel pour des appareils et leur logiciel associé.
 {:shortdesc}
 
 ## Activation du suivi des mots de passe
-{: #customerportal_enabpwtrak}
+{: #cp_enabpwtrak}
 
-Le portail client comporte un outil facultatif de [suivi de mot de passe ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/devices/passwords){:new_window} pour chaque compte. Les utilisateurs peuvent récupérer leurs noms d'utilisateur et mots de passe via l'outil si les informations sont perdues ou oubliées. 
+Le portail client comporte un outil facultatif de [suivi de mot de passe ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/devices/passwords){:new_window} pour chaque compte. Les utilisateurs peuvent récupérer leurs noms d'utilisateur et mots de passe via l'outil si les informations sont perdues ou oubliées.
 
-Les équipes de support utilisent également le suivi des mots de passe si l'accès distant à un système est requis. Les noms d'utilisateur et les mots de passe sont utilisés par le support uniquement lorsque cela est nécessaire et autorisé pour la résolution du ticket. 
+Les équipes de support utilisent également le suivi des mots de passe si l'accès distant à un système est requis. Les noms d'utilisateur et les mots de passe sont utilisés par le support uniquement lorsque cela est nécessaire et autorisé pour la résolution du ticket.
 
 Le suivi des mots de passe dans le portail client est facultatif. Tout utilisateur disposant des droits appropriés peut examiner tous les mots de passe stockés par cet outil. Les informations d'utilisateur et de mot de passe sont suivies manuellement de façon à ne pas être automatiquement synchronisées avec un appareil ou son logiciel. Par conséquent, veillez à mettre à jour l'outil de suivi des mots de passe lorsque que vous mettez à jour les utilisateurs et les mots de passe sur les appareils et logiciels. Utilisez la procédure suivante pour ajouter un utilisateur à l'outil de suivi des mots de passe.
 
@@ -46,7 +46,7 @@ Le suivi des mots de passe dans le portail client est facultatif. Tout utilisate
 Une fois que vous avez ajouté l'utilisateur à l'outil de suivi des mots de passe, les informations sont stockées dans l'outil jusqu'à leur suppression manuelle. Par défaut, toutes les combinaisons de nom d'utilisateur et de mot de passe sont stockées en fonction du nom de l'appareil. Les entrées sont affichées par ordre alphabétique, par nom d'appareil puis par nom d'utilisateur.
 
 ### Filtrage des informations dans l'outil de suivi des mots de passe
-{: #cp_filterusinfopwtracktool}
+{: #cp_tracktool}
 
 Pour afficher, éditer ou supprimer des informations utilisateur à partir de l'outil de suivi des mots de passe, vous pouvez appliquer un filtre afin de localiser rapidement un utilisateur. Ce filtrage est pratique lorsque la liste des utilisateurs couvre de nombreuses lignes ou pages. Utilisez la procédure suivante pour filtrer par appareil, logiciel ou utilisateur dans l'outil de suivi des mots de passe.
 
@@ -59,7 +59,7 @@ Pour afficher, éditer ou supprimer des informations utilisateur à partir de l'
 Vous pouvez sélectionner les informations utilisateur à afficher, éditer ou retirer.
 
 ### Edition des informations utilisateur dans l'outil de suivi des mots de passe
-{: #cp_editusinfopwtracktool}
+{: #cp_editusinfo}
 
 Après avoir ajouté un utilisateur à l'outil de suivi des mots de passe, vous pouvez éditer les informations associées à l'utilisateur ou au mot de passe. Utilisez la procédure suivante pour éditer les informations d'un utilisateur dans l'outil de suivi des mots de passe.
 
@@ -73,7 +73,7 @@ Après avoir ajouté un utilisateur à l'outil de suivi des mots de passe, vous 
 Après qu'un utilisateur ou un mot de passe a été modifié dans l'outil de suivi des mots de passe, les informations sont immédiatement mises à jour.
 
 ## Configuration d'un compte pour un accès par mot de passe à usage unique
-{: #cp_confportacc1timpwacc}
+{: #cp_one-time}
 
 Avant de pouvoir configurer le compte, vous devez d'abord configurer l'application Verisign "VIP Access". Si vous n'avez pas encore configuré VIP Access, commencez par télécharger l'application pour l'un des appareils suivants :
 * Pour votre téléphone : [https://m.vip.symantec.com/home.v ![Icône de lien externe](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
@@ -100,21 +100,21 @@ Sauvegardez vos données d'identification Verisign Identity Protection d'origine
 Le fait d'utiliser un IBMid pour la connexion à votre compte a des conséquences sur le mode de redéfinition de votre mot de passe.  
 
 ### Redéfinition d'un mot de passe de compte IBMid
-{: #cp_reset-IBMid-password}
+{: #cp_reset}
 
 Si vous utilisez IBMid pour l'authentification, pour redéfinir ou récupérer votre mot de passe, accédez à votre profil IBMid et suivez les instructions sous la section d'**ouverture de connexion**.
 
 ### Redéfinition d'un mot de passe de compte SoftLayer
-{: #cp_reset-password}
+{: #cp_reset-sl}
 
 Si vous n'utilisez pas d'IBMid pour l'authentification de compte, procédez comme suit :
 
 1. Cliquez sur le lien de mot de passe perdu sur la page de connexion du [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.
-2. Lorsque vous y êtes invité, entrez votre nom d'utilisateur actuel. 
+2. Lorsque vous y êtes invité, entrez votre nom d'utilisateur actuel.
 3. Recherchez dans votre messagerie une note contenant un lien pour réinitialiser votre mot de passe. Ce lien reste valide pendant 24 heures.
 4. Sélectionnez et répondez à trois questions de sécurité.
 
 Vous disposez de cinq tentatives pour répondre aux questions de sécurité. Si vous dépassez ce nombre, le formulaire de réinitialisation du mot de passe est verrouillé pendant 15 minutes avant que vous ne puissiez faire une nouvelle tentative.
 
-Pour plus d'informations sur l'utilisation des mots de passe VPN, voir [Mise à jour du mot de passe VPN d'un utilisateur](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password).
+Pour plus d'informations sur l'utilisation des mots de passe VPN, voir [Mise à jour du mot de passe VPN d'un utilisateur](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
 {: tip}

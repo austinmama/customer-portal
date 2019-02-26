@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,20 +16,20 @@ lastupdated: "2019-02-01"
 
 
 # Umgebung und Systemereignisse überwachen
-{: #customerportal_cpmonenvsysevent}
+{: #cp_environment-events}
 
 Durch die Überwachung Ihrer Umgebung haben Sie die Möglichkeit, Geräte jederzeit zu überprüfen, und Sie werden automatisch benachrichtigt, wenn eines der Geräte ausfällt. Sie können außerdem Systemereignisse überwachen und so für einen reibungslosen Betrieb Ihrer Systeme sorgen.  
 {: shortdesc}
 
 ## Umgebung überwachen
-{: #cpmonenv}
+{: #cp-monitorenvi}
 
 Verwenden Sie mindestens die Basisüberwachung mit Pingsignalen. Sie können jedoch Ihre Überwachungsoptionen so anpassen, dass Ihre Geschäftsanforderungen optimal erfüllt werden.
 
 ### Über Netzwartung und ungeplante Ereignisse informiert bleiben
-{: #cp_stayinfomaintevent}
+{: #cp-informedmaintenance}
 
-Geplante und Notfallnetzwartungen sind von Zeit zu Zeit unvermeidbar. In der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur werden viele Kanäle unterhalten, damit Sie stets über alle geplanten und Notfallwartungsereignisse informiert sind. Darüber hinaus können Sie [E-Mail-Benachrichtigungen abonnieren](/docs/customer-portal/cpsub2not.html), die vom Ereignismanagementsystem ausgegeben werden. Dieser ergänzende Service sendet an Benutzer mit einem entsprechenden Abonnement automatisch E-Mails über ungeplante Ereignisse, die sich auf Services auswirken könnten.
+Geplante und Notfallnetzwartungen sind von Zeit zu Zeit unvermeidbar. In der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur werden viele Kanäle unterhalten, damit Sie stets über alle geplanten und Notfallwartungsereignisse informiert sind. Darüber hinaus können Sie [E-Mail-Benachrichtigungen abonnieren](/docs/customer-portal?topic=customer-portal-cp_bpnotifications#cp_bpnotifications), die vom Ereignismanagementsystem ausgegeben werden. Dieser ergänzende Service sendet an Benutzer mit einem entsprechenden Abonnement automatisch E-Mails über ungeplante Ereignisse, die sich auf Services auswirken könnten.
 
 ### {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte nutzen
 {: #cp_bmxinframobile}
@@ -46,12 +46,12 @@ Die mobile Anwendung für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruk
 Die mobile Anwendung für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur ist auf verschiedenen gängigen Plattformen für Mobilgeräte verfügbar und ist über die zugehörigen Onlinegeschäfte für Anwendungen der jeweiligen Plattformen verfügbar.
 
 ## Server überwachen
-{: #customerportal_monservers}
+{: #cp_monservers}
 
-Richten Sie die Überwachung ein, um den Status Ihres Servers überprüfen zu können und Informationen zur Notwendigkeit einer Skalierung abrufen zu können. Sie können Standardüberwachungsservices oder Nimsoft-Überwachungsservices verwenden. Sie können bei der Methode 'ping-and-respond' die Standardüberwachung (oder Basisüberwachung) verwenden, indem Sie entweder einen langsamen Ping oder einen Serviceping aus dem Kundenportal der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwenden. Ferner können Sie auch die Nimsoft-Überwachung oder die erweiterte Überwachung aus dem Kundenportal oder in einer von drei möglichen Stufen verwenden: Basic, Advanced und Premium. Weitere Informationen speziell zu Bare-Metal-Servern finden Sie unter [Einführung in Bare-Metal-Server](/docs/bare-metal/index.html#getting-started).
+Richten Sie die Überwachung ein, um den Status Ihres Servers überprüfen zu können und Informationen zur Notwendigkeit einer Skalierung abrufen zu können. Sie können Standardüberwachungsservices oder Nimsoft-Überwachungsservices verwenden. Sie können bei der Methode 'ping-and-respond' die Standardüberwachung (oder Basisüberwachung) verwenden, indem Sie entweder einen langsamen Ping oder einen Serviceping aus dem Kundenportal der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwenden. Ferner können Sie auch die Nimsoft-Überwachung oder die erweiterte Überwachung aus dem Kundenportal oder in einer von drei möglichen Stufen verwenden: Basic, Advanced und Premium. Weitere Informationen speziell zu Bare-Metal-Servern finden Sie unter [Einführung in Bare-Metal-Server](/docs/bare-metal?topic=bare-metal-getting-started#getting-started).
 
 ## Systemereignisse überwachen
-{: #customerportal_monevent}
+{: #cp_monevent}
 
 Sie können Systemereignisse überwachen, indem Sie Auditprotokolle und Zugriffsprotokolle einsehen.
 

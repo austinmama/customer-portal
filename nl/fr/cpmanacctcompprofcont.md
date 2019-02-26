@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-29"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -22,7 +22,7 @@ A chaque compte SoftLayer est associé un profil de société contenant les info
 {:shortdesc}
 
 ## Mise à jour de votre profil de société
-{: #cp_updcompprof}
+{: #cp_updateprofile}
 
 L'infrastructure {{site.data.keyword.BluSoftlayer_full}} utilise les informations du profil de société pour vous contacter. Si votre numéro de téléphone ou votre e-mail de contact principal changent, veillez à les mettre à jour. Les informations du profil de la société sont entrées dans l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} lors de la création du compte et disponibles à différents emplacements dans le portail client.
 
@@ -32,13 +32,13 @@ Vous pouvez changer le profil de société à tout moment en soumettant une dema
 2. Sélectionnez **Compte** > **Gérer** > **Profil de la Société** dans le menu pour accéder à la fenêtre Profil du compte.
 3. Mettez à jour les détails de la section **Informations sur la société** et/ou **Principal titulaire du compte**.
 > **Remarque :** Les informations du profil du compte sont destinés à un usage administratif interne uniquement.
-4. Facultatif : Sélectionnez **Support dans l'Union européenne** si vous souhaitez vous assurer que l'équipe de support en Europe gère vos problèmes de maintenance et de support. Pour plus d'informations sur cette option, voir la rubrique traitant de la [définition de l'option de support européen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+4. Facultatif : Sélectionnez **Support dans l'Union européenne** si vous souhaitez vous assurer que l'équipe de support en Europe gère vos problèmes de maintenance et de support. Pour plus d'informations sur cette option, voir la rubrique traitant de la [définition de l'option de support européen](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported).
 5. Cliquez sur **Soumettre la demande de mise à jour**.
 
 Une fois la demande de mise à jour du profil de la société effectuée, un membre d'équipe de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} examine cette demande. Si des informations complémentaires nécessitent une vérification, les informations sont vérifiées. Après validation de toutes les modifications, le profil du compte est mis à jour comme demandé.
 
 ## Ajout ou édition d'un contact de compte
-{: #cp_addoreditacctcont}
+{: #cp_addoreditacct}
 
 Les informations sur les contacts de votre compte doivent être renseignées et maintenues à jour au cas où une demande de renseignement serait nécessaire. Vérifiez que les contacts du compte correspondent bien aux personnes à contacter pour chaque type de demande. Vous pouvez avoir plusieurs entrées de contact pour chaque compte, mais un seul contact pour chaque type de service. Les informations de contact spécifiques au compte n'incluent pas le profil de compte, qui correspond aux informations de contact principal associées à un compte. Utilisez la procédure suivante pour ajouter ou éditer un contact de compte.
 

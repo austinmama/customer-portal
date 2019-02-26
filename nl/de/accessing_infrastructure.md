@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2017, 2018
-lastupdated: "2018-11-28"
+  years: 2017, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -36,4 +36,4 @@ Um auf Infrastrukturressourcen zugreifen zu können, müssen Sie über ein Konto
 Wenn Sie ein Konto-Upgrade anfordern, werden die Informationen, die Sie eingeben, überprüft und müssen genehmigt werden, bevor Sie auf Infrastrukturressource zugreifen können. Stellen Sie sicher, dass die Ansprechpartnerinformationen korrekt sind, da das {{site.data.keyword.Bluemix_notm}}-Support-Team Sie möglicherweise bittet, bestimmte Angaben zu bestätigen.
 {: tip}
 
-Wenn Sie Fragen haben oder Probleme auftreten, auf die Sie keine Antworten finden, hilft Ihnen das {{site.data.keyword.Bluemix_notm}}-Support-Team gerne. Wenn Sie bei Ihrem Konto angemeldet sind, klicken Sie in der Menüleiste der Konsole auf **Support**. Klicken Sie anschließend auf **Neuen Fall erstellen** und  füllen Sie die relevanten Details aus. Sie können auch Unterstützung über den Link, der auf der Seite [{{site.data.keyword.Bluemix_notm}}-Support ![Symbol für externen Link](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} aufgelistet ist, erhalten.
+Wenn Sie Fragen haben oder Probleme auftreten, auf die Sie keine Antworten finden, hilft Ihnen das {{site.data.keyword.Bluemix_notm}}-Support-Team gerne. Wenn Sie bei Ihrem Konto angemeldet sind, klicken Sie in der Menüleiste der Konsole auf **Support**. Klicken Sie anschließend auf **Neuen Fall erstellen** und füllen Sie die relevanten Details aus. Sie können auch Unterstützung über den Link, der auf der Seite [{{site.data.keyword.Bluemix_notm}}-Support ![Symbol für externen Link](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} aufgelistet ist, erhalten.

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,27 +16,27 @@ lastupdated: "2019-02-01"
 
 
 # Surveillance de votre environnement et des événements système
-{: #customerportal_cpmonenvsysevent}
+{: #cp_environment-events}
 
 La surveillance de votre environnement signifie que vous avez la possibilité de contrôler les appareils à tout moment et que vous êtes automatiquement notifié si l'un des équipements tombe en panne. Vous pouvez également surveiller les événements système afin de garantir un fonctionnement harmonieux.  
 {: shortdesc}
 
 ## Surveillance de votre environnement
-{: #cpmonenv}
+{: #cp-monitorenvi}
 
 Au minimum, utilisez la surveillance de base par commande ping. Vous avez néanmoins la possibilité de personnaliser vos options de surveillance de la façon la mieux adaptée à vos besoins métier.
 
 ### Etre tenu informé de la maintenance réseau et des événements imprévus
-{: #cp_stayinfomaintevent}
+{: #cp-informedmaintenance}
 
-De temps en temps, des opérations de maintenance réseau planifiées et urgentes sont inévitables. L'infrastructure {{site.data.keyword.BluSoftlayer_full}} gère de nombreux canaux afin de vous tenir informé de tous les événements de maintenance planifié et d'urgence. En outre, vous pouvez vous [abonner aux notifications par e-mail](/docs/customer-portal/cpsub2not.html) depuis le système de gestion d'événements. Ce service gratuit envoie automatiquement des courriers électroniques aux utilisateurs abonnés concernant les événements imprévus qui peuvent impacter des services.
+De temps en temps, des opérations de maintenance réseau planifiées et urgentes sont inévitables. L'infrastructure {{site.data.keyword.BluSoftlayer_full}} gère de nombreux canaux afin de vous tenir informé de tous les événements de maintenance planifié et d'urgence. En outre, vous pouvez vous [abonner aux notifications par e-mail](/docs/customer-portal?topic=customer-portal-cp_bpnotifications#cp_bpnotifications) depuis le système de gestion d'événements. Ce service gratuit envoie automatiquement des courriers électroniques aux utilisateurs abonnés concernant les événements imprévus qui peuvent impacter des services.
 
 ### Utilisation du dispositif mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}
 {: #cp_bmxinframobile}
 
 Utilisez le dispositif mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} pour gérer les appareils de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} par mobile à l'aide de votre appareil iOS ou Android. La fonctionnalité au sein du dispositif mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} inclut la prise en charge des demandes de service, le contrôle d'appareil de base et la surveillance de la bande passante.
 
-L'application mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} complète la fonctionnalité du portail client car elle vous permet de surveiller des informations essentielles sur votre infrastructure à partir de n'importe quel endroit à l'aide de votre périphérique mobile connecté au réseau. L'application évolue rapidement et de nouvelles fonctionnalités sont régulièrement ajoutées, mais vous pouvez utiliser l'application mobile pour effectuer des tâches comme les tâches suivantes :
+L'application mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} complète la fonctionnalité du portail client car elle vous permet de surveiller des informations essentielles sur votre infrastructure à partir de n'importe quel endroit à l'aide de votre périphérique mobile connecté au réseau. L'application évolue rapidement et de nouvelles fonctionnalités sont régulièrement ajoutées, mais vous pouvez utiliser l'application mobile pour effectuer les tâches suivantes :
   * Afficher, créer et mettre à jour des tickets de demande de service
   * Surveiller l'état des périphériques, y compris la bande passante et les alarmes
   * Arrêter et redémarrer des serveurs bare metal et des serveurs virtuels
@@ -46,12 +46,12 @@ L'application mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}
 L'application mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} est disponible sur plusieurs plateformes de périphériques mobiles répandues et est disponible gratuitement à partir des magasins d'applications associés à chaque plateforme.
 
 ## Surveillance des serveurs
-{: #customerportal_monservers}
+{: #cp_monservers}
 
-Configurez la surveillance pour vérifier le statut de votre serveur et savoir quand vous devez le faire évoluer. Vous pouvez utiliser des services de surveillance standard ou Nimsoft. Vous pouvez employer la surveillance standard (de base) dans la méthode ping-avec-réponse en utilisant un ping avec réponse lente ou un ping de service à partir du portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Vous pouvez également faire appel à la surveillance Nimsoft (avancée) à partir du portail client ou dans l'un des trois niveaux suivants : de base, avancé et premium. Pour plus d'informations sur les serveurs Bare Metal, voir [Initiation aux serveurs Bare Metal](/docs/bare-metal/index.html#getting-started).
+Configurez la surveillance pour vérifier le statut de votre serveur et savoir quand vous devez le faire évoluer. Vous pouvez utiliser des services de surveillance standard ou Nimsoft. Vous pouvez employer la surveillance standard (de base) dans la méthode ping-avec-réponse en utilisant un ping avec réponse lente ou un ping de service à partir du portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Vous pouvez également faire appel à la surveillance Nimsoft (avancée) à partir du portail client ou dans l'un des trois niveaux suivants : de base, avancé et premium. Pour plus d'informations sur les serveurs Bare Metal, voir [Initiation aux serveurs Bare Metal](/docs/bare-metal?topic=bare-metal-getting-started#getting-started).
 
 ## Surveillance des événements système
-{: #customerportal_monevent}
+{: #cp_monevent}
 
 Vous pouvez surveiller les événements système en affichant les journaux d'audit et les journaux d'accès.
 

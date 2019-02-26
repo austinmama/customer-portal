@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html" path="customer-portal"}
-Gestion des ressources SoftLayer 
+{: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal?topic=customer-portal-getting-started#getting-started" path="customer-portal"}
+Gestion des ressources SoftLayer
 
     {: .navgroup id="learn"}
     getting-started.md
@@ -20,7 +20,6 @@ Gestion des ressources SoftLayer
         cpmanacctcompprofcont.md
         cpenable2fa.md
         cpmanacctconfsso.md
-        ccpmanacccancreq.md
         cpsetupfedid.md
         accessing_infrastructure.md
 

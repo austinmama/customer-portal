@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-01"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2019-02-01"
 Si vous rencontrez des problèmes lors de l'utilisation de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} et que vous ne disposez pas d'un compte lié, vous pouvez utiliser le portail client pour vous aider à déterminer la cause de ces problèmes et trouver une solution.
 {:shortdesc}
 
-Si vous possédez un [compte lié](/docs/account/softlayerlink.html#link_user_accounts), vous pouvez obtenir de l'aide au moyen de la console {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations, voir [Support](/docs/get-support/howtogetsupport.html).
+Si vous possédez un [compte lié](/docs/account?topic=account-link_customer_accounts#link_customer_accounts), vous pouvez obtenir de l'aide au moyen de la console {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations, voir [Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support).
 
 Si vous ne possédez pas de compte lié, vous pouvez ouvrir des tickets de demande de service dans le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} pour signaler des problèmes techniques d'ordre général ou pour obtenir de l'aide dans la résolution des problèmes liés à votre compte.
 
@@ -62,7 +62,7 @@ Vous pouvez ouvrir des tickets dans le portail client de l'infrastructure {{site
   Sélectionnez **Aucun** si vous n'avez pas besoin que votre équipe de support soit physiquement située en Europe.
   {: tip}
 
-  Voir la rubrique [Définition de l'option Support dans l'Union européenne](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported) pour plus d'informations sur l'initialisation de cette fonction pour votre compte.
+  Voir la rubrique [Définition de l'option Support dans l'Union européenne](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported) pour plus d'informations sur l'initialisation de cette fonction pour votre compte.
 
 11. Cliquez sur **Ajouter ticket**.
 
@@ -110,4 +110,4 @@ Si vous réaffectez le ticket, le nouveau cessionnaire devient le point de conta
 ## Escalade d'un ticket de demande de service
 {: #cp_bpsupescalflow}
 
-Vous pouvez demander une assistance supplémentaire en faisant remonter votre cas. Pour plus d'informations, voir [Escalade de tickets de demande de service](/docs/get-support/quicktickresp.html#escalation).
+Vous pouvez demander une assistance supplémentaire en faisant remonter votre cas. Pour plus d'informations, voir [Escalade de tickets de demande de service](/docs/get-support?topic=get-support-escalation#escalation).

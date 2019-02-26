@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-02-20"
 
 ---
 
@@ -45,17 +45,24 @@ L'avance avec laquelle l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} 
 Vous êtes notifié des types d'indisponibilité ou de problème suivants comme décrit à chaque section.
 
 #### Indisponibilités ou problèmes imprévus
+{: #cp_unplanned-issue}
+
 L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} communique avec les clients concernés aussi rapidement que possible en fournissant des informations relatives à la portée de l'infrastructure, aux solutions palliatives ou aux estimations de résolution dès que ces informations sont connues. Une communication dans les plus brefs délais vous donne les informations nécessaires pour prévoir les contingences et offre l'assurance que l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} traite le problème.
 
 #### Maintenance planifiée
+{: #cp_maintenance}
 L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} fournit à l'avance une notification pour la maintenance planifiée. Il peut arriver que la maintenance de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} soit urgente, ce qui peut entraîner une notification peut de temps avant l'événement. L'objectif est de trouver l'équilibre idéal entre la fourniture d'un préavis raisonnable pour vous permettre de planifier les contingences et la mise à niveau ou l'amélioration de l'infrastructure qui, généralement, se traduit par des améliorations apportées à la stabilité globale ou l'ajout de nouvelles fonctions.
 
 #### Vulnérabilités en matière de sécurité
+{: #cp_vulnerabilities}
+
 L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} isole la zone concernée, crée un correctif pour traiter cette vulnérabilité et teste le correctif afin de s'assurer qu'aucune fonction collatérale n'est impactée. Souvent, ce travail est effectué par un autre fournisseur qui peut fournir des composants de la technologie affectée. Il existe généralement un embargo sur les notifications publiques, qui ne sont envoyées que peu de temps avant pour des raisons de protection, mais ce mode de fonctionnement implique une période de notification plus courte. L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} implémente les correctifs sur l'infrastructure concernée avant que le public n'aie connaissance du problème, afin d'éviter d'augmenter les risques. Plus la vulnérabilité est traitée rapidement, plus vite le risque disparaît, ce qui signifie que les problèmes de sécurité requièrent une fenêtre de notification brève.
 
 L'une des cibles les plus fréquentes des violations de sécurité est le logiciel d'infrastructure virtuelle. L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} utilise une technologie en partenariat et open source répandue afin de distribuer son offre de serveur virtuel. Pour implémenter un correctif de sécurité, il se peut que les serveurs client exécutant le logiciel d'infrastructure virtuelle doivent être mis hors ligne pour appliquer le correctif et redémarrer l'environnement, ce qui provoque une interruption. Afin de minimiser l'impact chez les clients, l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} a récemment mis en oeuvre une amélioration du processus de notification pour l'infrastructure virtuelle : les communications améliorées. Les clients sont notifiés d'une heure de début spécifique et d'une fenêtre de 90 minutes pour chaque pod, ce qui se traduit par un temps d'interruption plus court et un timing plus précis pour vous aider à mieux vous préparer. Le système de notification isole la maintenance sur chaque compte, ce qui permet à l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} de notifier les clients dès que leurs hôtes spécifiques passent en maintenance, ce qui se produit souvent bien avant la fenêtre de 90 minutes.
 
 #### Plusieurs POD ou centres de données affectés
+{: #cp_multi_pod}
+
 L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} s'efforce de fournir un préavis plus important, hormis en cas d'extrême urgence nécessitant d'implémenter le correctif afin d'éviter un impact secondaire encore plus grand.
 
 

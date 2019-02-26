@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -42,9 +42,11 @@ In diesem Modell findet der folgende Prozess statt:
 Konten für Benutzer, die auf die {{site.data.keyword.BluSoftlayer}}-Infrastruktur zugreifen müssen, werden in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur anfänglich mit automatisch generierten Kennwörtern erstellt. Alle Berechtigungen müssen in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur konfiguriert worden sein, bevor der Benutzer das Single Sign-on (SSO) über den Identitätsprovider verwenden kann. Gegenwärtig werden Berechtigungen für jeden Benutzer separat konfiguriert.
 
 ### Benutzer einrichten
+{: #cp_user-setup}
+
 Führen Sie zum Einrichten eines Benutzers die folgenden Schritte aus:
 
-1. [Benutzer zu einem SoftLayer-Konto hinzufügen](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [Benutzer zu einem SoftLayer-Konto hinzufügen](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct).
 2. Ordnen Sie Berechtigungen in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur zu.
 3. Erstellen Sie Benutzer im Identitätsprovider.
 
@@ -82,7 +84,7 @@ Führen Sie die folgenden Schritte aus, um eine Rolle für einen Benutzer zu kon
 3. Stellen Sie sicher, dass die in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur und im Identitätsprovider definierten Rollen identische Namen besitzen.
 
 ### Benutzer einrichten
-{: #setupuser}
+{: #identity-setupuser}
 
 Führen Sie zum Einrichten eines Benutzers die folgenden Schritte aus:
 

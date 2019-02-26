@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-11"
+  years: 2015, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -31,7 +31,7 @@ Une fois que vous avez lié vos comptes {{site.data.keyword.Bluemix_notm}} et So
 
 Votre cycle d'utilisation d'{{site.data.keyword.Bluemix_notm}} est basé sur un mois calendaire. Par conséquent, votre compte est facturé chaque mois le jour de facturation établi pour votre contrat de crédit. Avec SoftLayer, votre cycle d'utilisation débute au moment où vous avez commencé à utiliser SoftLayer, et vous êtes donc facturé chaque mois le même jour où vous avez ouvert votre compte SoftLayer.
 
-Votre utilisation de {{site.data.keyword.Bluemix_notm}} continue d'être mesurée pour le cycle du mois en cours et vous êtes facturé pour cette utilisation sur une facture {{site.data.keyword.Bluemix_notm}}. A compter du premier jour du mois suivant, vos frais {{site.data.keyword.Bluemix_notm}} et SoftLayer sont combinés sur votre facture {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations sur les factures et leur utilisation, cliquez sur [Affichage de votre utilisation](/docs/billing-usage/viewing_usage.html#viewingusage).
+Votre utilisation de {{site.data.keyword.Bluemix_notm}} continue d'être mesurée pour le cycle du mois en cours et vous êtes facturé pour cette utilisation sur une facture {{site.data.keyword.Bluemix_notm}}. A compter du premier jour du mois suivant, vos frais {{site.data.keyword.Bluemix_notm}} et SoftLayer sont combinés sur votre facture {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations sur les factures et leur utilisation, cliquez sur [Affichage de votre utilisation](/docs/billing-usage?topic=billing-usage-viewingusage#viewingusage).
 
 Par exemple, si vous liez vos comptes le 16 avril 2017, vous recevez une facture {{site.data.keyword.Bluemix_notm}} pour votre consommation d'avril. Selon la date à laquelle vous avez lié vos comptes, vous pouvez recevoir une facture distincte pour votre utilisation de SoftLayer. Votre utilisation combinée du mois de mai est facturée via votre compte {{site.data.keyword.Bluemix_notm}}.
 

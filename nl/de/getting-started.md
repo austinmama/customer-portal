@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -24,7 +24,7 @@ In diesem Lernprogramm werden Sie durch den Prozess geführt, mit dem Sie Ihr So
 ## Vorbereitende Schritte
 {: #prereqs}
 
-Sie benötigen ein [{{site.data.keyword.Bluemix}}-Konto ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://cloud.ibm.com){:new_window}. Melden Sie sich mit den Berechtigungsnachweisen Ihrer IBMid beim Kundenportal an. Die meisten Benutzer verwenden die [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) für die Authentifizierung.
+Sie benötigen ein [{{site.data.keyword.Bluemix}}-Konto ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://cloud.ibm.com){:new_window}. Melden Sie sich mit den Berechtigungsnachweisen Ihrer IBMid beim Kundenportal an. Die meisten Benutzer verwenden die [IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) für die Authentifizierung.
 
 Wenn Sie zum Anmelden an Ihrem Konto nicht die IBMid zur Authentifizierung verwenden, melden Sie sich beim Kundenportal mit Ihren eindeutigen Berechtigungsnachweisen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur an.
 {: tip}
@@ -41,10 +41,10 @@ Zur Einrichtung Ihres Kontos müssen Sie die Kontaktinformationen und Abrechnung
 {: #users-permissions}
 
 Um Benutzer zu Ihrem Konto hinzuzufügen und deren Anfangsberechtigungen festzulegen, navigieren Sie zu **Konto** > **Benutzer**.
- * Um Benutzer für sowohl Plattform- als auch Infrastrukturressourcen in Ihrem Konto auf Grundlage der jeweils von Ihnen zugeordneten Berechtigungen einzuladen, klicken Sie auf **Benutzer einladen**. Sie werden dann zur Benutzerschnittstelle von {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) weitergeleitet, um Benutzer einzuladen und Zugriff zuzuordnen. Weitere Informationen finden Sie unter [Benutzer einladen](/docs/iam/iamuserinv.html). 
+ * Um Benutzer für sowohl Plattform- als auch Infrastrukturressourcen in Ihrem Konto auf Grundlage der jeweils von Ihnen zugeordneten Berechtigungen einzuladen, klicken Sie auf **Benutzer einladen**. Sie werden dann zur Benutzerschnittstelle von {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) weitergeleitet, um Benutzer einzuladen und Zugriff zuzuordnen. Weitere Informationen finden Sie unter [Benutzer einladen](/docs/iam?topic=iam-iamuserinv#iamuserinv).
  * Um Benutzer nur mit VPN-Zugriff hinzuzufügen, klicken Sie auf **Reine VPN-Benutzer hinzufügen**. Geben Sie die persönlichen Informationen ein, definieren Sie die Portalberechtigungen und legen Sie den Gerätezugriff für den Benutzer fest.
 
-Wenn Sie in der erstmaligen Einladung Infrastrukturberechtigungen festlegen, wählen Sie eines der drei Berechtigungssets 'Nur anzeigen', 'Basisbenutzer' oder 'Superuser' aus. Nachdem Benutzer die Einladung angenommen haben, können Sie deren Zugriff anpassen, indem Sie die Portalberechtigungen bearbeiten. Weitere Informationen finden Sie in [Infrastructure-Berechtigungen](/docs/iam/infrastructureaccess.html).
+Wenn Sie in der erstmaligen Einladung Infrastrukturberechtigungen festlegen, wählen Sie eines der drei Berechtigungssets 'Nur anzeigen', 'Basisbenutzer' oder 'Superuser' aus. Nachdem Benutzer die Einladung angenommen haben, können Sie deren Zugriff anpassen, indem Sie die Portalberechtigungen bearbeiten. Weitere Informationen finden Sie in [Berechtigungen für die Infrastruktur](/docs/iam?topic=iam-infrapermission#infrapermission).
 {: tip}
 
 ## Schritt 3. Zugriff auf das private Netz der {{site.data.keyword.Bluemix_notm}}-Infrastruktur ermöglichen
@@ -63,7 +63,7 @@ Um Benutzern den Zugriff auf das private Netz zu ermöglichen, bearbeiten Sie de
 Für Benutzer in Konten, die die IBMid-Authentifizierung verwenden, wird der SoftLayer-VPN-Benutzername für den VPN-Zugriff verwendet. Der VPN-Benutzername ist im Benutzerprofil definiert. Er ist nicht mit dem Benutzernamen identisch, der standardmäßig aus der IBMid-E-Mail-Adresse und der Konto-ID besteht.
 {: tip}
 
-Weitere Informationen zur Verwendung von VPN-Verbindungen finden Sie in [Informationen zu VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
+Weitere Informationen zur Verwendung von VPN-Verbindungen finden Sie in [Informationen zu VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn).
 
 ## Schritt 4. Benachrichtigungen abonnieren
 {: #get-notified}
