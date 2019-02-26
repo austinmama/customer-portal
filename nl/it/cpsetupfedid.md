@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -42,9 +42,11 @@ In questo modello, si verifica il seguente processo:
 Gli account per gli utenti che necessitano dell'accesso all'infrastruttura {{site.data.keyword.BluSoftlayer}} vengono inizialmente creati nell'infrastruttura {{site.data.keyword.BluSoftlayer}} con password casuali. Tutte le autorizzazioni devono essere configurate nell'infrastruttura {{site.data.keyword.BluSoftlayer}} prima che l'utente possa utilizzare SSO tramite il provider di identità. Attualmente, le autorizzazioni sono configurate in base al singolo utente.
 
 ### Configurazione di un utente
+{: #cp_user-setup}
+
 Utilizza la seguente procedura per configurare un utente:
 
-1. [Aggiunta di utenti a un account SoftLayer](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [Aggiunta di utenti a un account SoftLayer](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct).
 2. Assegna le autorizzazioni nell'infrastruttura {{site.data.keyword.BluSoftlayer}}.
 3. Crea gli utenti nel provider di identità.
 
@@ -82,7 +84,7 @@ Utilizza la seguente procedura per configurare un ruolo per un utente:
 3. Assicurati che i ruoli definiti nell'infrastruttura {{site.data.keyword.BluSoftlayer}} e nel provider di identità abbiano lo stesso nome.
 
 ### Configurazione di un utente
-{: #setupuser}
+{: #identity-setupuser}
 
 Utilizza la seguente procedura per configurare un utente:
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -62,7 +62,7 @@ lastupdated: "2019-02-01"
 {: caption="表 3. ユーザー・プロファイルを編集するためのその他の構成設定" caption-side="top"}
 ユーザー・プロファイルに対する編集をサブミットすると、変更内容は即時に適用されます。 上の手順を繰り返すことによって、いつでもユーザー・プロファイルを再変更できます。
 
-IBM ID アカウントのセットアップについて詳しくは、[IBM ID への切り替え](/docs/account/softlayerlink.html#switching-to-ibmid)を参照してください。
+IBM ID アカウントのセットアップについて詳しくは、[IBM ID への切り替え](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)を参照してください。
 
 ## ユーザーのカスタマー・ポータル許可の編集
 {: #cp_editusercpperm}
@@ -90,7 +90,7 @@ IBM ID アカウントのセットアップについて詳しくは、[IBM ID �
 ## ユーザーの外部認証の追加
 {: #cp_addextauthuser}
 
-カスタマー・ポータルから外部 2 要素認証 (2FA) をアクティブにして、ポータルへのログイン時の保護を追加できます。 セキュリティーのこの追加層は、アカウントを未検証アクセスから保護し、デバイス、データ、およびアカウント情報が確実に保護されるようにします。 詳しくは、[2 要素認証のセットアップ](/docs/customer-portal/cpenable2fa.html#customerportal_2fa)を参照してください。
+カスタマー・ポータルから外部 2 要素認証 (2FA) をアクティブにして、ポータルへのログイン時の保護を追加できます。 セキュリティーのこの追加層は、アカウントを未検証アクセスから保護し、デバイス、データ、およびアカウント情報が確実に保護されるようにします。 詳しくは、[2 要素認証のセットアップ](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication)を参照してください。
 
 
 ## ユーザー状況の変更
@@ -124,7 +124,7 @@ IBM ID アカウントのセットアップについて詳しくは、[IBM ID �
 ## ユーザーの VPN アクセスの編集
 {: #cp_edituservpnaccess}
 
-カスタマー・ポータル・アカウントに[新規ユーザーが追加される](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)ときに、SSL、PPTP、またはこれら 2 つの組み合わせを含むさまざまな接続方式から VPN アクセスが選択されます。 VPN アクセスでは、プライベート・ネットワーク全体がアクセス可能であるか、または、1 つ以上の特定のサブネットにネットワーク・アクセスを制限することができます。 いつでも「ユーザー」ウィンドウから VPN アクセスを管理および更新できます。 ユーザーの VPN アクセスを編集するには、以下の手順を使用します。
+カスタマー・ポータル・アカウントに[新規ユーザーが追加される](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct)ときに、SSL、PPTP、またはこれら 2 つの組み合わせを含むさまざまな接続方式から VPN アクセスが選択されます。 VPN アクセスでは、プライベート・ネットワーク全体がアクセス可能であるか、または、1 つ以上の特定のサブネットにネットワーク・アクセスを制限することができます。 いつでも「ユーザー」ウィンドウから VPN アクセスを管理および更新できます。 ユーザーの VPN アクセスを編集するには、以下の手順を使用します。
 
 1. 固有の資格情報を使用してカスタマー・ポータルにアクセスします。
 2. ナビゲーション・バーから**「アカウント」** > **「VPN アクセス (VPN Access)」**を選択します。
@@ -155,7 +155,7 @@ IBM ID アカウントのセットアップについて詳しくは、[IBM ID �
 
 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーからの E メール通知受信を希望する/しないを選択できます。 デフォルトでは、すべての E メール通知を受信しますが、いつでも変更できます。 E メール通知の設定を変更するには、次の手順を実行します。
 1. 通知を受け取る E メール・アドレスに関連付けられているアカウントのユーザー固有の資格情報を使用して、カスタマー・ポータルにアクセスします。
-2. メニュー・バーから**「アカウント」**>**「ユーザー」**>**「E メール設定 (Email Preferences)」**をクリックします。
+2. メニュー・バーから**「アカウント」**>**「ユーザー」**>**「E メール設定 (E-mail Preferences)」**をクリックします。
 3. 通知タイプのリストから、もう受信を希望しない通知をクリアします。
 
 変更内容は自動的に保存されます。 これらの設定は、自分宛に送信される E メールに影響しますが、アカウントの他のユーザーの E メール通知には影響しません。
@@ -170,6 +170,6 @@ IBM ID アカウントのセットアップについて詳しくは、[IBM ID �
 3. **「EU サポート対象 (EU Supported)」**チェック・ボックスを選択します。
 4. **「プロファイル更新の要求 (Request Profile Update)」**をクリックします。
 
-**「EU サポート対象 (EU Supported)」**オプションが使用できない場合、PPTP VPN アクセスが有効にされているユーザーがアカウントに含まれている可能性があります。 **「EU サポート対象 (EU Supported)」**オプションを使用可能にするため、最初にアカウントのすべてのユーザーの PPTP VPN アクセスを無効にしてください。 詳しくは、[PPTP VPN アクセスのアクティブ化または非アクティブ化](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn)を参照してください。
+**「EU サポート対象 (EU Supported)」**オプションが使用できない場合、PPTP VPN アクセスが有効にされているユーザーがアカウントに含まれている可能性があります。 **「EU サポート対象 (EU Supported)」**オプションを使用可能にするため、最初にアカウントのすべてのユーザーの PPTP VPN アクセスを無効にしてください。 詳しくは、[PPTP VPN アクセスのアクティブ化または非アクティブ化](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn)を参照してください。
 
-サポート・チケットをオープンする際に**「EU サポート対象 (EU Supported)」**オプションを実装することについて詳しくは、[EU 内のリソースに関するサポートの依頼](/docs/get-support/howtogetsupport.html#eusupported)を参照してください。
+サポート・チケットをオープンする際に**「EU サポート対象 (EU Supported)」**オプションを実装することについて詳しくは、[EU 内のリソースに関するサポートの依頼](/docs/get-support?topic=get-support-eusupported#eusupported)を参照してください。

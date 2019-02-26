@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2018-11-20"
 
 
 # 비밀번호 관리
-{: #customerportal_manpws}
+{: #cp_manpws}
 
 마스터 사용자 또는 계정의 소유자인 경우 비밀번호 추적을 사용하고 계정에 대한 일회성 액세스의 비밀번호를 설정할 수도 있습니다. 비밀번호 추적을 통해 사용자는 디바이스 및 연관된 소프트웨어의 소프트웨어 비밀번호 데이터를 저장할 수 있습니다.
 {:shortdesc}
 
 ## 비밀번호 추적 사용
-{: #customerportal_enabpwtrak}
+{: #cp_enabpwtrak}
 
 고객 포털에는 모든 계정에 대한 선택적 [비밀번호 추적 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/devices/passwords){:new_window} 도구가 포함되어 있습니다. 사용자는 정보를 잃어버렸거나 기억이 나지 않는 경우 도구를 통해 사용자 이름과 비밀번호를 검색할 수 있습니다.
 
@@ -46,7 +46,7 @@ lastupdated: "2018-11-20"
 비밀번호 추적 도구에 사용자를 추가한 후 수동으로 삭제될 때까지 정보가 도구 내에 저장됩니다. 모든 사용자 이름 및 비밀번호 조합은 기본적으로 디바이스 이름을 기반으로 저장됩니다. 항목은 알파벳순과 디바이스 이름별, 사용자 이름별순으로 표시됩니다.
 
 ### 비밀번호 추적 도구에서 정보 필터링
-{: #cp_filterusinfopwtracktool}
+{: #cp_tracktool}
 
 사용자 정보를 보거나 편집하거나 삭제하려는 경우 사용자를 빨리 찾도록 필터링할 수 있습니다. 사용자 목록이 몇 페이지에 걸쳐 있는 경우에는 필터링하여 사용자를 찾는 것이 유용합니다. 비밀번호 추적 도구에서 디바이스, 소프트웨어 또는 사용자로 필터링하려면 다음 단계를 수행하십시오.
 
@@ -59,7 +59,7 @@ lastupdated: "2018-11-20"
 보거나, 편집하거나 제거할 사용자 정보를 선택할 수 있습니다.
 
 ### 비밀번호 추적 도구에서 사용자 정보 편집
-{: #cp_editusinfopwtracktool}
+{: #cp_editusinfo}
 
 비밀번호 추적 도구에 사용자를 추가한 후 사용자 또는 비밀번호와 연관된 세부사항을 편집할 수 있습니다. 비밀번호 추적 도구에서 사용자에 대한 정보를 편집하려면 다음 단계를 수행하십시오.
 
@@ -73,7 +73,7 @@ lastupdated: "2018-11-20"
 비밀번호 추적 도구에서 사용자 또는 비밀번호를 편집하면 정보가 즉시 업데이트됩니다.
 
 ## 일회성 비밀번호 액세스를 위한 계정 구성
-{: #cp_confportacc1timpwacc}
+{: #cp_one-time}
 
 계정을 구성하기 전에 먼저 "VIP Access" 애플리케이션을 설정해야 합니다. VIP Access가 설정되지 않은 경우, 먼저 다음 디바이스 중 하나를 위한 애플리케이션을 다운로드하십시오.
 * 전화: [https://m.vip.symantec.com/home.v ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
@@ -100,12 +100,12 @@ lastupdated: "2018-11-20"
 비밀번호를 재설정하는 방법은 사용자 계정에 로그인하기 위해 인증에 IBM ID를 사용하는지 여부에 따라 다릅니다.  
 
 ### IBM ID 계정 비밀번호 재설정
-{: #cp_reset-IBMid-password}
+{: #cp_reset}
 
 인증에 IBM ID를 사용하는 경우 비밀번호를 재설정하고 복구하려면 IBM ID 프로파일로 이동하여 **로그인** 섹션의 지시사항을 따르십시오.
 
 ### SoftLayer 계정 비밀번호 재설정
-{: #cp_reset-password}
+{: #cp_reset-sl}
 
 계정 인증에 IBM ID를 사용하지 않는 경우에는 다음 단계를 완료하십시오.
 
@@ -116,5 +116,5 @@ lastupdated: "2018-11-20"
 
 보안 질문에 대한 답변은 5번 시도할 수 있습니다. 5번 넘게 시도하면 비밀번호 재설정 양식이 15분 동안 잠기고 이후에 다시 시도할 수 있습니다.
 
-VPN 비밀번호 작업에 대한 정보는 [사용자의 VPN 비밀번호 업데이트](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password)를 참조하십시오.
+VPN 비밀번호 작업에 대한 정보는 [사용자의 VPN 비밀번호 업데이트](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password)를 참조하십시오.
 {: tip}

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-11-19"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -36,7 +36,7 @@ Dopo aver scaricato il file di licenza sul dispositivo, vengono aggiornati i det
 ## Annullamento di una licenza del pannello di controllo
 {: #cp_compcanlisc}
 
-Le licenze del pannello di controllo vengono fatturate mensilmente, in base ai termini concordati al momento dell'acquisto della licenza. Puoi annullare le licenze in qualsiasi momento e verranno annullate alla successiva data della ricorrenza di fatturazione. Per garantire che un annullamento venga applicato al ciclo di fatturazione corrente, gli annullamenti devono essere effettuati non meno di 24 ore prima della data della ricorrenza di fatturazione. Durante il processo di annullamento, vengono visualizzate informazioni specifiche sulla ricorrenza di fatturazione dell'account. Utilizza la seguente procedura per annullare una licenza del pannello di controllo.
+Le licenze del pannello di controllo vengono fatturate mensilmente, in base ai termini concordati al momento dell'acquisto della licenza. Puoi annullare le licenze in qualsiasi momento e verranno annullate alla successiva data della ricorrenza di fatturazione. Per garantire che un annullamento venga applicato al ciclo di fatturazione corrente, gli annullamenti devono essere effettuati non meno di 24 ore prima della data della ricorrenza di fatturazione. Durante il processo di annullamento, vengono visualizzate informazioni specifiche sulla ricorrenza di fatturazione per l'account. Utilizza la seguente procedura per annullare una licenza del pannello di controllo.
 
 1. Esegui il backup o trasferisci tutti i dati associati alla licenza del pannello di controllo.
 2. Accedi al portale clienti con le tue credenziali univoche.

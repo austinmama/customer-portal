@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-19"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-11-19"
 L'autenticazione nell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} adesso utilizza l'ID IBM per fornire un singolo accesso in {{site.data.keyword.Bluemix_notm}}.
 {:shortdesc}
 
-Se disponi di un account SoftLayer esistente, puoi passare a un ID IBM. Una procedura guidata di migrazione può aiutarti in questo passaggio. Per ulteriori informazioni, vedi [Passaggio all'ID IBM](/docs/account/softlayerlink.html#switching-to-ibmid).
+Se disponi di un account SoftLayer esistente, puoi passare a un ID IBM. Una procedura guidata di migrazione può aiutarti in questo passaggio. Per ulteriori informazioni, vedi [Passaggio all'ID IBM](/docs/account?topic=account-switchtoIBMid#switchtoIBMid).
 
 ## Associazione di più account SoftLayer a un ID IBM
 {: #cp_mapmultclinfrto1ibmid}

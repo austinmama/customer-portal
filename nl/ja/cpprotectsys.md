@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -25,7 +25,7 @@ lastupdated: "2019-02-01"
 
 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーのプライベート・ネットワークを使用して、最大限保護された環境でデバイスを管理することができます。 可能な場合、デバイスとの対話に VPN 接続を使用し、ネットワーク・スパンを有効にして、システムがプライベート・ネットワークを介して通信するようにしてください。 プライベート・ネットワークにアクセスするには、[ユーザー・リスト ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window} からユーザーの VPN アクセスを編集します。 「[仮想プライベート・ネットワーク ![外部リンク・アイコン](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} 」リストを使用して、各種 VPN オプションの 1 つに接続します。
 
-VPN 接続について詳しくは、[VPN について](/docs/infrastructure/iaas-vpn/about-vpn.html)を参照してください。
+VPN 接続について詳しくは、[VPN について](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)を参照してください。
 
 ### RDP ポート、SSH ポート、または制御ポートをパブリック・ネットワークに置いたままにしない
 {: #cp_bpnordpsshcponpubnet}
@@ -39,10 +39,10 @@ VPN 接続について詳しくは、[VPN について](/docs/infrastructure/iaa
 
 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーは、ドライブで障害が起こった場合やユーザーが何らかのミスをした場合にデータを確実に取り出すことができるように、複数のバックアップ・ソリューションを提供しています。 現在、バックアップ・ソリューションには、NAS、EVault Backup、および R1Soft CDP があり、これらすべてが各種のストレージ・オプションで使用可能です。
 例えば、以下のいずれかのバックアップ・サービスから選択して、安全な場所にデータを保管することができます。
-  * EVault バックアップは、自動化された、エージェント・ベースのバックアップ・システムであり、デバイスの管理によく使用される「設定したら、後の操作は不要」なソリューションです。プラグインを使用することで、Exchange や SQL などの Microsoft ソフトウェアと互換性があります。 EVault ユーザーは、EVault の WebCC Web ベース・アプリケーションを使用してこのサービスを操作します。
+  * EVault バックアップは、自動化された、エージェント・ベースのバックアップ・システムであり、デバイスの管理によく使用される「設定したら、後の操作は不要」なソリューションです。 プラグインを使用することで、Exchange や SQL などの Microsoft ソフトウェアと互換性があります。 EVault ユーザーは、EVault の WebCC Web ベース・アプリケーションを使用してこのサービスを操作します。
   * R1Soft Continuous Data Protection (CDP) は、サーバーまたは自己管理型仮想マシンにインストールできます。 すべてのバックアップを管理するための単一のインターフェースを探している場合は、これを使用できます。 R1Soft CDP との対話は専有管理システムを使用して行います。それによりエージェントを仮想マシンにインストールでき、追加機能のためのデータベース・プラグインが提供されます。
 
- 各バックアップ・ソリューションについて詳しくは、「[ストレージ ![外部リンク・アイコン](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window}」ページを確認してください。データのバックアップについて詳しくは、『[バックアップ・サービスの概説](/docs/infrastructure/Backup/index.html)』を参照してください。
+ 各バックアップ・ソリューションについて詳しくは、「[ストレージ ![外部リンク・アイコン](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window}」ページを確認してください。データのバックアップについて詳しくは、『[バックアップ・サービスの概説](/docs/infrastructure/Backup?topic=Backup-GettingStarted#GettingStarted)』を参照してください。
 
 ### 冗長性があると想定せず、あることを確認する
 {: #cp_bpknowredundant}

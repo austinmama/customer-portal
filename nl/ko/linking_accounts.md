@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-11"
+  years: 2015, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-11-11"
 
 {{site.data.keyword.Bluemix_notm}} 사용 주기는 달력의 월 기반입니다. 따라서 사용자 계정은 비용 계약에 대해 설정된 청구일에 매월 청구됩니다. SoftLayer에서 사용 주기는 SoftLayer가 시작된 시점에서 시작됩니다. 따라서 사용자에게는 매월 SoftLayer 계정에 서명한 날과 동일한 날에 청구됩니다.
 
-{{site.data.keyword.Bluemix_notm}} 사용량이 계속해서 당월 주기에 대해 측정되며 사용자는 {{site.data.keyword.Bluemix_notm}} 송장에서 해당 사용량에 대해 청구됩니다. 다음 달 초에 시작하여, {{site.data.keyword.Bluemix_notm}} 및 SoftLayer 비용은 {{site.data.keyword.Bluemix_notm}} 송장에서 통합됩니다. 송장 및 사용량에 대한 자세한 정보는 [사용량 보기](/docs/billing-usage/viewing_usage.html#viewingusage)를 클릭하십시오.
+{{site.data.keyword.Bluemix_notm}} 사용량이 계속해서 당월 주기에 대해 측정되며 사용자는 {{site.data.keyword.Bluemix_notm}} 송장에서 해당 사용량에 대해 청구됩니다. 다음 달 초에 시작하여, {{site.data.keyword.Bluemix_notm}} 및 SoftLayer 비용은 {{site.data.keyword.Bluemix_notm}} 송장에서 통합됩니다. 송장 및 사용량에 대한 자세한 정보는 [사용량 보기](/docs/billing-usage?topic=billing-usage-viewingusage#viewingusage)를 클릭하십시오.
 
 예를 들어, 2017년 4월 16일에 계정을 연결한 경우에는 4월 사용량에 대해 {{site.data.keyword.Bluemix_notm}} 송장을 받습니다. 연결된 계정에 따라 SoftLayer 사용량에 대해 별도로 청구될 수 있습니다. 5월 중에 결합된 사용량이 {{site.data.keyword.Bluemix_notm}} 계정을 통해 청구됩니다.
 

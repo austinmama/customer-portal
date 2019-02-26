@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-11-20"
 {:new_window: target="_blank"}
 
 
-# 概説チュートリアル
+# 入門チュートリアル
 {: #getting-started}
 
 このチュートリアルでは、インフラストラクチャー・リソースの注文と管理を始められるように、SoftLayer アカウントについて準備するプロセスを説明します。
@@ -24,7 +24,7 @@ lastupdated: "2018-11-20"
 ## 始める前に
 {: #prereqs}
 
-[{{site.data.keyword.Bluemix}} アカウント ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://cloud.ibm.com){:new_window} が必要です。 IBM ID の資格情報でカスタマー・ポータルにログインしてください。 ほとんどの新規ユーザーは、認証に [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid) を使用します。
+[{{site.data.keyword.Bluemix}} アカウント ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://cloud.ibm.com){:new_window} が必要です。 IBM ID の資格情報でカスタマー・ポータルにログインしてください。 ほとんどの新規ユーザーは、認証に [IBM ID](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) を使用します。
 
 アカウントへのログインの認証に IBM ID を使用しない場合は、固有の {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー資格情報を使用してカスタマー・ポータルにログインしてください。
 {: tip}
@@ -41,10 +41,10 @@ lastupdated: "2018-11-20"
 {: #users-permissions}
 
 アカウントにユーザーを追加して最初の許可を設定するには、**「アカウント」**>**「ユーザー」**に移動します。
- * 割り当てた特定の許可に基づいて、アカウント内のプラットフォームおよびインフラストラクチャーの両方のリソースにユーザーを招待するには、**「ユーザーの招待」**をクリックします。 それにより、ユーザーの招待とアクセス権限の割り当てを行う {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) UI が表示されます。 詳しくは、[ユーザーの招待](/docs/iam/iamuserinv.html)を参照してください。
+ * 割り当てた特定の許可に基づいて、アカウント内のプラットフォームおよびインフラストラクチャーの両方のリソースにユーザーを招待するには、**「ユーザーの招待」**をクリックします。 それにより、ユーザーの招待とアクセス権限の割り当てを行う {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) UI が表示されます。 詳しくは、[ユーザーの招待](/docs/iam?topic=iam-iamuserinv#iamuserinv)を参照してください。
  * VPN アクセス専用のユーザーを追加するには、**「VPN 専用ユーザーの追加 (Add VPN Only User)」**をクリックします。 当該ユーザーについて、個人情報を入力し、ポータルの許可を設定し、デバイスへのアクセス権限を設定します。
 
-最初の招待でインフラストラクチャーの許可を設定する場合は、「表示のみ」、「基本ユーザー」、「スーパーユーザー」の 3 つの許可セットから 1 つを選択します。 ユーザーが招待を受け入れた後、ユーザーのポータルの許可を編集することで、ユーザーのアクセス権限をカスタマイズできます。 詳しくは、[インフラストラクチャーの許可](/docs/iam/infrastructureaccess.html)を参照してください。
+最初の招待でインフラストラクチャーの許可を設定する場合は、「表示のみ」、「基本ユーザー」、「スーパーユーザー」の 3 つの許可セットから 1 つを選択します。 ユーザーが招待を受け入れた後、ユーザーのポータルの許可を編集することで、ユーザーのアクセス権限をカスタマイズできます。 詳しくは、[インフラストラクチャーの許可](/docs/iam?topic=iam-infrapermission#infrapermission)を参照してください。
 {: tip}
 
 ## ステップ 3. {{site.data.keyword.Bluemix_notm}} インフラストラクチャー・プライベート・ネットワークへのアクセスの有効化
@@ -63,7 +63,7 @@ lastupdated: "2018-11-20"
 IBM ID 認証を使用するアカウントのユーザーの場合は、VPN アクセス用の SoftLayer VPN ユーザー名が使用されます。 VPN ユーザー名はユーザー・プロファイルで定義されます。 VPN ユーザー名は、デフォルトで IBM ID の E メール・アドレスおよびアカウント ID となるユーザー名とは異なります。
 {: tip}
 
-VPN 接続について詳しくは、[VPN について](/docs/infrastructure/iaas-vpn/about-vpn.html)を参照してください。
+VPN 接続について詳しくは、[VPN について](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)を参照してください。
 
 ## ステップ 4. 通知のサブスクライブ
 {: #get-notified}

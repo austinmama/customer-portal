@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -24,7 +24,7 @@ In questa esercitazione, illustreremo il processo per rendere operativo il tuo a
 ## Prima di iniziare
 {: #prereqs}
 
-Hai bisogno di un [account {{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://cloud.ibm.com){:new_window}. Accedi al portale clienti con le tue credenziali dell'ID IBM. La maggior parte dei nuovi utenti utilizza l'[ID IBM ](/docs/account/softlayerlink.html#switchtoIBMid) per l'autenticazione.
+Hai bisogno di un [account {{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://cloud.ibm.com){:new_window}. Accedi al portale clienti con le tue credenziali dell'ID IBM. La maggior parte dei nuovi utenti utilizza l'[ID IBM ](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) per l'autenticazione.
 
 Se non utilizzi l'ID IBM per l'autenticazione per accedere al tuo account, esegui l'accesso al portale clienti con le tue credenziali univoche dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
@@ -41,10 +41,10 @@ La configurazione del tuo account include la verifica delle informazioni di cont
 {: #users-permissions}
 
 Per aggiungere utenti al tuo account e impostare le autorizzazioni iniziali, vai a **Account** > **Utenti**.
- * Per invitare gli utenti alle risorse della piattaforma e dell'infrastruttura nel tuo account in base a specifiche autorizzazioni da te assegnate, fai clic su **Invita utenti**. Vieni quindi indirizzato all'interfaccia utente di {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) per invitare utenti e assegnare l'accesso. Per ulteriori informazioni, vedi [Invito di utenti](/docs/iam/iamuserinv.html).
+ * Per invitare gli utenti alle risorse della piattaforma e dell'infrastruttura nel tuo account in base a specifiche autorizzazioni da te assegnate, fai clic su **Invita utenti**. Vieni quindi indirizzato all'interfaccia utente di {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) per invitare utenti e assegnare l'accesso. Per ulteriori informazioni, vedi [Invito di utenti](/docs/iam?topic=iam-iamuserinv#iamuserinv).
  * Per aggiungere solo utenti con accesso VPN, fai clic su **Aggiungi utente solo VPN**. Immetti le informazioni personali, imposta le autorizzazioni del portale e imposta l'accesso al dispositivo per l'utente.
 
-Quando imposti le autorizzazioni dell'infrastruttura nell'invito iniziale, puoi scegliere una di tre seri di autorizzazioni: Solo visualizzazione, Utente di base e Super utente. Dopo che gli utenti accettano l'invito, puoi personalizzare il loro accesso modificando le autorizzazioni del portale. Per ulteriori informazioni, vedi [Autorizzazioni dell'infrastruttura](/docs/iam/infrastructureaccess.html).
+Quando imposti le autorizzazioni dell'infrastruttura nell'invito iniziale, puoi scegliere una di tre seri di autorizzazioni: Solo visualizzazione, Utente di base e Super utente. Dopo che gli utenti accettano l'invito, puoi personalizzare il loro accesso modificando le autorizzazioni del portale. Per ulteriori informazioni, vedi [Autorizzazioni dell'infrastruttura](/docs/iam?topic=iam-infrapermission#infrapermission).
 {: tip}
 
 ## Passo 3. Abilita l'accesso alla rete privata dell'infrastruttura {{site.data.keyword.Bluemix_notm}}
@@ -63,7 +63,7 @@ Per abilitare l'accesso utente alla rete privata, modifica l'accesso VPN nel por
 Per gli utenti negli account che utilizzano l'autenticazione con l'ID IBM, viene utilizzato il nome utente VPN SoftLayer per l'accesso VPN. Il nome utente VPN è definito nel profilo utente. Il nome utente VPN è diverso dal nome utente che, per impostazione predefinita, utilizza l'indirizzo e-mail e l'ID account dell'ID IBM.
 {: tip}
 
-Per ulteriori informazioni sull'utilizzo di una connessione VPN, vedi [Informazioni sulla VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
+Per ulteriori informazioni sull'utilizzo di una connessione VPN, vedi [Informazioni sulla VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn).
 
 ## Passo 4. Sottoscrivi alle notifiche
 {: #get-notified}

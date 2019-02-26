@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-02-20"
 
 ---
 
@@ -45,17 +45,24 @@ Il tempo di preavviso che l'infrastruttura {{site.data.keyword.BluSoftlayer_notm
 Ti vengono notificati i seguenti tipi di interruzioni o problemi come descritto in ogni sezione.
 
 #### Problemi o interruzioni non pianificati
+{: #cp_unplanned-issue}
+
 L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} comunica il più rapidamente possibile ai clienti interessati le informazioni relative all'ambito dell'infrastruttura, alle soluzioni temporanee o alle stime di risoluzione non appena tali informazioni sono note. La comunicazione tempestiva ti fornisce le informazioni necessarie per pianificare gli imprevisti e garantisce che l'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} stia affrontando il problema.
 
 #### Manutenzione pianificata
+{: #cp_maintenance}
 L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} fornisce una notifica per la manutenzione pianificata prima dell'evento. Ci sono delle volte in cui la manutenzione dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} è un'emergenza, che potrebbe comportare un preavviso più breve. L'obiettivo è sempre quello di trovare l'equilibrio ideale tra fornire una quantità ragionevole di preavviso per permetterti di pianificare gli imprevisti e aggiornare o migliorare l'infrastruttura, che in genere comporta miglioramenti alla stabilità generale o l'aggiunta delle funzionalità necessarie.
 
 #### Vulnerabilità di sicurezza
+{: #cp_vulnerabilities}
+
 L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} isola l'area interessata, crea una patch per chiudere la vulnerabilità e verifica la patch per garantire che nessuna funzione collaterale venga influenzata. Spesso, questo lavoro viene svolto con un altro fornitore che potrebbe fornire parti della tecnologia interessata. Di solito c'è un embargo sulle notifiche pubbliche per le patch di sicurezza, che vengono mantenute poco per proteggere il pubblico, ma ciò richiede un periodo di preavviso più breve. L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} implementa le patch in tutta infrastruttura interessata prima che il pubblico venga informato del problema, il che altrimenti aumenterebbe il rischio. Più velocemente la vulnerabilità viene chiusa, prima viene rimosso il rischio, il che significa che i problemi di sicurezza richiedono una breve finestra di notifica.
 
 Uno degli obiettivi più frequenti per le violazioni della sicurezza è il software di infrastruttura virtuale. L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} utilizza popolari tecnologie open source e dei partner per offrire la propria offerta di Virtual Server. Per implementare una correzione di sicurezza, i server dei clienti che eseguono software di infrastruttura virtuale potrebbero dover essere portati offline per correggere e riavviare l'ambiente, causando interruzioni. Per ridurre al minimo l'impatto sui clienti, l'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} ha recentemente implementato un miglioramento del processo di notifica per l'infrastruttura virtuale: comunicazioni migliorate. I clienti ricevono una notifica con un'ora di inizio specifica e una finestra di 90 minuti per ciascun pod, il che si traduce in tempi di interruzione più brevi e tempistiche più accurate per una migliore preparazione. Il sistema di notifica isola la manutenzione per ciascun account, consentendo all'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} di notificare i clienti non appena vengono serviti i loro host specifici, il che avviene molto spesso prima della finestra di 90 minuti.
 
 #### Più POD o data center interessati
+{: #cp_multi_pod}
+
 L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} si sforza di dare un preavviso più lungo, a meno che non vi sia un'urgenza estrema di implementare la correzione per evitare un impatto secondario ancora maggiore.
 
 
@@ -68,6 +75,6 @@ Per assegnare un elenco di sottoscrittori, gli utenti master possono accedere al
 1. Fai clic su **Supporto** > **Eventi** dal menu.
 2. Scegli il tipo di evento a cui aggiungere i sottoscrittori.
 2. Dalla finestra a comparsa, aggiungi uno o più indirizzi e-mail. Gli indirizzi e-mail possono essere IBM o non IBM.
-3. Fai clic su **Crea**.
+3. Fai clic su **Create**.
 
 Gli indirizzi e-mail aggiunti come sottoscrittori supplementari ricevono notifiche di eventi pianificati e non pianificati e ticket di supporto aperti. Le notifiche contengono dettagli tecnici, quindi puoi tenerne conto quando aggiungi i sottoscrittori. A causa della natura tecnica dettagliata delle notifiche, i sottoscrittori previsti sono coloro che possono comprendere, in dettaglio, in che modo la notifica influisce sul tuo ambiente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Sottoscrivere destinatari che non siano in grado di comprendere l'impatto potenziale del client sulla base dei dettagli nella notifica è controproducente e fortemente sconsigliato.

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-19"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-11-19"
 이제 {{site.data.keyword.BluSoftlayer_notm}} 인프라에서의 인증은 {{site.data.keyword.Bluemix_notm}}에 대한 단일 로그인을 제공하는 IBM ID를 사용합니다.
 {:shortdesc}
 
-기존 SoftLayer 계정이 있는 경우 IBM ID로 전환할 수 있습니다. 마이그레이션 마법사가 이 전환을 통해 사용자를 안내할 수 있습니다. 자세한 정보는 [IBM ID로 전환](/docs/account/softlayerlink.html#switching-to-ibmid)을 참조하십시오.
+기존 SoftLayer 계정이 있는 경우 IBM ID로 전환할 수 있습니다. 마이그레이션 마법사가 이 전환을 통해 사용자를 안내할 수 있습니다. 자세한 정보는 [IBM ID로 전환](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)을 참조하십시오.
 
 ## 여러 SoftLayer 계정을 하나의 IBM ID로 맵핑
 {: #cp_mapmultclinfrto1ibmid}

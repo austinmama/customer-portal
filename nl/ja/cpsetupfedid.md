@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -42,9 +42,11 @@ lastupdated: "2018-11-28"
 {{site.data.keyword.BluSoftlayer}} インフラストラクチャーへのアクセスを必要とするユーザーのアカウントは、まず最初に、ランダム・パスワードと共に {{site.data.keyword.BluSoftlayer}} インフラストラクチャー内に作成されます。 ユーザーが ID プロバイダーを介して SSO を使用できるためには、その前に {{site.data.keyword.BluSoftlayer}} インフラストラクチャー内ですべての許可が構成される必要があります。 現在、許可は個々のユーザーに基づいてセットアップされます。
 
 ### ユーザーのセットアップ
+{: #cp_user-setup}
+
 ユーザーをセットアップするには、以下の手順を使用します。
 
-1. [SoftLayer アカウントにユーザーを追加します。](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)
+1. [SoftLayer アカウントにユーザーを追加します。](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct)
 2. {{site.data.keyword.BluSoftlayer}} インフラストラクチャー内で許可を割り当てます。
 3. ID プロバイダー内でユーザーを作成します。
 
@@ -82,7 +84,7 @@ lastupdated: "2018-11-28"
 3. {{site.data.keyword.BluSoftlayer}} インフラストラクチャーおよび ID プロバイダー内に定義される役割が同じ名前であることを確認してください。
 
 ### ユーザーのセットアップ
-{: #setupuser}
+{: #identity-setupuser}
 
 ユーザーをセットアップするには、以下の手順を使用します。
 

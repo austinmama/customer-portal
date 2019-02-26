@@ -41,7 +41,7 @@ lastupdated: "2019-02-01"
 {: #bicp_linkbmxacct}
 {: faq}
 
-SoftLayer アカウントのマスター・ユーザーである場合は、カスタマー・ポータルにログインし、ヘッダーにある**「アカウントのリンク (Link an account)」**をクリックします。 詳しくは、[IBM ID ユーザー・アカウントのリンク](/docs/account/softlayerlink.html)を参照してください。
+SoftLayer アカウントのマスター・ユーザーである場合は、カスタマー・ポータルにログインし、ヘッダーにある**「アカウントのリンク (Link an account)」**をクリックします。 詳しくは、[IBM ID ユーザー・アカウントのリンク](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)を参照してください。
 
 ## アカウントにリンクするには、既存の {{site.data.keyword.Bluemix_notm}} ユーザーである必要がありますか?
 {: #bicp_bmxusertolink}
@@ -55,7 +55,7 @@ SoftLayer アカウントのマスター・ユーザーである場合は、カ�
 
 アカウント・レベルで 2 要素認証 (2FA) 構成に影響は全くありません。 2FA は IBM ID 単位ではありません。従来どおり、アカウント単位です。 IBM ID が多くのアカウントに関連付けられていて、アカウント間で切り替えを行う場合、2FA を必要とする別のアカウントに切り替えるたびに ID を確認する必要があります。 これは、前のアカウントと新しいアカウントが両方とも同じ 2FA メカニズムを使用して構成されている場合でも同じです。
 
-2FA を使用した IBM ID について詳しくは、[リンクされたアカウントでの多要素認証の使用法](/docs/account/softlayerlink.html#2fa)を参照してください。
+2FA を使用した IBM ID について詳しくは、[リンクされたアカウントでの多要素認証の使用法](/docs/account?topic=account-2fa#2fa)を参照してください。
 
 ## アカウントをリンクできるのは誰ですか?
 {: #bicp_wholinkaccts}
@@ -101,7 +101,7 @@ IBM ID でログインすると、「この IBM ID または E メールを認�
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-マスター・ユーザーと、管理者許可を持つユーザーは、カスタマー・ポータルおよび API でアカウントに対してすべての root アクセス権限を持っています。 管理者許可を持たないユーザーは、管理役割を持つユーザーの制御に従ったアクセス権限を持ちます。 管理者は[ユーザー・プロファイルの編集](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile)によって、カスタマー・ポータルからこれらの許可を更新できます。 管理者許可がなくても、先頭パネルで自分のユーザー名をクリックすることによって、カスタマー・ポータルで自分のユーザー・プロファイルを編集できます。
+マスター・ユーザーと、管理者許可を持つユーザーは、カスタマー・ポータルおよび API でアカウントに対してすべての root アクセス権限を持っています。 管理者許可を持たないユーザーは、管理役割を持つユーザーの制御に従ったアクセス権限を持ちます。 管理者は[ユーザー・プロファイルの編集](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)によって、カスタマー・ポータルからこれらの許可を更新できます。 管理者許可がなくても、先頭パネルで自分のユーザー名をクリックすることによって、カスタマー・ポータルで自分のユーザー・プロファイルを編集できます。
 
 ## {{site.data.keyword.Bluemix_notm}} サブスクリプション・アカウントをリンクできますか?
 {: #bicp_linkbmxsubacct}
@@ -120,14 +120,14 @@ IBM ID でログインすると、「この IBM ID または E メールを認�
 {: #bicp_whatfindcompprof}
 {: faq}
 
-会社のプロファイルは、アカウント作成時に送信した情報です。会社名、住所、電話番号とともに、会社の主要な連絡先が含まれています。 この情報は、さまざまな理由で使用されるため、常に最新の状態に保つ必要があります。 アカウントの会社のプロファイルを表示する場合、または変更を依頼する場合は、[会社プロファイルの更新](/docs/customer-portal/cpmanacctcompprofcont.html#cp_updcompprof) を参照してください。
+会社のプロファイルは、アカウント作成時に送信した情報です。会社名、住所、電話番号とともに、会社の主要な連絡先が含まれています。 この情報は、さまざまな理由で使用されるため、常に最新の状態に保つ必要があります。 アカウントの会社のプロファイルを表示する場合、または変更を依頼する場合は、[会社プロファイルの更新](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile) を参照してください。
 
 ## デバイスとソフトウェアのパスワードはどこにありますか?
 {: #bicp_devswpw}
 {: faq}
 
 デバイスとソフトウェアのパスワードは、カスタマー・ポータル内の 2 つの場所に保管されています。 {{site.data.keyword.baremetal_short}} と {{site.data.keyword.virtualmachinesshort}} の両方の root ユーザーまたは管理ユーザーのユーザー名とパスワードなど、デバイスの資格情報を取得するには、[スナップショット・ビュー内でのデバイスの操作
-](/docs/vsi/vsi_interact_device_snapshot_view.html)を参照してください。 カスタマー・ポータルを使用して手動で追跡されたソフトウェア資格情報を迅速に表示および取得するには、[デバイス・アクセスの管理](/docs/vsi/vsi_device_access.html)を参照してください。
+](/docs/vsi?topic=virtual-servers-interacting-with-a-device-in-snapshot-view#interacting-with-a-device-in-snapshot-view)を参照してください。 カスタマー・ポータルを使用して手動で追跡されたソフトウェア資格情報を迅速に表示および取得するには、[デバイス・アクセスの管理](/docs/vsi?topic=virtual-servers-managing-device-access#managing-device-access)を参照してください。
 
 ## Web データの同期を維持するには、どのようにすればよいですか?
 {: #bicp_webdatasync}
@@ -145,4 +145,4 @@ Event Management System は、インフラストラクチャーの計画外の�
 {: #bicp_candev}
 {: faq}
 
-デバイスのキャンセルは、カスタマー・ポータルでいつでも行えます。 キャンセル要求の実行について詳しくは、[デバイスのキャンセル](/docs/vsi/vsi_managing.html)に関する箇所を参照してください。
+デバイスのキャンセルは、カスタマー・ポータルでいつでも行えます。 キャンセル要求の実行について詳しくは、[デバイスのキャンセル](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)に関する箇所を参照してください。

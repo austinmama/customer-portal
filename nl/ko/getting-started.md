@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2018-11-20"
 ## 시작하기 전에
 {: #prereqs}
 
-[{{site.data.keyword.Bluemix}} 계정 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://cloud.ibm.com){:new_window}이 필요합니다. IBM ID 인증 정보를 사용하여 고객 포털에 로그인하십시오. 대부분의 신규 사용자는 인증에 [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid)를 사용합니다.
+[{{site.data.keyword.Bluemix}} 계정 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://cloud.ibm.com){:new_window}이 필요합니다. IBM ID 인증 정보를 사용하여 고객 포털에 로그인하십시오. 대부분의 신규 사용자는 인증에 [IBM ID](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)를 사용합니다.
 
 인증용 IBM ID를 사용하여 계정에 로그인하지 않는 경우에는 고유 {{site.data.keyword.BluSoftlayer_notm}} 인프라 인증 정보를 사용하여 고객 포털에 로그인하십시오.
 {: tip}
@@ -41,10 +41,10 @@ lastupdated: "2018-11-20"
 {: #users-permissions}
 
 사용자를 계정에 추가하고 초기 권한을 설정하려면 **계정** > **사용자**로 이동하십시오.
- * 지정한 특정 권한을 기반으로 계정에서 플랫폼 및 인프라 리소스 모두에 사용자를 초대하려면 **사용자 초대**를 클릭하십시오. 그러면 {{site.data.keyword.Bluemix_notm}} Identity and Access Management(IAM) UI로 이동하여 사용자를 초대하고 액세스를 지정할 수 있습니다. 자세한 정보는 [사용자 초대](/docs/iam/iamuserinv.html)를 참조하십시오.
+ * 지정한 특정 권한을 기반으로 계정에서 플랫폼 및 인프라 리소스 모두에 사용자를 초대하려면 **사용자 초대**를 클릭하십시오. 그러면 {{site.data.keyword.Bluemix_notm}} Identity and Access Management(IAM) UI로 이동하여 사용자를 초대하고 액세스를 지정할 수 있습니다. 자세한 정보는 [사용자 초대](/docs/iam?topic=iam-iamuserinv#iamuserinv)를 참조하십시오.
  * VPN 액세스가 있는 사용자만 추가하려면 **VPN 전용 사용자 추가**를 클릭하십시오. 개인 정보를 입력하려면 포털 권한을 설정하고 사용자를 위해 디바이스 액세스를 설정하십시오.
 
-초기 초대에서 인프라 권한을 설정하려면 보기 전용, 기본 사용자, 수퍼유저 중에서 하나의 권한 세트를 선택하십시오. 사용자가 초대를 수락하면 포털 권한을 편집하여 액세스를 사용자 정의할 수 있습니다. 자세한 정보는 [인프라 권한](/docs/iam/infrastructureaccess.html)을 참조하십시오.
+초기 초대에서 인프라 권한을 설정하려면 보기 전용, 기본 사용자, 수퍼유저 중에서 하나의 권한 세트를 선택하십시오. 사용자가 초대를 수락하면 포털 권한을 편집하여 액세스를 사용자 정의할 수 있습니다. 자세한 정보는 [인프라 권한](/docs/iam?topic=iam-infrapermission#infrapermission)을 참조하십시오.
 {: tip}
 
 ## 3단계. {{site.data.keyword.Bluemix_notm}} 인프라 사설 네트워크
@@ -63,7 +63,7 @@ lastupdated: "2018-11-20"
 IBM ID 인증을 사용하는 계정의 사용자인 경우에는 VPN 액세스를 위한 SoftLayer VPN 사용자 이름이 사용됩니다. VPN 사용자 이름은 사용자 프로파일에서 정의됩니다. VPN 사용자 이름은 IBM ID 이메일 주소 및 계정 ID로 기본 설정되는 사용자 이름과는 다릅니다.
 {: tip}
 
-VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructure/iaas-vpn/about-vpn.html)를 참조하십시오.
+VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)를 참조하십시오.
 
 ## 4단계. 알림 구독
 {: #get-notified}

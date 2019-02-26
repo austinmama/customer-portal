@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-11"
+  years: 2015, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -31,7 +31,7 @@ Una volta collegati i tuoi account di fatturazione {{site.data.keyword.Bluemix_n
 
 Il tuo ciclo di utilizzo di {{site.data.keyword.Bluemix_notm}} si basa sul mese di calendario. Pertanto, il tuo account viene fatturato ogni mese nel giorno di fatturazione stabilito per il tuo accordo di addebito. Con SoftLayer, il ciclo di utilizzo inizia dal momento in cui inizi a usarlo, quindi ti viene addebitato ogni mese lo stesso giorno del mese di quando hai registrato il tuo account SoftLayer.
 
-Il tuo utilizzo di {{site.data.keyword.Bluemix_notm}} continua a essere misurato per il ciclo del mese corrente e ti viene addebitato su una fattura {{site.data.keyword.Bluemix_notm}}. A partire dal primo giorno del mese successivo, gli addebiti di {{site.data.keyword.Bluemix_notm}} e SoftLayer vengono combinati nella tua fattura {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni su fatture e utilizzo, fai clic su [Visualizzazione del tuo utilizzo](/docs/billing-usage/viewing_usage.html#viewingusage).
+Il tuo utilizzo di {{site.data.keyword.Bluemix_notm}} continua a essere misurato per il ciclo del mese corrente e ti viene addebitato su una fattura {{site.data.keyword.Bluemix_notm}}. A partire dal primo giorno del mese successivo, gli addebiti di {{site.data.keyword.Bluemix_notm}} e SoftLayer vengono combinati nella tua fattura {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni su fatture e utilizzo, fai clic su [Visualizzazione del tuo utilizzo](/docs/billing-usage?topic=billing-usage-viewingusage#viewingusage).
 
 Ad esempio, se colleghi i tuoi account il 16 aprile 2017, ricevi una fattura {{site.data.keyword.Bluemix_notm}} per l'utilizzo del mese di aprile. A seconda di quando hai collegato i tuoi account, potresti ricevere una fattura separata per l'utilizzo di SoftLayer. Il tuo utilizzo combinato durante il mese di maggio viene fatturato tramite il tuo account {{site.data.keyword.Bluemix_notm}}.
 

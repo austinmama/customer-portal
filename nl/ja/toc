@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html" path="customer-portal"}
+{: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal?topic=customer-portal-getting-started#getting-started" path="customer-portal"}
 SoftLayer リソースの管理
 
     {: .navgroup id="learn"}
@@ -20,7 +20,6 @@ SoftLayer リソースの管理
         cpmanacctcompprofcont.md
         cpenable2fa.md
         cpmanacctconfsso.md
-        ccpmanacccancreq.md
         cpsetupfedid.md
         accessing_infrastructure.md
 

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -37,7 +37,7 @@ lastupdated: "2018-11-20"
 
 |필드 |정의 |
 |-----|----------|
-| 이름, 성 | 사용자 프로파일과 연관된 사용자의 이름과 성입니다. |
+| 이름, 성 | 사용자 프로파일과 연관된 사용자의 이름과 성입니다.|
 |이메일 주소 | {{site.data.keyword.BluSoftlayer_notm}} 인프라의 계정에 대한 알림을 수신할 선호되는 이메일 주소입니다. 이메일 주소를 변경하면 {{site.data.keyword.BluSoftlayer_notm}} 인프라의 레코드가 변경됩니다. 이 변경은 IBM ID 인증 정보에 대한 연계에 영향을 주지 않습니다. IBM ID 프로파일에서 IBM ID의 이메일 주소를 변경해야 합니다.|
 |시간대 | 시간소인이 있는 데이터를 표시할 때 사용할 선호하는 시간대입니다.|
 |전화, 대체 전화|{{site.data.keyword.BluSoftlayer_notm}} 인프라에서 사용할 선호하는 담당자 전화번호입니다.|
@@ -62,7 +62,7 @@ lastupdated: "2018-11-20"
 {: caption="표 3. 사용자 프로파일을 편집하기 위한 기타 구성 설정" caption-side="top"}
 사용자 프로파일에 대한 편집을 제출하면 변경사항이 즉시 적용됩니다. 이전 단계를 반복하여 언제든지 사용자 프로파일을 변경할 수 있습니다.
 
-IBM ID 계정 설정에 대한 자세한 정보는 [IBM ID로 전환](/docs/account/softlayerlink.html#switching-to-ibmid)을 참조하십시오.
+IBM ID 계정 설정에 대한 자세한 정보는 [IBM ID로 전환](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)을 참조하십시오.
 
 ## 사용자의 고객 포털 권한 편집
 {: #cp_editusercpperm}
@@ -90,7 +90,7 @@ IBM ID 계정 설정에 대한 자세한 정보는 [IBM ID로 전환](/docs/acco
 ## 사용자를 위한 외부 권한 추가
 {: #cp_addextauthuser}
 
-고객 포털에서 외부 2단계 인증(2FA)을 활성화하여 포털에 로그인하는 과정을 추가로 보호할 수 있습니다. 이 추가 보안 계층은 확인되지 않은 액세스로부터 계정을 보호함으로써 디바이스, 데이터 및 계정 정보를 보호합니다. 자세한 정보는 [2단계 인증 설정](/docs/customer-portal/cpenable2fa.html#customerportal_2fa)을 참조하십시오.
+고객 포털에서 외부 2단계 인증(2FA)을 활성화하여 포털에 로그인하는 과정을 추가로 보호할 수 있습니다. 이 추가 보안 계층은 확인되지 않은 액세스로부터 계정을 보호함으로써 디바이스, 데이터 및 계정 정보를 보호합니다. 자세한 정보는 [2단계 인증 설정](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication)을 참조하십시오.
 
 
 ## 사용자의 상태 변경
@@ -124,7 +124,7 @@ IBM ID 계정 설정에 대한 자세한 정보는 [IBM ID로 전환](/docs/acco
 ## 사용자의 VPN 액세스 편집
 {: #cp_edituservpnaccess}
 
-고객 포털 계정에 [새 사용자가 추가](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)되면 SSL, PPTP 또는 SSL과 PPTP의 조합을 포함하여 다양한 연결 방법으로 VPN 액세스가 선택됩니다. VPN 액세스를 사용하여 사설 네트워크 전체에 액세스할 수 있거나 네트워크 액세스는 하나 이상의 특정 서브넷으로 제한될 수 있습니다. 사용자 창에서 언제든지 VPN 액세스를 관리하고 업데이트할 수 있습니다. 사용자의 VPN 액세스를 편집하려면 다음 단계를 수행하십시오.
+고객 포털 계정에 [새 사용자가 추가](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct)되면 SSL, PPTP 또는 SSL과 PPTP의 조합을 포함하여 다양한 연결 방법으로 VPN 액세스가 선택됩니다. VPN 액세스를 사용하여 사설 네트워크 전체에 액세스할 수 있거나 네트워크 액세스는 하나 이상의 특정 서브넷으로 제한될 수 있습니다. 사용자 창에서 언제든지 VPN 액세스를 관리하고 업데이트할 수 있습니다. 사용자의 VPN 액세스를 편집하려면 다음 단계를 수행하십시오.
 
 1. 고유 인증 정보를 사용하여 고객 포털에 액세스하십시오.
 2. 탐색줄에서 **계정** > **VPN 액세스**를 선택하십시오.
@@ -170,6 +170,6 @@ PPTP VPN을 활성화하여 데스크탑 또는 전용 디바이스에서 실행
 3. **EU 지원** 선택란을 선택하십시오.
 4. **프로파일 업데이트 요청**을 클릭하십시오.
 
-**EU 지원** 옵션을 사용할 수 없는 경우 PPTP VPN 액세스가 사용 가능한 상태에서 계정의 사용자를 보유할 수 있습니다. **EU 지원** 옵션을 사용으로 설정하려면 먼저 계정에서 모든 사용자의 PPTP VPN 액세스를 사용 안함으로 설정하십시오. 자세한 정보는 [PPTP VPN 액세스 활성화 또는 비활성화](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn)를 참조하십시오.
+**EU 지원** 옵션을 사용할 수 없는 경우 PPTP VPN 액세스가 사용 가능한 상태에서 계정의 사용자를 보유할 수 있습니다. **EU 지원** 옵션을 사용으로 설정하려면 먼저 계정에서 모든 사용자의 PPTP VPN 액세스를 사용 안함으로 설정하십시오. 자세한 정보는 [PPTP VPN 액세스 활성화 또는 비활성화](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn)를 참조하십시오.
 
-지원 티켓을 열 때 **EU 지원** 옵션 구현에 대한 자세한 정보는 [EU의 리소스에 대한 지원 요청](/docs/get-support/howtogetsupport.html#eusupported)을 참조하십시오.
+지원 티켓을 열 때 **EU 지원** 옵션 구현에 대한 자세한 정보는 [EU의 리소스에 대한 지원 요청](/docs/get-support?topic=get-support-eusupported#eusupported)을 참조하십시오.

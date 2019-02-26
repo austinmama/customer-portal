@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -43,9 +43,11 @@ lastupdated: "2018-11-28"
 {{site.data.keyword.BluSoftlayer}} 인프라에 작성됩니다. 사용자가 ID 제공자를 통해 SSO를 사용하려면 먼저 {{site.data.keyword.BluSoftlayer}} 인프라에서 모든 권한을 구성해야 합니다. 현재 권한은 개별 사용자를 기반으로 설정됩니다.
 
 ### 사용자 설정
+{: #cp_user-setup}
+
 사용자를 설정하려면 다음 단계를 수행하십시오.
 
-1. [SoftLayer 계정에 사용자 추가](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [SoftLayer 계정에 사용자 추가](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct).
 2. {{site.data.keyword.BluSoftlayer}} 인프라에서 권한을 지정하십시오.
 3. ID 제공자에서 사용자를 작성하십시오.
 
@@ -83,7 +85,7 @@ lastupdated: "2018-11-28"
 3. {{site.data.keyword.BluSoftlayer}} 인프라 및 ID 제공자에 정의된 역할의 이름이 동일한지 확인하십시오.
 
 ### 사용자 설정
-{: #setupuser}
+{: #identity-setupuser}
 
 사용자를 설정하려면 다음 단계를 수행하십시오.
 

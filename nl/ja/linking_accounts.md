@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-11"
+  years: 2015, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-11-11"
 
 {{site.data.keyword.Bluemix_notm}} の使用量サイクルは暦月ベースです。 そのため、アカウントは毎月、課金契約に設定された請求日に請求されます。 SoftLayer では、使用量サイクルは、SoftLayer の使用を開始したときから始まるため、毎月、SoftLayer アカウントを登録したときと同じ日に請求されます。
 
-{{site.data.keyword.Bluemix_notm}} の使用量の測定は、引き続き現行月のサイクルを対象として行われ、その使用量の料金は {{site.data.keyword.Bluemix_notm}} の請求書で請求されます。 翌月の初めから、{{site.data.keyword.Bluemix_notm}} と SoftLayer の課金が、{{site.data.keyword.Bluemix_notm}} 請求書で結合されるようになります。 請求書および使用量について詳しくは、[使用量の表示](/docs/billing-usage/viewing_usage.html#viewingusage)をクリックしてください。
+{{site.data.keyword.Bluemix_notm}} の使用量の測定は、引き続き現行月のサイクルを対象として行われ、その使用量の料金は {{site.data.keyword.Bluemix_notm}} の請求書で請求されます。 翌月の初めから、{{site.data.keyword.Bluemix_notm}} と SoftLayer の課金が、{{site.data.keyword.Bluemix_notm}} 請求書で結合されるようになります。 請求書および使用量について詳しくは、[使用量の表示](/docs/billing-usage?topic=billing-usage-viewingusage#viewingusage)をクリックしてください。
 
 例えば、2017年 4 月 16 日にアカウントをリンクした場合、4 月の使用量については {{site.data.keyword.Bluemix_notm}} の請求書を受け取ります。 アカウントをリンクしたタイミングによっては、SoftLayer 使用量に対して別個の請求書を受け取ることがあります。 5 月中の結合された使用量の料金が、{{site.data.keyword.Bluemix_notm}} アカウントから請求されます。
 

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,20 +16,20 @@ lastupdated: "2018-10-11"
 
 
 # 환경 및 시스템 이벤트 모니터링
-{: #customerportal_cpmonenvsysevent}
+{: #cp_environment-events}
 
 환경 모니터링은 사용자가 언제든 디바이스를 검사하는 기능을 갖고 있으며 디바이스 중 하나의 작동이 중지되면 자동으로 알림을 받음을 의미합니다. 또한 시스템이 계속해서 원활하게 실행되도록 시스템 이벤트를 모니터링할 수 있습니다.  
 {: shortdesc}
 
 ## 환경 모니터링
-{: #cpmonenv}
+{: #cp-monitorenvi}
 
 최소한, 기본 Ping 모니터링을 사용하지만 비즈니스 요구사항에 가장 적합한 방식으로 모니터링 옵션을 사용자 정의할 수 있습니다.
 
 ### 네트워크 유지보수 및 계획되지 않은 이벤트에 대한 알림 제공 유지
-{: #cp_stayinfomaintevent}
+{: #cp-informedmaintenance}
 
-가끔씩 스케줄링된 네트워크 유지보수와 비상 네트워크 유지보수를 피할 수 없는 경우가 있습니다. {{site.data.keyword.BluSoftlayer_full}} 인프라는 다수의 채널을 유지보수하여 스케줄링된 모든 유지보수 이벤트 및 비상 유지보수 이벤트에 대한 알림을 계속 제공합니다. 또한 이벤트 관리 시스템에서 [이메일 알림 구독](/docs/customer-portal/cpsub2not.html)을 수행할 수 있습니다. 이 무료 서비스는 서비스에 영향을 줄 수 있는 계획되지 않은 이벤트에 대해 구독한 사용자에게 자동으로 이메일을 발송합니다.
+가끔씩 스케줄링된 네트워크 유지보수와 비상 네트워크 유지보수를 피할 수 없는 경우가 있습니다. {{site.data.keyword.BluSoftlayer_full}} 인프라는 다수의 채널을 유지보수하여 스케줄링된 모든 유지보수 이벤트 및 비상 유지보수 이벤트에 대한 알림을 계속 제공합니다. 또한 이벤트 관리 시스템에서 [이메일 알림 구독](/docs/customer-portal?topic=customer-portal-cp_bpnotifications#cp_bpnotifications)을 수행할 수 있습니다. 이 무료 서비스는 서비스에 영향을 줄 수 있는 계획되지 않은 이벤트에 대해 구독한 사용자에게 자동으로 이메일을 발송합니다.
 
 ### {{site.data.keyword.BluSoftlayer_notm}} 인프라 모바일 사용
 {: #cp_bmxinframobile}
@@ -46,12 +46,12 @@ iOS 또는 Android 모바일 디바이스를 사용하여 {{site.data.keyword.Bl
 {{site.data.keyword.BluSoftlayer_notm}} 인프라 모바일 애플리케이션은 여러 유명한 모바일 디바이스 플랫폼에서 사용이 가능하며, 각 플랫폼의 관련 애플리케이션 저장소에서 무료로 사용이 가능합니다.
 
 ## 서버 모니터링
-{: #customerportal_monservers}
+{: #cp_monservers}
 
-서버의 상태를 확인하고 스케일링할 시점을 파악할 수 있도록 모니터링을 설정하십시오. 표준 모니터링 또는 Nimsoft 모니터링 서비스를 사용할 수 있습니다. {{site.data.keyword.BluSoftlayer_notm}} 인프라 고객 포털에서 슬로우 또는 서비스 Ping을 사용하여 ping-and-respond 메소드에서 표준 또는 기본 모니터링을 사용할 수 있습니다. 또한 고객 포털 또는 3개의 계층(기본, 고급 및 프리미엄) 중 하나에서 Nimsoft(또는 고급) 모니터링을 사용할 수도 있습니다. 특히 Bare Metal Server에 대한 자세한 정보는 [Bare Metal Server 시작하기](/docs/bare-metal/index.html#getting-started)를 참조하십시오.
+서버의 상태를 확인하고 스케일링할 시점을 파악할 수 있도록 모니터링을 설정하십시오. 표준 모니터링 또는 Nimsoft 모니터링 서비스를 사용할 수 있습니다. {{site.data.keyword.BluSoftlayer_notm}} 인프라 고객 포털에서 슬로우 또는 서비스 Ping을 사용하여 ping-and-respond 메소드에서 표준 또는 기본 모니터링을 사용할 수 있습니다. 또한 고객 포털 또는 3개의 계층(기본, 고급 및 프리미엄) 중 하나에서 Nimsoft(또는 고급) 모니터링을 사용할 수도 있습니다. 특히 Bare Metal Server에 대한 자세한 정보는 [Bare Metal Server 시작하기](/docs/bare-metal?topic=bare-metal-getting-started#getting-started)를 참조하십시오.
 
 ## 시스템 이벤트 모니터링
-{: #customerportal_monevent}
+{: #cp_monevent}
 
 감사 로그 및 액세스 로그 보기를 통해 시스템 이벤트를 모니터링할 수 있습니다.
 

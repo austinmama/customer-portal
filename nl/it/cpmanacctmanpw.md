@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2018-11-20"
 
 
 # Gestione delle password
-{: #customerportal_manpws}
+{: #cp_manpws}
 
 Se sei un utente master o il proprietario di un account, puoi abilitare il tracciamento delle password e puoi anche impostare una password per l'accesso una tantum all'account. Il tracciamento delle password consente agli utenti di memorizzare i dati della password del software per i dispositivi e il software associato.
 {:shortdesc}
 
 ## Abilitazione del tracciamento delle password
-{: #customerportal_enabpwtrak}
+{: #cp_enabpwtrak}
 
 Il portale clienti ha uno strumento di [tracciamento delle password ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/devices/passwords){:new_window} facoltativo per ogni account. Gli utenti possono recuperare i loro nomi utente e password attraverso lo strumento se le informazioni vengono perse o dimenticate.
 
@@ -46,7 +46,7 @@ Il tracciamento delle password all'interno del portale clienti è facoltativo. Q
 Dopo aver aggiunto l'utente allo strumento di tracciamento delle password, le informazioni sono memorizzate nello strumento finché non vengono eliminate manualmente. Tutte le combinazioni di nome utente e password vengono memorizzate in base nome del dispositivo per impostazione predefinita. Le voci sono visualizzate in ordine alfabetico per nome dispositivo e quindi per nome utente.
 
 ### Filtraggio delle informazioni nello strumento di tracciamento delle password
-{: #cp_filterusinfopwtracktool}
+{: #cp_tracktool}
 
 Per visualizzare, modificare o eliminare le informazioni utente nello strumento di tracciamento delle password, puoi filtrare per individuare rapidamente un utente. L'utilizzo del filtro per trovare un utente è utile quando l'elenco di utenti si estende su più righe o pagine. Utilizza la seguente procedura per filtrare in base a dispositivo, software o utente nello strumento di tracciamento delle password.
 
@@ -59,7 +59,7 @@ Per visualizzare, modificare o eliminare le informazioni utente nello strumento 
 Puoi selezionare le informazioni utente da visualizzare, modificare o rimuovere.
 
 ### Modifica delle informazioni utente nello strumento di tracciamento delle password
-{: #cp_editusinfopwtracktool}
+{: #cp_editusinfo}
 
 Dopo aver aggiunto un utente allo strumento di tracciamento delle password, puoi modificare i dettagli associati all'utente o alla password. Utilizza la seguente procedura per modificare le informazioni per un utente nello strumento di tracciamento delle password.
 
@@ -73,7 +73,7 @@ Dopo aver aggiunto un utente allo strumento di tracciamento delle password, puoi
 Dopo aver modificato un utente o una password nello strumento di tracciamento delle password, le informazioni vengono aggiornate immediatamente.
 
 ## Configurazione di un account per l'accesso con password monouso
-{: #cp_confportacc1timpwacc}
+{: #cp_one-time}
 
 Prima di poter configurare l'account, devi configurare l'applicazione "VIP Access" di Verisign. Se VIP Access non è configurato, per prima cosa scarica l'applicazione per uno dei seguenti dispositivi:
 * Per il tuo telefono: [https://m.vip.symantec.com/home.v ![Icona link esterno](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
@@ -100,12 +100,12 @@ Salva il tuo ID credenziale originale di Verisign Identity Protection in un luog
 La reimpostazione della tua password si basa sulla possibilità di utilizzare un ID IBM per l'autenticazione per accedere al tuo account.  
 
 ### Reimpostazione di una password dell'account ID IBM
-{: #cp_reset-IBMid-password}
+{: #cp_reset}
 
 Se utilizzi l'ID IBM per l'autenticazione, per reimpostare o ripristinare la tua password vai al tuo profilo ID IBM e segui le istruzioni nella sezione **Accedi**.
 
 ### Reimpostazione di una password dell'account SoftLayer
-{: #cp_reset-password}
+{: #cp_reset-sl}
 
 Se non utilizzi un ID IBM per l'autenticazione dell'account, completa la seguente procedura:
 
@@ -116,5 +116,5 @@ Se non utilizzi un ID IBM per l'autenticazione dell'account, completa la seguent
 
 Hai 5 tentativi per rispondere alle domande di sicurezza. Se effettui più di 5 tentativi, il modulo di reimpostazione della password viene bloccato per 15 minuti prima che puoi riprovare.
 
-Per informazioni sull'utilizzo delle password VPN, consulta [Aggiorna una password VPN dell'utente](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password).
+Per informazioni sull'utilizzo delle password VPN, consulta [Aggiorna una password VPN dell'utente](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
 {: tip}

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-11-20"
 
 
 # Configurazione dell'autenticazione a due fattori
-{: #customerportal_2fa}
+{: cp_setup-2fa}
 
 Nel portale clienti, è possibile attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere ulteriore protezione quando accedi al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti.
 {:shortdesc}
@@ -26,13 +26,14 @@ Se abiliti la 2FA nel portale clienti per il tuo account SoftLayer esistente, de
 La 2FA per il tuo account SoftLayer non è per ogni ID IBM, ma è tuttora per ogni account. Quando un ID IBM è associato a più account e tu passi da un account all'altro, devi confermare la tua identità ogni volta che passi a un account diverso. Devi confermare la tua identità quando passi da un account all'altro anche se l'account precedente e il nuovo account sono entrambi configurati con lo stesso meccanismo 2FA.
 
 ## Abilitazione della 2FA
+{: #cp-enable-2fa}
 
 L'autenticazione 2FA è disponibile in due formati. Entrambi i metodi di autenticazione esterna possono essere aggiunti per ogni utente con un piccolo addebito mensile:
 
 * Symantec Identify Protection è lo strumento di autenticazione esterna più utilizzato, che fornisce un codice di sicurezza dinamico che viene usato in aggiunta al nome utente e alla password durante l'accesso al portale clienti.
 * L'autenticazione PhoneFactor fornisce l'autenticazione fuori banda con una chiamata telefonica, un SMS o un'applicazione mobile.
 
- Se hai un account collegato, puoi avvalerti dell'impostazione di autenticazione multifattore (MFA, multi-factor authentication) [abilitando l'autenticazione multifattore](/docs/iam/mfa.html) per tutto il tuo account {{site.data.keyword.Bluemix_notm}}.
+ Se hai un account collegato, puoi avvalerti dell'impostazione di autenticazione multifattore (MFA, multi-factor authentication) [abilitando l'autenticazione multifattore](/docs/iam?topic=iam-enablemfa#enablemfa) per tutto il tuo account {{site.data.keyword.Bluemix_notm}}.
  {: tip}
 
 Per configurare la 2FA, completa la seguente procedura:
@@ -54,7 +55,7 @@ Dopo aver aggiunto l'autenticazione esterna per un utente, i passi successivi di
 * Se è abilitato PhoneFactor, l'utente deve attivare PhoneFactor per utilizzare questo tipo di autenticazione a due fattori con l'account.
 
 ### Attivazione dell'autenticazione PhoneFactor
-{: #cp_actphonefacauth}
+{: #cp_phonefacauth}
 
 Dopo aver aggiunto PhoneFactor, devi attivare manualmente l'autenticazione esterna con PhoneFactor attraverso il portale clienti. Poiché PhoneFactor utilizza il contatto manuale, è importante assicurarsi che tutti i numeri di telefono associati all'account siano sempre aggiornati. Il mancato aggiornamento delle informazioni di contatto potrebbe comportare l'impossibilità di accedere al portale clienti e alla VPN quando PhoneFactor è attivo. Quando PhoneFactor viene aggiunto correttamente, ricevi un'e-mail di conferma. Dopo aver ricevuto l'e-mail, utilizza la seguente procedura per attivare l'autenticazione PhoneFactor.
 
@@ -87,7 +88,7 @@ Dopo aver attivato PhoneFactor, l'autenticazione tramite PhoneFactor è richiest
  {: tip}
 
 #### Metodi di autenticazione PhoneFactor
-{: #cp_phonefacauthmeths}
+{: #cp_authmeths}
 
 Se configuri PhoneFactor come tipo di autenticazione, puoi scegliere una delle seguenti opzioni come metodo di autenticazione:
 

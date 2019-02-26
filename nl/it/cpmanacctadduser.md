@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -13,6 +13,7 @@ lastupdated: "2018-11-20"
 {:tip: .tip}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:note: .note}
 
 
 # Aggiunta di utenti a un account SoftLayer
@@ -31,7 +32,7 @@ A seconda del tuo accesso, puoi gestire il tuo account SoftLayer o gli account d
 
   * Se disponi dell'accesso amministrativo, puoi vedere tutti gli utenti che hai aggiunto. Se hai fornito a tali utenti le autorizzazioni per amministrare altri utenti, puoi anche vedere tutti gli utenti che essi hanno aggiunto. Puoi inoltre gestire qualsiasi utente associato all'account. Ciò include la modifica dell'accesso al portale clienti, la modifica dello stato dell'utente e la rimozione degli utenti.
 
-Per gestire gli utenti dalla console {{site.data.keyword.Bluemix_notm}}, vedi la sezione [Configurazione account](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) e [Gestione di identità e accesso](/docs/iam/quickstart.html#getstarted). Per ulteriori informazioni sulla console {{site.data.keyword.Bluemix_notm}}, vedi [Navigazione nella console {{site.data.keyword.Bluemix_notm}}](/docs/overview/ui.html#ui).
+Per gestire gli utenti dalla console {{site.data.keyword.Bluemix_notm}}, vedi la sezione [Configurazione account](/docs/account?topic=account-signup#signup) e [Gestione di identità e accesso](/docs/iam?topic=iam-getstarted#getstarted). Per ulteriori informazioni sulla console {{site.data.keyword.Bluemix_notm}}, vedi [Navigazione nella console {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-ui#ui).
 
 Persone diverse all'interno di un'organizzazione hanno ruoli e responsabilità differenti e le serie di autorizzazioni utente non sono valide per tutti. Puoi aggiungere utenti al portale clienti con i ruoli per fornire l'accesso esattamente a ciò di cui hanno bisogno per il loro ruolo specifico. Se vengono apportate modifiche per errore o non autorizzate, puoi risalire all'utente o al gruppo. Pertanto, puoi fornire una formazione adeguata o aggiornare l'autorizzazione utente per ridurre al minimo i rischi. Gli utenti possono quindi concentrarsi sul loro ruolo specificato all'interno del portale clienti.
 
@@ -46,9 +47,9 @@ Utilizza la seguente procedura per aggiungere un utente a un account.
   {: tip}
 
 5. Completa i campi obbligatori nella sezione **Impostazioni di accesso**. Specifica se le impostazioni possono essere modificate dall'utente, se l'indirizzo IP è limitato e se all'utente è richiesto di configurare e utilizzare domande di sicurezza. Inoltre, per tutti gli utenti che non utilizzano l'ID IBM, puoi impostare il periodo di tempo prima che la password scada.
-**Note:**
-* Se utilizzi l'ID IBM per l'autenticazione, aggiorna le password nei tuoi [profili ID IBM ![Icona link esterno](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} seguendo le istruzioni in **Accedi**.
-* Fai clic sulla casella di spunta **Utilizza password del portale per VPN** per sincronizzare le password del portale clienti e della VPN.
+    **Note:**
+    * Se utilizzi l'ID IBM per l'autenticazione, aggiorna le password nei tuoi [profili ID IBM ![Icona link esterno](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} seguendo le istruzioni in **Accedi**.
+    * Fai clic sulla casella di spunta **Utilizza password del portale per VPN** per sincronizzare le password del portale clienti e della VPN.
 6. Fai clic su **Aggiungi utente**.
 
 Dopo aver creato un account per un utente, l'utente riceve una notifica via e-mail per completare la configurazione del proprio account. L'utente deve impostare una password e, facoltativamente, creare domande di sicurezza se hai indicato che sono richieste.
@@ -65,7 +66,10 @@ Utilizza la seguente procedura per impostare le autorizzazioni per l'utente che 
 
 1. Fai clic sull'icona **Autorizzazioni**, indicata da una figura utente con un lucchetto.
 2. Aggiorna le **Autorizzazioni utente** in tutte le schede per il nuovo utente.
-> **Nota:** seleziona un'opzione dall'elenco **Autorizzazioni rapide** per visualizzare le serie di autorizzazioni per tre tipi di utenti. Fai clic su **Imposta autorizzazioni** per selezionare la serie di autorizzazioni oppure personalizza l'accessibilità dell'utente selezionando le singole opzioni su ciascuna scheda disponibile.
+
+    Seleziona un'opzione dall'elenco **Autorizzazioni rapide** per visualizzare le serie di autorizzazioni per tre tipi di utenti. Fai clic su **Imposta autorizzazioni** per selezionare la serie di autorizzazioni oppure personalizza l'accessibilità dell'utente selezionando le singole opzioni su ciascuna scheda disponibile.
+    {: note}
+    
 3. Fai clic su **Aggiungi autorizzazioni portale** per aggiungere le autorizzazioni o su **Reimposta autorizzazioni** per reimpostare le autorizzazioni per l'utente.
 4. Fai clic sull'icona **Accesso dispositivo**, indicata da tre server.
 5. Fai clic sulla casella di spunta del dispositivo per ciascun dispositivo a cui desideri che l'utente acceda.

@@ -21,7 +21,7 @@ lastupdated: "2018-11-20"
 Se riscontri dei problemi con l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} e non hai un account collegato, puoi ottenere aiuto per determinare la causa del problema e trovare una soluzione utilizzando il portale clienti.
 {:shortdesc}
 
-Se hai un [account collegato](/docs/account/softlayerlink.html#link_user_accounts), puoi ottenere assistenza attraverso la console {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, vedi [Richiesta di supporto](/docs/get-support/howtogetsupport.html).
+Se hai un [account collegato](/docs/account?topic=account-link_customer_accounts#link_customer_accounts), puoi ottenere assistenza attraverso la console {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, vedi [Richiesta di supporto](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support).
 
 Se non hai un account collegato, puoi aprire i ticket di supporto nel portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per problemi tecnici generali o per assistenza in caso di problemi relativi al tuo account.
 
@@ -62,7 +62,7 @@ Puoi aprire i ticket dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}}
   Seleziona **Nessuno** se non richiedi che il team di supporto si trovi fisicamente in Europa.
   {: tip}
 
-  Vedi [Impostazione dell'opzione Supportato UE](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported) per informazioni sull'inizializzazione di questa funzione per il tuo account.
+  Vedi [Impostazione dell'opzione Supportato UE](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported) per informazioni sull'inizializzazione di questa funzione per il tuo account.
 
 11. Fai clic su **Aggiungi ticket**.
 
@@ -110,4 +110,4 @@ Se riassegni il ticket, il nuovo assegnatario diventa il punto di contatto princ
 ## Escalation di un ticket di supporto
 {: #cp_bpsupescalflow}
 
-Puoi richiedere ulteriore assistenza eseguendo un'escalation del tuo ticket. Per ulteriori informazioni, consulta [Escalation dei ticket di supporto](/docs/get-support/quicktickresp.html#escalation).
+Puoi richiedere ulteriore assistenza eseguendo un'escalation del tuo ticket. Per ulteriori informazioni, consulta [Escalation dei ticket di supporto](/docs/get-support?topic=get-support-escalation#escalation).

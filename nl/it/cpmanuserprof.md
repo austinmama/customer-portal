@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -62,7 +62,7 @@ Una volta creato un profilo utente nel portale clienti, puoi modificarlo in qual
 {: caption="Tabella 3. Altre impostazioni di configurazione per la modifica di un profilo utente" caption-side="top"}
 Dopo aver inviato le modifiche per un profilo utente, tali modifiche vengono applicate immediatamente. Puoi modificare nuovamente il profilo utente in qualsiasi momento ripetendo i passi precedenti.
 
-Vedi [Passaggio all'ID IBM](/docs/account/softlayerlink.html#switching-to-ibmid) per ulteriori informazioni sulla configurazione di un account ID IBM.
+Vedi [Passaggio all'ID IBM](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) per ulteriori informazioni sulla configurazione di un account ID IBM.
 
 ## Modifica delle autorizzazioni del portale clienti di un utente
 {: #cp_editusercpperm}
@@ -90,7 +90,7 @@ Le autorizzazioni utente vengono aggiornate immediatamente dopo l'invio delle mo
 ## Aggiunta dell'autenticazione esterna per un utente
 {: #cp_addextauthuser}
 
-Dal portale clienti, puoi attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere protezione quando esegui l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti. Per ulteriori informazioni, consulta [Impostazione dell'autenticazione a due fattori](/docs/customer-portal/cpenable2fa.html#customerportal_2fa).
+Dal portale clienti, puoi attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere protezione quando esegui l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti. Per ulteriori informazioni, consulta [Impostazione dell'autenticazione a due fattori](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication).
 
 
 ## Modifica dello stato di un utente
@@ -124,7 +124,7 @@ Dopo aver aggiornato lo stato di un utente, le modifiche all'accessibilità del 
 ## Modifica dell'accesso VPN di un utente
 {: #cp_edituservpnaccess}
 
-Quando un [nuovo utente viene aggiunto](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct) a un account del portale clienti, l'accesso VPN viene selezionato tra vari metodi di connessione, tra cui SSL, PPTP o una combinazione dei due. Con l'accesso VPN, è possibile accedere alla rete privata nella sua interezza o l'accesso alla rete può essere limitato a una o più sottoreti specifiche. Puoi gestire e aggiornare l'accesso VPN in qualsiasi momento dalla finestra Utenti. Utilizza la seguente procedura per modificare l'accesso VPN di un utente.
+Quando un [nuovo utente viene aggiunto](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct) a un account del portale clienti, l'accesso VPN viene selezionato tra vari metodi di connessione, tra cui SSL, PPTP o una combinazione dei due. Con l'accesso VPN, è possibile accedere alla rete privata nella sua interezza o l'accesso alla rete può essere limitato a una o più sottoreti specifiche. Puoi gestire e aggiornare l'accesso VPN in qualsiasi momento dalla finestra Utenti. Utilizza la seguente procedura per modificare l'accesso VPN di un utente.
 
 1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account** > **Accesso VPN** dalla barra di navigazione.
@@ -170,6 +170,6 @@ Puoi indicare che desideri ricevere assistenza esclusivamente da un team di supp
 3. Seleziona la casella di spunta **Supportato UE**.
 4. Fai clic su **Richiedi aggiornamento profilo**.
 
-Se l'opzione **Supportato UE** non è disponibile, è possibile che ci siano utenti nel tuo account con l'accesso VPN PPTP abilitato. Disabilita l'accesso VPN PPTP per tutti gli utenti nel tuo account per abilitare l'opzione **Supportato UE**. Per ulteriori informazioni, vedi [Attivazione o disattivazione dell'accesso VPN PPTP](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
+Se l'opzione **Supportato UE** non è disponibile, è possibile che ci siano utenti nel tuo account con l'accesso VPN PPTP abilitato. Disabilita l'accesso VPN PPTP per tutti gli utenti nel tuo account per abilitare l'opzione **Supportato UE**. Per ulteriori informazioni, vedi [Attivazione o disattivazione dell'accesso VPN PPTP](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn).
 
-Per ulteriori informazioni sull'implementazione dell'opzione **Supportato UE** quando apri un ticket di supporto, vedi [Richiesta di supporto per le risorse nell'Unione Europea](/docs/get-support/howtogetsupport.html#eusupported).
+Per ulteriori informazioni sull'implementazione dell'opzione **Supportato UE** quando apri un ticket di supporto, vedi [Richiesta di supporto per le risorse nell'Unione Europea](/docs/get-support?topic=get-support-eusupported#eusupported).

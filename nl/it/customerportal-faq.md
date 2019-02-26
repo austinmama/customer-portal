@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -41,7 +41,7 @@ I nuovi account richiedono l'ID IBM per l'autenticazione. Gli account esistenti 
 {: #bicp_linkbmxacct}
 {: faq}
 
-Se sei l'utente master nel tuo account SoftLayer, accedi al portale clienti e fai clic su **Collega un account** nell'intestazione. Per ulteriori informazioni, vedi [Collegamento degli account utente ID IBM](/docs/account/softlayerlink.html).
+Se sei l'utente master nel tuo account SoftLayer, accedi al portale clienti e fai clic su **Collega un account** nell'intestazione. Per ulteriori informazioni, vedi [Collegamento degli account utente ID IBM](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
 ## Devo essere un utente {{site.data.keyword.Bluemix_notm}} esistente per collegare gli account?
 {: #bicp_bmxusertolink}
@@ -55,7 +55,7 @@ No. Puoi creare un nuovo account {{site.data.keyword.Bluemix_notm}} o collegare 
 
 Non vi è alcun impatto sulla configurazione dell'autenticazione a due fattori (2FA) a livello di account. 2FA non è per ogni ID IBM, bensì per ogni account. Quando un ID IBM è associato a molti account e tu passi da un account all'altro, devi confermare la tua identità ogni volta che passi a un account diverso che richiede la 2FA. Questo è vero anche se l'account precedente e il nuovo account sono entrambi configurati con lo stesso meccanismo 2FA.
 
-Per ulteriori informazioni sull'ID IBM con 2FA, vedi [Utilizzo dell'autenticazione multifattore negli account collegati](/docs/account/softlayerlink.html#2fa).
+Per ulteriori informazioni sull'ID IBM con 2FA, vedi [Utilizzo dell'autenticazione multifattore negli account collegati](/docs/account?topic=account-2fa#2fa).
 
 ## Chi può collegare gli account?
 {: #bicp_wholinkaccts}
@@ -101,7 +101,7 @@ Se hai seguito la procedura guidata per passare all'ID IBM e non hai ricevuto l'
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Gli utenti master e quelli con autorizzazioni di amministratore hanno accesso root completo agli account sul portale clienti e sull'API. Gli utenti senza autorizzazioni di amministratore dispongono dell'accessibilità controllata da quelli con i ruoli di amministratore. Queste autorizzazioni possono essere aggiornate dagli amministratori dal portale clienti [modificando un profilo utente](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Senza le autorizzazioni di amministratore, puoi modificare il tuo profilo utente nel portale clienti facendo clic sul tuo nome utente nel pannello superiore.
+Gli utenti master e quelli con autorizzazioni di amministratore hanno accesso root completo agli account sul portale clienti e sull'API. Gli utenti senza autorizzazioni di amministratore dispongono dell'accessibilità controllata da quelli con i ruoli di amministratore. Queste autorizzazioni possono essere aggiornate dagli amministratori dal portale clienti [modificando un profilo utente](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Senza le autorizzazioni di amministratore, puoi modificare il tuo profilo utente nel portale clienti facendo clic sul tuo nome utente nel pannello superiore.
 
 ## Posso collegare un account Sottoscrizione {{site.data.keyword.Bluemix_notm}}?
 {: #bicp_linkbmxsubacct}
@@ -120,13 +120,13 @@ Una volta che gli account vengono collegati, non è possibile scollegarli.
 {: #bicp_whatfindcompprof}
 {: faq}
 
-Il profilo azienda rappresenta le informazioni inviate al momento della creazione dell'account e include un contatto principale per la tua azienda, insieme al nome, all'indirizzo e al numero di telefono dell'azienda. Queste informazioni vengono utilizzate per vari motivi e devono essere mantenute sempre aggiornate. Per visualizzare il profilo azienda per il tuo account o per richiedere modifiche, vedi [Aggiornamento del tuo profilo azienda](/docs/customer-portal/cpmanacctcompprofcont.html#cp_updcompprof).
+Il profilo azienda rappresenta le informazioni inviate al momento della creazione dell'account e include un contatto principale per la tua azienda, insieme al nome, all'indirizzo e al numero di telefono dell'azienda. Queste informazioni vengono utilizzate per vari motivi e devono essere mantenute sempre aggiornate. Per visualizzare il profilo azienda per il tuo account o per richiedere modifiche, vedi [Aggiornamento del tuo profilo azienda](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile).
 
 ## Dove trovo le mie password per il dispositivo e il software?
 {: #bicp_devswpw}
 {: faq}
 
-Le password del dispositivo e del software vengono archiviate in due ubicazioni all'interno del portale clienti. Per recuperare le credenziali del dispositivo, inclusi il nome utente e la password root o amministratore per i {{site.data.keyword.baremetal_short}} e {{site.data.keyword.virtualmachinesshort}}, vedi [Interazione con un dispositivo nella vista dell'istantanea](/docs/vsi/vsi_interact_device_snapshot_view.html). Per visualizzare e richiamare rapidamente le credenziali del software che vengono tracciate manualmente utilizzando il portale clienti, vedi [Gestione dell'accesso al dispositivo](/docs/vsi/vsi_device_access.html).
+Le password del dispositivo e del software vengono archiviate in due ubicazioni all'interno del portale clienti. Per recuperare le credenziali del dispositivo, inclusi il nome utente e la password root o amministratore per i {{site.data.keyword.baremetal_short}} e {{site.data.keyword.virtualmachinesshort}}, vedi [Interazione con un dispositivo nella vista dell'istantanea](/docs/vsi?topic=virtual-servers-interacting-with-a-device-in-snapshot-view#interacting-with-a-device-in-snapshot-view). Per visualizzare e richiamare rapidamente le credenziali del software che vengono tracciate manualmente utilizzando il portale clienti, vedi [Gestione dell'accesso al dispositivo](/docs/vsi?topic=virtual-servers-managing-device-access#managing-device-access).
 
 ## Come posso mantenere sincronizzati i miei dati web?
 {: #bicp_webdatasync}
@@ -144,4 +144,4 @@ Event Management System è un insieme di strumenti che ottimizza il modo in cui 
 {: #bicp_candev}
 {: faq}
 
-Puoi annullare un dispositivo in qualsiasi momento tramite il portale clienti. Vedi [Annulla un dispositivo](/docs/vsi/vsi_managing.html) per ulteriori informazioni su come completare la richiesta di annullamento.
+Puoi annullare un dispositivo in qualsiasi momento tramite il portale clienti. Vedi [Annulla un dispositivo](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers) per ulteriori informazioni su come completare la richiesta di annullamento.

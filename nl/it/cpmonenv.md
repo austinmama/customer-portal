@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,20 +16,20 @@ lastupdated: "2018-10-11"
 
 
 # Monitoraggio dell'ambiente e degli eventi di sistema
-{: #customerportal_cpmonenvsysevent}
+{: #cp_environment-events}
 
 Monitoraggio dell'ambiente significa che hai la possibilità di controllare i dispositivi in qualsiasi momento e che ricevi automaticamente una notifica in caso di interruzione di uno dei tuoi dispositivi. Puoi anche monitorare gli eventi di sistema per la corretta esecuzione dei tuoi sistemi.  
 {: shortdesc}
 
 ## Monitoraggio dell'ambiente
-{: #cpmonenv}
+{: #cp-monitorenvi}
 
 Come minimo, utilizza il monitoraggio ping di base, ma puoi personalizzare le opzioni di monitoraggio adeguandole alle tue esigenze di business.
 
 ### Resta informato sugli eventi di manutenzione della rete e sugli eventi non pianificati
-{: #cp_stayinfomaintevent}
+{: #cp-informedmaintenance}
 
-Di tanto in tanto, la manutenzione pianificata e di emergenza della rete è inevitabile. L'infrastruttura {{site.data.keyword.BluSoftlayer_full}} mantiene molti canali per tenerti informato su tutti gli eventi di manutenzione pianificata e di emergenza. Inoltre, puoi [sottoscrivere alle notifiche e-mail](/docs/customer-portal/cpsub2not.html) dal sistema di gestione eventi (EMS o Event Management System). Questo servizio gratuito invia automaticamente agli utenti sottoscritti email riguardanti gli eventi non pianificati, che potrebbero influire sui servizi.
+Di tanto in tanto, la manutenzione pianificata e di emergenza della rete è inevitabile. L'infrastruttura {{site.data.keyword.BluSoftlayer_full}} mantiene molti canali per tenerti informato su tutti gli eventi di manutenzione pianificata e di emergenza. Inoltre, puoi [sottoscrivere alle notifiche e-mail](/docs/customer-portal?topic=customer-portal-cp_bpnotifications#cp_bpnotifications) dal sistema di gestione eventi (EMS o Event Management System). Questo servizio gratuito invia automaticamente agli utenti sottoscritti email riguardanti gli eventi non pianificati, che potrebbero influire sui servizi.
 
 ### Utilizzo dell'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}
 {: #cp_bmxinframobile}
@@ -46,12 +46,12 @@ L'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}
 L'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} è utilizzabile su diverse piattaforme per dispositivi mobili popolari ed è disponibile gratuitamente dai relativi application store per ciascuna piattaforma.
 
 ## Monitoraggio dei server
-{: #customerportal_monservers}
+{: #cp_monservers}
 
-Configura il monitoraggio per controllare lo stato del tuo server e sapere quando ridimensionare. Puoi utilizzare il monitoraggio standard o i servizi di monitoraggio Nimsoft. Puoi utilizzare il monitoraggio standard, o di base, nel metodo ping-and-respond (effettua ping e rispondi) utilizzando un ping lento o di servizio dal portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Puoi anche utilizzare il monitoraggio Nimsoft, o avanzato, dal portale clienti o in 1 di 3 livelli: base, avanzato e premium. Per ulteriori informazioni specifiche per i server bare metal, vedi [Introduzione ai server bare metal](/docs/bare-metal/index.html#getting-started).
+Configura il monitoraggio per controllare lo stato del tuo server e sapere quando ridimensionare. Puoi utilizzare il monitoraggio standard o i servizi di monitoraggio Nimsoft. Puoi utilizzare il monitoraggio standard, o di base, nel metodo ping-and-respond (effettua ping e rispondi) utilizzando un ping lento o di servizio dal portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Puoi anche utilizzare il monitoraggio Nimsoft, o avanzato, dal portale clienti o in 1 di 3 livelli: base, avanzato e premium. Per ulteriori informazioni specifiche per i server bare metal, vedi [Introduzione ai server bare metal](/docs/bare-metal?topic=bare-metal-getting-started#getting-started).
 
 ## Monitoraggio degli eventi di sistema
-{: #customerportal_monevent}
+{: #cp_monevent}
 
 Puoi monitorare gli eventi di sistema visualizzando i log di controllo e i log di accesso.
 

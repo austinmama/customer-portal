@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,20 +16,20 @@ lastupdated: "2019-02-01"
 
 
 # 環境およびシステム・イベントのモニタリング
-{: #customerportal_cpmonenvsysevent}
+{: #cp_environment-events}
 
 環境をモニターするということは、いつでもデバイスをチェックできること、および、デバイスの 1 つがダウンした場合に自動的に通知されることを意味します。 システムが円滑に稼働している状態を保つためにシステム・イベントをモニターすることもできます。  
 {: shortdesc}
 
 ## 環境のモニタリング
-{: #cpmonenv}
+{: #cp-monitorenvi}
 
 最低限、基本的な ping モニタリングを使用しますが、業務上のニーズに最も適合するようにモニタリング・オプションをカスタマイズできます。
 
 ### ネットワーク保守および予定外のイベントの情報を常に入手する
-{: #cp_stayinfomaintevent}
+{: #cp-informedmaintenance}
 
-スケジュールされた緊急ネットワーク保守が不可避であることが時々あります。 {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーは、スケジュールされた緊急時保守イベントのすべての情報をユーザーが常に入手できるように、多くのチャネルを保守します。 さらに、Event Management System からの [E メール通知をサブスクライブする](/docs/customer-portal/cpsub2not.html)こともできます。 この無料サービスは、各種サービスに影響を与える可能性のある予定外のイベントに関して、サブスクライブしたユーザーに自動的に E メールを送信します。
+スケジュールされた緊急ネットワーク保守が不可避であることが時々あります。 {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーは、スケジュールされた緊急時保守イベントのすべての情報をユーザーが常に入手できるように、多くのチャネルを保守します。 さらに、Event Management System からの [E メール通知をサブスクライブする](/docs/customer-portal?topic=customer-portal-cp_bpnotifications#cp_bpnotifications)こともできます。 この無料サービスは、各種サービスに影響を与える可能性のある予定外のイベントに関して、サブスクライブしたユーザーに自動的に E メールを送信します。
 
 ### {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・モバイルを使用する
 {: #cp_bmxinframobile}
@@ -46,12 +46,12 @@ lastupdated: "2019-02-01"
 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・モバイル・アプリケーションは、よく使用されている複数のモバイル・デバイス・プラットフォームで使用可能であり、各プラットフォームの関連アプリケーション・ストアから無料で入手できます。
 
 ## モニター・サーバー
-{: #customerportal_monservers}
+{: #cp_monservers}
 
-サーバーの状況を確認し、拡大のタイミングを知るためのモニタリングをセットアップします。 標準のモニタリング・サービスまたは Nimsoft モニタリング・サービスのいずれかを使用できます。 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・カスタマー・ポータルから slow ping または service ping を使用して、ping 応答の方法で標準 (すなわち基本の) モニタリングを使用できます。 また、カスタマー・ポータルから、または 3 つの層 (基本、拡張、およびプレミアム) のいずれかで Nimsoft (すなわち拡張) モニタリングを使用することもできます。 ベア・メタル・サーバーの具体的な情報については、『[Bare Metal Servers 入門](/docs/bare-metal/index.html#getting-started)』を参照してください。
+サーバーの状況を確認し、拡大のタイミングを知るためのモニタリングをセットアップします。 標準のモニタリング・サービスまたは Nimsoft モニタリング・サービスのいずれかを使用できます。 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・カスタマー・ポータルから slow ping または service ping を使用して、ping 応答の方法で標準 (すなわち基本の) モニタリングを使用できます。 また、カスタマー・ポータルから、または 3 つの層 (基本、拡張、およびプレミアム) のいずれかで Nimsoft (すなわち拡張) モニタリングを使用することもできます。 ベア・メタル・サーバーの具体的な情報については、『[Bare Metal Servers 入門](/docs/bare-metal?topic=bare-metal-getting-started#getting-started)』を参照してください。
 
 ## システム・イベントのモニタリング
-{: #customerportal_monevent}
+{: #cp_monevent}
 
 監査ログおよびアクセス・ログを表示することによって、システム・イベントをモニターできます。
 
