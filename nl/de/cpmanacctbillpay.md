@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018, 2019 
+  years: 1994, 2019
 
-lastupdated: "2019-01-09"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -18,18 +18,19 @@ lastupdated: "2019-01-09"
 # Rechnungspositionen verwalten
 {: #manage-billing}
 
-Falls Sie die Abrechnung der {{site.data.keyword.Bluemix}}-Infrastruktur für ein SoftLayer-Konto verwalten, können Sie Ihre eigene Abrechnung und Ihre eigenen Zahlungen im Kundenportal verwalten. Verwenden Sie zum Verwalten von Abrechnungen und Zahlungen für die {{site.data.keyword.Bluemix_notm}}-Plattform das Fenster 'Rechnungspositionen verwalten' im [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
+Falls Sie die Abrechnung der {{site.data.keyword.Bluemix}}-Infrastruktur für ein SoftLayer-Konto verwalten, können Sie Ihre eigene Abrechnung und Ihre eigenen Zahlungen im Kundenportal verwalten. Informationen zum Verwalten von Abrechnungen und Zahlungen für die {{site.data.keyword.Bluemix_notm}}-Plattform finden Sie in [Zahlungen verwalten](/docs/billing-usage?topic=billing-usage-linkedusage#linkedusage).   
 {:shortdesc}
 
 ## Auf eigene Rechnungspositionen zugreifen
 {: #cp_accbillitems}
+
 Im Fenster 'Rechnungspositionen verwalten' des [Kundenportals ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} können Sie Rechnungspositionen zu bestimmten Geräten zuordnen und diese bei Bedarf Positionen stornieren.
 
 Im Fenster 'Rechnungspositionen verwalten' werden zugeordnete Rechnungspositionen angezeigt. Sie können die Ansicht ändern, indem Sie in der Dropdown-Liste **Anzeigen** eine andere Option auswählen. Beim Anzeigen von Rechnungspositionen können Sie nicht zugeordnete Rechnungspositionen in zugeordnete Positionen ändern und die Zuordnung von zugeordneten Positionen aufheben. Sie können die Zuordnungsänderung oder die Aufhebung der Zuordnung für Positionen einzeln oder mit der Funktion für die Massenaktion für mehrere Positionen gleichzeitig vornehmen. Sie können einzelne Rechnungspositionen jederzeit im Fenster 'Rechnungspositionen verwalten' stornieren.
 
 
 ## Rechnungsposition stornieren
-{: #cp_cancelbillitems}
+{: #cp_cancelbillitem}
 
 Sie können Rechnungspositionen jederzeit direkt im Fenster 'Rechnungspositionen verwalten' stornieren. Sie können Stornierungen für die meisten Services und Lösungen sofort einleiten. Stornierungen werden entweder unverzüglich oder am Rechnungsstichtag verarbeitet.
 
@@ -52,7 +53,7 @@ Nachdem Sie die Stornierung bestätigt haben, beginnt der Prozess für die Storn
 
 
 ## Rechnungspositionen zu einem Gerät zuordnen
-{: #cp_assbillitem2device}
+{: #cp_billitem}
 
 Im Fenster 'Rechnungspositionen verwalten' des [Kundenportals ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} können Sie Rechnungspositionen für jedes Konto zu einem Gerät zuordnen. Sie können einzelne Positionen mithilfe der Dropdown-Liste **Aktionen** für die Rechnungsposition zuordnen oder auch mithilfe der Dropdown-Liste **Massenaktionen** mehrere Positionen zuordnen. Führen Sie zum Zuordnen von Rechnungspositionen zu einem Gerät die folgenden Schritte aus.
 
@@ -67,7 +68,7 @@ Sobald Sie die Anforderung abgeschlossen haben, findet die Zuordnung von Rechnun
 
 
 ## Gerätezuordnung für Rechnungspositionen entfernen
-{: #cp_rembillitemdevice}
+{: #cp_remove-bill}
 
 Nachdem Rechnungspositionen für ein Konto zu einem Gerät zugeordnet wurden, können Sie die Zuordnung im Fenster 'Rechnungspositionen verwalten' des Kundenportals entfernen. Sie können die Zuordnung für einzelne Positionen mithilfe der Dropdown-Liste **Aktionen** für die gewünschte Rechnungsposition entfernen. Sie können die Zuordnung mehrerer Positionen mithilfe der Dropdown-Liste **Massenaktionen** entfernen. Führen Sie zum Entfernen der Gerätezuordnung für Rechnungspositionen die folgenden Schritte aus.
 
@@ -78,4 +79,4 @@ Nachdem Rechnungspositionen für ein Konto zu einem Gerät zugeordnet wurden, k�
   * Um die Zuordnung für mehrere Rechnungspositionen zu entfernen, klicken Sie auf das Kontrollkästchen für jede Rechnungsposition, die für das Gerät entfernt werden soll. Wählen Sie dann in der Liste **Massenaktionen** die Option **Zuordnung für ausgewählte Positionen entfernen** aus.
 4. Klicken Sie auf **Ja**.
 
-Sobald Sie die Anforderung abgeschlossen haben, wird die Zuordnung der Rechnungsposition(en) innerhalb von Back-End-Systemen unverzüglich entfernt. Nachdem Sie die Zuordnung einer Rechnungsposition entfernt haben, wird sie in der Liste **Nicht zugeordnete Rechnungspositionen** aufgeführt. Für die einzelnen Rechnungspositionen wird in der Spalte **Zugeordnet zu** nicht mehr der Gerätename angezeigt. Sie können jederzeit [Rechnungspositionen zu einem anderen Gerät zuordnen](/docs/customer-portal/cpmanacctbillpay.html#cp_assbillitem2device), indem Sie das Verfahren entweder für die Einzel- oder für die Massenzuordnung verwenden.
+Sobald Sie die Anforderung abgeschlossen haben, wird die Zuordnung der Rechnungsposition(en) innerhalb von Back-End-Systemen unverzüglich entfernt. Nachdem Sie die Zuordnung einer Rechnungsposition entfernt haben, wird sie in der Liste **Nicht zugeordnete Rechnungspositionen** aufgeführt. Für die einzelnen Rechnungspositionen wird in der Spalte **Zugeordnet zu** nicht mehr der Gerätename angezeigt. Sie können jederzeit [Rechnungspositionen zu einem anderen Gerät zuordnen](/docs/customer-portal?topic=customer-portal-cp_remove-bill#cp_billitem), indem Sie das Verfahren entweder für die Einzel- oder für die Massenzuordnung verwenden.

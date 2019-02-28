@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2019-01-28"
 
 
 # Zahlung vornehmen
-{: #customerportal_makepayment}
+{: #cp_makepayment}
 
 Alle Abrechnungsdetails für die {{site.data.keyword.Bluemix}}-Infrastruktur, von Rechnungen bis zu Zahlungsinformationen, werden im Kundenportal geschützt gespeichert. Falls sich Ihre Zahlungsmethode ändert oder Ihre Kreditkarte storniert wird bzw. abläuft, müssen Sie Ihre Zahlungsinformationen aktualisieren, um Verzugsgebühren zu vermeiden.
 {:shortdesc}
@@ -54,21 +54,21 @@ Außerhalb der Vereinigte Staaten verwenden Sie das Tool [Invoices](http://www.i
 {: note}
 
 ## Zahlungsmethode hinzufügen
-{: #cp_cpmanacctbillpay}
+{: #cp_billpay}
 
-Jedem SoftLayer-Konto muss eine bestehende Kreditkarte zugeordnet sein, die in jedem Monat automatisch mit dem Rechnungsbetrag belastet wird. Diese Informationen müssen stets aktuell sein, um Zahlungsverzögerungen zu vermeiden. Sie können sie jederzeit aktualisieren und somit sicherstellen, dass die Zahlungsinformationen immer korrekt sind. Falls die vorhandenen Kreditkarteninformationen richtig sind, Sie jedoch für den aktuellen Saldo eine andere Zahlungsform verwenden möchten, finden Sie unter [Rechnungspositionen verwalten](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment) entsprechende Informationen. Führen Sie die folgenden Schritte aus, um eine Zahlungsmethode für ein Konto im Kundenportal hinzuzufügen.
+Jedem SoftLayer-Konto muss eine bestehende Kreditkarte zugeordnet sein, die in jedem Monat automatisch mit dem Rechnungsbetrag belastet wird. Diese Informationen müssen stets aktuell sein, um Zahlungsverzögerungen zu vermeiden. Sie können sie jederzeit aktualisieren und somit sicherstellen, dass die Zahlungsinformationen immer korrekt sind. Falls die vorhandenen Kreditkarteninformationen richtig sind, Sie jedoch für den aktuellen Saldo eine andere Zahlungsform verwenden möchten, finden Sie unter [Rechnungspositionen verwalten](/docs/customer-portal?topic=customer-portal-manage-billing#manage-billing) entsprechende Informationen. Führen Sie die folgenden Schritte aus, um eine Zahlungsmethode für ein Konto im Kundenportal hinzuzufügen.
 
 1. Klicken Sie im Menü **Konto** > **Abrechnung** > **Zahlungsmethode**.
 2. Geben Sie die erforderlichen Abrechnungsdetails für die Karte in den Feldern im Abschnitt **Rechnungsadresse** ein.
 > **Hinweis:** Wenn Sie auf das Kontrollkästchen **Unternehmensinformationen verwenden** klicken, werden die Felder automatisch mit den Unternehmensinformationen gefüllt, die in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für das Konto angegeben wurden.
 3. Geben Sie in den Feldern im Abschnitt **Zahlungsinformationen** die Kreditkarteninformationen ein.
 4. Klicken Sie auf **Kreditkarte hinzufügen**, um die Kreditkarte als Methode für die monatliche Zahlung hinzuzufügen.
-5. Optional können Sie durch Auswahl von **Unterstützung in der EU** gewährleisten, dass Ihre Service- und Unterstützungsprobleme durch das in Europa ansässige Support-Team bearbeitet werden.  Weitere Informationen zu dieser Option finden Sie unter [Option für Unterstützung in Europa festlegen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+5. Optional können Sie durch Auswahl von **Unterstützung in der EU** gewährleisten, dass Ihre Service- und Unterstützungsprobleme durch das in Europa ansässige Support-Team bearbeitet werden.  Weitere Informationen zu dieser Option finden Sie unter [Option für Unterstützung in Europa festlegen](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported).
 
 Nachdem Sie die Zahlungsmethode hinzugefügt haben, wird die Anforderung durch Bearbeiter des SoftLayer-Kundenkontos verarbeitet, um die Gültigkeit der Karte sicherzustellen. Validierte Karten können innerhalb von 24 Stunden für das Konto verwendet werden. Die Statusänderung für die Zahlungsmethode wird per E-Mail an den Ansprechpartner gesendet, der beim Hinzufügen der Zahlungsmethode angegeben wurde.
 
 ## Einmalzahlung vornehmen
-{: #cp_makeonetimepayment}
+{: #cp-one-payment}
 
 Sie können Einmalzahlungen entweder über ein PayPal-Konto oder eine Hauptkreditkarte vornehmen; die Zahlung kann entweder den gesamten Saldo oder einen Teilsaldo betreffen. Details von Einmalzahlungen werden nicht zur künftigen Verwendung gespeichert und führen nicht zu einer Änderung der aktuellen Methoden im Konto für die monatliche Zahlung.
 
@@ -78,7 +78,7 @@ Sie können Einmalzahlungen entweder über ein PayPal-Konto oder eine Hauptkredi
 2. Geben Sie den Zahlungsbetrag im Feld **Zahlungsbetrag** ein.
 3. Falls Sie Ihre Zahlung mit PayPal vornehmen, klicken Sie auf **PayPal** und befolgen Sie die von PayPal ausgegebenen Anweisungen, um die Zahlung abzuschließen. Weitere Aktionen sind nicht erforderlich. Falls Sie Ihre Zahlung mit einer Kreditkarte vornehmen, geben Sie in den entsprechenden Feldern **die Kartennummer, das Ablaufdatum und den Sicherheitscode** ein.
 4. Geben Sie die Abrechnungsinformationen in den entsprechenden Feldern des Abschnitts **Rechnungsadresse für Kreditkarte** ein.
-5. Optional können Sie durch Auswahl von **Unterstützung in der EU** gewährleisten, dass Ihre Service- und Unterstützungsprobleme durch das in Europa ansässige Support-Team bearbeitet werden.  Weitere Informationen zu dieser Option finden Sie unter [Option für Unterstützung in Europa festlegen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+5. Optional können Sie durch Auswahl von **Unterstützung in der EU** gewährleisten, dass Ihre Service- und Unterstützungsprobleme durch das in Europa ansässige Support-Team bearbeitet werden.  Weitere Informationen zu dieser Option finden Sie unter [Option für Unterstützung in Europa festlegen](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported).
 6. Klicken Sie auf **Mit Kreditkarte zahlen**, um die Zahlung auszulösen.
 
 Nachdem Sie die Zahlung ausgelöst haben, wird die Zahlung verarbeitet. Falls im Zusammenhang mit der Zahlung Probleme auftreten, befolgen Sie die Eingabeaufforderungen in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bzw. bei PayPal, bis das Problem gelöst ist. Die Zahlung wird verarbeitet. Der Betrag wird angewendet und der aktuelle Kontostand wird aktualisiert.
