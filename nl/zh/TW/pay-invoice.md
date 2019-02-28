@@ -2,15 +2,16 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-28"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:tip: .tip}
+{:note: .note}
 {:screen: .screen}
 {:new_window: target="_blank"}
 
@@ -44,17 +45,20 @@ lastupdated: "2018-10-11"
   * 付款方法
   * 最後一個及下一個循環的發票日期
 
-1. 從功能表中，按一下**帳戶** > **計費** > **發票**。
+1. 從功能表按一下**帳戶** > **計費** > **發票**。
 2. 您可以在客戶入口網站中檢視發票，或下載發票。
 
 如果您要在客戶入口網站中檢視發票，會針對選取的發票顯示逐項說明的計費項目清單。按一下計費項目行上的任何位置，以檢視其他逐項說明的費用相關詳細資料。如果您已下載發票，則可以根據瀏覽器設定進行檢視。已下載的發票提供每一個計費項目的逐項說明摘要及逐項說明詳細計費。
+
+如果您位於美國以外地區，請使用稱為 [Invoices](http://www.ibm.com/support/customer/invoices){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 的工具來檢視發票。每個國家/地區的特定步驟列出於 [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。如果您有任何問題，請以 1-866-325-0045 與我們聯絡，並要求存取您的發票。
+{: note}
 
 ## 新增付款方法
 {: #cp_cpmanacctbillpay}
 
 每個 SoftLayer 帳戶都必須有存檔的信用卡，以便每個月自動按發票金額收費。此資訊隨時都必須是最新的，以避免逾期付款；您隨時都可以更新此資訊，確保付款資訊永遠正確。如果存檔的信用卡資訊正確無誤，但您想要對目前的餘額套用替代的付款方式，請參閱[管理計費項目](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment)。請使用下列步驟，以在客戶入口網站中新增帳戶的付款方法。
 
-1. 從功能表中，按一下**帳戶** > **計費** > **付款方法**。
+1. 從功能表按一下**帳戶** > **計費** > **付款方法**。
 2. 在**帳單地址**區段的每一個欄位中，輸入卡片的必要計費詳細資料。
 > **附註：**按一下**使用公司資訊**勾選框，以使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構針對帳戶存檔的公司資訊來自動完成欄位。
 3. 在**付款資訊**區段的每一個欄位中，輸入信用卡資訊。
