@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -39,12 +39,14 @@ En este modelo, ocurrirá lo siguiente:
 * Los usuarios se autentican con el proveedor de identidad y federan sus credenciales.
 * La infraestructura de {{site.data.keyword.BluSoftlayer}} consume las credenciales y el control de acceso se basa en los permisos definidos para el usuario en IMS de infraestructura de {{site.data.keyword.BluSoftlayer}}.
 
-Las cuentas para los usuarios que necesitan acceso a la infraestructura de {{site.data.keyword.BluSoftlayer}} se crean en primer lugar en la infraestructura de {{site.data.keyword.BluSoftlayer}} con contraseñas aleatorias. Todos los permisos deben configurarse en la infraestructura de {{site.data.keyword.BluSoftlayer}} antes de que el usuario pueda utilizar SSO a través del proveedor de identidad. Actualmente, los permisos se configuran basándose en el usuario individual.
+Las cuentas para los usuarios que necesitan acceso de infraestructura de {{site.data.keyword.BluSoftlayer}} se crean en primer lugar en la infraestructura de {{site.data.keyword.BluSoftlayer}} con contraseñas aleatorias. Todos los permisos deben configurarse en la infraestructura de {{site.data.keyword.BluSoftlayer}} antes de que el usuario pueda utilizar SSO a través del proveedor de identidad. Actualmente, los permisos se configuran basándose en el usuario individual.
 
 ### Configuración de un usuario
+{: #cp_user-setup}
+
 Efectúe los pasos siguientes para configurar un usuario:
 
-1. [Adición de usuarios a una cuenta de SoftLayer](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [Adición de usuarios a una cuenta de SoftLayer](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct).
 2. Asigne permisos en la infraestructura de {{site.data.keyword.BluSoftlayer}}.
 3. Cree usuarios en el proveedor de identidad.
 
@@ -62,7 +64,7 @@ El siguiente flujo de ejemplo muestra cómo podría funcionar la autenticación 
 6. El usuario inicia sesión en el portal de clientes de infraestructura de {{site.data.keyword.BluSoftlayer}} en función de la configuración de confianza entre el proveedor de identidad y la infraestructura de {{site.data.keyword.BluSoftlayer}}.
 
 
-## Creación de usuarios en el proveedor de identidad
+## Creando usuarios en el proveedor de identidad
 {: #cp_scenario2idp}
 
 En este modelo, ocurrirá lo siguiente:
@@ -82,7 +84,7 @@ Efectúe los pasos siguientes para configurar un rol para un usuario:
 3. Asegúrese de que los roles definidos en la infraestructura de {{site.data.keyword.BluSoftlayer}} y en el proveedor de identidad tengan el mismo nombre.
 
 ### Configuración de un usuario
-{: #setupuser}
+{: #identity-setupuser}
 
 Efectúe los pasos siguientes para configurar un usuario:
 

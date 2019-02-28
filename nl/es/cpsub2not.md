@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-02-20"
 
 ---
 
@@ -37,7 +37,7 @@ Para que el sistema de notificación sea totalmente efectivo, suscríbase al pro
 ## Política de tiempo de notificación
 {: #cp_bpgsnotiftimpol}
 
-El tiempo que la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} da a los usuarios antes de un suceso pendiente difiere, dependiendo de si el suceso es un problema de infraestructura no planeado o un mantenimiento previsto o planificado. Generalmente, la política de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} es remediar problemas lo antes posible para eliminar o minimizar el riesgo de más problemas al desarrollar lo que podría tener un mayor impacto. Esto significa que a veces incluso el mantenimiento planificado se realiza con solo una notificación brevemente avanzada.
+El periodo de tiempo que la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} da a los usuarios antes de un suceso pendiente difiere, dependiendo de si el suceso es un problema de infraestructura no planeado o un mantenimiento previsto o planificado. Generalmente, la política de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} es remediar problemas lo antes posible para eliminar o minimizar el riesgo de más problemas al desarrollar lo que podría tener un mayor impacto. Esto significa que a veces incluso el mantenimiento planificado se realiza con solo una notificación brevemente avanzada.
 
 ### Visión general de políticas
 {: #cp_bpgsnotifpolover}
@@ -45,17 +45,24 @@ El tiempo que la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} da a
 Se le notificará de los siguientes tipos de paradas o problemas como se describe en cada sección.
 
 #### Problemas o paradas no planificados
+{: #cp_unplanned-issue}
+
 La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} se comunica con los clientes afectados lo antes posible con información sobre el alcance de la infraestructura, las soluciones o las estimaciones de resolución tan pronto como se conozca esa información. La comunicación puntual le ofrece la información que necesita para planificar contingencias y proporciona la garantía de que la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} está tratando el problema.
 
 #### Mantenimiento planificado
+{: #cp_maintenance}
 La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} proporciona notificación para el mantenimiento planificado con antelación a los sucesos. Hay momentos en que el mantenimiento de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} es una emergencia, lo que podría dar lugar a una notificación avanzada con menos tiempo. El objetivo es siempre encontrar el equilibrio ideal entre dar una cantidad razonable de avisos avanzados para permitirle planificar contingencias y actualizar o ampliar la infraestructura, lo que normalmente da lugar a mejoras en la estabilidad global o a la adición de prestaciones necesarias.
 
 #### Vulnerabilidades de la seguridad
+{: #cp_vulnerabilities}
+
 La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} aísla la zona afectada, crea un parche para cerrar la vulnerabilidad, y prueba el parche para asegurarse de que no esté afectada ninguna función colateral. A menudo, este trabajo se realiza con otro proveedor que podría suministrar partes de la tecnología afectada. Normalmente hay un embargo de notificaciones públicas para los parches de seguridad, que se conservan abreviadas para proteger al público, pero esto necesita un periodo de notificación avanzada más corto. La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} implementa los parches en la infraestructura afectada antes de que se dé noticia al público del problema, lo que de lo contrario podría aumentar el riesgo. Cuanto más rápido se cierre la vulnerabilidad, antes se eliminará el riesgo, lo que significa que los problemas de seguridad necesitan una ventana de notificación breve.
 
 Uno de los objetivos más frecuentes para las infracciones de seguridad es el software de infraestructura virtual. La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} utiliza tecnología de código abierto y de socios popular para entregar su oferta de Servidor virtual. Para implementar un arreglo de seguridad, los servidores de los clientes que ejecutan software de infraestructura virtual pueden tener que ponerse fuera de línea para aplicar un parche y rearrancar el entorno, provocando interrupciones. Para minimizar el impacto a los clientes, la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} ha implementado recientemente una mejora en el proceso de notificaciones para la infraestructura virtual: Comunicaciones mejoradas. Se notifica a los clientes con una hora de inicio específica y una ventana de 90 minutos para cada pod, lo que da lugar a un tiempo de interrupción más breve y un tiempo más preciso para ayudarle a prepararse mejor. El sistema de notificación aísla el mantenimiento a cada cuenta, lo que permite a la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} notificar a los clientes tan pronto como se dé servicio a sus hosts específicos, lo que ocurre con más frecuencia mucho antes de la ventana de 90 minutos.
 
 #### Varios POD o centros de datos afectados
+{: #cp_multi_pod}
+
 La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} se esfuerza por dar un aviso más avanzado, a menos que haya una urgencia extrema por implementar el arreglo para evitar un impacto secundario aún mayor.
 
 

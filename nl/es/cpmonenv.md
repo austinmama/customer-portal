@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,20 +16,20 @@ lastupdated: "2019-02-01"
 
 
 # Supervisión de sucesos del entorno y del sistema
-{: #customerportal_cpmonenvsysevent}
+{: #cp_environment-events}
 
 La supervisión del entorno significa que tiene la capacidad para comprobar los dispositivos en cualquier momento y que se le notificará automáticamente si se desactiva alguno de sus dispositivos. También puede supervisar sucesos del sistema para que sus sistemas se sigan ejecutando sin contratiempos.  
 {: shortdesc}
 
 ## Supervisión del entorno
-{: #cpmonenv}
+{: #cp-monitorenvi}
 
 Como mínimo, utilice la supervisión de ping básica, pero puede personalizar sus opciones de supervisión de la forma que se ajuste mejor a sus necesidades de negocio.
 
 ### Manténgase informado de los sucesos de mantenimiento de red y de los no planeados
-{: #cp_stayinfomaintevent}
+{: #cp-informedmaintenance}
 
-De vez en cuando, es inevitable tener que llevar a cabo mantenimiento de red de emergencia y programado. La infraestructura de {{site.data.keyword.BluSoftlayer_full}} mantiene muchos canales para mantenerle informado de todos los sucesos de mantenimiento de emergencia y planificados. Además, puede [suscribirse a las notificaciones por correo electrónico](/docs/customer-portal/cpsub2not.html) desde el Event Management System. Este servicio gratuito envía mensajes de correo electrónico automáticamente a los usuarios suscritos sobre sucesos no planeados que pueden afectar a los servicios.
+De vez en cuando, es inevitable tener que llevar a cabo mantenimiento de red de emergencia y programado. La infraestructura de {{site.data.keyword.BluSoftlayer_full}} mantiene muchos canales para mantenerle informado de todos los sucesos de mantenimiento de emergencia y planificados. Además, puede [suscribirse a las notificaciones por correo electrónico](/docs/customer-portal?topic=customer-portal-cp_bpnotifications#cp_bpnotifications) desde el Event Management System. Este servicio gratuito envía mensajes de correo electrónico automáticamente a los usuarios suscritos sobre sucesos no planeados que pueden afectar a los servicios.
 
 ### Utilización de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil
 {: #cp_bmxinframobile}
@@ -46,12 +46,12 @@ La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_not
 La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} está disponible en varias plataformas populares de dispositivo móvil, de forma gratuita en las tiendas de aplicaciones de cada plataforma.
 
 ## Supervisión de servidores
-{: #customerportal_monservers}
+{: #cp_monservers}
 
-Defina una supervisión para comprobar el estado del servidor y saber así cuándo escalar. Puede utilizar servicios de supervisión estándar o Nimsoft. Puede utilizar la supervisión estándar, o básica, con el método de ping y respuesta mediante el uso de un ping lento o de servicio desde el portal de clientes de {{site.data.keyword.BluSoftlayer_notm}}. También puede utilizar supervisión Nimsoft, o avanzada, desde el portal de clientes o en uno de estos tres niveles: básico, avanzado y premium. Para obtener más información sobre los servidores nativos, específicamente, consulte [Guía de iniciación con servidores nativos](/docs/bare-metal/index.html#getting-started).
+Defina una supervisión para comprobar el estado del servidor y saber así cuándo escalar. Puede utilizar servicios de supervisión estándar o Nimsoft. Puede utilizar la supervisión estándar, o básica, con el método de ping y respuesta mediante el uso de un ping lento o de servicio desde el portal de clientes de {{site.data.keyword.BluSoftlayer_notm}}. También puede utilizar supervisión Nimsoft, o avanzada, desde el portal de clientes o en uno de estos tres niveles: básico, avanzado y premium. Para obtener más información sobre los servidores nativos, específicamente, consulte [Guía de iniciación con servidores nativos](/docs/bare-metal?topic=bare-metal-getting-started#getting-started).
 
 ## Supervisión de sucesos del sistema
-{: #customerportal_monevent}
+{: #cp_monevent}
 
 Puede supervisar sucesos del sistema visualizando registros de auditoría y de acceso.
 

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-19"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-11-19"
 La autenticación en la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} ahora utiliza IBMid para proporcionar un inicio de sesión único para {{site.data.keyword.Bluemix_notm}}.
 {:shortdesc}
 
-Si tiene una cuenta existente de SoftLayer, puede cambiar a un IBMid. Un asistente de migración puede ayudar a guiarle a través de este conmutador. Para obtener más información, consulte [Cambio a un IBMid](/docs/account/softlayerlink.html#switching-to-ibmid).
+Si tiene una cuenta existente de SoftLayer, puede cambiar a un IBMid. Un asistente de migración puede ayudar a guiarle a través de este conmutador. Para obtener más información, consulte [Cambio a un IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid).
 
 ## Correlación de varias cuentas de SoftLayer con un IBMid
 {: #cp_mapmultclinfrto1ibmid}

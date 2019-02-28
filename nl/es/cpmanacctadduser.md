@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-01"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -13,6 +13,7 @@ lastupdated: "2019-02-01"
 {:tip: .tip}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:note: .note}
 
 
 # Adición de usuarios a una cuenta de SoftLayer
@@ -31,7 +32,7 @@ En función de su acceso, puede gestionar su cuenta de SoftLayer o las cuentas d
 
   * Si tiene acceso administrativo, puede ver todos los usuarios que ha añadido. Si le dio permiso a dichos usuarios para administrar otros usuarios, también puede ver los usuarios que han añadido. También puede gestionar cualquier usuario asociado con la cuenta. Esto incluye editar el acceso al portal de clientes, cambiar el estado de usuario y eliminar usuarios.
 
-Para gestionar usuarios desde la consola de {{site.data.keyword.Bluemix_notm}}, consulte la sección [Configuración de la cuenta](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) y [Gestión de identidad y acceso](/docs/iam/quickstart.html#getstarted). Para obtener más información sobre la consola de {{site.data.keyword.Bluemix_notm}}, consulte [Navegación por la consola de {{site.data.keyword.Bluemix_notm}}](/docs/overview/ui.html#ui).
+Para gestionar usuarios desde la consola de {{site.data.keyword.Bluemix_notm}}, consulte la sección [Configuración de la cuenta](/docs/account?topic=account-signup#signup) y [Gestión de identidad y acceso](/docs/iam?topic=iam-getstarted#getstarted). Para obtener más información sobre la consola de {{site.data.keyword.Bluemix_notm}}, consulte [Navegación por la consola de {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-ui#ui).
 
 Diferentes personas dentro de una organización tienen diferentes roles y responsabilidades, y los conjuntos de permisos de usuarios no son únicos. Puede añadir usuarios al portal de clientes con roles para proporcionar acceso a exactamente lo que necesiten para su rol específico. Si los cambios se realizan en error o no están autorizados, puede rastrearlos de nuevo al usuario o al grupo. Por lo tanto, puede proporcionar formación adecuada o actualizar el permiso de usuario para minimizar riesgos. Los usuarios pueden entonces centrarse en su rol especificado en el portal de clientes.
 
@@ -46,9 +47,9 @@ Efectúe los pasos siguientes para añadir un usuario a una cuenta.
   {: tip}
 
 5. Complete los campos necesarios en la sección **Configuración de inicio de sesión**. Especifique si los valores pueden estar editados por el usuario, si la dirección IP está restringida, y si necesita o no que el usuario configure y utilice preguntas de seguridad. Además, para los usuarios que no están utilizando IBMid, puede establecer la longitud de tiempo antes de que caduque la contraseña.
-**Notas:**
-* Si utiliza IBMid para la autenticación, actualice las contraseñas en los [perfiles de IBMid ![Icono de enlace externo](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} siguiendo las instrucciones debajo de **Iniciar sesión**.
-* Pulse el recuadro de selección **Utilizar contraseña del portal para VPN** para sincronizar las contraseñas del portal de clientes y de VPN.
+    **Notas:**
+    * Si utiliza IBMid para la autenticación, actualice las contraseñas en los [perfiles de IBMid ![Icono de enlace externo](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} siguiendo las instrucciones debajo de **Iniciar sesión**.
+    * Pulse el recuadro de selección **Utilizar contraseña del portal para VPN** para sincronizar las contraseñas del portal de clientes y de VPN.
 6. Pulse **Añadir usuario**.
 
 Después de crear una cuenta para un usuario, el usuario recibirá una notificación por correo electrónico para terminar de configurar su cuenta. El usuario debe establecer una contraseña y, opcionalmente, crear preguntas de seguridad, si indica que son necesarias.
@@ -65,7 +66,10 @@ Efectúe los pasos siguientes para establecer los permisos para el usuario que a
 
 1. Pulse el icono **Permisos**, indicado por una figura de usuario con un candado.
 2. Actualice los **Permisos de usuario** en todos los separadores para el nuevo usuario.
-> **Nota:** Seleccione una opción desde la lista **Permisos rápidos** para ver conjuntos de permisos para tres tipos de usuarios. Pulse **Establecer permisos** para seleccionar el conjunto de permisos, o para personalizar la accesibilidad de los usuarios seleccionando opciones individuales en cada separador disponible.
+
+    Seleccione una opción desde la lista **Permisos rápidos** para ver conjuntos de permisos para tres tipos de usuarios. Pulse **Establecer permisos** para seleccionar el conjunto de permisos, o para personalizar la accesibilidad de los usuarios seleccionando opciones individuales en cada separador disponible.
+    {: note}
+    
 3. Pulse **Añadir permisos de portal** para añadir los permisos o pulse **Restablecer permisos** para restablecer los permisos para el usuario.
 4. Pulse el icono **Acceso de dispositivos**, indicado por tres servidores.
 5. Pulse el recuadro de selección del dispositivo para cada dispositivo al que desee que acceda el usuario.

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2018-11-20"
 
 
 # Gestión de contraseñas
-{: #customerportal_manpws}
+{: #cp_manpws}
 
 Si es un usuario maestro o el propietario de una cuenta, puede habilitar el seguimiento de contraseñas y configurar una contraseña para un acceso puntual a la cuenta. El seguimiento de contraseñas permite a los usuarios almacenar datos de contraseñas de software para dispositivos y su software asociado.
 {:shortdesc}
 
 ## Habilitación del seguimiento de contraseñas
-{: #customerportal_enabpwtrak}
+{: #cp_enabpwtrak}
 
 El portal de clientes tiene una herramienta opcional de [seguimiento de contraseñas ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/devices/passwords){:new_window} para cada cuenta. Los usuarios pueden recuperar sus nombres de usuario y contraseñas con la herramienta si se pierde o se olvida la información.
 
@@ -46,7 +46,7 @@ El seguimiento de contraseñas dentro del portal de clientes es opcional. Cualqu
 Después de añadir el usuario a la herramienta de seguimiento de contraseñas, la información se almacena en la herramienta hasta que se suprime manualmente. Todas las combinaciones de nombre de usuario y contraseña se almacenan en función del nombre de dispositivo de forma predeterminada. Las entradas se visualizan alfabéticamente por nombre de dispositivo, y luego por nombre de usuario.
 
 ### Filtrado de información en la herramienta de seguimiento de contraseñas
-{: #cp_filterusinfopwtracktool}
+{: #cp_tracktool}
 
 Para ver, editar o suprimir la información de usuario de la herramienta de seguimiento de contraseñas, puede filtrar para localizar rápidamente un usuario. Filtrar para encontrar un usuario es útil cuando la lista de usuarios abarque varias filas o páginas. Utilice los pasos siguientes para filtrar por dispositivo, software o usuario en la herramienta de rastreo de contraseñas.
 
@@ -59,7 +59,7 @@ Para ver, editar o suprimir la información de usuario de la herramienta de segu
 Puede seleccionar la información de usuario para ver, editar o eliminar.
 
 ### Edición de la información de usuario en la herramienta de seguimiento de contraseñas
-{: #cp_editusinfopwtracktool}
+{: #cp_editusinfo}
 
 Tras añadir un usuario a la herramienta de seguimiento de contraseñas, puede editar los detalles asociados con el usuario o la contraseña. Efectúe los pasos siguientes para editar información para un usuario en la herramienta de seguimiento de contraseñas.
 
@@ -73,7 +73,7 @@ Tras añadir un usuario a la herramienta de seguimiento de contraseñas, puede e
 Después de editar un usuario o una contraseña en la herramienta de seguimiento de contraseñas, la información se actualiza inmediatamente.
 
 ## Configuración de una cuenta para el acceso mediante contraseña única
-{: #cp_confportacc1timpwacc}
+{: #cp_one-time}
 
 Antes de poder configurar la cuenta, primero debe configurar la aplicación "Acceso VIP" de Verisign. Si Acceso VIP no está configurado, descargue en primer lugar la aplicación para uno de los dispositivos siguientes:
 * Para su teléfono: [https://m.vip.symantec.com/home.v ![Icono de enlace externo](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
@@ -100,12 +100,12 @@ Guarde el ID de credenciales de Verisign Identity Protection original en una ubi
 La forma de restablecer la contraseña depende de si utiliza un IBMid para autenticarse al iniciar una sesión en su cuenta.  
 
 ### Restablecimiento de la contraseña de una cuenta de IBMid
-{: #cp_reset-IBMid-password}
+{: #cp_reset}
 
 Si utiliza IBMid para la autenticación, para restablecer o recuperar la contraseña, vaya a su perfil de IBMid y siga las instrucciones de la sección **Iniciar sesión**.
 
 ### Restablecimiento de la contraseña de una cuenta de SoftLayer
-{: #cp_reset-password}
+{: #cp_reset-sl}
 
 Si no utiliza un IBMid para la autenticación de cuenta, siga estos pasos:
 
@@ -116,5 +116,5 @@ Si no utiliza un IBMid para la autenticación de cuenta, siga estos pasos:
 
 Tiene 5 intentos para responder a las preguntas de seguridad. Si realiza más de 5 intentos, el formulario de restablecimiento de contraseña se bloquea durante 15 minutos antes de que pueda intentarlo de nuevo.
 
-Para obtener información sobre cómo trabajar con contraseñas de VPN, consulte [Actualizar la contraseña de VPN de un usuario](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password).
+Para obtener información sobre cómo trabajar con contraseñas de VPN, consulte [Actualizar la contraseña de VPN de un usuario](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
 {: tip}

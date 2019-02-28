@@ -41,7 +41,7 @@ Las cuentas nuevas requieren IBMid para la autenticación. Las cuentas existente
 {: #bicp_linkbmxacct}
 {: faq}
 
-Si es el usuario maestro de la cuenta de SoftLayer, inicie sesión en el portal de clientes y pulse **Enlazar una cuenta** en la cabecera. Consulte [Cómo enlazar cuentas de usuario de IBMid](/docs/account/softlayerlink.html) para obtener más información.
+Si es el usuario maestro de la cuenta de SoftLayer, inicie sesión en el portal de clientes y pulse **Enlazar una cuenta** en la cabecera. Consulte [Cómo enlazar cuentas de usuario de IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts) para obtener más información.
 
 ## ¿Tengo que ser un usuario existente de {{site.data.keyword.Bluemix_notm}} para enlazar cuentas?
 {: #bicp_bmxusertolink}
@@ -55,7 +55,7 @@ No. Puede crear una cuenta nueva de {{site.data.keyword.Bluemix_notm}} o enlazar
 
 No hay impacto en la configuración de la autenticación de dos factores (2FA) a nivel de cuenta. 2FA no se realiza por IBMid, sino por cuenta. Cuando un IBMid se asocie con muchas cuentas, y pueda cambiar entre ellas, debe confirmar su identidad cada vez que cambie a una cuenta distinta que necesite 2FA. Esto es cierto incluso aunque la cuenta anterior y la cuenta nueva estén configuradas con el mismo mecanismo de 2FA.
 
-Para obtener más información sobre IBMid con 2FA, consulte [Uso de la autenticación de multifactores en cuentas enlazadas](/docs/account/softlayerlink.html#2fa).
+Para obtener más información sobre IBMid con 2FA, consulte [Uso de la autenticación de multifactores en cuentas enlazadas](/docs/account?topic=account-2fa#2fa).
 
 ## ¿Quién puede enlazar cuentas?
 {: #bicp_wholinkaccts}
@@ -101,7 +101,7 @@ Si ha seguido el asistente para cambiar a IBMid y no ha recibido el correo elect
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Los usuarios maestros, y aquellos con permisos de administrador, tienen acceso completo como usuario root a las cuentas del portal de clientes y de la API. Los usuarios sin permisos de administrador tienen la accesibilidad controlada por aquellos con roles de administración. Estos permisos los pueden actualizar administradores desde el portal de clientes [editando un perfil de usuario](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Sin permisos de administrador, puede editar el perfil de usuario en el portal de clientes pulsando su nombre de usuario en el panel superior.
+Los usuarios maestros, y aquellos con permisos de administrador, tienen acceso completo como usuario root a las cuentas del portal de clientes y de la API. Los usuarios sin permisos de administrador tienen la accesibilidad controlada por aquellos con roles de administración. Estos permisos los pueden actualizar administradores desde el portal de clientes [editando un perfil de usuario](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Sin permisos de administrador, puede editar el perfil de usuario en el portal de clientes pulsando su nombre de usuario en el panel superior.
 
 ## ¿Puedo enlazar una cuenta de suscripción de {{site.data.keyword.Bluemix_notm}}?
 {: #bicp_linkbmxsubacct}
@@ -120,13 +120,13 @@ Después de enlazar las cuentas, estas no se podrán desenlazar.
 {: #bicp_whatfindcompprof}
 {: faq}
 
-El perfil de empresa es la información que se envía en el momento de crear la cuenta e incluye un contacto principal para la empresa, junto con el nombre, la dirección y el número de teléfono de la empresa. Esta información se utiliza por diversos motivos y se debe mantener siempre actualizada. Para ver el perfil de la empresa para su cuenta o para solicitar cambios, consulte [Actualización del perfil de la empresa](/docs/customer-portal/cpmanacctcompprofcont.html#cp_updcompprof).
+El perfil de empresa es la información que se envía en el momento de crear la cuenta e incluye un contacto principal para la empresa, junto con el nombre, la dirección y el número de teléfono de la empresa. Esta información se utiliza por diversos motivos y se debe mantener siempre actualizada. Para ver el perfil de la empresa para su cuenta o para solicitar cambios, consulte [Actualización del perfil de la empresa](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile).
 
 ## ¿Dónde puedo encontrar las contraseñas de mi dispositivo y del software?
 {: #bicp_devswpw}
 {: faq}
 
-Las contraseñas del dispositivo y del software se almacenan en dos ubicaciones dentro del portal de clientes. Para recuperar las credenciales del dispositivo, incluidos el nombre de usuario y la contraseña del administrador y del usuario root para {{site.data.keyword.baremetal_short}} y {{site.data.keyword.virtualmachinesshort}}, consulte [Interactuar con un dispositivo en la vista de instantánea](/docs/vsi/vsi_interact_device_snapshot_view.html). Para ver y recuperar rápidamente las credenciales del software que se rastrean manualmente utilizando el portal de clientes, consulte [Gestión el acceso a dispositivos](/docs/vsi/vsi_device_access.html).
+Las contraseñas del dispositivo y del software se almacenan en dos ubicaciones dentro del portal de clientes. Para recuperar las credenciales del dispositivo, incluidos el nombre de usuario y la contraseña del administrador y del usuario root para {{site.data.keyword.baremetal_short}} y {{site.data.keyword.virtualmachinesshort}}, consulte [Interactuar con un dispositivo en la vista de instantánea](/docs/vsi?topic=virtual-servers-interacting-with-a-device-in-snapshot-view#interacting-with-a-device-in-snapshot-view). Para ver y recuperar rápidamente las credenciales del software que se rastrean manualmente utilizando el portal de clientes, consulte [Gestión el acceso a dispositivos](/docs/vsi?topic=virtual-servers-managing-device-access#managing-device-access).
 
 ## ¿Cómo mantengo mis datos web sincronizados?
 {: #bicp_webdatasync}
@@ -144,4 +144,4 @@ Event Management System es un conjunto de herramientas que optimiza la forma en 
 {: #bicp_candev}
 {: faq}
 
-Puede cancelar un dispositivo en cualquier momento a través del portal de clientes. Consulte [Cancelar un dispositivo](/docs/vsi/vsi_managing.html) para obtener más información sobre la finalización de una solicitud de cancelación.
+Puede cancelar un dispositivo en cualquier momento a través del portal de clientes. Consulte [Cancelar un dispositivo](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers) para obtener más información sobre la finalización de una solicitud de cancelación.

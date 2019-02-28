@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-01"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2019-02-01"
 Si tiene problemas con la infraestructura de {{site.data.keyword.BluSoftlayer_full}} y no tiene una cuenta enlazada, puede obtener ayuda para determinar la causa del problema y encontrar una solución utilizando el portal de clientes.
 {:shortdesc}
 
-Si tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts), puede obtener ayuda de soporte a través de la consola de {{site.data.keyword.Bluemix_notm}}. Consulte [Obtención de soporte](/docs/get-support/howtogetsupport.html) para obtener más información.
+Si tiene una [cuenta enlazada](/docs/account?topic=account-link_customer_accounts#link_customer_accounts), puede obtener ayuda de soporte a través de la consola de {{site.data.keyword.Bluemix_notm}}. Consulte [Obtención de soporte](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) para obtener más información.
 
 Si no tiene una cuenta enlazada, puede abrir incidencias de soporte en el portal de clientes de infraestructura de {{site.data.keyword.BluSoftlayer_full}} con relación a problemas técnicos genéricos o para obtener ayuda con problemas relacionados con su cuenta.
 
@@ -62,7 +62,7 @@ Siga los siguientes pasos para abrir incidencias de soporte de {{site.data.keywo
   Seleccione **Ninguno** si no requiere que el equipo de soporte se encuentre físicamente en Europa.
   {: tip}
 
-  Consulte [Establecimiento de la opción de soporte en la UE](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported) para obtener información sobre la inicialización de esta función para su cuenta.
+  Consulte [Establecimiento de la opción de soporte en la UE](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported) para obtener información sobre la inicialización de esta función para su cuenta.
 
 11. Pulse **Añadir incidencia**.
 
@@ -110,4 +110,4 @@ Si reasigna la incidencia, el cesionario nuevo se convertirá en el punto de con
 ## Escalada de una incidencia de soporte
 {: #cp_bpsupescalflow}
 
-Puede solicitar más ayuda escalando su incidencia. Consulte [Escalada de incidencia de soporte](/docs/get-support/quicktickresp.html#escalation) para obtener más información.
+Puede solicitar más ayuda escalando su incidencia. Consulte [Escalada de incidencia de soporte](/docs/get-support?topic=get-support-escalation#escalation) para obtener más información.

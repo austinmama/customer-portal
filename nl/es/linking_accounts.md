@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-11"
+  years: 2015, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -31,7 +31,7 @@ Una vez haya enlazado las cuentas de facturación de {{site.data.keyword.Bluemix
 
 El ciclo de uso de {{site.data.keyword.Bluemix_notm}} se basa en meses naturales. Por lo tanto, la cuenta se factura cada mes el día de facturación que se estableció para su acuerdo de cargo. Con SoftLayer, el ciclo de uso empieza al empezar a utilizar SoftLayer, por lo que la facturación es cada mes, el día en el que se registró para la cuenta de SoftLayer.
 
-El uso de {{site.data.keyword.Bluemix_notm}} seguirá midiéndose para el ciclo mensual actual y dicho uso se facturará en una factura de {{site.data.keyword.Bluemix_notm}}. A partir del día 1 del siguiente mes, los cargos de {{site.data.keyword.Bluemix_notm}} y SoftLayer se combinarán en la factura de {{site.data.keyword.Bluemix_notm}}. Para obtener más información sobre facturas y uso, pulse [Visualización de su uso](/docs/billing-usage/viewing_usage.html#viewingusage).
+El uso de {{site.data.keyword.Bluemix_notm}} seguirá midiéndose para el ciclo mensual actual y dicho uso se facturará en una factura de {{site.data.keyword.Bluemix_notm}}. A partir del día 1 del siguiente mes, los cargos de {{site.data.keyword.Bluemix_notm}} y SoftLayer se combinarán en la factura de {{site.data.keyword.Bluemix_notm}}. Para obtener más información sobre facturas y uso, pulse [Visualización de su uso](/docs/billing-usage?topic=billing-usage-viewingusage#viewingusage).
 
 Por ejemplo, si enlaza las cuentas el 16 de abril de 2017, recibirá una factura de {{site.data.keyword.Bluemix_notm}} para su uso de abril. Según cuándo haya enlazado las cuentas, podrá obtener una factura independiente para el uso de SoftLayer. El uso combinado durante mayo se facturará mediante su cuenta de {{site.data.keyword.Bluemix_notm}}.
 
