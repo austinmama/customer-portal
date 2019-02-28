@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-01-28"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2019-01-31"
 
 
 # Fazendo um pagamento
-{: #cp_makepayment}
+{: #customerportal_makepayment}
 
 Todos os detalhes de faturamento da infraestrutura do {{site.data.keyword.Bluemix}}, desde faturas até informações de pagamento, são armazenados com segurança no portal do cliente. Se seu método de pagamento mudar ou seu cartão de crédito for cancelado ou expirar, atualize suas informações de pagamento para evitar encargos de atraso.
 {:shortdesc}
@@ -54,21 +54,21 @@ Se você estiver localizado fora dos Estados Unidos, use uma ferramenta chamada 
 {: note}
 
 ## Incluindo um método de pagamento
-{: #cp_billpay}
+{: #cp_cpmanacctbillpay}
 
-Cada conta do SoftLayer precisa ter um cartão de crédito no arquivo que é cobrado automaticamente pela quantia da fatura de cada mês. Essas informações devem estar sempre atualizadas para evitar pagamentos atrasados. É possível atualizá-las a qualquer momento para assegurar que as informações de pagamento estejam sempre precisas. Se as informações de cartão de crédito no arquivo estiverem corretas, mas você desejar aplicar uma forma alternativa de pagamento para o saldo atual, consulte [Gerenciando seus itens de faturamento](/docs/customer-portal?topic=customer-portal-manage-billing#manage-billing). Use as etapas a seguir para incluir um método de pagamento para uma conta no portal do cliente.
+Cada conta do SoftLayer precisa ter um cartão de crédito no arquivo que é cobrado automaticamente pela quantia da fatura de cada mês. Essas informações devem estar sempre atualizadas para evitar pagamentos atrasados. É possível atualizá-las a qualquer momento para assegurar que as informações de pagamento estejam sempre precisas. Se as informações de cartão de crédito no arquivo estiverem corretas, mas você desejar aplicar uma forma alternativa de pagamento para o saldo atual, consulte [Gerenciando seus itens de faturamento](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment). Use as etapas a seguir para incluir um método de pagamento para uma conta no portal do cliente.
 
 1. Clique em **Conta** > **Faturamento** > **Método de pagamento** no menu.
 2. Insira os detalhes de faturamento necessários para o cartão em cada campo na seção **Endereço para cobrança**.
 > **Nota:** clique na caixa de seleção **Usar informações da empresa** para preencher automaticamente os campos com as informações da empresa que a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} possui no arquivo para a conta.
 3. Insira as informações do cartão de crédito em cada campo na seção **Informações de pagamento**.
 4. Clique em **Incluir cartão de crédito** para incluir o cartão de crédito como um método de pagamento mensal.
-5. Opcionalmente, selecione **Suportado na EU** para assegurar que a equipe de suporte na Europa lida com os seus problemas de manutenção e suporte.  Para obter mais informações sobre essa opção, consulte [Configurando a opção europeia suportada](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported).
+5. Opcionalmente, selecione **Suportado na EU** para assegurar que a equipe de suporte na Europa lida com os seus problemas de manutenção e suporte.  Para obter mais informações sobre essa opção, consulte [Configurando a opção europeia suportada](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
 
 Após você incluir o método de pagamento, a solicitação será processada pelos representantes de conta SoftLayer para assegurar a validade do cartão. Os cartões validados ficam disponíveis para uso na conta dentro de 24 horas. A mudança de status para o método de pagamento é enviada por e-mail para o contato que foi fornecido quando o método de pagamento foi incluído.
 
 ## Fazendo um pagamento único
-{: #cp-one-payment}
+{: #cp_makeonetimepayment}
 
 É possível fazer pagamentos únicos usando uma conta do PayPal ou um cartão de crédito principal e é possível fazer pagamentos para um saldo total ou parcial. Os detalhes do pagamento único não são registrados para uso futuro e não modificam os métodos atuais de pagamento mensal da conta.
 
@@ -78,7 +78,7 @@ Após você incluir o método de pagamento, a solicitação será processada pel
 2. Insira a quantia de pagamento no campo **Quantia de pagamento**.
 3. Se você estiver fazendo seu pagamento com PayPal, clique em **PayPal** e siga os prompts do PayPal para concluir o pagamento. Nenhuma ação adicional é necessária. Se você estiver fazendo seu pagamento com um cartão de crédito, insira o **Número do cartão, a Expiração e o Código de segurança** nos campos apropriados.
 4. Insira as informações de faturamento nos campos apropriados na seção **Endereço para cobrança do cartão de crédito**.
-5. Opcionalmente, selecione **Suportado na EU** para assegurar que a equipe de suporte na Europa lida com os seus problemas de manutenção e suporte.  Para obter mais informações sobre essa opção, consulte [Configurando a opção europeia suportada](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported).
+5. Opcionalmente, selecione **Suportado na EU** para assegurar que a equipe de suporte na Europa lida com os seus problemas de manutenção e suporte.  Para obter mais informações sobre essa opção, consulte [Configurando a opção europeia suportada](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
 6. Clique em **Pagar com cartão de crédito** para iniciar o pagamento.
 
 Após iniciar o pagamento, o pagamento será processado. Se surgirem problemas com o pagamento, siga os prompts da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} ou do PayPal até que o problema seja resolvido. O pagamento será processado. A quantia é aplicada e o saldo atual é atualizado.
