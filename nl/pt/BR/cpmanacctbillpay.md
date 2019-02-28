@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018, 2019 
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-01-09"
 
 ---
 
@@ -18,19 +18,18 @@ lastupdated: "2019-01-31"
 # Gerenciando seus itens de faturamento
 {: #manage-billing}
 
-Se você estiver gerenciando o faturamento de infraestrutura do {{site.data.keyword.Bluemix}} para uma conta do SoftLayer, será possível gerenciar o faturamento e os pagamentos no portal do cliente. Para gerenciar o faturamento e os pagamentos da plataforma do {{site.data.keyword.Bluemix_notm}}, consulte [Gerenciando pagamentos](/docs/billing-usage?topic=billing-usage-linkedusage#linkedusage).  
+Se você estiver gerenciando o faturamento de infraestrutura do {{site.data.keyword.Bluemix}} para uma conta do SoftLayer, será possível gerenciar o faturamento e os pagamentos no portal do cliente. Para gerenciar o faturamento e os pagamentos da plataforma {{site.data.keyword.Bluemix_notm}}, use a janela Gerenciar itens de faturamento no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
 {:shortdesc}
 
 ## Acessando seus itens de faturamento
 {: #cp_accbillitems}
-
 É possível usar a janela Gerenciar itens de faturamento no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} para associar itens de faturamento a dispositivos específicos e cancelar esses itens, quando necessário.
 
 A janela Gerenciar itens de faturamento mostra itens de faturamento associados. É possível mudar a visualização selecionando outra opção na lista suspensa **Exibir**. Quando você estiver visualizando os itens de faturamento, será possível mudar itens de faturamento não associados para associados e itens associados para dissociados. É possível mudar itens associados e dissociados individualmente ou, para mais de um item por vez, usando o recurso Ações em massa. É possível cancelar itens de faturamento individuais a qualquer momento na janela Gerenciar itens de faturamento.
 
 
 ## Cancelando um item de faturamento
-{: #cp_cancelbillitem}
+{: #cp_cancelbillitems}
 
 É possível cancelar itens de faturamento diretamente na janela Gerenciar itens de faturamento a qualquer momento. É possível iniciar cancelamentos para a maioria dos serviços e soluções imediatamente. Os cancelamentos são imediatos ou são processados no aniversário do faturamento.
 
@@ -53,7 +52,7 @@ Depois de confirmar o cancelamento, o processo de cancelamento do item de fatura
 
 
 ## Associando itens de faturamento a um dispositivo
-{: #cp_billitem}
+{: #cp_assbillitem2device}
 
 É possível associar itens de faturamento para cada conta para um dispositivo na janela Gerenciar itens de faturamento do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. É possível associar itens únicos usando a lista suspensa **Ações** para o item de faturamento ou é possível associar diversos itens usando a lista suspensa **Ações em massa**. Use as etapas a seguir para associar itens de faturamento a um dispositivo.
 
@@ -68,7 +67,7 @@ Ao concluir a solicitação, associação de item de faturamento ocorre imediata
 
 
 ## Removendo a associação ao dispositivo para itens de faturamento
-{: #cp_remove-bill}
+{: #cp_rembillitemdevice}
 
 Após os itens de faturamento para uma conta serem associados a um dispositivo, será possível remover a associação na janela Gerenciar itens de faturamento do portal do cliente. É possível remover a associação para itens únicos usando a lista suspensa **Ações** para o item de faturamento. É possível remover várias associações de item usando a lista suspensa **Ações em massa**. Use as etapas a seguir para remover a associação ao dispositivo para itens de faturamento.
 
@@ -79,4 +78,4 @@ Após os itens de faturamento para uma conta serem associados a um dispositivo, 
   * Para remover uma associação para vários itens de faturamento, clique na caixa de seleção para cada item de faturamento a ser removido do dispositivo. Em seguida, na lista **Ações em massa**, selecione **Remover associação de itens selecionados**.
 4. Clique em **Sim**.
 
-Ao concluir a solicitação, a remoção da associação do item de faturamento ocorre imediatamente em sistemas backend. Depois de remover a associação de um item de faturamento, ela é mostrada na lista **Itens de faturamento não associados**. O nome do dispositivo não é mais mostrado na coluna **Associado a** para cada item de faturamento. É possível [associar itens de faturamento a outro dispositivo](/docs/customer-portal?topic=customer-portal-cp_remove-bill#cp_billitem) a qualquer momento usando o método de associação único ou em massa.
+Ao concluir a solicitação, a remoção da associação do item de faturamento ocorre imediatamente em sistemas backend. Depois de remover a associação de um item de faturamento, ela é mostrada na lista **Itens de faturamento não associados**. O nome do dispositivo não é mais mostrado na coluna **Associado a** para cada item de faturamento. É possível [associar itens de faturamento a outro dispositivo](/docs/customer-portal/cpmanacctbillpay.html#cp_assbillitem2device) a qualquer momento usando o método de associação único ou em massa.
