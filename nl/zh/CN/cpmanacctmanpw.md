@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2018-11-20"
 
 
 # 管理密码
-{: #customerportal_manpws}
+{: #cp_manpws}
 
 如果您是主用户或帐户所有者，那么可以启用密码跟踪，还可以设置用于一次性访问帐户的密码。通过密码跟踪，用户可以存储设备及其关联软件的软件密码数据。
 {:shortdesc}
 
 ## 启用密码跟踪
-{: #customerportal_enabpwtrak}
+{: #cp_enabpwtrak}
 
 客户门户网站针对每个帐户包含可选的[密码跟踪 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/devices/passwords){:new_window} 工具。如果丢失或忘记了用户名和密码，用户可以通过此工具来检索这些信息。
 
@@ -46,7 +46,7 @@ lastupdated: "2018-11-20"
 将用户添加到密码跟踪工具后，相关信息会存储在此工具中，直到被手动删除。缺省情况下，所有用户名和密码组合均基于设备名进行存储。各条目以字母顺序先按设备名再按用户名显示。
 
 ### 过滤密码跟踪工具中的信息
-{: #cp_filterusinfopwtracktool}
+{: #cp_tracktool}
 
 要在密码跟踪工具中查看、编辑或删除用户信息，可以进行过滤来快速找到用户。用户列表跨多行或多页时，通过过滤来查找用户会非常有用。使用以下步骤在密码跟踪工具中按设备、软件或用户进行过滤。
 
@@ -59,7 +59,7 @@ lastupdated: "2018-11-20"
 可以选择要查看、编辑或除去的用户信息。
 
 ### 编辑密码跟踪工具中的用户信息
-{: #cp_editusinfopwtracktool}
+{: #cp_editusinfo}
 
 将用户添加到密码跟踪工具之后，可以编辑与用户或密码关联的详细信息。使用以下步骤在密码跟踪工具中编辑用户的信息。
 
@@ -73,7 +73,7 @@ lastupdated: "2018-11-20"
 在密码跟踪工具中编辑用户或密码后，这些信息会立即更新。
 
 ## 配置帐户进行一次性密码访问
-{: #cp_confportacc1timpwacc}
+{: #cp_one-time}
 
 要配置帐户，必须先安装 Verisign 的“VIP Access”应用程序。如果未设置 VIP Access，请首先为以下某个设备下载该应用程序：
 * 手机：[https://m.vip.symantec.com/home.v ![外部链接图标](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
@@ -100,12 +100,12 @@ lastupdated: "2018-11-20"
 重置密码的方式取决于您是否使用 IBM 标识进行认证来登录到帐户。  
 
 ### 重置 IBM 标识帐户密码
-{: #cp_reset-IBMid-password}
+{: #cp_reset}
 
 如果使用 IBM 标识进行认证，要重置或恢复密码，请转至 IBM 标识概要文件，并按照**登录**部分下的指示信息进行操作。
 
 ### 重置 SoftLayer 帐户密码
-{: #cp_reset-password}
+{: #cp_reset-sl}
 
 如果不使用 IBM 标识进行帐户认证，请完成以下步骤：
 
@@ -116,5 +116,5 @@ lastupdated: "2018-11-20"
 
 您有 5 次机会可尝试回答安全问题。如果尝试次数超过 5 次，那么重置密码表单将锁定 15 分钟，然后才能重试。
 
-有关使用 VPN 密码的信息，请参阅[更新用户的 VPN 密码](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password)。
+有关使用 VPN 密码的信息，请参阅[更新用户的 VPN 密码](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password)。
 {: tip}

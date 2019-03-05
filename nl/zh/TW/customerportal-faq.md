@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -23,9 +23,9 @@ lastupdated: "2018-11-28"
 {: #bicp_retcreds}
 {: faq}
 
-如果您使用 IBM ID 進行鑑別，則當您第一次下單或將您新增為帳戶的使用者時，您會收到一封電子郵件，內含開始使用 IBM ID 的鏈結。如果遺失或忘記您的使用者名稱或密碼，請前往 [IBM ID 設定檔 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window}，並重設或回復密碼。系統將提示您輸入特定資訊（這可能包括建立安全問題的回答）。
+如果您使用 IBM ID 進行鑑別，則當您第一次下訂單或將您新增為帳戶的使用者時，您會收到一封電子郵件，內含開始使用 IBM ID 的鏈結。如果遺失或忘記您的使用者名稱或密碼，請前往 [IBM ID 設定檔 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window}，並重設或回復密碼。系統將提示您輸入特定資訊（這可能包括建立安全問題的回答）。
 
-如果您未使用 IBM ID 進行鑑別，則當您第一次下單或將您新增為[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 帳戶的使用者時，會收到一封電子郵件，內含您的使用者名稱及起始密碼，以在客戶入口網站中開始使用。請務必在第一次登入之後變更密碼，方法是編輯使用者設定檔。
+如果您未使用 IBM ID 進行鑑別，則當您第一次下訂單或將您新增為[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 帳戶的使用者時，會收到一封電子郵件，內含您的使用者名稱及起始密碼，以在客戶入口網站中開始使用。請務必在第一次登入之後變更密碼，方法是編輯使用者設定檔。
 
 如果您在登入之後忘記密碼，請使用客戶入口網站登入畫面上所提供的**忘記密碼**特性。系統將提示您輸入特定資訊（這包括您在設定使用者設定檔時指定的一組安全問題）。
 
@@ -41,7 +41,7 @@ lastupdated: "2018-11-28"
 {: #bicp_linkbmxacct}
 {: faq}
 
-如果您是 SoftLayer 帳戶上的主要使用者，請登入客戶入口網站，然後按一下標頭中的**鏈結帳戶**。如需相關資訊，請參閱[鏈結 IBM ID 使用者帳戶](/docs/account/softlayerlink.html)。
+如果您是 SoftLayer 帳戶上的主要使用者，請登入客戶入口網站，然後按一下標頭中的**鏈結帳戶**。如需相關資訊，請參閱[鏈結 IBM ID 使用者帳戶](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)。
 
 ## 我必須是現有 {{site.data.keyword.Bluemix_notm}} 使用者才能鏈結帳戶嗎？
 {: #bicp_bmxusertolink}
@@ -55,7 +55,7 @@ lastupdated: "2018-11-28"
 
 不會影響位於帳戶層次的雙因子鑑別 (2FA) 配置。2FA 不是依據 IBM ID；它仍是根據帳戶。如果 IBM ID 與許多帳戶相關聯，而且您在帳戶之間切換，則每次切換至需要 2FA 的不同帳戶時都必須確認身分。即使前一個帳戶及新的帳戶都已配置相同的雙因子鑑別機制時也是如此。
 
-如需含 2FA 的 IBM ID 的相關資訊，請參閱[已鏈結帳戶中的多因子鑑別使用](/docs/account/softlayerlink.html#2fa)。
+如需含 2FA 的 IBM ID 的相關資訊，請參閱[已鏈結帳戶中的多因子鑑別使用](/docs/account?topic=account-2fa#2fa)。
 
 ## 誰可以鏈結帳戶？
 {: #bicp_wholinkaccts}
@@ -101,7 +101,7 @@ lastupdated: "2018-11-28"
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-主要使用者及具有管理者許可權的使用者都會有客戶入口網站及 API 上帳戶的完整 root 存取權。沒有管理者許可權的使用者，其可存取性是由具有管理者角色的使用者所控制。管理者可以利用[編輯使用者設定檔](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile)，從客戶入口網站更新這些許可權。如果沒有管理者許可權，您可以在客戶入口網站的頂端畫面上按一下使用者名稱，以編輯使用者設定檔。
+主要使用者及具有管理者許可權的使用者都會有客戶入口網站及 API 上帳戶的完整 root 存取權。沒有管理者許可權的使用者，其可存取性是由具有管理者角色的使用者所控制。管理者可以利用[編輯使用者設定檔](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)，從客戶入口網站更新這些許可權。如果沒有管理者許可權，您可以在客戶入口網站的頂端畫面上按一下使用者名稱，以編輯使用者設定檔。
 
 ## 我可以鏈結 {{site.data.keyword.Bluemix_notm}} 訂閱帳戶嗎？
 {: #bicp_linkbmxsubacct}
@@ -120,13 +120,13 @@ lastupdated: "2018-11-28"
 {: #bicp_whatfindcompprof}
 {: faq}
 
-公司設定檔就是建立帳戶時所提交的資訊，包括公司的主要聯絡人，以及公司名稱、地址及電話號碼。這項資訊的使用原因眾多，應該隨時保持為最新。若要檢視您帳戶的公司設定檔，或要求變更，請參閱[更新公司設定檔](/docs/customer-portal/cpmanacctcompprofcont.html#cp_updcompprof)。
+公司設定檔就是建立帳戶時所提交的資訊，包括公司的主要聯絡人，以及公司名稱、地址及電話號碼。這項資訊的使用原因眾多，應該隨時保持為最新。若要檢視您帳戶的公司設定檔，或要求變更，請參閱[更新公司設定檔](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile)。
 
 ## 在哪裏可以找到我的裝置及軟體密碼？
 {: #bicp_devswpw}
 {: faq}
 
-裝置及軟體密碼儲存在客戶入口網站內的兩個位置。若要擷取裝置認證（包括 {{site.data.keyword.baremetal_short}} 及 {{site.data.keyword.virtualmachinesshort}} 的 root 或管理使用者名稱及密碼），請參閱[在 Snapshot 視圖中與裝置互動](/docs/vsi/vsi_interact_device_snapshot_view.html)。若要快速檢視及擷取使用客戶入口網站手動追蹤的軟體認證，請參閱[管理裝置存取權](/docs/vsi/vsi_device_access.html)。
+裝置及軟體密碼儲存在客戶入口網站內的兩個位置。若要擷取裝置認證（包括 {{site.data.keyword.baremetal_short}} 及 {{site.data.keyword.virtualmachinesshort}} 的 root 或管理使用者名稱及密碼），請參閱[在 Snapshot 視圖中與裝置互動](/docs/vsi?topic=virtual-servers-interacting-with-a-device-in-snapshot-view#interacting-with-a-device-in-snapshot-view)。若要快速檢視及擷取使用客戶入口網站手動追蹤的軟體認證，請參閱[管理裝置存取權](/docs/vsi?topic=virtual-servers-managing-device-access#managing-device-access)。
 
 ## 如何保持 Web 資料同步？
 {: #bicp_webdatasync}
@@ -144,4 +144,4 @@ lastupdated: "2018-11-28"
 {: #bicp_candev}
 {: faq}
 
-您隨時可以透過客戶入口網站來取消裝置。如需完成取消要求的相關資訊，請參閱[取消裝置](/docs/vsi/vsi_managing.html)。
+您隨時可以透過客戶入口網站來取消裝置。如需完成取消要求的相關資訊，請參閱[取消裝置](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)。

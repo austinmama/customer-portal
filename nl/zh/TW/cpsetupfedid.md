@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -42,9 +42,11 @@ lastupdated: "2018-11-28"
 使用隨機密碼，先在 {{site.data.keyword.BluSoftlayer}} 基礎架構中建立需要存取 {{site.data.keyword.BluSoftlayer}} 基礎架構之使用者的帳戶。必須先在 {{site.data.keyword.BluSoftlayer}} 基礎架構中配置所有許可權，使用者才能透過身分提供者來使用 SSO。目前是根據個別使用者來設定許可權。
 
 ### 設定使用者
+{: #cp_user-setup}
+
 請使用下列步驟，以設定使用者：
 
-1. [將使用者新增至 SoftLayer 帳戶](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)。
+1. [將使用者新增至 SoftLayer 帳戶](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct)。
 2. 在 {{site.data.keyword.BluSoftlayer}} 基礎架構中指派許可權。
 3. 在身分提供者中建立使用者。
 
@@ -82,7 +84,7 @@ lastupdated: "2018-11-28"
 3. 確定 {{site.data.keyword.BluSoftlayer}} 基礎架構及身分提供者中所定義的角色具有相同名稱。
 
 ### 設定使用者
-{: #setupuser}
+{: #identity-setupuser}
 
 請使用下列步驟，以設定使用者：
 

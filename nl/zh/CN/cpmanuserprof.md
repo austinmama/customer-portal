@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -56,13 +56,13 @@ lastupdated: "2018-11-20"
 |部分|字段|定义|
 |-------|-----|----------|
 |API 访问信息|允许的 IP|允许使用与用户概要文件关联的唯一 API 密钥向 API 进行认证的 IP 地址。|
-|用户通知预订|记帐|选中**记帐**复选框以在电子邮件发票创建后接收该发票。|
+|用户通知预订|计费|选中**计费**复选框以在电子邮件发票创建后接收该发票。|
 |安全问题|安全问题|编辑概要文件时，如果已激活概要文件的安全问题，那么这是登录时必须回答的问题。
 |安全答案|答案|对适用安全问题的区分大小写的答案。|
 {: caption="表 3. 用于编辑用户概要文件的其他配置设置" caption-side="top"}
 提交对用户概要文件的编辑后，将立即应用更改。您可以随时通过重复上述步骤，再次更改用户概要文件。
 
-有关设置 IBM 标识帐户的更多信息，请参阅[切换到 IBM 标识](/docs/account/softlayerlink.html#switching-to-ibmid)。
+有关设置 IBM 标识帐户的更多信息，请参阅[切换到 IBM 标识](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)。
 
 ## 编辑用户的客户门户网站许可权
 {: #cp_editusercpperm}
@@ -90,13 +90,13 @@ lastupdated: "2018-11-20"
 ## 为用户添加外部认证
 {: #cp_addextauthuser}
 
-在客户门户网站中，可以激活外部双因子认证 (2FA)，以在登录到门户网站时提供进一步的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息安全可靠。有关更多信息，请参阅[设置双因子认证](/docs/customer-portal/cpenable2fa.html#customerportal_2fa)。
+在客户门户网站中，可以激活外部双因子认证 (2FA)，以在登录到门户网站时提供进一步的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息安全可靠。有关更多信息，请参阅[设置双因子认证](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication)。
 
 
 ## 更改用户的状态
 {: #cp_changeuserstat}
 
-您在客户门户网站中的状态决定了您对客户门户网站的可访问性。可以在帐户上更新的状态类别包括“活动”、“已禁用”和“仅限 VPN”。您的状态可能会因各种原因而更改，并且状态可以随时更新。客户状态类别包括用户可以更新的类别和自动更新的类别。具体包括：
+您在客户门户网站中的状态决定了您对客户门户网站的访问权。可在帐户上更新的状态类别包括“活动”、“已禁用”和“仅限 VPN”。您的状态可能会因各种原因而更改，该状态可随时更新。客户状态类别包括用户可以更新的类别和自动更新的类别。具体包括：
 <dl>
 <dt>活动</dt>
 <dd>用户根据帐户管理员设置的许可权，具有对客户门户网站和 VPN 的完全访问权。此状态可随时手动选择或更改。</dd>
@@ -118,13 +118,13 @@ lastupdated: "2018-11-20"
 4. 从**状态**列表中，根据先前列表中的定义选择相应的状态。
 5. 单击**保存**。
 
-更新用户的状态后，客户门户网站可访问性的更改会与新状态一致。
+更新用户的状态后，对客户门户网站访问权的更改会与新状态保持一致。
 
 
 ## 编辑用户的 VPN 访问
 {: #cp_edituservpnaccess}
 
-向客户门户网站帐户[添加新用户](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)时，可从各种连接方法中选择 VPN 访问，包括 SSL、PPTP 或这两者的组合。通过 VPN 访问，可以访问整个专用网络，也可以将网络访问限制为一个或多个特定的子网。您可以随时在“用户”窗口中管理和更新 VPN 访问。使用以下步骤编辑用户的 VPN 访问。
+向客户门户网站帐户[添加新用户](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct)时，可从各种连接方法中选择 VPN 访问，包括 SSL、PPTP 或这两者的组合。通过 VPN 访问，可以访问整个专用网络，也可以将网络访问限制为一个或多个特定的子网。您可以随时在“用户”窗口中管理和更新 VPN 访问。使用以下步骤编辑用户的 VPN 访问。
 
 1. 使用您的唯一凭证来访问客户门户网站。
 2. 从导航栏中选择**帐户** > **VPN 访问**。
@@ -135,7 +135,7 @@ lastupdated: "2018-11-20"
   * 选择**手动**以手动管理子网访问，然后选中您希望用户访问的每个子网对应的**授予访问权**复选框。请务必清除不希望用户访问的所有子网对应的复选框。
 6. 单击**保存**。
 
-更新用户的 VPN 访问后，会更新其许可权，“VPN 访问”列将显示更新后的 VPN 访问方法（如果适用）。
+更新用户的 VPN 访问后，其许可权也会更新，“VPN 访问”列将显示更新后的 VPN 访问方法（如果适用）。
 
 ### 激活或停用 VPN 访问
 {: #cp_pptpvpn}
@@ -170,6 +170,6 @@ lastupdated: "2018-11-20"
 3. 选中**欧盟支持**复选框。
 4. 单击**请求概要文件更新**。
 
-如果**欧盟支持**选项不可用，说明您的帐户中可能有用户启用了 PPTP VPN 访问。首先禁用帐户中所有用户的 PPTP VPN 访问，以启用**欧盟支持**选项。有关更多信息，请参阅[激活或停用 PPTP VPN 访问](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn)。
+如果**欧盟支持**选项不可用，说明您的帐户中可能有用户启用了 PPTP VPN 访问。首先禁用帐户中所有用户的 PPTP VPN 访问，以启用**欧盟支持**选项。有关更多信息，请参阅[激活或停用 PPTP VPN 访问](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn)。
 
-有关在开具支持凭单时实施**欧盟支持**选项的更多信息，请参阅[请求对欧盟中资源的支持](/docs/get-support/howtogetsupport.html#eusupported)。
+有关在开具支持凭单时实施**欧盟支持**选项的更多信息，请参阅[请求对欧盟中资源的支持](/docs/get-support?topic=get-support-eusupported#eusupported)。

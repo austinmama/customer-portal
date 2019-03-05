@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -62,7 +62,7 @@ lastupdated: "2018-11-20"
 {: caption="表 3. 用於編輯使用者設定檔的其他配置設定" caption-side="top"}
 提交對使用者設定檔的編輯之後，即會立即套用變更。您隨時都可以重複先前的步驟，來重新變更使用者設定檔。
 
-如需設定 IBM ID 帳戶的相關資訊，請參閱[切換至 IBM ID](/docs/account/softlayerlink.html#switching-to-ibmid)。
+如需設定 IBM ID 帳戶的相關資訊，請參閱[切換至 IBM ID](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)。
 
 ## 編輯使用者的客戶入口網站許可權
 {: #cp_editusercpperm}
@@ -91,7 +91,7 @@ lastupdated: "2018-11-20"
 {: #cp_addextauthuser}
 
 從客戶入口網站中，可以啟動外部雙因子鑑別 (2FA)，為登入入口網站時增加保護。這個額外安全層可保護帳戶不受未驗證地存取，確保裝置、資料及帳戶資訊受到保護。
-如需相關資訊，請參閱[設定雙因子鑑別](/docs/customer-portal/cpenable2fa.html#customerportal_2fa)。
+如需相關資訊，請參閱[設定雙因子鑑別](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication)。
 
 
 ## 變更使用者的狀態
@@ -125,7 +125,7 @@ lastupdated: "2018-11-20"
 ## 編輯使用者的 VPN 存取權
 {: #cp_edituservpnaccess}
 
-[新增使用者](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)至客戶入口網站帳戶時，會從各種連線方法（包括 SSL、PPTP 或兩者的組合）中選取 VPN 存取權。使用 VPN 存取權，可以存取整個專用網路，或可以將網路存取限制為一個以上的特定子網路。您隨時可以從「使用者」視窗中管理及更新 VPN 存取權。請使用下列步驟，以編輯使用者的 VPN 存取權。
+[新增使用者](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct)至客戶入口網站帳戶時，會從各種連線方法（包括 SSL、PPTP 或兩者的組合）中選取 VPN 存取權。使用 VPN 存取權，可以存取整個專用網路，或可以將網路存取限制為一個以上的特定子網路。您隨時可以從「使用者」視窗中管理及更新 VPN 存取權。請使用下列步驟，以編輯使用者的 VPN 存取權。
 
 1. 使用唯一的認證來存取客戶入口網站。
 2. 從導覽列中，選取**帳戶** > **VPN 存取權**。
@@ -156,7 +156,7 @@ lastupdated: "2018-11-20"
 
 您可以選取要從 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構收到哪些電子郵件通知，以及您不想收到的通知。依預設，您會收到所有電子郵件通知，但您可以隨時變更它們。若要變更電子郵件通知設定，請使用下列步驟：
 1. 使用與接收通知之電子郵件位址相關聯帳戶的唯一認證來存取客戶入口網站。
-2. 從功能表列中，按一下**帳戶** > **使用者** > **電子郵件喜好設定**。
+2. 從功能表列按一下**帳戶** > **使用者** > **電子郵件喜好設定**。
 3. 從通知類型的清單，清除您不想再收到的任何通知。
 
 您的變更會自動儲存起來。這些設定會影響傳送給您的電子郵件，不過它們不會影響您帳戶上任何其他使用者的電子郵件通知。
@@ -167,10 +167,10 @@ lastupdated: "2018-11-20"
 
 您可以指出只要來自實際位在歐盟 (EU) 的支援團隊的支援。當您設定帳戶或更新現有帳戶時，可以選取此選項。若要設定**歐盟支援**選項，請使用下列步驟：
 1. 使用唯一的認證來存取客戶入口網站。
-2. 從功能表列中，按一下**帳戶** > **管理** > **公司設定檔**。
+2. 從功能表列按一下**帳戶** > **管理** > **公司設定檔**。
 3. 選取**歐盟支援**勾選框。
 4. 按一下**要求設定檔更新**。
 
-如果無法使用**歐盟支援**選項，則帳戶中可能有使用者已啟用 PPTP VPN 存取權。先停用帳戶中所有使用者的 PPTP VPN 存取權，才能啟用**歐盟支援**選項。如需相關資訊，請參閱[啟動或取消啟動 PPTP VPN 存取權](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn)。
+如果無法使用**歐盟支援**選項，則帳戶中可能有使用者已啟用 PPTP VPN 存取權。先停用帳戶中所有使用者的 PPTP VPN 存取權，才能啟用**歐盟支援**選項。如需相關資訊，請參閱[啟動或取消啟動 PPTP VPN 存取權](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn)。
 
-如需開立支援問題單時實作**歐盟支援**選項的相關資訊，請參閱[要求歐盟資源的支援](/docs/get-support/howtogetsupport.html#eusupported)。
+如需開立支援問題單時實作**歐盟支援**選項的相關資訊，請參閱[要求歐盟資源的支援](/docs/get-support?topic=get-support-eusupported#eusupported)。

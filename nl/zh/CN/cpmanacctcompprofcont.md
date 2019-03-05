@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-29"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -22,7 +22,7 @@ lastupdated: "2018-11-29"
 {:shortdesc}
 
 ## 更新公司概要文件
-{: #cp_updcompprof}
+{: #cp_updateprofile}
 
 {{site.data.keyword.BluSoftlayer_full}} 基础架构使用公司概要文件中的信息与您联系。如果您的电话号码或主要联系人电子邮件发生更改，请务必进行更新。公司概要文件信息会在创建帐户时输入到 {{site.data.keyword.BluSoftlayer_notm}} 基础架构中，并且可以在客户门户网站的多个位置找到。
 
@@ -32,13 +32,13 @@ lastupdated: "2018-11-29"
 2. 从菜单中选择**帐户** > **管理** > **公司概要文件**，以访问“公司概要文件”窗口。
 3. 更新**公司信息**和/或**主帐户持有者**部分中的详细信息。
 > **注：**帐户概要文件中的信息仅用于内部管理目的。
-4. （可选）如果要确保欧洲支持团队处理您的维护和支持问题，请选择**欧盟支持**。有关此选项的更多信息，请参阅[设置欧洲支持的选项](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported)。
+4. （可选）如果要确保欧洲支持团队处理您的维护和支持问题，请选择**欧盟支持**。有关此选项的更多信息，请参阅[设置欧洲支持的选项](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported)。
 5. 单击**提交更新请求**。
 
 请求更新公司概要文件后，{{site.data.keyword.BluSoftlayer_notm}} 基础架构团队成员会复查该请求。如果有任何其他信息需要验证，那么会对这些信息进行验证。在批准所有更改后，帐户概要文件将根据请求进行更新。
 
 ## 添加或编辑帐户联系人
-{: #cp_addoreditacctcont}
+{: #cp_addoreditacct}
 
 在需要查询时，请使您的帐户联系人相关信息保持完整且最新。确保帐户联系人是针对每种请求类型要联系的相应人员。每个帐户可能有多个联系人条目，但每种服务类型只能有一个联系人。特定于帐户的联系人信息不包括帐户概要文件，这是与帐户关联的主要联系人信息。使用以下步骤添加或编辑帐户联系人。
 

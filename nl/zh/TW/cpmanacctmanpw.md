@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,13 +16,13 @@ lastupdated: "2018-11-20"
 
 
 # 管理密碼
-{: #customerportal_manpws}
+{: #cp_manpws}
 
 如果您是主要使用者或帳戶擁有者，則可以啟用密碼追蹤，也可以設定密碼以用來對帳戶進行一次性存取。密碼追蹤可讓使用者儲存裝置及其關聯軟體的軟體密碼資料。
 {:shortdesc}
 
 ## 啟用密碼追蹤
-{: #customerportal_enabpwtrak}
+{: #cp_enabpwtrak}
 
 客戶入口網站具有每個帳戶的選用[密碼追蹤 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/devices/passwords){:new_window} 工具。如果遺失或忘記資訊，則使用者可以透過此工具來擷取其使用者名稱及密碼。
 
@@ -46,7 +46,7 @@ lastupdated: "2018-11-20"
 將使用者新增至密碼追蹤工具之後，在手動刪除資訊以前，資訊都會儲存在工具內。依預設，會根據裝置名稱來儲存所有的使用者名稱及密碼組合。會按字母順序，依序根據裝置名稱及使用者名稱來顯示項目。
 
 ### 在密碼追蹤工具中過濾資訊
-{: #cp_filterusinfopwtracktool}
+{: #cp_tracktool}
 
 若要從密碼追蹤工具中檢視、編輯或刪除使用者資訊，您可以進行過濾以快速找到使用者。當使用者清單跨越數個列或數頁時，過濾以尋找使用者很有用。請使用下列步驟，以在密碼追蹤工具中根據裝置、軟體或使用者進行過濾。
 
@@ -54,12 +54,12 @@ lastupdated: "2018-11-20"
 2. 從功能表中，選取**裝置** > **管理** > **密碼**。
 3. 按一下**過濾**標籤。
 4. 在對應的欄位中，選取或輸入裝置名稱、軟體或使用者名稱。
-5. 按一下**過濾**。
+5. 按一下**過濾器**。
 
 您可以選取要檢視、編輯或移除的使用者資訊。
 
 ### 在密碼追蹤工具中編輯使用者資訊
-{: #cp_editusinfopwtracktool}
+{: #cp_editusinfo}
 
 將使用者新增至密碼追蹤工具之後，即可編輯與使用者或密碼相關聯的詳細資料。請使用下列步驟，以在密碼追蹤工具中編輯使用者的資訊。
 
@@ -73,7 +73,7 @@ lastupdated: "2018-11-20"
 在密碼追蹤工具中編輯使用者或密碼之後，即會立即更新資訊。
 
 ## 配置帳戶進行一次性密碼存取
-{: #cp_confportacc1timpwacc}
+{: #cp_one-time}
 
 您必須先設定 Verisign 的「VIP 存取」應用程式，才能配置帳戶。如果未設定 VIP 存取，請先下載下列其中一個裝置的應用程式：
 * 對於電話：[https://m.vip.symantec.com/home.v ![外部鏈結圖示](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
@@ -100,12 +100,12 @@ lastupdated: "2018-11-20"
 重設密碼的方式是根據是否使用 IBM ID 進行鑑別來登入您的帳戶。  
 
 ### 重設 IBM ID 帳戶密碼
-{: #cp_reset-IBMid-password}
+{: #cp_reset}
 
 如果您使用 IBM ID 進行鑑別，則若要重設或回復密碼，請移至您的 IBM ID 設定檔，並遵循**登入**區段下的指示。
 
 ### 重設 SoftLayer 帳戶密碼
-{: #cp_reset-password}
+{: #cp_reset-sl}
 
 如果您未使用 IBM ID 進行帳戶鑑別，則請完成下列步驟：
 
@@ -116,5 +116,5 @@ lastupdated: "2018-11-20"
 
 您有 5 次嘗試回答安全問題的機會。如果您嘗試超過 5 次，則會先鎖定重設密碼表單 15 分鐘，才能重試。
 
-如需使用 VPN 密碼的相關資訊，請參閱[更新使用者的 VPN 密碼](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password)。
+如需使用 VPN 密碼的相關資訊，請參閱[更新使用者的 VPN 密碼](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password)。
 {: tip}

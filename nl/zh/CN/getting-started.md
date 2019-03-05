@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -18,13 +18,13 @@ lastupdated: "2018-11-20"
 # 入门教程
 {: #getting-started}
 
-在本教程中，我们将逐步指导您完成启动并运行 SoftLayer 帐户的过程，以便您可以开始订购和管理基础架构资源。
+在本教程中，我们将指导您完成启动并运行 SoftLayer 帐户的过程，以便您可以开始订购和管理基础架构资源。
 {:shortdesc}
 
 ## 开始之前
 {: #prereqs}
 
-您需要 [{{site.data.keyword.Bluemix}} 帐户 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com){:new_window}。使用您的 IBM 标识凭证登录到客户门户网站。大部分新用户使用 [IBM 标识](/docs/account/softlayerlink.html#switchtoIBMid)进行认证。
+您需要 [{{site.data.keyword.Bluemix}} 帐户 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com){:new_window}。使用您的 IBM 标识凭证登录到客户门户网站。大部分新用户使用 [IBM 标识](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)进行认证。
 
 如果不使用 IBM 标识进行认证以登录帐户，请使用唯一的 {{site.data.keyword.BluSoftlayer_notm}} 基础架构凭证登录到客户门户网站。
 {: tip}
@@ -35,17 +35,17 @@ lastupdated: "2018-11-20"
 设置您的帐户包括验证帐户联系人信息和记帐详细信息：
  * 要验证公司联系人详细信息，请转至**帐户** > **管理** > **公司联系人**。您帐户的公司联系人信息用于通知您有关帐户的任何问题或更改。
  * 要验证公司概要文件详细信息，请转至**帐户** > **管理** > **公司概要文件**。公司概要文件信息包含有关主帐户持有者的详细信息。
- * 要验证记帐详细信息，请转至**帐户** > **记帐** > **付款方式**。每月付款方式是针对与您帐户关联的付款对信用卡进行周期性记帐。
+ * 要验证记帐详细信息，请转至**帐户** > **计费** > **付款方式**。每月付款方式是使用信用卡周期性地支付与您帐户关联的款项。
 
 ## 步骤 2. 添加用户和分配许可权
 {: #users-permissions}
 
 要将用户添加到您的帐户并设置初始许可权，请转至**帐户** > **用户**。
- * 要根据您分配的特定许可权来邀请用户访问您帐户中的平台和基础架构资源，请单击**邀请用户**。然后，系统会将您定向到 {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) UI 以邀请用户并分配访问权。有关更多信息，请参阅[邀请用户](/docs/iam/iamuserinv.html)。
+ * 要根据您分配的特定许可权来邀请用户访问您帐户中的平台和基础架构资源，请单击**邀请用户**。然后，系统会将您定向到 {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) UI 以邀请用户并分配访问权。有关更多信息，请参阅[邀请用户](/docs/iam?topic=iam-iamuserinv#iamuserinv)。
 
- * 要添加仅具有 VPN 访问权的用户，请单击**添加仅使用 VPN 的用户**。输入个人信息，设置门户网站许可权，并为用户设置设备访问权。
+ * 要添加仅使用 VPN 访问的用户，请单击**添加仅使用 VPN 的用户**。输入个人信息，设置门户网站许可权，并为用户设置设备访问权。
 
-在初始邀请中设置基础架构许可权时，可以选择以下三个许可权集之一：仅查看、基本用户和超级用户。用户接受邀请后，可以通过编辑其门户网站许可权来定制其访问权。有关更多信息，请参阅[基础架构许可权](/docs/iam/infrastructureaccess.html)。
+在初始邀请中设置基础架构许可权时，可以选择以下三个许可权集之一：仅查看、基本用户和超级用户。用户接受邀请后，可以通过编辑其门户网站许可权来定制其访问权。有关更多信息，请参阅[基础架构许可权](/docs/iam?topic=iam-infrapermission#infrapermission)。
 {: tip}
 
 ## 步骤 3. 启用对 {{site.data.keyword.Bluemix_notm}} 基础架构专用网络的访问
@@ -53,10 +53,10 @@ lastupdated: "2018-11-20"
 
 {{site.data.keyword.Bluemix_notm}} 基础架构专用网络免费向用户和设备提供。专用网络上的所有带宽均不限流量且免费。专用网络的优点众多，包括：
   * 将设备环境复制到其他数据中心以进行故障转移
-  * 针对数据库服务器的前端系统可访问性
+  * 前端系统可访问数据库服务器
   * 确保系统访问和管理的安全
 
-要启用用户对专用网络的访问权，请在客户门户网站中编辑 VPN 访问：
+要允许用户访问专用网络，请在客户门户网站中编辑 VPN 访问：
   1. 从菜单栏中选择**帐户** > **VPN 访问**。  
   2. 单击“VPN 访问”列中的链接。
   3. 从 **VPN 类型**菜单中选择一个选项，然后单击**保存**。  
@@ -64,7 +64,7 @@ lastupdated: "2018-11-20"
 对于帐户中使用 IBM 标识进行认证的用户，将使用 SoftLayer VPN 用户名进行 VPN 访问。VPN 用户名在用户概要文件中进行定义。VPN 用户名与缺省为 IBM 标识电子邮件地址和帐户标识的用户名不同。
 {: tip}
 
-有关使用 VPN 连接的更多信息，请参阅[关于 VPN](/docs/infrastructure/iaas-vpn/about-vpn.html)。
+有关使用 VPN 连接的更多信息，请参阅[关于 VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)。
 
 ## 步骤 4. 预订通知
 {: #get-notified}

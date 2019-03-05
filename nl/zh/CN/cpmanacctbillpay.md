@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018, 2019 
+  years: 1994, 2019
 
-lastupdated: "2019-01-09"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -18,18 +18,20 @@ lastupdated: "2019-01-09"
 # 管理计费项目
 {: #manage-billing}
 
-如果要管理 SoftLayer 帐户的 {{site.data.keyword.Bluemix}} 基础架构计费，您可以在客户门户网站中管理您的帐单和付款。要管理 {{site.data.keyword.Bluemix_notm}} 平台帐单和付款，请使用[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 中的“管理计费项目”窗口。   
+如果要管理 SoftLayer 帐户的 {{site.data.keyword.Bluemix}} 基础架构计费，您可以在客户门户网站中管理您的帐单和付款。要管理 {{site.data.keyword.Bluemix_notm}} 平台帐单和付款，请参阅[管理付款](/docs/billing-usage?topic=billing-usage-linkedusage#linkedusage)。
+  
 {:shortdesc}
 
 ## 访问计费项目
 {: #cp_accbillitems}
+
 使用[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 中的“管理计费项目”窗口，可根据需要将计费项目与特定设备关联，以及取消这些项目。
 
 “管理计费项目”窗口显示关联的计费项目。通过从**显示**下拉列表中选择其他选项，可更改该视图。查看计费项目时，可以将未关联的计费项目更改为关联项目，也可以将关联项目更改为解除关联的项目。可单独更改关联项目和解除关联的项目，也可以使用“批量操作”功能一次性更改多个关联项目和解除关联的项目。您可以随时在“管理计费项目”窗口中取消单个计费项目。
 
 
 ## 取消计费项目
-{: #cp_cancelbillitems}
+{: #cp_cancelbillitem}
 
 您可以随时在“管理计费项目”窗口中直接取消计费项目。可对大多数服务和解决方案立即启动取消操作。取消操作可立即执行，也可在计费周年进行处理。
 
@@ -52,7 +54,7 @@ lastupdated: "2019-01-09"
 
 
 ## 将计费项目关联到设备
-{: #cp_assbillitem2device}
+{: #cp_billitem}
 
 在[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 的“管理计费项目”窗口中，可以将每个帐户的计费项目关联到某个设备。可使用计费项目的**操作**下拉列表来关联单个项目，也可以使用**批量操作**下拉列表来关联多个项目。使用以下步骤将计费项目关联到设备。
 
@@ -67,7 +69,7 @@ lastupdated: "2019-01-09"
 
 
 ## 除去计费项目的设备关联
-{: #cp_rembillitemdevice}
+{: #cp_remove-bill}
 
 在将帐户的计费项目关联到设备后，可以在客户门户网站的“管理计费项目”窗口中除去该关联。您可以使用计费项目的**操作**下拉列表来除去单个项目的关联。也可以使用**批量操作**下拉列表来除去多个项目关联。使用以下步骤除去计费项目的设备关联。
 
@@ -78,4 +80,4 @@ lastupdated: "2019-01-09"
   * 要除去多个计费项目的关联，请单击要从设备中除去的每个计费项目的复选框。然后从**批量操作**列表中，选择**除去所选项目的关联**。
 4. 单击**是**。
 
-完成请求后，计费项目关联除去操作会立即在后端系统中执行。除去计费项目的关联后，该项目会显示在**未关联的计费项目**列表中。相应设备名不会再显示在每个计费项目的**关联对象**列中。您可以随时使用单个或批量关联方法[将计费项目关联到其他设备](/docs/customer-portal/cpmanacctbillpay.html#cp_assbillitem2device)。
+完成请求后，计费项目关联除去操作会立即在后端系统中执行。除去计费项目的关联后，该项目会显示在**未关联的计费项目**列表中。相应设备名不会再显示在每个计费项目的**关联对象**列中。您可以随时使用单个或批量关联方法[将计费项目关联到其他设备](/docs/customer-portal?topic=customer-portal-cp_remove-bill#cp_billitem)。

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,20 +16,20 @@ lastupdated: "2018-10-11"
 
 
 # 監視環境及系統事件
-{: #customerportal_cpmonenvsysevent}
+{: #cp_environment-events}
 
 監視環境表示您隨時可以檢查裝置，而且您會在其中一個裝置關閉時自動收到通知。您也可以監視系統事件，讓系統流暢地執行。  
 {: shortdesc}
 
 ## 監視環境
-{: #cpmonenv}
+{: #cp-monitorenvi}
 
 最少要使用基本連線測試監視，但您可以使用最符合商業需求的方式來自訂監視選項。
 
 ### 隨時接收網路維護及非計劃性事件的通知
-{: #cp_stayinfomaintevent}
+{: #cp-informedmaintenance}
 
-有時候，排定及緊急網路維護是不可避免的。{{site.data.keyword.BluSoftlayer_full}} 基礎架構會維護許多通道，讓您可以收到所有排定及緊急維護事件的通知。此外，您還可以從「事件管理系統」中[訂閱電子郵件通知](/docs/customer-portal/cpsub2not.html)。此增補服務會自動將有關可能影響服務之非計劃性事件的電子郵件傳送給訂閱的使用者。
+有時候，排定及緊急網路維護是不可避免的。{{site.data.keyword.BluSoftlayer_full}} 基礎架構會維護許多通道，讓您可以收到所有排定及緊急維護事件的通知。此外，您還可以從「事件管理系統」中[訂閱電子郵件通知](/docs/customer-portal?topic=customer-portal-cp_bpnotifications#cp_bpnotifications)。此增補服務會自動將有關可能影響服務之非計劃性事件的電子郵件傳送給訂閱的使用者。
 
 ### 使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動
 {: #cp_bmxinframobile}
@@ -46,12 +46,12 @@ lastupdated: "2018-10-11"
 可在數個熱門行動裝置平台上使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動應用程式，且可以在每一個平台的相關應用程式商店中免費取得。
 
 ## 監視伺服器
-{: #customerportal_monservers}
+{: #cp_monservers}
 
-設定監視來檢查伺服器的狀態，以瞭解何時需要擴充。您可以使用標準監視或 Nimsoft 監視服務。您可以透過在 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站中使用慢速或服務連線測試，以連線測試及回應 (ping-and-respond) 方法進行標準（或基本）監視。您也可以使用客戶入口網站中的 Nimsoft（或進階）監視，或是在下列三層其中之一進行監視：基本、進階及超值。明確地說，如需裸機伺服器的相關資訊，請參閱[開始使用裸機伺服器](/docs/bare-metal/index.html#getting-started)。
+設定監視來檢查伺服器的狀態，以瞭解何時需要擴充。您可以使用標準監視或 Nimsoft 監視服務。您可以透過在 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站中使用慢速或服務連線測試，以連線測試及回應 (ping-and-respond) 方法進行標準（或基本）監視。您也可以使用客戶入口網站中的 Nimsoft（或進階）監視，或是在下列三層其中之一進行監視：基本、進階及超值。明確地說，如需裸機伺服器的相關資訊，請參閱[開始使用裸機伺服器](/docs/bare-metal?topic=bare-metal-getting-started#getting-started)。
 
 ## 監視系統事件
-{: #customerportal_monevent}
+{: #cp_monevent}
 
 您可以檢視審核日誌及存取日誌，以監視系統事件。
 

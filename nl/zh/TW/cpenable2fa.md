@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-11-20"
 
 
 # 設定雙因子鑑別
-{: #customerportal_2fa}
+{: cp_setup-2fa}
 
 在客戶入口網站中，可以啟動外部雙因子鑑別 (2FA)，為您登入入口網站時增加額外的保護。這個額外安全層可保護帳戶不受未驗證地存取，確保裝置、資料及帳戶資訊受到保護。
 {:shortdesc}
@@ -26,13 +26,14 @@ lastupdated: "2018-11-20"
 SoftLayer 帳戶的 2FA 不是根據 IBM ID。它仍是根據帳戶。當 IBM ID 與多個帳戶相關聯，且您在帳戶之間切換時，每次切換到不同帳戶時都必須確認身分。即使前一個帳戶及新的帳戶都已配置相同的雙因子鑑別機制，您也必須在切換帳戶時確認您的身分。
 
 ## 啟用 2FA
+{: #cp-enable-2fa}
 
 2FA 鑑別以兩種形式提供。兩種外部鑑別方法都可以為每位使用者新增，只需要少量的每月費用：
 
 * Symantec Identify Protection 是最常用的外部鑑別工具，在您存取客戶入口網站時，除了使用者名稱及密碼之外，還會提供所使用的動態安全碼。
 * PhoneFactor 鑑別透過通話、SMS 或行動應用程式來提供頻外鑑別。
 
- 如果您具有已鏈結帳戶，則可以藉由為您的整個 {{site.data.keyword.Bluemix_notm}} 帳戶[啟用多因子鑑別](/docs/iam/mfa.html)，利用多因子鑑別 (MFA) 設定。
+ 如果您具有已鏈結帳戶，則可以藉由為您的整個 {{site.data.keyword.Bluemix_notm}} 帳戶[啟用多因子鑑別](/docs/iam?topic=iam-enablemfa#enablemfa)，利用多因子鑑別 (MFA) 設定。
  {: tip}
 
 若要設定 2FA，請完成下列步驟：
@@ -54,7 +55,7 @@ SoftLayer 帳戶的 2FA 不是根據 IBM ID。它仍是根據帳戶。當 IBM ID
 * 如果已啟用 PhoneFactor，則使用者必須啟動 PhoneFactor，以搭配使用這類型的雙因子鑑別與帳戶。
 
 ### 啟動 PhoneFactor 鑑別
-{: #cp_actphonefacauth}
+{: #cp_phonefacauth}
 
 在新增 PhoneFactor 之後，您必須透過客戶入口網站手動啟動與 PhoneFactor 的外部鑑別。因為 PhoneFactor 使用手動聯絡，所以務必確保與帳戶相關聯的所有電話號碼隨時都是最新資訊。無法持續更新聯絡資訊可能會導致在 PhoneFactor 作用時，無法存取客戶入口網站及 VPN。順利新增 PhoneFactor 之後，您會收到一封電子郵件用來確認已新增 PhoneFactor。在收到電子郵件之後，請使用下列步驟來啟動 PhoneFactor 鑑別。
 
@@ -87,7 +88,7 @@ SoftLayer 帳戶的 2FA 不是根據 IBM ID。它仍是根據帳戶。當 IBM ID
  {: tip}
 
 #### PhoneFactor 鑑別方法
-{: #cp_phonefacauthmeths}
+{: #cp_authmeths}
 
 如果您設定 PhoneFactor 作為鑑別類型，則可以選擇下列其中一個選項作為鑑別方法：
 

@@ -21,7 +21,7 @@ lastupdated: "2018-11-20"
 如果遇到 {{site.data.keyword.BluSoftlayer_full}} 基础架构问题，并且没有链接的帐户，那么可以使用客户门户网站来获取有关确定问题原因并查找相应解决方案的帮助。
 {:shortdesc}
 
-如果您有[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)，那么可以通过 {{site.data.keyword.Bluemix_notm}} 控制台来获得支持。有关更多信息，请参阅[获取支持](/docs/get-support/howtogetsupport.html)。
+如果您有[链接的帐户](/docs/account?topic=account-link_customer_accounts#link_customer_accounts)，那么可以通过 {{site.data.keyword.Bluemix_notm}} 控制台来获得支持。有关更多信息，请参阅[获取支持](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)。
 
 
 如果您没有链接的帐户，可以在 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户门户网站中开具支持凭单，以用于一般技术问题或帮助解决与您帐户相关的问题。
@@ -63,7 +63,7 @@ lastupdated: "2018-11-20"
   如果您不要求支持团队实际身处欧洲，请选择**无**。
   {: tip}
 
-  有关为您的帐户初始化此功能的信息，请参阅[设置欧盟支持选项](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported)。
+  有关为您的帐户初始化此功能的信息，请参阅[设置欧盟支持选项](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported)。
 
 11. 单击**添加凭单**。
 
@@ -111,4 +111,4 @@ lastupdated: "2018-11-20"
 ## 上报支持凭单
 {: #cp_bpsupescalflow}
 
-您可以上报您的凭单来请求进一步的帮助。有关更多信息，请参阅[上报支持凭单](/docs/get-support/quicktickresp.html#escalation)。
+您可以上报您的凭单来请求进一步的帮助。有关更多信息，请参阅[上报支持凭单](/docs/get-support?topic=get-support-escalation#escalation)。

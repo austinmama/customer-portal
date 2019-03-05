@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,20 +16,20 @@ lastupdated: "2018-10-11"
 
 
 # 监视环境和系统事件
-{: #customerportal_cpmonenvsysevent}
+{: #cp_environment-events}
 
 监视环境意味着您可以随时检查设备，并且在某个设备发生故障时自动收到通知。您还可以监视系统事件以保持系统平稳运行。  
 {: shortdesc}
 
 ## 监视环境
-{: #cpmonenv}
+{: #cp-monitorenvi}
 
 至少使用基本的 ping 监视，但您也可以使用最适合您的业务需求的方式来定制监视选项。
 
 ### 随时了解网络维护和计划外事件
-{: #cp_stayinfomaintevent}
+{: #cp-informedmaintenance}
 
-有时，执行安排的网络维护和紧急网络维护是不可避免的。{{site.data.keyword.BluSoftlayer_full}} 基础架构会维护许多通道，以便及时向您通知所有安排的维护事件和紧急维护事件。此外，可以通过事件管理系统[预订电子邮件通知 ](/docs/customer-portal/cpsub2not.html)。此免费服务会自动向预订用户发送有关可能影响服务的计划外事件的电子邮件。
+有时，执行安排的网络维护和紧急网络维护是不可避免的。{{site.data.keyword.BluSoftlayer_full}} 基础架构会维护许多通道，以便及时向您通知所有安排的维护事件和紧急维护事件。此外，可以通过事件管理系统[预订电子邮件通知 ](/docs/customer-portal?topic=customer-portal-cp_bpnotifications#cp_bpnotifications)。此免费服务会自动向预订用户发送有关可能影响服务的计划外事件的电子邮件。
 
 ### 使用 {{site.data.keyword.BluSoftlayer_notm}} Infrastructure Mobile
 {: #cp_bmxinframobile}
@@ -46,12 +46,12 @@ lastupdated: "2018-10-11"
 {{site.data.keyword.BluSoftlayer_notm}} Infrastructure Mobile 应用程序在多个常用移动设备平台上可用，其中每个平台的相关应用程序商店均免费提供该应用程序。
 
 ## 监视服务器
-{: #customerportal_monservers}
+{: #cp_monservers}
 
-设置监视以检查服务器的状态，并确定何时进行扩展。您可以使用标准监视或 Nimsoft 监视服务。您可以从 {{site.data.keyword.BluSoftlayer_notm}} 基础架构客户门户网站使用缓慢或服务 ping，采用“执行 ping 操作并获取响应”方法进行标准（即基本）监视。您还可以在客户门户网站中或在基本、高级和高端这三个层中的其中一层中使用 Nimsoft（即高级）监视。有关裸机服务器的更多具体信息，请参阅[裸机服务器入门](/docs/bare-metal/index.html#getting-started)。
+设置监视以检查服务器的状态，并确定何时进行扩展。您可以使用标准监视或 Nimsoft 监视服务。您可以从 {{site.data.keyword.BluSoftlayer_notm}} 基础架构客户门户网站使用缓慢或服务 ping，采用“执行 ping 操作并获取响应”方法进行标准（即基本）监视。您还可以在客户门户网站中或在基本、高级和高端这三个层中的其中一层中使用 Nimsoft（即高级）监视。有关裸机服务器的更多具体信息，请参阅[裸机服务器入门](/docs/bare-metal?topic=bare-metal-getting-started#getting-started)。
 
 ## 监视系统事件
-{: #customerportal_monevent}
+{: #cp_monevent}
 
 可以通过查看审计日志和访问日志来监视系统事件。
 

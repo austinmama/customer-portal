@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-29"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -22,7 +22,7 @@ lastupdated: "2018-11-29"
 {:shortdesc}
 
 ## 更新公司設定檔
-{: #cp_updcompprof}
+{: #cp_updateprofile}
 
 {{site.data.keyword.BluSoftlayer_full}} 基礎架構會使用公司設定檔中的資訊來與您聯絡。如果您的電話號碼或主要聯絡人電子郵件變更，請務必進行更新。公司設定檔資訊是在建立帳戶時輸入至 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構中，而且可以在客戶入口網站的各個位置中找到。
 
@@ -32,13 +32,13 @@ lastupdated: "2018-11-29"
 2. 從功能表中，選取**帳戶** > **管理** > **公司設定檔**，以存取「帳戶設定檔」視窗。
 3. 在**公司資訊**及（或）**主要帳戶持有者**區段中，更新詳細資料。
 > **附註：**帳戶設定檔中的資訊僅用於進行內部管理。
-4. （選用）如果您要確保由歐洲的支援團隊處理您的維護及支援問題，請選取**歐盟支援**。如需這個選項的相關資訊，請參閱[設定歐盟支援選項](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported)。
+4. （選用）如果您要確保由歐洲的支援團隊處理您的維護及支援問題，請選取**歐盟支援**。如需這個選項的相關資訊，請參閱[設定歐盟支援選項](/docs/customer-portal?topic=customer-portal-cp_seteusupported#cp_seteusupported)。
 5. 按一下**提交更新要求**。
 
 要求更新公司設定檔之後，{{site.data.keyword.BluSoftlayer_notm}} 基礎架構團隊成員會檢閱要求。如果有任何其他資訊需要驗證，則會驗證該資訊。核准所有變更之後，會依要求來更新帳戶設定檔。
 
 ## 新增或編輯帳戶聯絡人
-{: #cp_addoreditacctcont}
+{: #cp_addoreditacct}
 
 請將您的帳戶聯絡人相關資訊保持完整且最新，以防需要進行詢問。請確定帳戶聯絡人是針對每一種要求類型要聯絡的適當人員。每一個帳戶可能會有多個聯絡人項目，但每一種類型的服務只會有一個聯絡人。帳戶特定聯絡資訊不包含帳戶設定檔，這是與帳戶相關聯的主要聯絡資訊。請使用下列步驟，以新增或編輯帳戶聯絡人。
 

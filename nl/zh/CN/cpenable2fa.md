@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-11-20"
 
 
 # 设置双因子认证
-{: #customerportal_2fa}
+{: cp_setup-2fa}
 
 在客户门户网站中，可以激活外部双因子认证 (2FA)，以在登录到门户网站时提供额外的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息安全可靠。
 {:shortdesc}
@@ -26,13 +26,14 @@ lastupdated: "2018-11-20"
 SoftLayer 帐户的 2FA 不是按 IBM 标识启用的。而是仍按帐户启用。如果一个 IBM 标识与多个帐户相关联，而您会切换不同的帐户，那么每次切换到不同帐户时，都必须确认身份。在帐户之间切换时，您必须确认身份，即使旧帐户和新帐户都配置了相同的 2FA 机制，也是如此。
 
 ## 启用 2FA
+{: #cp-enable-2fa}
 
 2FA 认证有两种形式。可以为每个用户同时添加这两种外部认证方法，每月只需支付少量费用：
 
 * Symantec Identify Protection 是最常用的外部认证工具，会要求您在访问客户门户网站时，除了提供用户名和密码外，还使用它提供的动态安全代码。
 * PhoneFactor 认证是通过电话呼叫、短信或移动应用程序提供带外认证。
 
- 如果您拥有链接的帐户，那么可以对整个 {{site.data.keyword.Bluemix_notm}} 帐户[启用多因子认证](/docs/iam/mfa.html)，从而利用多因子认证 (MFA) 设置。
+ 如果您拥有链接的帐户，那么可以对整个 {{site.data.keyword.Bluemix_notm}} 帐户[启用多因子认证](/docs/iam?topic=iam-enablemfa#enablemfa)，从而利用多因子认证 (MFA) 设置。
  {: tip}
 
 要设置 2FA，请完成以下步骤：
@@ -54,7 +55,7 @@ SoftLayer 帐户的 2FA 不是按 IBM 标识启用的。而是仍按帐户启用
 * 如果启用了 PhoneFactor，那么用户必须激活 PhoneFactor 才能将此类型的双因子认证用于帐户。
 
 ### 激活 PhoneFactor 认证
-{: #cp_actphonefacauth}
+{: #cp_phonefacauth}
 
 添加 PhoneFactor 后，您必须通过客户门户网站使用 PhoneFactor 手动激活外部认证。由于 PhoneFactor 使用的是手动联系，因此务必确保与帐户关联的所有电话号码始终保持最新。如果未能保持更新联系人信息，那么可能会导致无法在 PhoneFactor 处于活动状态时访问客户门户网站和 VPN。成功添加 PhoneFactor 后，您将收到一封电子邮件，确认已添加 PhoneFactor。收到该电子邮件后，请使用以下步骤激活 PhoneFactor 认证。
 
@@ -87,7 +88,7 @@ SoftLayer 帐户的 2FA 不是按 IBM 标识启用的。而是仍按帐户启用
  {: tip}
 
 #### PhoneFactor 认证方法
-{: #cp_phonefacauthmeths}
+{: #cp_authmeths}
 
 如果将 PhoneFactor 设置为认证类型，那么可以选择以下其中一个选项作为认证方法：
 

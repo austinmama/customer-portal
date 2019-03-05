@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-20"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -13,6 +13,7 @@ lastupdated: "2018-11-20"
 {:tip: .tip}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:note: .note}
 
 
 # 將使用者新增至 SoftLayer 帳戶
@@ -31,7 +32,7 @@ lastupdated: "2018-11-20"
 
   * 如果您具有管理存取權，則可以看到您新增的所有使用者。如果您已將管理其他使用者的許可權提供給那些使用者，則也可以看到他們新增的任何使用者。您也可以管理與帳戶相關聯的任何使用者。這包括編輯客戶入口網站的存取權、變更使用者狀態，以及移除使用者。
 
-若要從 {{site.data.keyword.Bluemix_notm}} 主控台管理使用者，請參閱[帳戶設定](/docs/account/adminpublic.html#signing-up-for-ibm-cloud)小節，及[管理身分及存取](/docs/iam/quickstart.html#getstarted)。如需 {{site.data.keyword.Bluemix_notm}} 主控台的相關資訊，請參閱[導覽 {{site.data.keyword.Bluemix_notm}} 主控台](/docs/overview/ui.html#ui)。
+若要從 {{site.data.keyword.Bluemix_notm}} 主控台管理使用者，請參閱[帳戶設定](/docs/account?topic=account-signup#signup)小節，及[管理身分及存取](/docs/iam?topic=iam-getstarted#getstarted)。如需 {{site.data.keyword.Bluemix_notm}} 主控台的相關資訊，請參閱[導覽 {{site.data.keyword.Bluemix_notm}} 主控台](/docs/overview?topic=overview-ui#ui)。
 
 組織內的不同人員有不同的角色及責任，而且使用者許可權集不是一體適用。您可以將具有角色的使用者新增至客戶入口網站，以提供恰好只針對其特定角色所需的存取權。如果錯誤或未授權地進行變更，則可以追蹤回到使用者或群組。因此，您可以提供適當的訓練或更新使用者許可權，讓風險降到最低。您的使用者便可以專注於客戶入口網站內的指定角色。
 
@@ -47,8 +48,8 @@ lastupdated: "2018-11-20"
 
 5. 完成**登入設定**區段中的必要欄位。指定使用者是否可以編輯設定、是否限制 IP 位址，以及使用者是否需要設定及使用安全問題。而且，針對任何未使用 IBM ID 的使用者，您可以設定密碼在多久以後到期。
 **附註：**
-* 如果您使用 IBM ID 進行鑑別，則請遵循**登入**下的指示，以在 [IBM ID 設定檔 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} 中更新密碼。
-* 按一下**將入口網站密碼用於 VPN** 勾選框，以同步化客戶入口網站及 VPN 密碼。
+    * 如果您使用 IBM ID 進行鑑別，則請遵循**登入**下的指示，以在 [IBM ID 設定檔 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} 中更新密碼。
+    * 按一下**將入口網站密碼用於 VPN** 勾選框，以同步化客戶入口網站及 VPN 密碼。
 6. 按一下**新增使用者**。
 
 在您建立使用者的帳戶之後，使用者會收到完成設定其帳戶的電子郵件通知。使用者必須設定密碼，以及選擇性地建立安全問題（如果您指出它們是必要項目）。
@@ -65,7 +66,10 @@ lastupdated: "2018-11-20"
 
 1. 按一下**許可權**圖示，其以帶鎖的使用者圖例表示。
 2. 更新新增使用者的所有標籤上的**使用者許可權**。
-> **附註：**從**快速許可權**清單中選取選項，以檢視三種使用者類型的許可權集。按一下**設定許可權**以選取許可權集，或選取每一個可用標籤上的個別選項來自訂使用者的可存取性。
+
+    從**快速許可權**清單中選取選項，以檢視三種使用者類型的許可權集。按一下**設定許可權**以選取許可權集，或選取每一個可用標籤上的個別選項來自訂使用者的可存取性。
+    {: note}
+    
 3. 按一下**新增入口網站許可權**以新增許可權，或按一下**重設許可權**以重設使用者的許可權。
 4. 按一下**裝置存取權**圖示（以三部伺服器表示）。
 5. 按一下您要讓使用者存取的每一個裝置的裝置勾選框。

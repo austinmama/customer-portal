@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-11-28"
 # 设置身份联合
 {: #cp_setupidfed}
 
-您可以设置身份联合，以支持服务提供者（例如，{{site.data.keyword.BluSoftlayer_full}} 基础架构管理系统 (IMS)）使用从可信身份系统生成的安全令牌进行认证和授权。
+您可以设置身份联合，以允许服务提供者（例如，{{site.data.keyword.BluSoftlayer_full}} 基础架构管理系统 (IMS)）使用从可信身份系统生成的安全令牌进行认证和授权。
 {:shortdesc}
 
 可以通过以下其中一种方式在 {{site.data.keyword.BluSoftlayer_notm}} 基础架构 SSO 中设置身份联合：
@@ -37,14 +37,16 @@ lastupdated: "2018-11-28"
 * 在身份提供者和 {{site.data.keyword.BluSoftlayer_notm}} 基础架构中创建用户。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基础架构客户门户网站或 API 在 {{site.data.keyword.BluSoftlayer}} 基础架构 IMS 中分配用户许可权。
 * 用户向身份提供者进行认证并联合自己的凭证。
-* {{site.data.keyword.BluSoftlayer}} 基础架构使用这些凭证，并且访问控制基于为 {{site.data.keyword.BluSoftlayer}} 基础架构 IMS 中的用户定义的许可权。
+* {{site.data.keyword.BluSoftlayer}} 基础架构使用这些凭证，访问控制是基于为 {{site.data.keyword.BluSoftlayer}} 基础架构 IMS 中的用户定义的许可权。
 
-首先，会在 {{site.data.keyword.BluSoftlayer}} 基础架构中使用随机密码为需要访问 {{site.data.keyword.BluSoftlayer}} 基础架构的用户创建帐户。必须在 {{site.data.keyword.BluSoftlayer}} 基础架构中配置所有许可权后，用户才能通过身份提供者使用 SSO。目前，许可权是基于单个用户设置的。
+首先，会在 {{site.data.keyword.BluSoftlayer}} 基础架构中使用随机密码为需要访问 {{site.data.keyword.BluSoftlayer}} 基础架构的用户创建帐户。必须先在 {{site.data.keyword.BluSoftlayer}} 基础架构中配置所有许可权，然后用户才能通过身份提供者使用 SSO。目前，许可权是基于单个用户设置的。
 
 ### 设置用户
+{: #cp_user-setup}
+
 使用以下步骤设置用户：
 
-1. [向 SoftLayer 帐户添加用户](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)。
+1. [向 SoftLayer 帐户添加用户](/docs/customer-portal?topic=customer-portal-customerportal_addusertocpacct#customerportal_addusertocpacct)。
 2. 在 {{site.data.keyword.BluSoftlayer}} 基础架构中分配许可权。
 3. 在身份提供者中创建用户。
 
@@ -53,7 +55,7 @@ lastupdated: "2018-11-28"
 ### 登录认证的示例流程
 {: #exlogauthflowidprovicloud}
 
-以下示例流程显示了在身份提供者和 {{site.data.keyword.BluSoftlayer_notm}} 基础架构中创建用户时，用户登录认证可能如何工作：
+以下示例流程显示了在身份提供者和 {{site.data.keyword.BluSoftlayer_notm}} 基础架构中创建用户时，如何进行用户登录认证：
 1. 用户通过浏览器会话访问身份提供者 URL。
 2. 身份提供者对用户进行认证，例如通过其 LDAP。
 3. 身份提供者返回 SAML 2.0 响应。
@@ -82,7 +84,7 @@ lastupdated: "2018-11-28"
 3. 确保在 {{site.data.keyword.BluSoftlayer}} 基础架构和身份提供者中定义的角色具有相同名称。
 
 ### 设置用户
-{: #setupuser}
+{: #identity-setupuser}
 
 使用以下步骤设置用户：
 
@@ -94,11 +96,11 @@ lastupdated: "2018-11-28"
 ### 用户登录认证的示例流程
 {: #exlogauthflowidprov}
 
-以下示例流程显示了在身份提供者中创建用户时，用户登录认证可能如何工作：
+以下示例流程显示了在身份提供者中创建用户时，如何进行用户登录认证：
 1. 用户通过浏览器会话访问身份提供者 URL。
 2. 身份提供者对用户进行认证，例如通过其 LDAP。
 3. 身份提供者返回 SAML 2.0 响应。
-4. 身份提供者向服务提供者（在本例中为 {{site.data.keyword.BluSoftlayer}} 基础架构）发送 SAML 2.0 响应，以对用户用色进行认证。
+4. 身份提供者向服务提供者（在本例中为 {{site.data.keyword.BluSoftlayer}} 基础架构）发送 SAML 2.0 响应，以对用户角色进行认证。
 5. {{site.data.keyword.BluSoftlayer}} 基础架构验证 SAML 2.0 响应。
 6. {{site.data.keyword.BluSoftlayer}} 基础架构将用户重定向到客户门户网站。
 7. 用户登录到 {{site.data.keyword.BluSoftlayer}} 基础架构客户门户网站。

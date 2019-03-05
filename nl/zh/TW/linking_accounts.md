@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-11"
+  years: 2015, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-11-11"
 
 您的 {{site.data.keyword.Bluemix_notm}} 使用週期是以行事曆月份為基準。所以，會在收費合約成立的帳單日，每個月向您的帳戶收費。使用 SoftLayer 時，您的使用週期是從 SoftLayer 起始使用日開始，所以會以 SoftLayer 帳戶註冊當月的相同日期，每月向您收費。
 
-會繼續測量當月週期的 {{site.data.keyword.Bluemix_notm}} 用量，並且會在 {{site.data.keyword.Bluemix_notm}} 發票上向您收取該用量的費用。從下個月 1 日開始，{{site.data.keyword.Bluemix_notm}} 及 SoftLayer 費用會併入 {{site.data.keyword.Bluemix_notm}} 發票。如需發票和用量的相關資訊，請按一下[檢視用量](/docs/billing-usage/viewing_usage.html#viewingusage)。
+會繼續測量當月週期的 {{site.data.keyword.Bluemix_notm}} 用量，並且會在 {{site.data.keyword.Bluemix_notm}} 發票上向您收取該用量的費用。從下個月 1 日開始，{{site.data.keyword.Bluemix_notm}} 及 SoftLayer 費用會併入 {{site.data.keyword.Bluemix_notm}} 發票。如需發票和用量的相關資訊，請按一下[檢視用量](/docs/billing-usage?topic=billing-usage-viewingusage#viewingusage)。
 
 例如，如果您在 2017 年 4 月 16 日鏈結帳戶，則會收到 4 月用量的 {{site.data.keyword.Bluemix_notm}} 發票。視鏈結帳戶的時間而定，您可能會收到 SoftLayer 用量的個別帳單。針對您在 5 月裡的合併用量，會透過 {{site.data.keyword.Bluemix_notm}} 帳戶向您收費。
 

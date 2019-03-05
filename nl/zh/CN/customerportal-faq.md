@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-02-01"
 
 ---
 
@@ -41,13 +41,13 @@ lastupdated: "2018-11-28"
 {: #bicp_linkbmxacct}
 {: faq}
 
-如果您是 SoftLayer 帐户的主用户，请登录到客户门户网站并单击标题中的**链接帐户**。有关更多信息，请参阅[链接 IBM 标识用户帐户](/docs/account/softlayerlink.html)。
+如果您是 SoftLayer 帐户的主用户，请登录到客户门户网站并单击标题中的**链接帐户**。有关更多信息，请参阅[链接 IBM 标识用户帐户](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)。
 
 ## 我必须是现有 {{site.data.keyword.Bluemix_notm}} 用户才能链接帐户吗？
 {: #bicp_bmxusertolink}
 {: faq}
 
-不，您可以创建新的 {{site.data.keyword.Bluemix_notm}} 帐户，也可以链接现有的 {{site.data.keyword.Bluemix_notm}} 轻量或现买现付帐户。
+不，您可以创建新的 {{site.data.keyword.Bluemix_notm}} 帐户，也可以链接现有的 {{site.data.keyword.Bluemix_notm}} 轻量或现收现付帐户。
 
 ## 双因子认证如何工作？
 {: #bicp_2fa}
@@ -55,7 +55,7 @@ lastupdated: "2018-11-28"
 
 对帐户级别的双因子认证 (2FA) 配置没有影响。2FA 不是按 IBM 标识的，它仍是按帐户的。当一个 IBM 标识与多个帐户相关联，而您在各帐户之间进行切换时，每次切换到要求 2FA 的不同帐户时都必须确认身份。即使旧帐户和新帐户都配置了相同的 2FA 机制，也是如此。
 
-有关使用 2FA 的 IBM 标识的更多信息，请参阅[链接的帐户中的多因子认证用法](/docs/account/softlayerlink.html#2fa)。
+有关使用 2FA 的 IBM 标识的更多信息，请参阅[链接的帐户中的多因子认证用法](/docs/account?topic=account-2fa#2fa)。
 
 ## 谁可以链接帐户？
 {: #bicp_wholinkaccts}
@@ -67,7 +67,7 @@ lastupdated: "2018-11-28"
 {: #bicp_logineachport}
 {: faq}
 
-您的帐户记帐已链接，所以您可以轻松在 SoftLayer 和 {{site.data.keyword.Bluemix_notm}} 帐户之间移动，但您的帐户身份保持独立。
+您的帐户帐单已链接，您可以轻松地在 SoftLayer 和 {{site.data.keyword.Bluemix_notm}} 帐户之间切换，但您的帐户身份保持独立。
 
 * 如果您的帐户不使用 IBM 标识进行认证，请继续将 SoftLayer 标识用于 SoftLayer 产品和服务，并将 IBM 标识用于 {{site.data.keyword.Bluemix_notm}} 产品和服务。
 
@@ -101,13 +101,13 @@ lastupdated: "2018-11-28"
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-主用户和具有管理员许可权的用户对客户门户网站和 API 上的帐户具有完全 root 用户访问权。没有管理员许可权的用户的可访问性由具有管理员角色的用户进行控制。在客户门户网站中，管理员可以通过[编辑用户概要文件](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile)来更新这些许可权。如果您没有管理员许可权，那么可以在客户门户网站中通过单击顶部面板上的用户名来编辑用户概要文件。
+主用户和具有管理员许可权的用户对客户门户网站和 API 上的帐户具有完全 root 用户访问权。没有管理员许可权的用户的访问权由具有管理员角色的用户控制。在客户门户网站中，管理员可以通过[编辑用户概要文件](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)来更新这些许可权。如果您没有管理员许可权，那么可以在客户门户网站中通过单击顶部面板上的用户名来编辑用户概要文件。
 
 ## 可以链接 {{site.data.keyword.Bluemix_notm}} 预订帐户吗？
 {: #bicp_linkbmxsubacct}
 {: faq}
 
-{{site.data.keyword.Bluemix_notm}} 中的所有链接帐户都必须是轻量或现买现付帐户。 
+{{site.data.keyword.Bluemix_notm}} 中的所有链接帐户都必须是轻量或现收现付帐户。 
 
 ## 如何取消链接帐户？
 {: #bicp_unlinkacct}
@@ -120,13 +120,13 @@ lastupdated: "2018-11-28"
 {: #bicp_whatfindcompprof}
 {: faq}
 
-公司概要文件是在创建帐户时提交的信息，包括公司的主要联系人以及公司名称、地址和电话号码。出于各种原因会使用这些信息，因此这些信息应始终保持最新。要查看您帐户的公司概要文件或要请求更改，请参阅[更新公司概要文件](/docs/customer-portal/cpmanacctcompprofcont.html#cp_updcompprof)。
+公司概要文件是在创建帐户时提交的信息，包括公司的主要联系人以及公司名称、地址和电话号码。出于各种原因会使用这些信息，因此这些信息应始终保持最新。要查看您帐户的公司概要文件或要请求更改，请参阅[更新公司概要文件](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile)。
 
 ## 在哪里可以找到设备和软件密码？
 {: #bicp_devswpw}
 {: faq}
 
-设备和软件密码存储在客户门户网站中的两个位置。要检索设备凭证（包括 {{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.virtualmachinesshort}} 的 root 用户或管理员用户的用户名和密码），请参阅[在快照视图中与设备交互](/docs/vsi/vsi_interact_device_snapshot_view.html)。要使用客户门户网站快速查看和检索手动跟踪的软件凭证，请参阅[管理设备访问权](/docs/vsi/vsi_device_access.html)。
+设备和软件密码存储在客户门户网站中的两个位置。要检索设备凭证（包括 {{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.virtualmachinesshort}} 的 root 用户或管理员用户的用户名和密码），请参阅[在快照视图中与设备交互](/docs/vsi?topic=virtual-servers-interacting-with-a-device-in-snapshot-view#interacting-with-a-device-in-snapshot-view)。要使用客户门户网站快速查看和检索手动跟踪的软件凭证，请参阅[管理设备访问权](/docs/vsi?topic=virtual-servers-managing-device-access#managing-device-access)。
 
 ## 如何使 Web 数据保持同步？
 {: #bicp_webdatasync}
@@ -144,4 +144,4 @@ lastupdated: "2018-11-28"
 {: #bicp_candev}
 {: faq}
 
-您可以通过客户门户网站随时取消设备。有关完成取消请求的更多信息，请参阅[取消设备](/docs/vsi/vsi_managing.html)。
+您可以通过客户门户网站随时取消设备。有关完成取消请求的更多信息，请参阅[取消设备](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)。
