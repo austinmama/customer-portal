@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-06"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -87,7 +87,7 @@ Then, complete the following steps:
 1. Open the application. Find the Credential ID and your current one-time password. You can ignore the password initially but you need the Credential ID for the portal, so keep the application open.
 2. Log in to the customer portal as the user for which you would like to configure the one-time password.
 3. Click **Account** > **Users** > **Actions** > **Add External Authentication**.
-4. Select the type of authentication to add. If you're using the Verisign application, choose **Symantect Identity Protection**.
+4. Select the type of authentication to add. If you're using the Verisign application, choose **Symantec Identity Protection**.
 5. Enter the credential ID from step 1 and click **Continue**.
 6. Complete the ordering process and your additional security option is automatically applied in just a few minutes.
 7. After several minutes, select **Account** > **Users** from the navigation bar and select the user for which you configured the one-time password.
