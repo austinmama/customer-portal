@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-02-25"
+
+keywords: identity provider, IBM Cloud infrastructure, single sign-on  
+
+subcollection: customer-portal
 
 ---
 
@@ -18,18 +22,18 @@ lastupdated: "2018-10-11"
 # Single Sign-on konfigurieren
 {: #customerportal_confssoserv}
 
-Wenn Sie Masterbenutzer eines Kontos sind oder einen Verwaltungszugriff auf das Konto besitzen, können Sie das Single Sign-on konfigurieren. Die Konfiguration des Single Sign-on für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur ist ein aus zwei Schritten bestehender Prozess.  Zuerst wählen Sie Ihren Identitätsprovider aus und konfigurieren ihn. Anschließend konfigurieren Sie die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für den Empfang der Authentifizierungsanforderung von Ihrem Identitätsprovider.
+Wenn Sie Masterbenutzer eines Kontos sind oder einen Verwaltungszugriff auf das Konto besitzen, können Sie das Single Sign-on konfigurieren. Die Konfiguration des Single Sign-on für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur ist ein aus zwei Schritten bestehender Prozess. Zuerst wählen Sie Ihren Identitätsprovider aus und konfigurieren ihn. Anschließend konfigurieren Sie die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für den Empfang der Authentifizierungsanforderung von Ihrem Identitätsprovider.
 {:shortdesc}
 
 ## Identitätsprovider auswählen und konfigurieren
 {: #cp_setupidprov}
 
 Falls Sie noch keinen Identitätsprovider verwenden, wählen Sie zunächst einen Provider aus und konfigurieren Sie ihn. Bei {{site.data.keyword.BluSoftlayer_notm}} können Sie die folgenden Identitätsprovider verwenden:
-* Ping Identity&reg;,
-* OneLogin&trade;,
-* IBM&reg; Cloud Security Enforcer,
-* IBM Cloud Identity Services.
-Weitere Informationen erhalten Sie vom zuständigen Vertriebsbeauftragten für {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur. 
+* Ping Identity&reg;
+* OneLogin&trade;
+* IBM&reg; Cloud Security Enforcer
+* IBM Cloud Identity Services
+Weitere Informationen erhalten Sie vom zuständigen Vertriebsbeauftragten für {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur.
 
 Falls Ihr Identitätsprovider noch nicht konfiguriert ist, können Sie sich bei Fragen oder Problemen an den Support Ihres Identitätsproviders wenden. Außerdem können Sie auch die folgenden allgemeinen Schritte zur Konfiguration Ihres Identitätsproviders ausführen:
 1. Bereiten Sie die Umgebung für Ihren Identitätsprovider vor, indem Sie die ausführbare Datei herunterladen und installieren.
@@ -67,4 +71,4 @@ Führen Sie die folgenden Schritte aus, um die {{site.data.keyword.BluSoftlayer_
 7. Klicken Sie auf **XML-Konfiguration herunterladen**, um die Metadaten für den Service-Provider herunterzuladen oder die Informationen zu notieren.
 8. Verwenden Sie die Metadaten für den **Service-Provider**, um Ihren Identitätsprovider entsprechend den Anweisungen Ihres Identitätsproviders zu konfigurieren.  
 
-Sie können sich unter Verwendung Ihrer föderierten (eingebundenen) ID bei der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anmelden. Weitere Informationen zu eingebundenen IDs finden Sie unter [{{site.data.keyword.Bluemix_notm}}-Anmeldung](/docs/account/adminpublic.html) und in der Veröffentlichung [IBMid Enterprise Federation Adoption Guide ![Symbol für externen Link](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.
+Sie können sich unter Verwendung Ihrer föderierten (eingebundenen) ID bei der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anmelden. Weitere Informationen zu föderierten IDs finden Sie unter [{{site.data.keyword.Bluemix_notm}}-Anmeldung](/docs/account/adminpublic.html) und in der Veröffentlichung [IBMid Enterprise Federation Adoption Guide ![Symbol für externen Link](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.

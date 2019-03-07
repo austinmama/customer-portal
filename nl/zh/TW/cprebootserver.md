@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2017-11-20"
+lastupdated: "2018-02-25"
+
+keywords: rescue kernel, command line, restart command
+
+subcollection: customer-portal 
 
 ---
 
@@ -21,7 +25,7 @@ lastupdated: "2017-11-20"
 {:shortdesc}
 
 請使用下列步驟，以重新啟動伺服器：
-1. 從客戶入口網站中，按一下**支援**標籤。
+1. 從客戶入口網站按一下**支援**標籤。
 2. 按一下**重新開機**。
 3. 選取要重新啟動的伺服器，然後按一下**重新開機**。
 4. 選取下列其中一種方法，以重新啟動伺服器：

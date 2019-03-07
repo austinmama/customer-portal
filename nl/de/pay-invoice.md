@@ -4,7 +4,11 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-25"
+
+keywords: credit card, payment information, payment method changes
+
+subcollection: customer-portal
 
 ---
 
@@ -34,8 +38,8 @@ Im Fenster 'Rechnungen' wird jede Rechnung nach Rechnungsnummer, Datum, Rechnung
 <dd>Eine Rechnung für wiederkehrende Gebühren, die seit mehr als einem Monat für das Konto anfallen.</dd>
 <dt>Einmalige Gebühr</dt>
 <dd>Eine einmalige Gebühr für verschiedene Ausgaben, die Überschreitungen enthalten kann.</dd>
-<dt>Guthaben</dt>
-<dd>Ein Guthaben in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für den Kontostand.</dd>
+<dt>Gutschrift</dt>
+<dd>Eine Gutschrift in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für den Kontostand.</dd>
 <dt>Rückerstattung</dt>
 <dd>Eine Rückbuchung für eine einmalige oder wiederkehrende Gebühr.</dd>
 </dl>

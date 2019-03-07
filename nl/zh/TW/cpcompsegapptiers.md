@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-02-25"
+
+keywords: available hardware firewalls, application tiers, web servers, securing environment, activating firewall 
+
+subcollection: customer-portal
 
 ---
 

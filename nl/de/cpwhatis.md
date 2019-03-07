@@ -4,7 +4,11 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-25"
+
+keywords: IBM Cloud infrastructure customer portal, IBM Cloud console, IBM Cloud infrastructure customer
+
+subcollection: customer-portal
 
 ---
 
@@ -28,7 +32,7 @@ Die Verwendung des Kundenportals der {{site.data.keyword.BluSoftlayer_notm}}-Inf
 
 In diesen Fällen können Sie im Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur die folgenden Tasks ausführen:
   * Zugriff der Ressourcen verwalten, Ressourcen überwachen und Zugriffsprotokolle anzeigen
-  * Produkte und Services der Infrastruktur bestellen und mit ihnen interagieren (z. B. Geräte und [virtuelle Server](/docs/vsi?topic=virtual-servers-getting-started-tutorial#getting-started-tutorial) hinzufügen und verwalten). 
+  * Produkte und Services der Infrastruktur bestellen und mit ihnen interagieren (z. B. Geräte und [virtuelle Server](/docs/vsi?topic=virtual-servers-getting-started-tutorial#getting-started-tutorial) hinzufügen und verwalten).
   * Verknüpfte oder nicht verknüpfte SoftLayer-Konten verwalten und pflegen
   * Monatliche Rechnungen für Infrastrukturressourcen anzeigen und bezahlen
   * Tickets für ein Produkt oder einen Service der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur öffnen, anzeigen und aktualisieren

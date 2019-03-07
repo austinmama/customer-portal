@@ -4,7 +4,11 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-25"
+
+keywords: user profile, administrative access, select account 
+
+subcollection: customer-portal
 
 ---
 
@@ -155,7 +159,7 @@ Ihnen wird eine PPTP-Verbindung mit zusätzlich verfügbaren Verbindungen zugete
 
 Sie können auswählen, welche E-Mail-Benachrichtigungen Sie von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur empfangen wollen und welche nicht. Standardmäßig empfangen Sie alle E-Mail-Benachrichtigungen, aber Sie können diese Einstellung jederzeit ändern. Führen Sie die folgenden Schritte aus, um Ihre Einstellung für E-Mail-Benachrichtigungen zu ändern:
 1. Greifen Sie mit Ihren eindeutigen Berechtigungsnachweisen für das Konto, das der E-Mail-Adresse zugeordnet ist, die Benachrichtigungen empfängt, auf das Kundenportal zu.
-2. Klicken Sie in der Menüleiste auf **Kunde** > **Benutzer** > **Vorgaben für E-Mail**. 
+2. Klicken Sie in der Menüleiste auf **Kunde** > **Benutzer** > **Vorgaben für E-Mail**.
 3. Wählen Sie in der Liste der Benachrichtigungstypen jeweils die Benachrichtigungen ab, die Sie nicht mehr erhalten wollen.
 
 Ihre Änderungen werden automatisch gespeichert. Diese Einstellungen wirken sich auf die E-Mails aus, die an Sie gesendet werden. Sie haben jedoch keine Auswirkungen auf die E-Mail-Benachrichtigungen anderer Benutzer auf Ihrem Konto.

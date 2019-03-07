@@ -4,7 +4,11 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-25"
+
+keywords: master user, unique account permission set, SoftLayer account, account permissions 
+
+subcollection: customer-portal
 
 ---
 
@@ -32,7 +36,7 @@ lastupdated: "2019-01-31"
 
   * 관리 액세스 권한이 있는 경우에는 추가한 모든 사용자를 볼 수 있습니다. 이러한 사용자에게 다른 사용자를 관리할 수 있는 권한을 부여한 경우에는 해당 사용자가 추가한 사용자 또한 볼 수 있습니다. 또한 계정과 연관된 사용자를 관리할 수 있습니다. 여기에는 고객 포털에 대한 액세스 편집, 사용자 상태 변경 및 사용자 제거가 포함됩니다.
 
-{{site.data.keyword.Bluemix_notm}} 콘솔에서 사용자를 관리하려면 [계정 설정](/docs/account?topic=account-signup#signup) 섹션과 [ID 및 액세스 관리](/docs/iam?topic=iam-getstarted#getstarted)를 참조하십시오. {{site.data.keyword.Bluemix_notm}} 콘솔에 대한 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 콘솔 탐색](/docs/overview?topic=overview-ui#ui)을 참조하십시오. 
+{{site.data.keyword.Bluemix_notm}} 콘솔에서 사용자를 관리하려면 [계정 설정](/docs/account?topic=account-signup#signup) 섹션과 [ID 및 액세스 관리](/docs/iam?topic=iam-getstarted#getstarted)를 참조하십시오. {{site.data.keyword.Bluemix_notm}} 콘솔에 대한 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 콘솔 탐색](/docs/overview?topic=overview-ui#ui)을 참조하십시오.
 
 조직 내 여러 사용자는 서로 다른 역할 및 책임을 갖게 되며 사용자 권한 세트가 공통적으로 적용되지 않습니다. 사용자를 역할과 함께 고객 포털에 추가하여 정확히 특정 역할에서 필요로 하는 항목에 대한 액세스를 제공할 수 있습니다. 잘못된 변경 또는 권한이 없는 변경은 해당 사용자 또는 그룹으로 역추적할 수 있습니다. 이 경우 적절한 교육을 제공하거나 사용자 권한을 업데이트하여 위험을 최소화할 수 있습니다. 이를 통해 사용자는 고객 포털 내에서 지정된 역할에 집중할 수 있습니다.
 

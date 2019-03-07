@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-02-25"
+
+keywords: audit log, user's access, interactions of each user, infrastructure system events 
+
+subcollection: customer-portal
 
 ---
 

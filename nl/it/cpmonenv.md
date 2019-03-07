@@ -4,7 +4,11 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-25"
+
+keywords: IBM Cloud infrastructure, audit logs, mobile application, system events, monitoring your environment 
+
+subcollectiom: customer-portal
 
 ---
 
@@ -36,14 +40,14 @@ Di tanto in tanto, la manutenzione pianificata e di emergenza della rete è inev
 
 Utilizza l'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} per gestire i dispositivi dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} mentre sei in movimento utilizzando il tuo dispositivo mobile iOS o Android. Le funzionalità all'interno dell'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} comprendono il supporto dei ticket, il controllo di base dei dispositivi e il monitoraggio della larghezza di banda.
 
-L'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} integra la funzionalità del portale clienti in quanto puoi monitorare le informazioni critiche sulla tua infrastruttura da qualsiasi luogo utilizzando il dispositivo mobile connesso alla rete. L'applicazione si evolve in modo rapido e vengono aggiunte regolarmente nuove funzionalità, ma puoi utilizzare l'applicazione mobile per eseguire attività come le seguenti:
+L'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} integra la funzionalità del portale del cliente in quanto puoi monitorare le informazioni critiche sulla tua infrastruttura da qualsiasi luogo utilizzando il dispositivo mobile connesso alla rete. L'applicazione si evolve in modo rapido e vengono aggiunte regolarmente nuove funzionalità, ma puoi utilizzare l'applicazione mobile per eseguire attività come le seguenti:
   * Visualizzare, creare e aggiornare i ticket di supporto
   * Monitorare lo stato del dispositivo, incluso la larghezza di banda e gli allarmi
-  * Arrestare e riavviare i Bare Metal Server e i server virtuali
+  * Arrestare e riavviare i server bare metal e i server virtuali
   * Visualizzare le fatture degli account ed effettuare pagamenti una tantum
   * Accedere ed esaminare i contenuti memorizzati in Object Storage
 
-L'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} è utilizzabile su diverse piattaforme per dispositivi mobili popolari ed è disponibile gratuitamente dai relativi application store per ciascuna piattaforma.
+L'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} è utilizzabile su diverse piattaforme per i comuni dispositivi mobili ed è disponibile gratuitamente dai relativi application store per ciascuna piattaforma.
 
 ## Monitoraggio dei server
 {: #cp_monservers}

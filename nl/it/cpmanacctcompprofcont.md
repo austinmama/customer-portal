@@ -4,7 +4,11 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-25"
+
+keywords: important contact information, SoftLayer account, company profile
+
+subcollection: customer-portal
 
 ---
 
@@ -45,6 +49,6 @@ Mantieni le informazioni sui contatti per il tuo account complete e aggiornate n
 1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account** > **Gestisci** > **Contatti azienda** dal menu.
 3. Immetti o aggiorna le informazioni di contatto per il **Tipo di contatto**.<br/>**Nota:** assicurati di fornire le informazioni di contatto per la persona che dovrebbe ricevere domande sullo specifico tipo di contatto per il tipo di contatto. Verifica le informazioni prima di eseguire l'aggiornamento.
-4. Fai clic su **Salva**.
+4. Fai clic su **Save**.
 
 Dopo aver inviato le nuove informazioni di contatto, i contatti dell'account vengono aggiornati immediatamente.

@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-02-25"
+
+keywords: identity provider, IBM Cloud infrastructure, single sign-on  
+
+subcollection: customer-portal
 
 ---
 
@@ -62,7 +66,7 @@ Utilizza la seguente procedura per configurare l'infrastruttura {{site.data.keyw
 2. Accedi all'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} come utente master con il nome utente e la password master che hai utilizzato per creare il tuo account SoftLayer.
 3. Fai clic su **Account** > **Gestisci** > **Autenticazione SAML**.
 4. Immetti i metadati del **Provider di identità**.
-5. Fai clic su **Salva**.
+5. Fai clic su **Save**.
 6. Fai clic su **Account** > **Gestisci** > **Autenticazione SAML**.
 7. Fai clic su **Scarica configurazione XML** per scaricare i metadati del provider di servizio o annotare le informazioni.
 8. Utilizza i metadati del **Provider di servizio** per configurare il tuo provider di identità in base alle istruzioni fornite da tale provider.  

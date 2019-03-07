@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2017-11-20"
+lastupdated: "2018-02-25"
+
+keywords: rescue kernel, command line, restart command
+
+subcollection: customer-portal 
 
 ---
 
@@ -20,11 +24,11 @@ lastupdated: "2017-11-20"
 Manchmal treten Ereignisse in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur auf, die den Neustart Ihres Servers erfordern.
 {:shortdesc}
 
-Führen Sie die folgenden Schritte aus, um Ihren Server erneut zu starten: 
+Führen Sie die folgenden Schritte aus, um Ihren Server erneut zu starten:
 1. Klicken Sie im Kundenportal auf die Registerkarte **Support**.
 2. Klicken Sie auf **Neu starten**.
 3. Wählen Sie den Server für den Neustart aus und klicken Sie auf **Neu starten**.
-4. Wählen Sie eine der folgenden Methoden aus, um den Server erneut zu starten: 
+4. Wählen Sie eine der folgenden Methoden aus, um den Server erneut zu starten:
   * Standard (versuchen Sie den Neustart mit IPMI und anschließend mit der Verteilerleiste)
   * IPMI
   * Power Strip
