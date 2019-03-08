@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2017-11-20"
+lastupdated: "2018-02-25"
+
+keywords: rescue kernel, command line, restart command
+
+subcollection: customer-portal 
 
 ---
 

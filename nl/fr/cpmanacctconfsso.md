@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2018-10-11"
+lastupdated: "2019-02-25"
+
+keywords: identity provider, IBM Cloud infrastructure, single sign-on  
+
+subcollection: customer-portal
 
 ---
 
@@ -48,7 +52,7 @@ Vous devez extraire les zones requises suivantes des informations de métadonné
 <dd>Certificat du fournisseur d'identité à utiliser pour signer les demandes.</dd>
 </dl>
 
-La zone suivante est facultative : 
+La zone suivante est facultative :
 <dl>
 <dt>Empreinte de certificat</dt>
 <dd>Empreinte digitale du certificat. Cette zone peut être utilisée à la place du certificat complet.</dd>

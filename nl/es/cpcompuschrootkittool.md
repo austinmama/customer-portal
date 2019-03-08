@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2017-10-11"
+lastupdated: "2019-02-25"
+
+keywords: system reports, 5sum chkrootkit, email system reports, automated scans 
+
+subcollection: customer-portal
 
 ---
 
@@ -78,7 +82,7 @@ Todo lo que la herramienta chkrootkit da como resultado debería ser `no encontr
 Si ve *Checking `bindshell`... INFECTED (PORTS: 465)* y está ejecutando PortSentry, klaxon, u otro programa que se enlaza a los puertos no utilizados, chkrootkit es probable que le dé un falso positivo en la prueba bindshell (puertos 114/tcp, 465/tcp, 511/tcp, 1008/tcp, 1524/tcp, 1999/tcp, 3879/tcp, 4369/tcp, 5665/tcp, 10008/tcp, 12321/tcp, 23132/tcp, 27374/tcp, 29364/tcp, 31336/tcp, 31337/tcp, 45454/tcp, 47017/tcp, 47889/tcp, 60001/tcp).
 {: tip}
 
-8. Cambie el directorio (`cd ..`) y elimine el archivo .gz:  
+8. Cambie de directorio (`cd ..`) y elimine el archivo .gz:  
 
   ```
   rm chkrootkit.tar.gz

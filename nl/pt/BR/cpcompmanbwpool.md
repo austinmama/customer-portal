@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2019-01-08"
+lastupdated: "2019-02-25"
+
+keywords: bandwidth pool, bandwidth usage, Add Servers list, optimizing badwidth 
+
+subcollection: customer-portal 
 
 ---
 
@@ -18,14 +22,14 @@ lastupdated: "2019-01-08"
 # Otimizando seu uso de largura da banda
 {: #cp_manbdwpool}
 
-O tráfego de rede pública de dados transferido como Saída dos data centers do IBM Cloud em todo o mundo é avaliado como encargos de Largura de banda de saída. Os encargos dependem de onde o recurso que está transferindo os dados reside, da quantia de dados que sai e de quaisquer dotações de largura de banda para as quais os produtos do IBM Cloud comprados são elegíveis.
+O tráfego de rede pública de dados transferido como Saída dos data centers do IBM Cloud em todo o mundo é avaliado como encargos de Largura de banda de saída. Os encargos dependem de onde o recurso que está transferindo os dados reside, da quantia de dados que sai e de quaisquer dotações de largura de banda para as quais os produtos do IBM Cloud comprados são elegíveis. 
 {:shortdesc} 
 
 Os clientes podem otimizar o uso da largura da banda "agrupando" todas as larguras de banda para os servidores em um conjunto de largura da banda. Os excedentes de largura de banda para servidores em um conjunto de largura de banda são somados como um todo e os excedentes serão calculados somente se a largura de banda total de todos os servidores exceder o total de largura de banda alocada para todos os servidores versus a medição no nível de servidor individual. 
 
 As definições de conjunto são listadas na tabela a seguir: 
 
-| Conjunto  | Locais          |
+| Conjunto      | Locais          |
 | ------------- |:-------------:|
 | EUA    | DAL01<br/><br/>DAL02<br/><br/>DAL04<br/><br/>DAL07<br/><br/>DAL09<br/><br/>DAL10<br/><br/>DAL12<br/><br/>DAL13<br/><br/>HOU02<br/><br/>MON01<br/><br/>SEA01<br/><br/>SJC01<br/><br/>SJC03<br/><br/>SJC04<br/><br/>TOR01<br/><br/>WDC01<br/><br/>WDC04<br/><br/>WDC06<br/><br/>WDC07|
 | Amsterdã e Londres | AMS01<br/><br/>AMS03<br/><br/>LON01<br/><br/>LON02<br/><br/>LON04<br/><br/>LON05<br/><br/>LON06<br/><br/>PAR01 |

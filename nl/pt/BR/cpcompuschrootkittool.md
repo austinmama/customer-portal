@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2017-10-11"
+lastupdated: "2019-02-25"
+
+keywords: system reports, 5sum chkrootkit, email system reports, automated scans 
+
+subcollection: customer-portal
 
 ---
 

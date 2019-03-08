@@ -4,7 +4,11 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-25"
+
+keywords: billing items, IBM Cloud infrastructure billing, manage billing items, accessing billing items 
+
+subcollection: customer-portal
 
 ---
 
