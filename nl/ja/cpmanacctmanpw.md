@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-06"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -101,17 +101,17 @@ subcollection: customer-portal
 ## パスワードのリセット
 {: #cp_reset-your-password}
 
-パスワードのリセット方法は、アカウントにログインするための認証に IBM ID を使用しているかどうかによって決まります。  
+パスワードのリセット方法は、アカウントにログインするための認証に IBMid を使用しているかどうかによって決まります。  
 
-### IBM ID アカウント・パスワードのリセット
+### IBMid アカウント・パスワードのリセット
 {: #cp_reset}
 
-認証に IBM ID を使用している場合、パスワードをリセットまたはリカバリーするには、IBM ID プロファイルにアクセスし、**「サインイン」**セクションの指示に従ってください。
+認証に IBMid を使用している場合、パスワードをリセットまたはリカバリーするには、IBMid プロファイルにアクセスし、**「サインイン」**セクションの指示に従ってください。
 
 ### SoftLayer アカウント・パスワードのリセット
 {: #cp_reset-sl}
 
-アカウント認証に IBM ID を使用していない場合は、以下の手順を実行します。
+アカウント認証に IBMid を使用していない場合は、以下の手順を実行します。
 
 1. [カスタマー・ポータル ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} のログイン・ページにある「パスワードのリセット」リンクをクリックします。
 2. プロンプトが表示されたら、現在のユーザー名を入力します。
