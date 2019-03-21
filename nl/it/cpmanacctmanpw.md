@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-06"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -87,7 +87,7 @@ Completa quindi la seguente procedura:
 1. Apri l'applicazione. Trova l'ID credenziale e la tua password monouso corrente. Inizialmente puoi ignorare la password ma ti servirà l'ID credenziale per il portale, quindi mantieni aperta l'applicazione.
 2. Accedi al portale clienti come utente per il quale vuoi configurare la password monouso.
 3. Fai clic su **Account** > **Users** > **Actions** > **Add External Authentication**.
-4. Seleziona il tipo di autenticazione da aggiungere. Se stai utilizzando l'applicazione Verisign, scegli **Symantect Identity Protection**.
+4. Seleziona il tipo di autenticazione da aggiungere. Se stai utilizzando l'applicazione Verisign, scegli **Symantec Identity Protection**.
 5. Immetti l'ID credenziale dal passo 1 e fai clic su **Continue**.
 6. Completa il processo di ordinazione e l'opzione di sicurezza aggiuntiva viene applicata automaticamente in pochi minuti.
 7. Dopo alcuni minuti, fai clic su **Account** > **Users** dalla barra di navigazione e seleziona l'utente per il quale hai configurato la password monouso.

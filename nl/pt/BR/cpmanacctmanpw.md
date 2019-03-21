@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-06"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -87,7 +87,7 @@ Em seguida, conclua as etapas a seguir:
 1. Abra o aplicativo. Localize o ID de credencial e sua senha descartável atual. É possível ignorar a senha inicialmente, mas o ID de credencial será necessário para o portal, portanto, mantenha o aplicativo aberto.
 2. Efetue login no portal do cliente como o usuário para o qual você gostaria de configurar a senha descartável.
 3. Clique em **Conta** > **Usuários** > **Ações** > **Incluir autenticação externa**.
-4. Selecione o tipo de autenticação para incluir. Se você estiver usando o aplicativo Verisign, escolha **Symantect Identity Protection**.
+4. Selecione o tipo de autenticação para incluir. Se você estiver usando o aplicativo Verisign, escolha **Symantec Identity Protection**.
 5. Insira o ID de credencial da etapa 1 e clique em **Continuar**.
 6. Conclua o processo de pedido e sua opção de segurança adicional será aplicada automaticamente em apenas alguns minutos.
 7. Após vários minutos, selecione **Conta** > **Usuários** na barra de navegação e selecione o usuário para o qual você configurou a senha descartável.

@@ -31,14 +31,14 @@ subcollection: customer-portal
 
 | 풀      | 위치          |
 | ------------- |:-------------:|
-|USA    |DAL01<br/><br/>DAL02<br/><br/>DAL04<br/><br/>DAL07<br/><br/>DAL09<br/><br/>DAL10<br/><br/>DAL12<br/><br/>DAL13<br/><br/>HOU02<br/><br/>MON01<br/><br/>SEA01<br/><br/>SJC01<br/><br/>SJC03<br/><br/>SJC04<br/><br/>TOR01<br/><br/>WDC01<br/><br/>WDC04<br/><br/>WDC06<br/><br/>WDC07|
+|미국    |DAL01<br/><br/>DAL02<br/><br/>DAL04<br/><br/>DAL07<br/><br/>DAL09<br/><br/>DAL10<br/><br/>DAL12<br/><br/>DAL13<br/><br/>HOU02<br/><br/>MON01<br/><br/>SEA01<br/><br/>SJC01<br/><br/>SJC03<br/><br/>SJC04<br/><br/>TOR01<br/><br/>WDC01<br/><br/>WDC04<br/><br/>WDC06<br/><br/>WDC07|
 | 암스테르담 및 런던 |AMS01<br/><br/>AMS03<br/><br/>LON01<br/><br/>LON02<br/><br/>LON04<br/><br/>LON05<br/><br/>LON06<br/><br/>PAR01 |
 |오스트레일리아 |MEL01<br/><br/>SYD01<br/><br/>SYD04<br/><br/>SYD05 |
 |브라질 |SAO01 |
 | 프랑크푸르트 |FRA02<br/><br/>FRA04<br/><br/>FRA05 |
 |인도 |CHE01 |
 |이탈리아 |MIL01 |
-|한국 |SEO01 | 
+|대한민국 |SEO01 | 
 |멕시코 |MEX01 | 
 |노르웨이 |OSL01 | 
 | 싱가포르, 홍콩 및 도쿄 |HKG02<br/><br/>SNG01<br/><br/>TOK02<br/><br/>TOK04<br/><br/>TOK05 |

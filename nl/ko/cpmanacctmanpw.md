@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-06"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -87,7 +87,7 @@ subcollection: customer-portal
 1. 애플리케이션을 여십시오. 인증 정보 ID 및 현재 일회성 비밀번호를 찾으십시오. 비밀번호는 처음에는 무시할 수 있으나, 포털을 위해 인증 정보 ID는 필요하므로 애플리케이션을 열린 상태로 유지하십시오.
 2. 일회성 비밀번호를 구성하려는 사용자로서 고객 포털에 로그인하십시오.
 3. **계정** > **사용자** > **조치** > **외부 인증 추가**를 클릭하십시오.
-4. 추가할 인증의 유형을 선택하십시오. Verisign 애플리케이션을 사용하는 경우 **Symantect Identity Protection**을 선택하십시오.
+4. 추가할 인증의 유형을 선택하십시오. Verisign 애플리케이션을 사용하는 경우 **Symantec Identity Protection**을 선택하십시오.
 5. 1단계에서 인증 정보 ID를 입력하고 **계속**을 클릭하십시오.
 6. 주문 프로세스를 완료하면 몇 분 후에 추가 보안 옵션이 자동으로 적용됩니다.
 7. 몇 분 후 탐색줄에서 **계정** > **사용자**를 선택하고 일회성 비밀번호를 구성한 사용자를 선택하십시오.
