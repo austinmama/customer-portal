@@ -43,6 +43,7 @@ Gestión de recursos de SoftLayer
     {: .navgroup id="help"}
     cpsupport.md
     customerportal-faq.md
+    ts_manage_infra_ticks.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
