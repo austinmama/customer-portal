@@ -20,7 +20,7 @@ subcollection: customer-portal
 
 
 # Setting up two-factor authentication
-{: cp_setup-2fa}
+{: #cp_setup-2fa}
 
 Within the customer portal, external two-factor authentication (2FA) can be activated to add extra protection when you log in to the portal. This extra layer of security protects the account from unverified access, ensuring that devices, data, and account information are protected.
 {:shortdesc}
