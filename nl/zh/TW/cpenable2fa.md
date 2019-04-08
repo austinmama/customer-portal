@@ -20,7 +20,7 @@ subcollection: customer-portal
 
 
 # 設定雙因子鑑別
-{: cp_setup-2fa}
+{: #cp_setup-2fa}
 
 在客戶入口網站中，可以啟動外部雙因子鑑別 (2FA)，為您登入入口網站時增加額外的保護。這個額外安全層可保護帳戶不受未驗證地存取，確保裝置、資料及帳戶資訊受到保護。
 {:shortdesc}

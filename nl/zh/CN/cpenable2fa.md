@@ -20,7 +20,7 @@ subcollection: customer-portal
 
 
 # 设置双因子认证
-{: cp_setup-2fa}
+{: #cp_setup-2fa}
 
 在客户门户网站中，可以激活外部双因子认证 (2FA)，以在登录到门户网站时提供额外的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息安全可靠。
 {:shortdesc}
