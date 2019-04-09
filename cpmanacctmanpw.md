@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-09"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -120,5 +120,5 @@ If you don't use an IBMid for account authentication, complete the following ste
 
 You have 5 attempts to answer the security questions. If you make more than 5 attempts, the reset password form is locked for 15 minutes before you can try again.
 
-For information on working with VPN passwords, see [Update a User's VPN Password](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
+For information on working with VPN passwords, see [Update a User's VPN Password](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password).
 {: tip}
