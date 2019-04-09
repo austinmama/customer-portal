@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-09"
 
 keywords: user profile, administrative access, select account 
 
@@ -94,7 +94,7 @@ User permissions are updated immediately after you submit the changes. If permis
 ## Adding external authentication for a user
 {: #cp_addextauthuser}
 
-From the customer portal, you can activate external two-factor authentication (2FA) to add protection when you log in to the portal. This extra layer of security protects the account from unverified access, ensuring devices, data, and account information are protected. See [Setting up two-factor authentication](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication) for more information.
+From the customer portal, you can activate external two-factor authentication (2FA) to add protection when you log in to the portal. This extra layer of security protects the account from unverified access, ensuring devices, data, and account information are protected. See [Setting up two-factor authentication](/docs/customer-portal?topic=customer-portal-cp_setup-2fa#cp_setup-2fa) for more information.
 
 
 ## Changing a user's status
