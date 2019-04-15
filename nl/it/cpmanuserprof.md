@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-09"
 
 keywords: user profile, administrative access, select account 
 
@@ -94,7 +94,7 @@ Le autorizzazioni utente vengono aggiornate immediatamente dopo l'invio delle mo
 ## Aggiunta dell'autenticazione esterna per un utente
 {: #cp_addextauthuser}
 
-Dal portale clienti, puoi attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere protezione quando esegui l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti. Per ulteriori informazioni, consulta [Impostazione dell'autenticazione a due fattori](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication).
+Dal portale clienti, puoi attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere protezione quando esegui l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti. Per ulteriori informazioni, consulta [Impostazione dell'autenticazione a due fattori](/docs/customer-portal?topic=customer-portal-cp_setup-2fa#cp_setup-2fa).
 
 
 ## Modifica dello stato di un utente

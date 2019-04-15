@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-09"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -120,5 +120,5 @@ Se non utilizzi un ID IBM per l'autenticazione dell'account, completa la seguent
 
 Hai 5 tentativi per rispondere alle domande di sicurezza. Se effettui più di 5 tentativi, il modulo di reimpostazione della password viene bloccato per 15 minuti prima che puoi riprovare.
 
-Per informazioni sull'utilizzo delle password VPN, consulta [Aggiorna una password VPN dell'utente](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
+Per informazioni sull'utilizzo delle password VPN, consulta [Aggiorna una password VPN dell'utente](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password).
 {: tip}
