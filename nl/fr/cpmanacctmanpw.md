@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-09"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -120,5 +120,5 @@ Si vous n'utilisez pas d'IBMid pour l'authentification de compte, procédez comm
 
 Vous disposez de cinq tentatives pour répondre aux questions de sécurité. Si vous dépassez ce nombre, le formulaire de réinitialisation du mot de passe est verrouillé pendant 15 minutes avant que vous ne puissiez faire une nouvelle tentative.
 
-Pour plus d'informations sur l'utilisation des mots de passe VPN, voir [Mise à jour du mot de passe VPN d'un utilisateur](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
+Pour plus d'informations sur l'utilisation des mots de passe VPN, voir [Mise à jour du mot de passe VPN d'un utilisateur](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password).
 {: tip}

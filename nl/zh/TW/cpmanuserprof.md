@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-09"
 
 keywords: user profile, administrative access, select account 
 
@@ -95,7 +95,7 @@ subcollection: customer-portal
 {: #cp_addextauthuser}
 
 從客戶入口網站中，可以啟動外部雙因子鑑別 (2FA)，為登入入口網站時增加保護。這個額外安全層可保護帳戶不受未驗證地存取，確保裝置、資料及帳戶資訊受到保護。
-如需相關資訊，請參閱[設定雙因子鑑別](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication)。
+如需相關資訊，請參閱[設定雙因子鑑別](/docs/customer-portal?topic=customer-portal-cp_setup-2fa#cp_setup-2fa)。
 
 
 ## 變更使用者的狀態

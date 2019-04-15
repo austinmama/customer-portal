@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-09"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -120,5 +120,5 @@ subcollection: customer-portal
 
 您有 5 次嘗試回答安全問題的機會。如果您嘗試超過 5 次，則會先鎖定重設密碼表單 15 分鐘，才能重試。
 
-如需使用 VPN 密碼的相關資訊，請參閱[更新使用者的 VPN 密碼](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password)。
+如需使用 VPN 密碼的相關資訊，請參閱[更新使用者的 VPN 密碼](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password)。
 {: tip}

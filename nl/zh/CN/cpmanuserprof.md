@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-09"
 
 keywords: user profile, administrative access, select account 
 
@@ -60,7 +60,7 @@ subcollection: customer-portal
 |部分|字段|定义|
 |-------|-----|----------|
 |API 访问信息|允许的 IP|允许使用与用户概要文件关联的唯一 API 密钥向 API 进行认证的 IP 地址。|
-|用户通知预订|计费|选中**计费**复选框以在电子邮件发票创建后接收该发票。|
+|用户通知预订|帐单|选中**帐单**复选框以在电子邮件发票创建后接收该发票。|
 |安全问题|安全问题|编辑概要文件时，如果已激活概要文件的安全问题，那么这是登录时必须回答的问题。
 |安全答案|答案|对适用安全问题的区分大小写的答案。|
 {: caption="表 3. 用于编辑用户概要文件的其他配置设置" caption-side="top"}
@@ -94,7 +94,7 @@ subcollection: customer-portal
 ## 为用户添加外部认证
 {: #cp_addextauthuser}
 
-在客户门户网站中，可以激活外部双因子认证 (2FA)，以在登录到门户网站时提供进一步的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息安全可靠。有关更多信息，请参阅[设置双因子认证](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication)。
+在客户门户网站中，可以激活外部双因子认证 (2FA)，以在登录到门户网站时提供进一步的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息安全可靠。有关更多信息，请参阅[设置双因子认证](/docs/customer-portal?topic=customer-portal-cp_setup-2fa#cp_setup-2fa)。
 
 
 ## 更改用户的状态
