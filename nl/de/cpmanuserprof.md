@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-09"
 
 keywords: user profile, administrative access, select account 
 
@@ -94,7 +94,7 @@ Benutzerberechtigungen werden sofort aktualisiert, nachdem Sie die Änderungen �
 ## Externe Authentifizierung für einen Benutzer hinzufügen
 {: #cp_addextauthuser}
 
-Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie unter [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication).
+Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie unter [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal?topic=customer-portal-cp_setup-2fa#cp_setup-2fa).
 
 
 ## Status eines Benutzers ändern
