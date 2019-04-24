@@ -28,9 +28,9 @@ subcollection: customer-portal
 ## 始める前に
 {: #prereqs}
 
-[{{site.data.keyword.Bluemix}} アカウント ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://cloud.ibm.com){:new_window} が必要です。 IBM ID の資格情報でカスタマー・ポータルにログインしてください。 ほとんどの新規ユーザーは、認証に [IBM ID](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) を使用します。
+[{{site.data.keyword.Bluemix}} アカウント ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://cloud.ibm.com){:new_window} が必要です。 IBMid の資格情報でカスタマー・ポータルにログインしてください。 ほとんどの新規ユーザーは、認証に [IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) を使用します。
 
-アカウントへのログインの認証に IBM ID を使用しない場合は、固有の {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー資格情報を使用してカスタマー・ポータルにログインしてください。
+アカウントへのログインの認証に IBMid を使用しない場合は、固有の {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー資格情報を使用してカスタマー・ポータルにログインしてください。
 {: tip}
 
 ## ステップ 1. アカウントのセットアップ
@@ -64,7 +64,7 @@ subcollection: customer-portal
   2. 「VPN のアクセス権限」列でリンクをクリックします。
   3. **「VPN のタイプ」**メニューからオプションを選択し、**「保存」**をクリックします。  
 
-IBM ID 認証を使用するアカウントのユーザーの場合は、VPN アクセス用の SoftLayer VPN ユーザー名が使用されます。 VPN ユーザー名はユーザー・プロファイルで定義されます。 VPN ユーザー名は、デフォルトで IBM ID の E メール・アドレスおよびアカウント ID となるユーザー名とは異なります。
+IBMid 認証を使用するアカウントのユーザーの場合は、VPN アクセス用の SoftLayer VPN ユーザー名が使用されます。 VPN ユーザー名はユーザー・プロファイルで定義されます。 VPN ユーザー名は、デフォルトで IBMid の E メール・アドレスおよびアカウント ID となるユーザー名とは異なります。
 {: tip}
 
 VPN 接続について詳しくは、[VPN について](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)を参照してください。

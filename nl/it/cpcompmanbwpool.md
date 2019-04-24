@@ -22,11 +22,12 @@ subcollection: customer-portal
 # Ottimizzazione dell'utilizzo della larghezza di banda
 {: #cp_manbdwpool}
 
-Il traffico della rete pubblica di dati che viene trasferito in uscita dai data center di IBM Cloud in tutto il mondo stabilisce gli addebiti della larghezza di banda in uscita. Gli addebiti dipendono dal luogo in cui risiede la risorsa che trasferisce i dati, dalla quantità di dati in uscita e dalle assegnazioni di larghezza di banda per cui sono idonei i tuoi prodotti cloud IBM acquistati. {:shortdesc} 
+Il traffico della rete pubblica di dati che viene trasferito in uscita dai data center di IBM Cloud in tutto il mondo stabilisce gli addebiti della larghezza di banda in uscita. Gli addebiti dipendono dal luogo in cui risiede la risorsa che trasferisce i dati, dalla quantità di dati in uscita e dalle assegnazioni di larghezza di banda per cui sono idonei i tuoi prodotti cloud IBM acquistati. 
+{:shortdesc} 
 
-I clienti possono ottimizzare l'utilizzo della larghezza di banda "raggruppando" insieme tutta la larghezza di banda per i server in un pool di larghezza di banda. Le eccedenze di larghezza di banda per i server in un pool di larghezza di banda vengono sommate nel loro insieme e tali eccedenze vengono calcolate solo se la larghezza di banda totale di tutti i server supera quella allocata totale per tutti i server rispetto alla misurazione a livello di singolo server.  
+I clienti possono ottimizzare l'utilizzo della larghezza di banda "raggruppando" insieme tutta la larghezza di banda per i server in un pool di larghezza di banda. Le eccedenze di larghezza di banda per i server in un pool di larghezza di banda vengono sommate nel loro insieme e tali eccedenze vengono calcolate solo se la larghezza di banda totale di tutti i server supera quella allocata totale per tutti i server rispetto alla misurazione a livello di singolo server. 
 
-Le definizioni di pool sono elencate nella seguente tabella:  
+Le definizioni di pool sono elencate nella seguente tabella: 
 
 | Pool      | Ubicazioni          |
 | ------------- |:-------------:|
@@ -41,7 +42,7 @@ Le definizioni di pool sono elencate nella seguente tabella:
 | Messico | MEX01 | 
 | Norvegia | OSL01 | 
 | Singapore, Hong Kong e Tokyo | HKG02<br/><br/>SNG01<br/><br/>TOK02<br/><br/>TOK04<br/><br/>TOK05 |
-{:caption="Tabella 1. Definizioni di pool " caption-side="top"}
+{:caption="Tabella 1. Definizioni di pool" caption-side="top"}
 
 
 ## Modifica di un pool di larghezza di banda
@@ -53,7 +54,7 @@ Una volta creato un pool di larghezza di banda, se sei un utente autorizzato, pu
 2. Dal menu, seleziona **Rete** > **Larghezza di banda** > **Pool** per accedere alla finestra Pool di larghezza di banda.
 3. Fai clic su **Nome pool** per accedere al pool. Viene visualizzato ogni dispositivo associato al pool.
 4. Dalla scheda **Modifica**, puoi rinominare il pool, aggiungere un dispositivo o rimuovere un dispositivo dal pool.
-  * Per rinominare il pool, immetti il nuovo nome del pool nel campo che ha il nome pool corrente. 
+  * Per rinominare il pool, immetti il nuovo nome del pool nel campo che ha il nome pool corrente.
   * Per aggiungere un dispositivo al pool, dall'elenco **Aggiungi server**, seleziona il nome del dispositivo e fai clic su **Seleziona**.
   * Per rimuovere un dispositivo da un pool, dall'elenco **Rimuovi server**, seleziona il dispositivo e fai clic su **Seleziona**.
 5. Fai clic su **Modifica rack**.
