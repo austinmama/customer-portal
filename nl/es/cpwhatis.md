@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: IBM Cloud infrastructure customer portal, IBM Cloud console, IBM Cloud infrastructure customer
-
-subcollection: customer-portal
+lastupdated: "2019-02-19"
 
 ---
 

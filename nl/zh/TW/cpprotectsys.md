@@ -4,12 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: aregular backups, private network, IBM Cloud infrastructure, 
-
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -30,7 +25,7 @@ subcollection: customer-portal
 
 您可以使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構專用網路，在盡可能最安全的環境中管理裝置。盡可能使用 VPN 連線與裝置互動，並啟用網路跨越，讓系統透過專用網路進行通訊。若要存取專用網路，請從[使用者清單 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window} 中編輯使用者的 VPN 存取權。使用[虛擬專用網路 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} 清單，以連接至各種 VPN 選項的其中一個。
 
-如需使用 VPN 連線的相關資訊，請參閱[關於 VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn#about-iaas-vpn)。
+如需使用 VPN 連線的相關資訊，請參閱[關於 VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)。
 
 ### 不要在公用網路上開放 RDP、SSH 或控制埠
 {: #cp_bpnordpsshcponpubnet}
@@ -46,7 +41,7 @@ subcollection: customer-portal
   * EVault 備份是一種以代理程式為基礎的自動化備份系統，且是用於管理裝置的熱門「設定後即忘記」解決方案。它透過外掛程式而與包含 Exchange 和 SQL 的 Microsoft 軟體相容。EVault 使用者可以透過 EVault 的 WebCC Web 型應用程式與此服務進行互動。
   * R1Soft Continuous Data Protection (CDP) 可以安裝在您的伺服器或自我管理的虛擬機器上。如果您要尋找的是以單一介面來管理所有的備份，則可以使用此產品。您可透過專有管理系統與 R1Soft CDP 互動，而此管理系統容許代理程式安裝在虛擬機器上，並且會提供資料庫外掛程式來提供更多功能。
 
- 如需每一個備份解決方案的相關資訊，請參閱[儲存空間 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} 頁面，如需備份資料的相關資訊，請參閱[開始使用備份服務](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)。
+ 如需每一個備份解決方案的相關資訊，請參閱[儲存空間 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} 頁面，如需備份資料的相關資訊，請參閱[開始使用備份服務](/docs/infrastructure/Backup?topic=Backup-GettingStarted#GettingStarted)。
 
 ### 不要假設您有備援；要確知您有
 {: #cp_bpknowredundant}

@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: master user, unique account permission set, SoftLayer account, account permissions 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -38,11 +34,11 @@ A seconda del tuo accesso, puoi gestire il tuo account SoftLayer o gli account d
 
 Per gestire gli utenti dalla console {{site.data.keyword.Bluemix_notm}}, vedi la sezione [Configurazione account](/docs/account?topic=account-signup#signup) e [Gestione di identità e accesso](/docs/iam?topic=iam-getstarted#getstarted). Per ulteriori informazioni sulla console {{site.data.keyword.Bluemix_notm}}, vedi [Navigazione nella console {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-ui#ui).
 
-Persone diverse all'interno di un'organizzazione hanno ruoli e responsabilità differenti e le serie di autorizzazioni utente non sono valide per tutti. Puoi aggiungere utenti al portale clienti con i ruoli per fornire l'accesso esattamente a ciò di cui hanno bisogno per il loro ruolo specifico. Se vengono apportate modifiche per errore o non autorizzate, puoi risalire all'utente o al gruppo. Pertanto, puoi fornire una formazione adeguata o aggiornare l'autorizzazione utente per ridurre al minimo i rischi. Gli utenti possono quindi concentrarsi sul loro ruolo specificato all'interno del portale del cliente.
+Persone diverse all'interno di un'organizzazione hanno ruoli e responsabilità differenti e le serie di autorizzazioni utente non sono valide per tutti. Puoi aggiungere utenti al portale clienti con i ruoli per fornire l'accesso esattamente a ciò di cui hanno bisogno per il loro ruolo specifico. Se vengono apportate modifiche per errore o non autorizzate, puoi risalire all'utente o al gruppo. Pertanto, puoi fornire una formazione adeguata o aggiornare l'autorizzazione utente per ridurre al minimo i rischi. Gli utenti possono quindi concentrarsi sul loro ruolo specificato all'interno del portale clienti.
 
 Utilizza la seguente procedura per aggiungere un utente a un account.
 
-1. Accedi al portale del cliente utilizzando le tue credenziali univoche.
+1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account > Utenti** dalla barra di navigazione.
 3. Fai clic su **Aggiungi utente**.
 4. Completa i campi obbligatori nella sezione **Informazioni personali**. Fornisci lo stato, un nome utente e l'indirizzo e-mail per le comunicazioni e le notifiche del portale del cliente, inclusa la notifica iniziale per impostare una password per l'account.
@@ -58,7 +54,7 @@ Utilizza la seguente procedura per aggiungere un utente a un account.
 
 Dopo aver creato un account per un utente, l'utente riceve una notifica via e-mail per completare la configurazione del proprio account. L'utente deve impostare una password e, facoltativamente, creare domande di sicurezza se hai indicato che sono richieste.
 
-Il modo in cui gli utenti senza l'accesso amministrativo di un utente master accedono al portale del cliente dipende dall'utente master che ha fornito l'accesso utente nei propri account SoftLayer:
+Il modo in cui gli utenti senza l'accesso amministrativo di un utente master accedono al portale clienti dipende dall'utente master che ha fornito l'accesso utente nei propri account SoftLayer:
   * Se l'utente master ha un ID IBM per l'autenticazione, ogni utente creato dall'utente master ha un ID IBM.
   * Se l'utente master ha un ID dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} per l'autenticazione, ogni utente creato dall'utente master ha un nome utente per l'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. L'utente master e ciascun utente creato dall'utente master devono eseguire lo strumento di migrazione per passare a un ID IBM.
   * Se nessuno di questi casi è applicabile, ad esempio per i Business Partner IBM, contatta il supporto per determinare quale ID utente utilizzare.

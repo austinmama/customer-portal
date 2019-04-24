@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -87,7 +83,7 @@ subcollection: customer-portal
 1. 打开应用程序。找到“凭证标识”和当前的一次性密码。初始可以忽略该密码，但您需要门户网站的“凭证标识”，所以请使应用程序保持打开状态。
 2. 以要为其配置一次性密码的用户身份登录到客户门户网站。
 3. 单击**帐户** > **用户** > **操作** > **添加外部认证**。
-4. 选择要添加的认证类型。如果要使用 Verisign 应用程序，请选择 **Symantec Identity Protection**。
+4. 选择要添加的认证类型。如果要使用 Verisign 应用程序，请选择 **Symantect 身份保护**。
 5. 输入步骤 1 中的凭证标识，然后单击**继续**。
 6. 完成订购流程，您的额外安全选项会在几分钟内自动应用。
 7. 几分钟后，从导航栏中选择**帐户** > **用户**，并选择为其配置了一次性密码的用户。
@@ -120,5 +116,5 @@ subcollection: customer-portal
 
 您有 5 次机会可尝试回答安全问题。如果尝试次数超过 5 次，那么重置密码表单将锁定 15 分钟，然后才能重试。
 
-有关使用 VPN 密码的信息，请参阅[更新用户的 VPN 密码](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password)。
+有关使用 VPN 密码的信息，请参阅[更新用户的 VPN 密码](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password)。
 {: tip}

@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-25"
-
-keywords: open support tickets, select support, general technical support ticket
-
-subcollection: customer-portal
+lastupdated: "2018-11-20"
 
 ---
 

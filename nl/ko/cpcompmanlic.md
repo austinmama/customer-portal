@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-25"
-
-keywords: active control panel software, control panel licenses window, download license files, devices, canceling license 
-
-subcollection: customer-portal
+lastupdated: "2019-02-18"
 
 ---
 

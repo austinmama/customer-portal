@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -101,17 +97,17 @@ subcollection: customer-portal
 ## パスワードのリセット
 {: #cp_reset-your-password}
 
-パスワードのリセット方法は、アカウントにログインするための認証に IBMid を使用しているかどうかによって決まります。  
+パスワードのリセット方法は、アカウントにログインするための認証に IBM ID を使用しているかどうかによって決まります。  
 
-### IBMid アカウント・パスワードのリセット
+### IBM ID アカウント・パスワードのリセット
 {: #cp_reset}
 
-認証に IBMid を使用している場合、パスワードをリセットまたはリカバリーするには、IBMid プロファイルにアクセスし、**「サインイン」**セクションの指示に従ってください。
+認証に IBM ID を使用している場合、パスワードをリセットまたはリカバリーするには、IBM ID プロファイルにアクセスし、**「サインイン」**セクションの指示に従ってください。
 
 ### SoftLayer アカウント・パスワードのリセット
 {: #cp_reset-sl}
 
-アカウント認証に IBMid を使用していない場合は、以下の手順を実行します。
+アカウント認証に IBM ID を使用していない場合は、以下の手順を実行します。
 
 1. [カスタマー・ポータル ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} のログイン・ページにある「パスワードのリセット」リンクをクリックします。
 2. プロンプトが表示されたら、現在のユーザー名を入力します。
@@ -120,5 +116,5 @@ subcollection: customer-portal
 
 セキュリティーのための質問の回答試行回数は 5 回です。 試行回数が 5 回を超えるとパスワードのリセット・フォームがロックされ、その後 15 分間再試行できなくなります。
 
-VPN パスワードの処理方法については、[ユーザーの VPN パスワードの更新](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password)を参照してください。
+VPN パスワードの処理方法については、[ユーザーの VPN パスワードの更新](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password)を参照してください。
 {: tip}

@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: user profile, administrative access, select account 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -94,7 +90,7 @@ Le autorizzazioni utente vengono aggiornate immediatamente dopo l'invio delle mo
 ## Aggiunta dell'autenticazione esterna per un utente
 {: #cp_addextauthuser}
 
-Dal portale clienti, puoi attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere protezione quando esegui l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti. Per ulteriori informazioni, consulta [Impostazione dell'autenticazione a due fattori](/docs/customer-portal?topic=customer-portal-cp_setup-2fa#cp_setup-2fa).
+Dal portale clienti, puoi attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere protezione quando esegui l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti. Per ulteriori informazioni, consulta [Impostazione dell'autenticazione a due fattori](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication).
 
 
 ## Modifica dello stato di un utente
@@ -119,7 +115,7 @@ Utilizza la seguente procedura per modificare lo stato dell'utente nel portale c
 1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account** > **Utenti** dalla barra di navigazione.
 3. Seleziona **Modifica stato utente** dall'elenco **Azioni**.
-4. Dall'elenco **Stato**, seleziona  lo stato appropriato in base alle definizioni nell'elenco precedente.
+4. Dall'elenco **Stato**, seleziona lo stato appropriato in base alle definizioni nell'elenco precedente.
 5. Fai clic su **Salva**.
 
 Dopo aver aggiornato lo stato di un utente, le modifiche all'accessibilità del portale clienti si allineano con il nuovo stato.

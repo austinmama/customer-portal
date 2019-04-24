@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -120,5 +116,5 @@ Wenn Sie zur Kontoauthentifizierung keine IBMid verwenden, dann müssen Sie die 
 
 Sie haben fünf Versuche zur Beantwortung der Sicherheitsfragen. Bei mehr als fünf Versuchen wird das Formular zum Zurücksetzen des Kennworts für 15 Minuten gesperrt, bevor Sie es erneut versuchen können.
 
-Informationen zum Arbeiten mit VPN-Kennwörtern finden Sie im Abschnitt zum [Aktualisieren des VPN-Kennworts eines Benutzers](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password).
+Informationen zum Arbeiten mit VPN-Kennwörtern finden Sie im Abschnitt zum [Aktualisieren des VPN-Kennworts eines Benutzers](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
 {: tip}

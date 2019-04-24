@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: IBM Cloud infrastructure customer portal, IBM Cloud console, IBM Cloud infrastructure customer
-
-subcollection: customer-portal
+lastupdated: "2019-02-19"
 
 ---
 
@@ -27,7 +23,7 @@ subcollection: customer-portal
 
 以下の理由により、{{site.data.keyword.Bluemix_notm}} コンソールではなく、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・カスタマー・ポータルを使用することになります。
   * {{site.data.keyword.Bluemix_notm}} インフラストラクチャー・サービスのみを使用し (プラットフォーム・サービスは使用しない)、[リンクされたアカウント](/docs/account?topic=account-link_customer_accounts#link_customer_accounts)を持っていない場合。
-  * [IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) を持っていない場合。
+  * [IBM ID](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) を持っていない場合。
   * 連邦政府環境にアクセスする必要がある場合。例えば、アメリカ合衆国政府機関には、外部アクセスが制限された、より安全にロックダウンされたデータ・センターが必要な可能性があります。 この環境では、{{site.data.keyword.Bluemix_notm}} インフラストラクチャー・サービス・サービスのみが使用可能になります。{{site.data.keyword.Bluemix_notm}} プラットフォーム・アクセスは、連邦政府のデータ・センターでは使用できません。
 
 そして、以下のタスクに、{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャー・カスタマー・ポータルを使用します。

@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-25"
-
-keywords: open support tickets, select support, general technical support ticket
-
-subcollection: customer-portal
+lastupdated: "2018-11-20"
 
 ---
 
@@ -88,7 +84,7 @@ Nachdem Sie ein Ticket hinzugefügt haben, können Sie es jederzeit im Fenster *
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} zu.
 2. Wählen Sie im Menü die Optionen **Support** > **Tickets** aus.
-3. Wählen Sie den Status des Tickets im Dropdown-Menü aus, um die Ansicht zu filtern.
+3. Wählen Sie den Status des Tickets im Dropdown-Menü aus, um die Ansicht zu filtern. 
 4. Klicken Sie auf die Ticketnummer, um die Details des Tickets anzuzeigen.
 
 ## Ticket aktualisieren
@@ -98,7 +94,7 @@ Sie können ein bestehendes Support-Ticket jederzeit aktualisieren, um zusätzli
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} zu.
 2. Wählen Sie im Menü die Optionen **Support** > **Tickets** aus.
-3. Wählen Sie den Status des Tickets im Dropdown-Menü aus, um die Ansicht zu filtern.
+3. Wählen Sie den Status des Tickets im Dropdown-Menü aus, um die Ansicht zu filtern. 
 4. Klicken Sie auf die Ticketnummer, um die Details des Tickets anzuzeigen.
 5. Aktualisieren Sie das Ticket wie erforderlich. Sie können die folgenden Tasks ausführen:
   * Ticket neu zuordnen: Wählen Sie in der Dropdown-Liste **Neu zuordnen** den Benutzer aus, dem Sie das Ticket neu zuordnen wollen.   

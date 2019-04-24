@@ -1,14 +1,11 @@
 ---
 
+
+
 copyright:
 
   years: 2017, 2019
-
-lastupdated: "2019-02-25"
-
-keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 

@@ -4,11 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -20,14 +16,14 @@ subcollection: customer-portal
 
 
 # 2 要素認証のセットアップ
-{: #cp_setup-2fa}
+{: cp_setup-2fa}
 
 カスタマー・ポータルの内部で外部 2 要素認証 (2FA) をアクティブにして、ポータルへのログイン時の保護をさらに追加できます。 セキュリティーのこの追加層は、アカウントを未検証アクセスから保護し、デバイス、データ、およびアカウント情報が確実に保護されるようにします。
 {:shortdesc}
 
 既存の SoftLayer アカウントに対してカスタマー・ポータルで 2FA を有効にした場合、{{site.data.keyword.Bluemix_notm}} コンソールにログインする際にセキュリティー・コードを入力する必要があります。 2FA は、{{site.data.keyword.Bluemix_notm}} アカウント内のインフラストラクチャー・リソースにのみ適用されます。 2FA を行わずに {{site.data.keyword.Bluemix_notm}} アカウント内のリソースに対してさまざまなアクションを実行できます。
 
-SoftLayer アカウントに対する 2FA は IBMid 単位ではありません。 従来どおり、アカウント単位です。 IBMid が複数のカウントに関連付けられていて、アカウント間で切り替えを行う場合、別のアカウントに切り替えるたびに ID を確認する必要があります。 前のアカウントと新しいアカウントが両方とも同じ 2FA メカニズムを使用して構成されている場合でも、アカウント間で切り替えるときには ID を確認する必要があります。
+SoftLayer アカウントに対する 2FA は IBM ID 単位ではありません。 従来どおり、アカウント単位です。 IBM ID が複数のカウントに関連付けられていて、アカウント間で切り替えを行う場合、別のアカウントに切り替えるたびに ID を確認する必要があります。 前のアカウントと新しいアカウントが両方とも同じ 2FA メカニズムを使用して構成されている場合でも、アカウント間で切り替えるときには ID を確認する必要があります。
 
 ## 2FA の有効化
 {: #cp-enable-2fa}

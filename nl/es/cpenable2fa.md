@@ -4,11 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -20,7 +16,7 @@ subcollection: customer-portal
 
 
 # Configuración de la autenticación de dos factores
-{: #cp_setup-2fa}
+{: cp_setup-2fa}
 
 Desde el portal de clientes, se puede activar la autenticación externa de dos factores (2FA) para añadir protección al iniciar sesión en el portal. Esta capa extra de seguridad protege la cuenta de acceso no verificado, garantizando que los dispositivos, los datos y la información de cuenta estén protegidos.
 {:shortdesc}

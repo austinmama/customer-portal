@@ -4,12 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: IBM Cloud user, user name, portal account, cp FAQs 
-
-
-subcollection: customer-portal
+lastupdated: "2019-02-01"
 
 ---
 
@@ -100,7 +95,7 @@ Sie müssen sie zu {{site.data.keyword.Bluemix_notm}} einladen. Klicken Sie in d
 {: #bicp_ibmidswitchemail}
 {: faq}
 
-Falls Sie den Assistenten für den Wechsel zur IBMid durchgearbeitet und die E-Mail noch nicht empfangen haben, kann es mehrere Minuten oder sogar Stunden dauern, bis die E-Mail mit Ihrem Registrierungscode an Sie gesendet wird. Sie können zur Seite **Benutzerprofil bearbeiten** im Kundenportal zurückkehren und auf **E-Mail erneut senden** klicken, um den Versuch zu wiederholen.
+Falls Sie den Assistenten für den Wechsel zur IBMid durchgearbeitet und die E-Mail noch nicht empfangen haben, kann es mehrere Minuten oder sogar Stunden dauern, bis die E-Mail mit Ihrem Registrierungscode an Sie gesendet wird. Sie können zur Seite **Benutzerprofil bearbeiten** im Kundenportal zurückkehren und auf **E-Mail erneut senden** klicken, um den Versuch zu wiederholen. 
 
 ## Besitze ich uneingeschränkten Rootzugriff auf mein Konto?
 {: #bicp_fullrootaccaccess}

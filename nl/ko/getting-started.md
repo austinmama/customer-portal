@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: SoftLayer account, new users, IBM Cloud account
-
-subcollection: customer-portal 
+lastupdated: "2019-01-31"
 
 ---
 

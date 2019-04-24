@@ -4,12 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: aregular backups, private network, IBM Cloud infrastructure, 
-
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -30,7 +25,7 @@ Durch den Schutz Ihrer Systeme können Sie dafür sorgen, dass die Systeme reibu
 
 Durch Verwendung des privaten Netzes der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur können Sie Ihre Geräte in einer Umgebung mit der größtmöglichen Sicherheit verwalten. Hier interagieren Sie nach Möglichkeit über eine VPN-Verbindung mit Ihren Geräten und ermöglichen eine netzübergreifende Verarbeitung, damit Ihre Systeme über das private Netz miteinander kommunizieren. Um auf das private Netz zuzugreifen, bearbeiten Sie den VPN-Zugriff des Benutzers über die [Benutzerliste ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Verwenden Sie die Liste [Virtuelles privates Netz ![Symbol für externen Link](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window}, um eine Verbindung zu einer der verschiedenen VPN-Optionen herzustellen.
 
-Weitere Informationen zur Verwendung von VPN-Verbindungen finden Sie in [Informationen zu VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn#about-iaas-vpn).
+Weitere Informationen zur Verwendung von VPN-Verbindungen finden Sie in [Informationen zu VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn).
 
 ### RDP, SSH oder Steuerports nicht im öffentlichen Netz belassen
 {: #cp_bpnordpsshcponpubnet}
@@ -47,7 +42,7 @@ Sie können einen der folgenden Backup-Services auswählen, um Ihre Daten an ein
   * EVault Backup ist ein automatisiertes, agentenbasiertes Sicherungssystem und eine gängige, komfortable und wartungsfreie Lösung zur Verwaltung Ihres Geräts. Sie ist kompatibel mit Microsoft-Software, einschließlich Exchange und SQL (über Plug-ins). EVault-Benutzer interagieren mit diesem Service über die webbasierte EVault-Anwendung WebCC.
   * R1Soft Continuous Data Protection (CDP) kann auf Ihrem Server oder auf der selbstverwalteten virtuellen Maschine installiert werden. Diese Lösung eignet sich, wenn Sie nach einer einzigen Schnittstelle zum Verwalten all Ihrer Sicherungen suchen. Sie interagieren mit R1Soft CDP über Ihr proprietäres Managementsystem, das die Installation von Agenten auf virtuellen Maschinen ermöglicht und Datenbank-Plug-ins für weitere Funktionen bietet.
 
- Weitere Informationen zu den einzelnen Sicherungslösungen können Sie dem Abschnitt [Speicher ![Symbol für externen Link](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} entnehmen und weitere Informationen zum Sichern Ihrer Daten erhalten Sie im Abschnitt [Einführung in Backup-Services](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+ Weitere Informationen zu den einzelnen Sicherungslösungen können Sie dem Abschnitt [Speicher ![Symbol für externen Link](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} entnehmen und weitere Informationen zum Sichern Ihrer Daten erhalten Sie im Abschnitt [Einführung in Backup-Services](/docs/infrastructure/Backup?topic=Backup-GettingStarted#GettingStarted).
 
 ### Redundanz nicht voraussetzen, sondern sicherstellen
 {: #cp_bpknowredundant}

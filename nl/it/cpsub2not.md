@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: infrastructure, account IBM Cloud infrastructure notifications, unplanned infrastructure issues, notifications 
-
-subcollection: customer-portal
+lastupdated: "2019-02-20"
 
 ---
 
@@ -79,6 +75,6 @@ Per assegnare un elenco di sottoscrittori, gli utenti master possono accedere al
 1. Fai clic su **Supporto** > **Eventi** dal menu.
 2. Scegli il tipo di evento a cui aggiungere i sottoscrittori.
 2. Dalla finestra a comparsa, aggiungi uno o più indirizzi e-mail. Gli indirizzi e-mail possono essere IBM o non IBM.
-3. Fai clic su **Crea**.
+3. Fai clic su **Create**.
 
 Gli indirizzi e-mail aggiunti come sottoscrittori supplementari ricevono notifiche di eventi pianificati e non pianificati e ticket di supporto aperti. Le notifiche contengono dettagli tecnici, quindi puoi tenerne conto quando aggiungi i sottoscrittori. A causa della natura tecnica dettagliata delle notifiche, i sottoscrittori previsti sono coloro che possono comprendere, in dettaglio, in che modo la notifica influisce sul tuo ambiente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Sottoscrivere destinatari che non siano in grado di comprendere l'impatto potenziale del client sulla base dei dettagli nella notifica è controproducente e fortemente sconsigliato.

@@ -4,12 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: aregular backups, private network, IBM Cloud infrastructure, 
-
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -30,7 +25,7 @@ Proteger los sistemas garantiza que los sistemas se ejecuten sin contratiempos y
 
 Puede gestionar sus dispositivos en el entorno lo más seguro posible utilizando la red privada de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Cuando sea posible, interactúe con sus dispositivos utilizando una conexión VPN y habilite la expansión de red para que los sistemas se comuniquen a través de la red privada. Para acceder a la red privada, edite el acceso VPN del usuario desde la [Lista de usuarios ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Utilice la lista [Red privada virtual ![Icono de enlace externo](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} para conectarse a una de las distintas opciones de VPN.
 
-Para obtener más información sobre cómo utilizar una conexión VPN, consulte [Acerca de VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn#about-iaas-vpn).
+Para obtener más información sobre cómo utilizar una conexión VPN, consulte [Acerca de VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn).
 
 ### No deje RDP, SSH o los puertos de control en la red pública
 {: #cp_bpnordpsshcponpubnet}
@@ -47,7 +42,7 @@ Por ejemplo, puede elegir uno de los siguientes servicios de copia de seguridad 
   * La copia de seguridad de EVault es un sistema de copia de seguridad automático basado en agente y una conocida solución automatizada de muy fácil activación (“set-and-forget”) para la gestión del dispositivo. Es compatible con el software de Microsoft que incluye Exchange y SQL mediante plug-ins. Los usuarios de EVault interactúan con este servicio a través de la aplicación basada en web WebCC de EVault.
   * R1Soft Continuous Data Protection (CDP) se puede instalar en el servidor o en una máquina virtual autogestionada. Puede utilizarlo si está buscando una única interfaz para gestionar todas sus copias de seguridad. Puede interactuar con R1Soft CDP a través de su propio sistema de gestión, lo que permite instalar agentes en máquinas virtuales y ofrece plugins de base de datos para obtener más funciones.
 
- Consulte la página [Almacenamiento ![Icono de enlace externo](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} para obtener más información sobre cada solución de copia de seguridad y consulte la [Guía de iniciación con servicios de copia de seguridad](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started) para obtener más información sobre cómo realizar copias de seguridad de sus datos.
+ Consulte la página [Almacenamiento ![Icono de enlace externo](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} para obtener más información sobre cada solución de copia de seguridad y consulte la [Guía de iniciación con servicios de copia de seguridad](/docs/infrastructure/Backup?topic=Backup-GettingStarted#GettingStarted) para obtener más información sobre cómo realizar copias de seguridad de sus datos.
 
 ### No suponga que tenga redundancia; sabe que no
 {: #cp_bpknowredundant}

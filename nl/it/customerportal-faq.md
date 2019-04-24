@@ -4,12 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: IBM Cloud user, user name, portal account, cp FAQs 
-
-
-subcollection: customer-portal
+lastupdated: "2019-02-01"
 
 ---
 
@@ -21,7 +16,7 @@ subcollection: customer-portal
 {:faq: data-hd-content-type='faq'}
 
 
-# Domande frequenti
+# FAQ
 {: #bicpfaq}
 
 ## Come richiamo le mie credenziali per il portale clienti?

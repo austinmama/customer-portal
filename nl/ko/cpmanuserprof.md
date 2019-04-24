@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: user profile, administrative access, select account 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -94,7 +90,7 @@ IBM ID 계정 설정에 대한 자세한 정보는 [IBM ID로 전환](/docs/acco
 ## 사용자를 위한 외부 권한 추가
 {: #cp_addextauthuser}
 
-고객 포털에서 외부 2단계 인증(2FA)을 활성화하여 포털에 로그인하는 과정을 추가로 보호할 수 있습니다. 이 추가 보안 계층은 확인되지 않은 액세스로부터 계정을 보호함으로써 디바이스, 데이터 및 계정 정보를 보호합니다. 자세한 정보는 [2단계 인증 설정](/docs/customer-portal?topic=customer-portal-cp_setup-2fa#cp_setup-2fa)을 참조하십시오.
+고객 포털에서 외부 2단계 인증(2FA)을 활성화하여 포털에 로그인하는 과정을 추가로 보호할 수 있습니다. 이 추가 보안 계층은 확인되지 않은 액세스로부터 계정을 보호함으로써 디바이스, 데이터 및 계정 정보를 보호합니다. 자세한 정보는 [2단계 인증 설정](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication)을 참조하십시오.
 
 
 ## 사용자의 상태 변경

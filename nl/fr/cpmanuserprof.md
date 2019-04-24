@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: user profile, administrative access, select account 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -94,7 +90,7 @@ Les droits utilisateur sont mis à jour immédiatement après que vous avez soum
 ## Ajout d'authentification externe pour un utilisateur
 {: #cp_addextauthuser}
 
-Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs (2FA)  pour ajouter une protection lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés. Voir [Configuration de l'authentification à deux facteurs](/docs/customer-portal?topic=customer-portal-cp_setup-2fa#cp_setup-2fa) pour plus d'informations.
+Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs (2FA)  pour ajouter une protection lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés. Voir [Configuration de l'authentification à deux facteurs](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication) pour plus d'informations.
 
 
 ## Changement du statut d'un utilisateur

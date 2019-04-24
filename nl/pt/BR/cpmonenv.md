@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: IBM Cloud infrastructure, audit logs, mobile application, system events, monitoring your environment 
-
-subcollectiom: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 

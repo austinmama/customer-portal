@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -87,7 +83,7 @@ A continuación, realice los pasos siguientes:
 1. Abra la aplicación. Busque el ID de credenciales y su contraseña única actual. Puede ignorar la contraseña inicialmente, pero necesita el ID de credenciales para el portal, por lo que mantenga la aplicación abierta.
 2. Inicie sesión en el portal de clientes como el usuario para el que desea configurar la contraseña única.
 3. Pulse **Cuenta** > **Usuarios** > **Acciones** > **Añadir autenticación externa**.
-4. Seleccione el tipo de autenticación para añadir. Si está utilizando la aplicación Verisign, elija **Symantec Identity Protection**.
+4. Seleccione el tipo de autenticación para añadir. Si está utilizando la aplicación Verisign, elija **Symantect Identity Protection**.
 5. Escriba el ID de credencial desde el paso 1 y pulse **Continuar**.
 6. Complete el proceso de pedido y su opción de seguridad adicional se aplicará automáticamente en pocos minutos.
 7. Tras varios minutos, seleccione **Cuenta** > **Usuarios** desde la barra de navegación y seleccione el usuario para el que ha configurado la contraseña única.
@@ -120,5 +116,5 @@ Si no utiliza un IBMid para la autenticación de cuenta, siga estos pasos:
 
 Tiene 5 intentos para responder a las preguntas de seguridad. Si realiza más de 5 intentos, el formulario de restablecimiento de contraseña se bloquea durante 15 minutos antes de que pueda intentarlo de nuevo.
 
-Para obtener información sobre cómo trabajar con contraseñas de VPN, consulte [Actualizar la contraseña de VPN de un usuario](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password).
+Para obtener información sobre cómo trabajar con contraseñas de VPN, consulte [Actualizar la contraseña de VPN de un usuario](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
 {: tip}

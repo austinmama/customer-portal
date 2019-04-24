@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
-
-keywords: infrastructure, account IBM Cloud infrastructure notifications, unplanned infrastructure issues, notifications 
-
-subcollection: customer-portal
+lastupdated: "2019-02-20"
 
 ---
 

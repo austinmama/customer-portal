@@ -4,11 +4,8 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-01-31"
 
-keywords: IBMid accounts, softLayer account, IBM Cloud infrastructure authentication
-
-subcollection: customer-portal
 ---
 
 {:shortdesc: .shortdesc}

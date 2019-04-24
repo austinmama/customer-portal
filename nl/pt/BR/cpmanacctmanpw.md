@@ -4,11 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
-
-keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
-
-subcollection: customer-portal
+lastupdated: "2019-01-31"
 
 ---
 
@@ -87,7 +83,7 @@ Em seguida, conclua as etapas a seguir:
 1. Abra o aplicativo. Localize o ID de credencial e sua senha descartável atual. É possível ignorar a senha inicialmente, mas o ID de credencial será necessário para o portal, portanto, mantenha o aplicativo aberto.
 2. Efetue login no portal do cliente como o usuário para o qual você gostaria de configurar a senha descartável.
 3. Clique em **Conta** > **Usuários** > **Ações** > **Incluir autenticação externa**.
-4. Selecione o tipo de autenticação para incluir. Se você estiver usando o aplicativo Verisign, escolha **Symantec Identity Protection**.
+4. Selecione o tipo de autenticação para incluir. Se você estiver usando o aplicativo Verisign, escolha **Symantect Identity Protection**.
 5. Insira o ID de credencial da etapa 1 e clique em **Continuar**.
 6. Conclua o processo de pedido e sua opção de segurança adicional será aplicada automaticamente em apenas alguns minutos.
 7. Após vários minutos, selecione **Conta** > **Usuários** na barra de navegação e selecione o usuário para o qual você configurou a senha descartável.
@@ -120,5 +116,5 @@ Se você não usa um IBMid para autenticação de conta, conclua as etapas a seg
 
 Você tem 5 tentativas para responder às perguntas de segurança. Se fizer mais de 5 tentativas, o formulário de reconfiguração de senha será bloqueado por 15 minutos antes de ser possível tentar novamente.
 
-Para obter informações sobre como trabalhar com senhas de VPN, veja [Atualizar a senha de VPN de um usuário](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password).
+Para obter informações sobre como trabalhar com senhas de VPN, veja [Atualizar a senha de VPN de um usuário](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
 {: tip}
