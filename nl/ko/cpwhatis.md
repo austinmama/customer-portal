@@ -4,7 +4,11 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-25"
+
+keywords: IBM Cloud infrastructure customer portal, IBM Cloud console, IBM Cloud infrastructure customer
+
+subcollection: customer-portal
 
 ---
 
@@ -36,5 +40,5 @@ lastupdated: "2019-02-19"
 기타 모든 항목의 경우, [{{site.data.keyword.Bluemix}} 콘솔 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://cloud.ibm.com){: new_window}을 사용하십시오.
 
 다음 방법으로 고객 포털에 액세스할 수 있습니다.
-* [{{site.data.keyword.Bluemix}} 콘솔 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://cloud.ibm.com){: new_window} 메뉴에서 액세스합니다(메뉴 표시줄 ![메뉴 아이콘](../icons/icon_hamburger.svg)에서 **인프라** 선택). 자세한 정보는 [{{site.data.keyword.cloud_notm}} 콘솔 탐색](/docs/overview?topic=overview-ui#ui)을 참조하십시오. 
+* [{{site.data.keyword.Bluemix}} 콘솔 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://cloud.ibm.com){: new_window} 메뉴에서 액세스합니다(메뉴 표시줄 ![메뉴 아이콘](../icons/icon_hamburger.svg)에서 **인프라** 선택). 자세한 정보는 [{{site.data.keyword.cloud_notm}} 콘솔 탐색](/docs/overview?topic=overview-ui#ui)을 참조하십시오.
 * SoftLayer [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}에서 직접 수행

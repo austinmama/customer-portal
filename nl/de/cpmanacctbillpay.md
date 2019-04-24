@@ -4,7 +4,11 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-25"
+
+keywords: billing items, IBM Cloud infrastructure billing, manage billing items, accessing billing items 
+
+subcollection: customer-portal
 
 ---
 
@@ -18,7 +22,7 @@ lastupdated: "2019-01-31"
 # Rechnungspositionen verwalten
 {: #manage-billing}
 
-Falls Sie die Abrechnung der {{site.data.keyword.Bluemix}}-Infrastruktur für ein SoftLayer-Konto verwalten, können Sie Ihre eigene Abrechnung und Ihre eigenen Zahlungen im Kundenportal verwalten. Informationen zum Verwalten von Abrechnungen und Zahlungen für die {{site.data.keyword.Bluemix_notm}}-Plattform finden Sie in [Zahlungen verwalten](/docs/billing-usage?topic=billing-usage-linkedusage#linkedusage).   
+Falls Sie die Abrechnung der {{site.data.keyword.Bluemix}}-Infrastruktur für ein SoftLayer-Konto verwalten, können Sie Ihre eigene Abrechnung und Ihre eigenen Zahlungen im Kundenportal verwalten. Informationen zum Verwalten von Abrechnungen und Zahlungen für die {{site.data.keyword.Bluemix_notm}}-Plattform finden Sie in [Zahlungen verwalten](/docs/billing-usage?topic=billing-usage-linkedusage#linkedusage).  
 {:shortdesc}
 
 ## Auf eigene Rechnungspositionen zugreifen

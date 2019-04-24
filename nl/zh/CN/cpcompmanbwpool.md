@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2019
 
-lastupdated: "2019-01-08"
+lastupdated: "2019-02-25"
+
+keywords: bandwidth pool, bandwidth usage, Add Servers list, optimizing badwidth 
+
+subcollection: customer-portal 
 
 ---
 

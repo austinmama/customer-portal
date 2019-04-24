@@ -4,7 +4,11 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-25"
+
+keywords: IBM Cloud infrastructure customer portal, IBM Cloud console, IBM Cloud infrastructure customer
+
+subcollection: customer-portal
 
 ---
 
@@ -28,7 +32,7 @@ Utilisez le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_
 
 Vous utiliserez alors le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} pour les tâches suivantes :
   * Gestion de l'accès à vos ressources, surveillance des ressources et affichage des journaux des accès
-  * Commande et interaction avec des produits et services d'infrastructure, comme l'ajout et la gestion d'appareils et de [serveurs virtuels](/docs/vsi?topic=virtual-servers-getting-started-tutorial#getting-started-tutorial). 
+  * Commande et interaction avec des produits et services d'infrastructure, comme l'ajout et la gestion d'appareils et de [serveurs virtuels](/docs/vsi?topic=virtual-servers-getting-started-tutorial#getting-started-tutorial).
   * Gestion et maintenance de vos comptes SoftLayer, qu'ils soient liés ou non
   * Consultation et paiement des factures mensuelles pour les ressources d'infrastructure
   * Ouverture, affichage et mise à jour de tickets associés à un produit ou service d'infrastructure {{site.data.keyword.BluSoftlayer_notm}}
