@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-09"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -120,5 +120,5 @@ Si no utiliza un IBMid para la autenticación de cuenta, siga estos pasos:
 
 Tiene 5 intentos para responder a las preguntas de seguridad. Si realiza más de 5 intentos, el formulario de restablecimiento de contraseña se bloquea durante 15 minutos antes de que pueda intentarlo de nuevo.
 
-Para obtener información sobre cómo trabajar con contraseñas de VPN, consulte [Actualizar la contraseña de VPN de un usuario](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password).
+Para obtener información sobre cómo trabajar con contraseñas de VPN, consulte [Actualizar la contraseña de VPN de un usuario](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password).
 {: tip}

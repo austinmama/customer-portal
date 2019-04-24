@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-09"
 
 keywords: user profile, administrative access, select account 
 
@@ -94,7 +94,7 @@ IBMid アカウントのセットアップについて詳しくは、[IBMid へ�
 ## ユーザーの外部認証の追加
 {: #cp_addextauthuser}
 
-カスタマー・ポータルから外部 2 要素認証 (2FA) をアクティブにして、ポータルへのログイン時の保護を追加できます。 セキュリティーのこの追加層は、アカウントを未検証アクセスから保護し、デバイス、データ、およびアカウント情報が確実に保護されるようにします。 詳しくは、[2 要素認証のセットアップ](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication)を参照してください。
+カスタマー・ポータルから外部 2 要素認証 (2FA) をアクティブにして、ポータルへのログイン時の保護を追加できます。 セキュリティーのこの追加層は、アカウントを未検証アクセスから保護し、デバイス、データ、およびアカウント情報が確実に保護されるようにします。 詳しくは、[2 要素認証のセットアップ](/docs/customer-portal?topic=customer-portal-cp_setup-2fa#cp_setup-2fa)を参照してください。
 
 
 ## ユーザー状況の変更

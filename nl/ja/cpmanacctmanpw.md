@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-09"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -120,5 +120,5 @@ subcollection: customer-portal
 
 セキュリティーのための質問の回答試行回数は 5 回です。 試行回数が 5 回を超えるとパスワードのリセット・フォームがロックされ、その後 15 分間再試行できなくなります。
 
-VPN パスワードの処理方法については、[ユーザーの VPN パスワードの更新](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password)を参照してください。
+VPN パスワードの処理方法については、[ユーザーの VPN パスワードの更新](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password)を参照してください。
 {: tip}

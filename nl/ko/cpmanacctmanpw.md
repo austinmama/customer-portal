@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-09"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -120,5 +120,5 @@ subcollection: customer-portal
 
 보안 질문에 대한 답변은 5번 시도할 수 있습니다. 5번 넘게 시도하면 비밀번호 재설정 양식이 15분 동안 잠기고 이후에 다시 시도할 수 있습니다.
 
-VPN 비밀번호 작업에 대한 정보는 [사용자의 VPN 비밀번호 업데이트](/docs/infrastructure/iaas-vpn?topic=VPN-update-a-user-s-vpn-password#update-a-user-s-vpn-password)를 참조하십시오.
+VPN 비밀번호 작업에 대한 정보는 [사용자의 VPN 비밀번호 업데이트](/docs/infrastructure/iaas-vpn?topic=VPN-update-users-vpn-password#update-users-vpn-password)를 참조하십시오.
 {: tip}

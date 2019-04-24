@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-09"
 
 keywords: aregular backups, private network, IBM Cloud infrastructure, 
 
@@ -31,7 +31,7 @@ subcollection: customer-portal
 {{site.data.keyword.BluSoftlayer_notm}} 인프라 사설 네트워크 사용하여 가능한 가장 안전한 환경에서 디바이스를 관리할 수 있습니다. 가능하면 VPN 연결을 사용하여 디바이스와 상호작용하고 시스템이 사설 네트워크를 통해 통신하도록 네트워크 스패닝을 사용으로 설정하십시오. 사설 네트워크에 액세스하려면 [사용자 목록 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}에서
 사용자의 VPN 액세스를 편집하십시오. [가상 사설망(VPN) ![외부 링크 아이콘](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} 목록을 사용하여 다양한 VPN 옵션 중 하나에 연결하십시오.
 
-VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)를 참조하십시오.
+VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn#about-iaas-vpn)를 참조하십시오.
 
 ### RDP, SSH 또는 제어 포트를 공용 네트워크에 두지 않음
 {: #cp_bpnordpsshcponpubnet}
@@ -48,7 +48,7 @@ VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructur
   * EVault Backup은 자동화된 에이전트 기반 백업 시스템이며 "한 번만 설정하면 되는" 인기 있는 디바이스 관리용 솔루션입니다. 이는 플러그인을 통해 Exchange 및 SQL을 포함하는 Microsoft 소프트웨어와 호환 가능합니다. EVault 사용자는 EVault의 WebCC 웹 기반 애플리케이션을 통해 이 서비스와 상호작용합니다.
   * R1Soft CDP(Continuous Data Protection)는 사용자의 서버나 자체 관리되는 가상 머신에 설치될 수 있습니다. 모든 백업을 관리하기 위한 단일 인터페이스를 찾고 있는 경우에 사용할 수 있습니다. 사용자는 전용 관리 시스템을 통해 R1Soft CDP와 상호작용하며, 이는 에이전트가 가상 머신에 설치될 수 있도록 하고 추가 기능을 위한 데이터베이스 플러그인을 제공합니다.
 
- 각 백업 솔루션의 자세한 정보는 [스토리지 ![외부 링크 아이콘](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} 페이지를 확인하고 데이터 백업의 자세한 정보는 [백업 서비스 시작하기](/docs/infrastructure/Backup?topic=Backup-GettingStarted#GettingStarted)를 참조하십시오.
+ 각 백업 솔루션의 자세한 정보는 [스토리지 ![외부 링크 아이콘](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} 페이지를 확인하고 데이터 백업의 자세한 정보는 [백업 서비스 시작하기](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)를 참조하십시오.
 
 ### 중복성이 있다고 간주하지 않음(수행하는 작업을 알고 있음)
 {: #cp_bpknowredundant}

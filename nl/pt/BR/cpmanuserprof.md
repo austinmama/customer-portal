@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-09"
 
 keywords: user profile, administrative access, select account 
 
@@ -94,7 +94,7 @@ As permissões de usuário são atualizadas imediatamente após você enviar as 
 ## Incluindo autenticação externa para um usuário
 {: #cp_addextauthuser}
 
-No portal do cliente, é possível ativar a autenticação externa de dois fatores (2FA) para incluir proteção quando você efetuar login no portal. Essa camada extra de segurança protege a conta contra acesso não verificado, assegurando que dispositivos, dados e informações de conta sejam protegidos. Veja [Configurando a autenticação de dois fatores](/docs/customer-portal?topic=customer-portal-setting-up-two-factor-authentication#setting-up-two-factor-authentication) para obter mais informações.
+No portal do cliente, é possível ativar a autenticação externa de dois fatores (2FA) para incluir proteção quando você efetuar login no portal. Essa camada extra de segurança protege a conta contra acesso não verificado, assegurando que dispositivos, dados e informações de conta sejam protegidos. Consulte [Configurando a autenticação de dois fatores](/docs/customer-portal?topic=customer-portal-cp_setup-2fa#cp_setup-2fa) para obter mais informações.
 
 
 ## Mudando o status de um usuário
