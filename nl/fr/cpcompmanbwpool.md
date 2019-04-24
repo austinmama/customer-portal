@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-25"
-
-keywords: bandwidth pool, bandwidth usage, Add Servers list, optimizing badwidth 
-
-subcollection: customer-portal 
+lastupdated: "2019-01-08"
 
 ---
 
@@ -22,7 +18,7 @@ subcollection: customer-portal
 # Optimisation de votre utilisation de la bande passante
 {: #cp_manbdwpool}
 
-Le trafic réseau public de données transférées en sortie à partir de centres de données IBM Cloud du monde entier constitue une charge de bande passante en sortie. Cette charge dépend de l'emplacement des ressources transférant les données, de la quantité de données en sortie et des allocations de bande passante dont peuvent bénéficier les produits IBM Cloud dont vous avez fait l'acquisition. 
+Le trafic réseau public de données transférées en sortie à partir de centres de données IBM Cloud du monde entier constitue une charge de bande passante en sortie. Cette charge dépend de l'emplacement des ressources transférant les données, de la quantité de données en sortie et des allocations de bande passante dont peuvent bénéficier les produits IBM Cloud dont vous avez fait l'acquisition.
 {:shortdesc} 
 
 Les clients peuvent optimiser l'utilisation de la bande passante en "regroupant en pool" toute la bande passante destinée aux serveurs dans un pool de bande passante. Les excédents de bande passante pour les serveurs d'un pool sont considérés comme un seul élément, et ils sont calculés uniquement si la bande passante totale de tous les serveurs dépasse celle allouée à l'ensemble des serveurs et non mesurés à un niveau individuel. 

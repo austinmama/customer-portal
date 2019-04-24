@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018, 2019 
 
-lastupdated: "2019-02-25"
-
-keywords: billing items, IBM Cloud infrastructure billing, manage billing items, accessing billing items 
-
-subcollection: customer-portal
+lastupdated: "2019-01-09"
 
 ---
 
@@ -22,19 +18,18 @@ subcollection: customer-portal
 # Gestione dei tuoi elementi di fatturazione
 {: #manage-billing}
 
-Se stai gestendo la fatturazione dell'infrastruttura {{site.data.keyword.Bluemix}} per un account SoftLayer, puoi gestire la fatturazione e i pagamenti nel portale clienti. Per gestire la fatturazione e i pagamenti della piattaforma {{site.data.keyword.Bluemix_notm}}, vedi [Gestione dei pagamenti](/docs/billing-usage?topic=billing-usage-linkedusage#linkedusage).  
+Se stai gestendo la fatturazione dell'infrastruttura {{site.data.keyword.Bluemix}} per un account SoftLayer, puoi gestire la fatturazione e i pagamenti nel portale clienti. Per gestire la fatturazione e i pagamenti della piattaforma {{site.data.keyword.Bluemix_notm}}, utilizza la finestra Gestisci elementi di fatturazione nel [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
 {:shortdesc}
 
 ## Accesso ai tuoi elementi di fatturazione
 {: #cp_accbillitems}
-
 Puoi utilizzare la finestra Gestisci elementi di fatturazione nel [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} per associare gli elementi di fatturazione a specifici dispositivi e, se necessario, annullare questi elementi.
 
 La finestra Gestisci elementi di fatturazione mostra gli elementi di fatturazione associati. Puoi modificare la vista selezionando un'altra opzione dall'elenco a discesa **Visualizza**. Mentre visualizzi gli elementi di fatturazione, puoi modificare gli elementi di fatturazione non associati in modo che siano associati e gli elementi associati in modo che siano dissociati. Puoi modificare gli elementi associati e dissociati individualmente o per più di un elemento alla volta utilizzando la funzione Azioni in blocco. Puoi annullare singoli elementi di fatturazione in qualsiasi momento dalla finestra Gestisci elementi di fatturazione.
 
 
 ## Annullamento di un elemento di fatturazione
-{: #cp_cancelbillitem}
+{: #cp_cancelbillitems}
 
 Puoi annullare gli elementi di fatturazione in qualsiasi momento direttamente dalla finestra Gestisci elementi di fatturazione. Puoi avviare immediatamente gli annullamenti per la maggior parte dei servizi e delle soluzioni. Gli annullamenti sono immediati o vengono elaborati alla ricorrenza di fatturazione.
 
@@ -57,7 +52,7 @@ Dopo aver confermato l'annullamento, inizia il processo di annullamento dell'ele
 
 
 ## Associazione degli elementi di fatturazione a un dispositivo
-{: #cp_billitem}
+{: #cp_assbillitem2device}
 
 Puoi associare gli elementi di fatturazione per ciascun account a un dispositivo nella finestra Gestisci elementi di fatturazione del [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Puoi associare singoli elementi utilizzando l'elenco a discesa **Azioni** per l'elemento di fatturazione oppure puoi associare più elementi utilizzando l'elenco a discesa **Azioni in blocco**. Utilizza la seguente procedura per associare gli elementi di fatturazione a un dispositivo.
 
@@ -72,7 +67,7 @@ Al completamento della richiesta, l'associazione degli elementi di fatturazione 
 
 
 ## Rimozione dell'associazione del dispositivo per gli elementi di fatturazione
-{: #cp_remove-bill}
+{: #cp_rembillitemdevice}
 
 Una volta che gli elementi di fatturazione per un account sono associati a un dispositivo, puoi rimuovere l'associazione nella pagina Gestisci elementi di fatturazione del portale clienti. Puoi rimuovere l'associazione per i singoli elementi utilizzando l'elenco a discesa **Azioni** per l'elemento di fatturazione. Puoi rimuovere più associazioni di elementi utilizzando l'elenco a discesa **Azioni in blocco**. Utilizza la seguente procedura per rimuovere l'associazione del dispositivo per gli elementi di fatturazione.
 
@@ -83,4 +78,4 @@ Una volta che gli elementi di fatturazione per un account sono associati a un di
   * Per rimuovere un'associazione per più elementi di fatturazione, fai clic sulla casella di spunta relativa a ciascun elemento di fatturazione da rimuovere dal dispositivo. Quindi, dall'elenco **Azioni in blocco**, seleziona **Rimuovi associazione dagli elementi selezionati**.
 4. Fai clic su **Sì**.
 
-Al completamento della richiesta, la rimozione dell'associazione degli elementi di fatturazione avviene immediatamente all'interno dei sistemi di backend. Dopo aver rimosso l'associazione per un elemento di fatturazione, questo viene mostrato nell'elenco **Elementi di fatturazione non associati**. Il nome del dispositivo non viene più mostrato nella colonna **Associato a** per ogni elemento di fatturazione. Puoi [associare gli elementi di fatturazione a un altro dispositivo](/docs/customer-portal?topic=customer-portal-cp_remove-bill#cp_billitem) in qualsiasi momento utilizzando il metodo di associazione singola o in blocco.
+Al completamento della richiesta, la rimozione dell'associazione degli elementi di fatturazione avviene immediatamente all'interno dei sistemi di backend. Dopo aver rimosso l'associazione per un elemento di fatturazione, questo viene mostrato nell'elenco **Elementi di fatturazione non associati**. Il nome del dispositivo non viene più mostrato nella colonna **Associato a** per ogni elemento di fatturazione. Puoi [associare gli elementi di fatturazione a un altro dispositivo](/docs/customer-portal/cpmanacctbillpay.html#cp_assbillitem2device) in qualsiasi momento utilizzando il metodo di associazione singola o in blocco.

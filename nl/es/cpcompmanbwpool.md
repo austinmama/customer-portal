@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-25"
-
-keywords: bandwidth pool, bandwidth usage, Add Servers list, optimizing badwidth 
-
-subcollection: customer-portal 
+lastupdated: "2019-01-08"
 
 ---
 
@@ -22,26 +18,26 @@ subcollection: customer-portal
 # Optimización del uso del ancho de banda
 {: #cp_manbdwpool}
 
-El tráfico de red de datos públicos de salida de los centros de datos de IBM Cloud en todo el mundo tiene cargos evaluados de ancho de banda de salida. Los cargos dependen del lugar en el que reside el recurso que transfiere los datos, de la cantidad de datos de salida y de las asignaciones de ancho de banda a las que pueden optar los productos de IBM Cloud adquiridos. 
-{:shortdesc} 
+El tráfico de red de datos públicos de salida de los centros de datos de IBM Cloud en todo el mundo tiene cargos evaluados de ancho de banda de salida. Los cargos dependen del lugar en el que reside el recurso que transfiere los datos, de la cantidad de datos de salida y de las asignaciones de ancho de banda a las que pueden optar los productos de IBM Cloud adquiridos. {:shortdesc} 
 
-Los clientes pueden optimizar el uso de ancho de banda "agrupando" todo el ancho de banda correspondiente a los servidores en una agrupación de ancho de banda. Los excedentes de ancho de banda para los servidores de una agrupación de ancho de banda se suman en su totalidad y los excedentes solo se calculan si el ancho de banda total de todos los servidores supera el ancho de banda asignado total para todos los servidores, en lugar de calcularse el nivel de cada servidor individual. 
+Los cliente puede optimizar el uso de ancho de banda "agrupando" todo el ancho de banda correspondiente a los servidores en una agrupación de ancho de banda. Los excedentes de ancho de banda para los servidores de una agrupación de ancho de banda se suman en su totalidad y los excedentes solo se calculan si el ancho de banda total de todos los servidores supera el ancho de banda asignado total para todos los servidores, en lugar de calcularse el nivel de cada servidor individual.
+ 
 
 Las definiciones de agrupaciones se muestran en la tabla siguiente: 
 
-| Agrupación      | Ubicación o ubicaciones          |
+| Agrupación | Ubicación o ubicaciones|
 | ------------- |:-------------:|
-| EE.UU.    | DAL01<br/><br/>DAL02<br/><br/>DAL04<br/><br/>DAL07<br/><br/>DAL09<br/><br/>DAL10<br/><br/>DAL12<br/><br/>DAL13<br/><br/>HOU02<br/><br/>MON01<br/><br/>SEA01<br/><br/>SJC01<br/><br/>SJC03<br/><br/>SJC04<br/><br/>TOR01<br/><br/>WDC01<br/><br/>WDC04<br/><br/>WDC06<br/><br/>WDC07|
-| Amsterdam y Londres | AMS01<br/><br/>AMS03<br/><br/>LON01<br/><br/>LON02<br/><br/>LON04<br/><br/>LON05<br/><br/>LON06<br/><br/>PAR01 |
-| Australia | MEL01<br/><br/>SYD01<br/><br/>SYD04<br/><br/>SYD05 |
-| Brasil | SAO01 |
-| Frankfurt | FRA02<br/><br/>FRA04<br/><br/>FRA05 |
-| India | CHE01 |
-| Italia | MIL01 |
-| Corea del Sur | SEO01 | 
-| México | MEX01 | 
-| Noruega | OSL01 | 
-| Singapur, Hong Kong y Tokio | HKG02<br/><br/>SNG01<br/><br/>TOK02<br/><br/>TOK04<br/><br/>TOK05 |
+| EE.UU.  | DAL01  <br/><br/>DAL02<br/><br/>DAL04<br/><br/> DAL07  <br/><br/> DAL09  <br/><br/> DAL10  <br/><br/>  DAL12  <br/><br/> DAL13  <br/><br/> HOU02  <br/><br/> MON01  <br/><br/>  SEA01  <br/><br/> SJC01  <br/><br/> SJC03  <br/><br/>SJC04<br/><br/>  TOR01  <br/><br/> WDC01  <br/><br/> WDC04  <br/><br/> WDC06  <br/><br/> WDC07  |
+| Amsterdam y Londres | AMS01  <br/><br/> AMS03  <br/><br/>LON01<br/><br/>  LON02  <br/><br/>LON04<br/><br/>LON05<br/><br/>LON06<br/><br/> PAR01  |
+|Australia| MEL01  <br/><br/> SYD01  <br/><br/>SYD04<br/><br/>SYD05 |
+|Brasil| SAO01  |
+| Frankfurt | FRA02  <br/><br/>FRA04<br/><br/>FRA05 |
+|India| CHE01  |
+|Italia| MIL01  |
+|Corea del Sur| SEO01  | 
+|México| MEX01  | 
+|Noruega|  OSL01  | 
+| Singapur, Hong Kong y Tokio | HKG02  <br/><br/> SNG01  <br/><br/> TOK02  <br/><br/>TOK04<br/><br/>TOK05 |
 {:caption="Tabla 1. Definiciones de agrupaciones" caption-side="top"}
 
 

@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018
 
-lastupdated: "2019-02-25"
-
-keywords: bandwidth pool, bandwidth usage, Add Servers list, optimizing badwidth 
-
-subcollection: customer-portal 
+lastupdated: "2019-01-08"
 
 ---
 
@@ -22,7 +18,7 @@ subcollection: customer-portal
 # Ottimizzazione dell'utilizzo della larghezza di banda
 {: #cp_manbdwpool}
 
-Il traffico della rete pubblica di dati che viene trasferito in uscita dai data center di IBM Cloud in tutto il mondo stabilisce gli addebiti della larghezza di banda in uscita. Gli addebiti dipendono dal luogo in cui risiede la risorsa che trasferisce i dati, dalla quantità di dati in uscita e dalle assegnazioni di larghezza di banda per cui sono idonei i tuoi prodotti cloud IBM acquistati. 
+Il traffico della rete pubblica di dati che viene trasferito in uscita dai data center di IBM Cloud in tutto il mondo stabilisce gli addebiti della larghezza di banda in uscita. Gli addebiti dipendono dal luogo in cui risiede la risorsa che trasferisce i dati, dalla quantità di dati in uscita e dalle assegnazioni di larghezza di banda per cui sono idonei i tuoi prodotti cloud IBM acquistati.
 {:shortdesc} 
 
 I clienti possono ottimizzare l'utilizzo della larghezza di banda "raggruppando" insieme tutta la larghezza di banda per i server in un pool di larghezza di banda. Le eccedenze di larghezza di banda per i server in un pool di larghezza di banda vengono sommate nel loro insieme e tali eccedenze vengono calcolate solo se la larghezza di banda totale di tutti i server supera quella allocata totale per tutti i server rispetto alla misurazione a livello di singolo server. 
@@ -41,7 +37,7 @@ Le definizioni di pool sono elencate nella seguente tabella:
 | Corea del Sud | SEO01 | 
 | Messico | MEX01 | 
 | Norvegia | OSL01 | 
-| Singapore, Hong Kong e Tokyo | HKG02<br/><br/>SNG01<br/><br/>TOK02<br/><br/>TOK04<br/><br/>TOK05 |
+| Singapore, Hong Kong & Tokyo | HKG02<br/><br/>SNG01<br/><br/>TOK02<br/><br/>TOK04<br/><br/>TOK05 |
 {:caption="Tabella 1. Definizioni di pool" caption-side="top"}
 
 

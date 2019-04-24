@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2018, 2019 
 
-lastupdated: "2019-02-25"
-
-keywords: billing items, IBM Cloud infrastructure billing, manage billing items, accessing billing items 
-
-subcollection: customer-portal
+lastupdated: "2019-01-09"
 
 ---
 
@@ -22,19 +18,18 @@ subcollection: customer-portal
 # Gestión de los elementos de facturación
 {: #manage-billing}
 
-Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de clientes. Para gestionar la facturación y los pagos de la plataforma de {{site.data.keyword.Bluemix_notm}}, consulte [Gestión de pagos](/docs/billing-usage?topic=billing-usage-linkedusage#linkedusage).  
+Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de clientes. Para gestionar la facturación y los pagos de la plataforma {{site.data.keyword.Bluemix_notm}}, utilice la ventana Gestionar elementos de facturación en el [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
 {:shortdesc}
 
 ## Acceso a los elementos de facturación
 {: #cp_accbillitems}
-
 Puede utilizar la ventana Gestionar elementos de facturación en el [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} para asociar elementos de facturación a dispositivos específicos y cancelar dichos elementos, cuando sea necesario.
 
 La ventana Gestionar elementos de facturación muestra elementos de facturación asociados. Puede cambiar la vista seleccionando otra opción desde la lista desplegable **Visualizar**. Cuando esté viendo elementos de facturación, podrá cambiar los elementos de facturación no asociados a asociados, y elementos asociados a no asociados. Puede cambiar los elementos asociados y no asociados de forma individual, o para más de un elemento a la vez, utilizando la característica de Acciones masivas. Puede cancelar elementos de facturación individuales en cualquier momento desde la ventana Gestionar elementos de facturación.
 
 
 ## Cancelación de un elemento de facturación
-{: #cp_cancelbillitem}
+{: #cp_cancelbillitems}
 
 Puede cancelar elementos de facturación directamente desde la ventana Gestionar elementos de facturación en cualquier momento. Puede iniciar cancelaciones para la mayoría de los servicios y soluciones inmediatamente. Las cancelaciones son inmediatas o se procesan en el aniversario de facturación.
 
@@ -57,7 +52,7 @@ Después de confirmar la cancelación, comenzará el proceso de cancelación del
 
 
 ## Asociación de elementos de facturación a un dispositivo
-{: #cp_billitem}
+{: #cp_assbillitem2device}
 
 Puede asociar elementos de facturación para cada cuenta a un dispositivo en la ventana Gestionar elementos de facturación del [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Puede asociar elementos únicos utilizando la lista desplegable **Acciones** para el elemento de facturación, o puede asociar varios elementos utilizando la lista desplegable **Acciones masivas**. Efectúe los pasos siguientes para asociar elementos de facturación a un dispositivo.
 
@@ -72,7 +67,7 @@ Cuando finalice la solicitud, se producirá inmediatamente una asociación de el
 
 
 ## Eliminación de la asociación de dispositivos para elementos de facturación
-{: #cp_remove-bill}
+{: #cp_rembillitemdevice}
 
 Una vez que se hayan asociado los elementos de facturación para una cuenta a un dispositivo, puede eliminar la asociación en la ventana Gestionar elementos de facturación del portal de clientes. Puede eliminar la asociación para elementos únicos utilizando la lista desplegable **Acciones** para el elemento de facturación. Puede eliminar varias asociaciones de elementos utilizando la lista desplegable **Acciones masivas**. Efectúe los pasos siguientes para eliminar la asociación de dispositivos para elementos de facturación.
 
@@ -83,4 +78,4 @@ Una vez que se hayan asociado los elementos de facturación para una cuenta a un
   * Para eliminar una asociación para varios elementos de facturación, pulse el recuadro de selección para que se eliminen todos los elementos de facturación del dispositivo. A continuación, desde la lista **Acciones masivas**, seleccione **Eliminar asociación de elementos seleccionados**.
 4. Pulse **Sí**.
 
-Cuando finalice la solicitud, se producirá inmediatamente la eliminación de la asociación de elementos de facturación dentro de los sistemas de fondo. Después de eliminar la asociación para un elemento de facturación, se mostrará dentro de la lista **Elementos de facturación no asociados**. El nombre de dispositivo ya no se mostrará en la columna **Asociado con** para cada elemento de facturación. Puede [asociar elementos de facturación con otro dispositivo](/docs/customer-portal?topic=customer-portal-cp_remove-bill#cp_billitem) en cualquier momento utilizando el método de asociación única o masiva.
+Cuando finalice la solicitud, se producirá inmediatamente la eliminación de la asociación de elementos de facturación dentro de los sistemas de fondo. Después de eliminar la asociación para un elemento de facturación, se mostrará dentro de la lista **Elementos de facturación no asociados**. El nombre de dispositivo ya no se mostrará en la columna **Asociado con** para cada elemento de facturación. Puede [asociar elementos de facturación con otro dispositivo](/docs/customer-portal/cpmanacctbillpay.html#cp_assbillitem2device) en cualquier momento utilizando el método de asociación única o masiva.
