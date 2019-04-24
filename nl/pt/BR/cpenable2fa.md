@@ -20,7 +20,7 @@ subcollection: customer-portal
 
 
 # Configurando a autenticação de dois fatores
-{: cp_setup-2fa}
+{: #cp_setup-2fa}
 
 No portal do cliente, a autenticação externa de dois fatores (2FA) poderá ser ativada para incluir proteção extra quando você efetuar login no portal. Essa camada extra de segurança protege a conta contra acesso não verificado, assegurando que dispositivos, dados e informações de conta sejam protegidos.
 {:shortdesc}
