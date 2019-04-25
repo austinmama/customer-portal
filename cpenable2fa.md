@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-25"
 
 keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
 
@@ -42,7 +42,7 @@ If you enable 2FA in the customer portal for your existing SoftLayer account, yo
 
 To set up 2FA, complete the following steps:
 
-1. Access the **Users** screen in the customer portal.
+1. Go to **Account** > **Users**, and then click **User List**.
 2. Select **Add External Authentication** from the **Actions** menu for the user.
 3. Based on the type of external authentication being ordered, complete the following steps:
     * If you choose Symantec Identity Protection, select **Symantec Identity Protection**, and then enter the user's credential ID.
