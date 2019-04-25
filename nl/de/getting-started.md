@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: SoftLayer account, new users, IBM Cloud account
 
@@ -67,7 +67,7 @@ Um Benutzern den Zugriff auf das private Netz zu ermöglichen, bearbeiten Sie de
 Für Benutzer in Konten, die die IBMid-Authentifizierung verwenden, wird der SoftLayer-VPN-Benutzername für den VPN-Zugriff verwendet. Der VPN-Benutzername ist im Benutzerprofil definiert. Er ist nicht mit dem Benutzernamen identisch, der standardmäßig aus der IBMid-E-Mail-Adresse und der Konto-ID besteht.
 {: tip}
 
-Weitere Informationen zur Verwendung von VPN-Verbindungen finden Sie in [Informationen zu VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn).
+Weitere Informationen zur Verwendung von VPN-Verbindungen finden Sie in [Informationen zu VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn#about-iaas-vpn).
 
 ## Schritt 4. Benachrichtigungen abonnieren
 {: #get-notified}
