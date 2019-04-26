@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -39,4 +39,4 @@ subcollection: customer-portal
 アカウントのアップグレードを要求する場合、インフラストラクチャー・リソースにアクセスできるようになるには、その前に入力情報がチェックされて承認される必要があります。 特定の詳細情報を確認するために {{site.data.keyword.Bluemix_notm}} サポート・チームがお客様にご連絡する可能性があるので、必ず正しい連絡先情報を入力してください。
 {: tip}
 
-解決できない疑問や問題がある場合は、{{site.data.keyword.Bluemix_notm}} サポート・チームにご連絡ください。 アカウントにサインインしているときに、コンソールのメニュー・バーで**「サポート」**をクリックします。 次に、**「新規 Case の作成 (Create new case)」**をクリックし、関連する詳細情報を入力します。 また、[{{site.data.keyword.Bluemix_notm}} サポート![外部リンク・アイコン](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} ページにリストされているリンクを使用してサポートをご利用いただくこともできます。
+解決できない疑問や問題がある場合は、{{site.data.keyword.Bluemix_notm}} サポート・チームにご連絡ください。 アカウントにサインインしているときに、コンソールのメニュー・バーで**「サポート」**をクリックします。 次に、**「新規 Case の作成 (Create new case)」**をクリックし、関連する詳細情報を入力します。 また、[{{site.data.keyword.Bluemix_notm}} サポート![外部リンク・アイコン](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} にリストされているリンクを使用してサポートをご利用いただくこともできます。

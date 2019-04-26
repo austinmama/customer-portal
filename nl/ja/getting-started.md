@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: SoftLayer account, new users, IBM Cloud account
 
@@ -67,7 +67,7 @@ subcollection: customer-portal
 IBMid 認証を使用するアカウントのユーザーの場合は、VPN アクセス用の SoftLayer VPN ユーザー名が使用されます。 VPN ユーザー名はユーザー・プロファイルで定義されます。 VPN ユーザー名は、デフォルトで IBMid の E メール・アドレスおよびアカウント ID となるユーザー名とは異なります。
 {: tip}
 
-VPN 接続について詳しくは、[VPN について](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)を参照してください。
+VPN 接続について詳しくは、[VPN について](/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn#about-iaas-vpn)を参照してください。
 
 ## ステップ 4. 通知のサブスクライブ
 {: #get-notified}
