@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: SoftLayer account, new users, IBM Cloud account
 
@@ -68,7 +68,7 @@ subcollection: customer-portal
 对于帐户中使用 IBM 标识进行认证的用户，将使用 SoftLayer VPN 用户名进行 VPN 访问。VPN 用户名在用户概要文件中进行定义。VPN 用户名与缺省为 IBM 标识电子邮件地址和帐户标识的用户名不同。
 {: tip}
 
-有关使用 VPN 连接的更多信息，请参阅[关于 VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)。
+有关使用 VPN 连接的更多信息，请参阅[关于 VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn#about-iaas-vpn)。
 
 ## 步骤 4. 预订通知
 {: #get-notified}

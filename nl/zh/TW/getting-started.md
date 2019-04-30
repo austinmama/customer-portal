@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: SoftLayer account, new users, IBM Cloud account
 
@@ -67,7 +67,7 @@ subcollection: customer-portal
 針對帳戶中使用 IBM ID 鑑別的使用者，會使用 SoftLayer VPN 使用者名稱進行 VPN 存取。VPN 使用者名稱定義於使用者設定檔中。VPN 使用者名稱與預設為 IBM ID 電子郵件位址及帳戶 ID 的使用者名稱不同。
 {: tip}
 
-如需使用 VPN 連線的相關資訊，請參閱[關於 VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)。
+如需使用 VPN 連線的相關資訊，請參閱[關於 VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn#about-iaas-vpn)。
 
 ## 步驟 4. 訂閱通知
 {: #get-notified}

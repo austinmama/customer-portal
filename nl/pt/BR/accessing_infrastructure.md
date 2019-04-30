@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -40,4 +40,4 @@ Ao solicitar fazer upgrade em sua conta, as informações que você inserir ser�
 porque a equipe de Suporte do {{site.data.keyword.Bluemix_notm}} pode entre em contato com você para confirmar certos detalhes.
 {: tip}
 
-Se você tiver perguntas ou tiver quaisquer problemas para os quais não consiga localizar respostas, a equipe de Suporte do {{site.data.keyword.Bluemix_notm}} ficará feliz em ajudá-lo. Quando você estiver conectado à sua conta, clique em **Suporte** na barra de menus do console. Em seguida, clique em **Criar novo caso** e conclua os detalhes relevantes. Também é possível obter suporte usando o link listado na página [Suporte do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window}.
+Se você tiver perguntas ou tiver quaisquer problemas para os quais não consiga localizar respostas, a equipe de Suporte do {{site.data.keyword.Bluemix_notm}} ficará feliz em ajudá-lo. Quando você estiver conectado à sua conta, clique em **Suporte** na barra de menus do console. Em seguida, clique em **Criar novo caso** e conclua os detalhes relevantes. Também é possível obter suporte usando o link listado no [Suporte do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}.

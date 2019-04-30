@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -39,4 +39,4 @@ subcollection: customer-portal
 계정 업그레이드를 요청한 경우, 인프라 리소스에 액세스하기 위해서는 사용자가 입력하는 정보가 확인되어 승인되어야 합니다. {{site.data.keyword.Bluemix_notm}} 지원 팀에서 특정 세부사항을 확인하기 위해 연락할 수 있으므로 연락처 정보가 올바른지 확인하십시오.
 {: tip}
 
-질문이 있거나 답변을 찾을 수 없는 문제점이 발생한 경우에는 언제든지 {{site.data.keyword.Bluemix_notm}} 지원 팀의 도움을 받을 수 있습니다. 계정에 로그인한 경우 콘솔 메뉴 표시줄에서 **지원**을 클릭하십시오. 그런 다음 **케이스 새로 작성**을 클릭하고 관련 세부사항을 완료하십시오. [{{site.data.keyword.Bluemix_notm}} 지원 ![외부 링크 아이콘](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} 페이지에 나열된 링크를 사용하여 지원을 받을 수도 있습니다.
+질문이 있거나 답변을 찾을 수 없는 문제점이 발생한 경우에는 언제든지 {{site.data.keyword.Bluemix_notm}} 지원 팀의 도움을 받을 수 있습니다. 계정에 로그인한 경우 콘솔 메뉴 표시줄에서 **지원**을 클릭하십시오. 그런 다음 **케이스 새로 작성**을 클릭하고 관련 세부사항을 완료하십시오. [{{site.data.keyword.Bluemix_notm}} 지원 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}에 나열된 링크를 사용하여 지원을 받을 수도 있습니다.

@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -39,4 +39,4 @@ Per accedere alle risorse dell'infrastruttura, devi avere un account Pagamento a
 Quando richiedi di aggiornare il tuo account, le informazioni da te immesse vengono controllate e devono essere approvate prima di poter accedere alle risorse dell'infrastruttura. Accertati che le informazioni di contatto siano corrette perché il team di supporto {{site.data.keyword.Bluemix_notm}} potrebbe contattarti per confermare alcuni dettagli.
 {: tip}
 
-Se hai domande o riscontri dei problemi a cui non riesci a trovare una risposta, il team di supporto {{site.data.keyword.Bluemix_notm}} sarà lieto di aiutarti. Dopo aver effettuato l'accesso al tuo account, fai clic su **Supporto** nella barra dei menu della console. Quindi, fai clic su **Crea nuovo caso** e completa i dettagli pertinenti. Puoi ottenere assistenza anche utilizzando il link elencato nella pagina [Supporto {{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window}.
+Se hai domande o riscontri dei problemi a cui non riesci a trovare una risposta, il team di supporto {{site.data.keyword.Bluemix_notm}} sarà lieto di aiutarti. Dopo aver effettuato l'accesso al tuo account, fai clic su **Supporto** nella barra dei menu della console. Quindi, fai clic su **Crea nuovo caso** e completa i dettagli pertinenti. Puoi ottenere assistenza anche utilizzando il link elencato nel Supporto [{{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}.

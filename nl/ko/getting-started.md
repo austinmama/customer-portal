@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: SoftLayer account, new users, IBM Cloud account
 
@@ -67,7 +67,7 @@ subcollection: customer-portal
 IBM ID 인증을 사용하는 계정의 사용자인 경우에는 VPN 액세스를 위한 SoftLayer VPN 사용자 이름이 사용됩니다. VPN 사용자 이름은 사용자 프로파일에서 정의됩니다. VPN 사용자 이름은 IBM ID 이메일 주소 및 계정 ID로 기본 설정되는 사용자 이름과는 다릅니다.
 {: tip}
 
-VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructure/iaas-vpn?topic=VPN-about-vpn#about-vpn)를 참조하십시오.
+VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn#about-iaas-vpn)를 참조하십시오.
 
 ## 4단계. 알림 구독
 {: #get-notified}

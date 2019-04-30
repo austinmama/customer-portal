@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -39,4 +39,4 @@ Pour accéder aux ressources d'infrastructure, vous devez disposer d'un compte d
 Lors de votre demande de mise à niveau de votre compte, les informations que vous indiquez sont vérifiées et doivent être approuvées avant que l'accès aux ressources d'infrastructure ne vous soit accordé. Vérifiez que les informations de contact sont correctes vu que l'équipe de support {{site.data.keyword.Bluemix_notm}} pourrait vous contacter pour confirmer certains détails.
 {: tip}
 
-Si vous avez des questions ou rencontrez des problèmes auxquels vous ne trouvez pas de réponse, l'équipe de support {{site.data.keyword.Bluemix_notm}} est prête à vous aider. Lorsque vous êtes connecté à votre compte, cliquez sur **Support** dans la barre de menus de la console. Cliquez ensuite sur **Créer un cas** et indiquez les détails pertinents. Vous pouvez également obtenir de l'aide en cliquant sur le lien figurant sur la page Support [{{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window}.
+Si vous avez des questions ou rencontrez des problèmes auxquels vous ne trouvez pas de réponse, l'équipe de support {{site.data.keyword.Bluemix_notm}} est prête à vous aider. Lorsque vous êtes connecté à votre compte, cliquez sur **Support** dans la barre de menus de la console. Cliquez ensuite sur **Créer un cas** et indiquez les détails pertinents. Vous pouvez également obtenir de l'aide en cliquant sur le lien figurant sur la page [Support {{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window}.

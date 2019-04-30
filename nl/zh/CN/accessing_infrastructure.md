@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-18"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -40,4 +40,4 @@ subcollection: customer-portal
 在您请求升级帐户时，会检查您输入的信息，这些信息必须被核准，然后您才能访问基础架构资源。请确保联系信息正确，因为 {{site.data.keyword.Bluemix_notm}} 支持团队可能会联系您以确认某些详细信息。
 {: tip}
 
-如果您有疑问或遇到任何无法解决的问题，{{site.data.keyword.Bluemix_notm}} 支持团队很乐意为您提供帮助。当您登录帐户时，单击控制台菜单栏中的**支持**。然后，单击**创建新案例**并完成相关详细信息。您还可以使用 [{{site.data.keyword.Bluemix_notm}} 支持 ![外部链接图标](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} 页面上列出的链接来获得支持。
+如果您有疑问或遇到任何无法解决的问题，{{site.data.keyword.Bluemix_notm}} 支持团队很乐意为您提供帮助。当您登录帐户时，单击控制台菜单栏中的**支持**。然后，单击**创建新案例**并完成相关详细信息。您还可以使用 [{{site.data.keyword.Bluemix_notm}} 支持 ![外部链接图标](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: new_window} 上列出的链接来获得支持。
