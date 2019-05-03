@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: open support tickets, select support, general technical support ticket
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 If you experience problems with {{site.data.keyword.BluSoftlayer_full}} infrastructure and you don't have a linked account, you can get help with determining the cause of the problem and finding a solution by using the customer portal.
 {:shortdesc}
 
-If you have a [linked account](/docs/account?topic=account-link_customer_accounts#link_customer_accounts), you can get support through the {{site.data.keyword.Bluemix_notm}} console. See [Getting support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for more information.
+If you have a [linked account](/docs/account?topic=account-unifyingaccounts#link_user_account), you can get support through the {{site.data.keyword.Bluemix_notm}} console. See [Getting support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for more information.
 
 If you don't have a linked account, you can open support tickets in {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal for general technical issues or to assist with issues that are related to your account.
 
