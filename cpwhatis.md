@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: IBM Cloud infrastructure customer portal, IBM Cloud console, IBM Cloud infrastructure customer
 
@@ -26,8 +26,8 @@ You can use the {{site.data.keyword.Bluemix}} console to manage much of your inf
 {:shortdesc}
 
 You would use the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal, instead of the {{site.data.keyword.Bluemix_notm}} console, for the following reasons:
-  * If you're using only {{site.data.keyword.Bluemix_notm}} infrastructure services (and not the platform services) and you don't have a [linked account](/docs/account?topic=account-link_customer_accounts#link_customer_accounts).
-  * If you don't have an [IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid).
+  * If you're using only {{site.data.keyword.Bluemix_notm}} infrastructure services (and not the platform services) and you don't have a [linked account](/docs/account?topic=account-unifyingaccounts#link_user_account).
+  * If you don't have an [IBMid](/docs/account?topic=account-unifyingaccounts#switchtoIBMid).
   * If you need access to a federal environment, for example, a United States government agency might require a more securely locked down data center with limited external access. Only {{site.data.keyword.Bluemix_notm}} infrastructure services are available in this environment; {{site.data.keyword.Bluemix_notm}} platform access isn't available in a federal data center.
 
 You would then use the {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal for the following tasks:
