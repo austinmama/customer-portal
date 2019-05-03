@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -60,7 +60,7 @@ No. You can create a new {{site.data.keyword.Bluemix_notm}} account or link an e
 
 There's no impact to two-factor authentication (2FA) configuration at the account level. 2FA isn't per IBMid; it's still per account. When an IBMid is associated with many accounts, and you switch between accounts, you must confirm your identity every time you switch to a different account that requires 2FA. This is true even if the prior account and the new account are both configured with the same 2FA mechanism.
 
-For more information about IBMid with 2FA, see [Multifactor authentication usage in linked accounts](/docs/account?topic=account-2fa#2fa).
+For more information about IBMid with 2FA, see [Multifactor authentication usage in linked accounts](/docs/account?topic=account-unifyingaccounts#2fa).
 
 ## Who can link accounts?
 {: #bicp_wholinkaccts}
