@@ -4,7 +4,7 @@ copyright:
 
   years: 2019
 
-lastupdated: "2019-03-22"
+lastupdated: "2019-05-03"
 
 keywords: help managing tickets, resolve issues managing tickets, trouble working with tickets
 
@@ -43,7 +43,7 @@ When you try to view the support tickets, you can't view any tickets that are op
 The account owner hasn't assigned you the permissions to view tickets in the account opened by other users. At this time, you can only view tickets that are assigned to yourself. 
 {: tsCauses}
  
-If you’re using the [customer portal](control.softlayer.com){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), you must make sure you're assigned the View All Tickets and Add New User permissions. To resolve the issue, contact the account owner to request the appropriate access. 
+If you’re using the [customer portal](https://control.softlayer.com/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), you must make sure you're assigned the View All Tickets and Add New User permissions. To resolve the issue, contact the account owner to request the appropriate access. 
 
 If you're an account owner, complete the following steps to assign a user View All Tickets and Add New User permissions: 
 
