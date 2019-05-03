@@ -66,7 +66,7 @@ After a user profile is created in the customer portal, you can edit it at any t
 {: caption="Table 3. Other configuration settings for editing a user profile" caption-side="top"}
 After you submit edits to a user profile, the changes are applied immediately. You can change the user profile again at any time by repeating the previous steps.
 
-See [Switching to IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) for more information about setting up an IBMid account.
+See [Switching to IBMid](/docs/account?topic=account-unifyingaccounts#switchtoIBMid) for more information about setting up an IBMid account.
 
 ## Editing a user's customer portal permissions
 {: #cp_editusercpperm}
@@ -176,4 +176,4 @@ You can indicate that you want support exclusively from a support team that is p
 
 If the **EU Supported** option isn't available, you might have users in your account with PPTP VPN access enabled. Disable the PPTP VPN access for all of the users in your account first to enable the **EU Supported** option. For more information, see [Activating or deactivating PPTP VPN access](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn).
 
-For more information about implementing the **EU Supported** option when you open a support ticket, see [Requesting support for resources in the European Union](/docs/get-support?topic=get-support-eusupported#eusupported).
+For more information about implementing the **EU Supported** option when you open a support ticket, see [Requesting support for resources in the European Union](/docs/get-support?topic=get-support-getting-customer-support#eusupportedservices).
