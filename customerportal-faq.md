@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-03"
+lastupdated: "2019-05-06"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -106,7 +106,7 @@ If you followed the wizard to switch to IBMid and haven't received the email, it
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Master users, and those with administrator permissions, have full root access to accounts on the customer portal and API. Users without administrator permissions have accessibility that is controlled by those with admin roles. These permissions can be updated by administrators from the customer portal by [editing a user profile](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Without administrator permissions, you can edit your user profile in the customer portal by clicking your user name on the top panel.
+Master users, and those with administrator permissions, have full root access to accounts on the customer portal and API. Users without administrator permissions have accessibility that is controlled by those with admin roles. These permissions can be updated by administrators from the customer portal by [editing a user profile](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Without administrator permissions, you can edit your user profile in the customer portal by clicking your user name.
 
 ## Can I link an {{site.data.keyword.Bluemix_notm}} Subscription account?
 {: #bicp_linkbmxsubacct}
