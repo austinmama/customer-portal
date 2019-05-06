@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-25"
 
 keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
 
@@ -42,7 +42,7 @@ SoftLayer 帳戶的 2FA 不是根據 IBM ID。它仍是根據帳戶。當 IBM ID
 
 若要設定 2FA，請完成下列步驟：
 
-1. 存取客戶入口網站中的**使用者**畫面。
+1. 移至**帳戶** > **使用者**，然後按一下**使用者清單**。
 2. 從使用者的**動作**功能表，選取**新增外部鑑別**。
 3. 根據要訂購的外部鑑別類型，完成下列步驟：
     * 如果您選擇 Symantec Identity Protection，請選取 **Symantec Identity Protection**，然後輸入使用者的認證 ID。

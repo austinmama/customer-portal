@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-25"
 
 keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
 
@@ -42,7 +42,7 @@ SoftLayer 帐户的 2FA 不是按 IBM 标识启用的。而是仍按帐户启用
 
 要设置 2FA，请完成以下步骤：
 
-1. 在客户门户网站中，访问**用户**屏幕。
+1. 转至**帐户** > **用户**，然后单击**用户列表**。
 2. 从用户的**操作**菜单中，选择**添加外部认证**。
 3. 根据要订购的外部认证的类型，完成以下步骤：
     * 如果选择 Symantec Identity Protection，请选择 **Symantec Identity Protection**，然后输入用户的凭证标识。
