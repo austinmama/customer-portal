@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-25"
 
 keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
 
@@ -42,7 +42,7 @@ L'autenticazione 2FA è disponibile in due formati. Entrambi i metodi di autenti
 
 Per configurare la 2FA, completa la seguente procedura:
 
-1. Accedi alla schermata **Utenti** nel portale clienti.
+1. Vai a **Account** > **Utenti** e fai quindi clic su **Elenco utenti**.
 2. Seleziona **Add External Authentication** dal menu **Actions** per l'utente.
 3. In base al tipo di autenticazione esterna ordinato, completa la seguente procedura:
     * Se scegli Symantec Identity Protection, seleziona **Symantec Identity Protection** e immetti quindi l'ID credenziale dell'utente.
