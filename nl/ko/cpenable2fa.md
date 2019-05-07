@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-25"
 
 keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
 
@@ -42,7 +42,7 @@ SoftLayer 계정에 대한 2FA는 IBM ID별로 수행되지 않습니다. 여전
 
 2FA를 설정하려면 다음 단계를 완료하십시오.
 
-1. 고객 포털에서 **사용자** 화면에 액세스하십시오.
+1. **계정** > **사용자**로 이동한 후 **사용자 목록**을 클릭하십시오. 
 2. 사용자에 대한 **조치** 메뉴에서 **외부 인증 추가**를 선택하십시오.
 3. 주문할 외부 인증의 유형에 따라 다음 단계를 완료하십시오.
     * Symantec Identity Protection을 선택하는 경우 **Symantec Identity Protection**을 선택한 후 사용자의 인증 정보 ID를 입력하십시오.
