@@ -52,7 +52,7 @@ La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_not
 ## Supervisión de servidores
 {: #cp_monservers}
 
-Defina una supervisión para comprobar el estado del servidor y saber así cuándo escalar. Puede utilizar servicios de supervisión estándar o Nimsoft. Puede utilizar la supervisión estándar, o básica, con el método de ping y respuesta mediante el uso de un ping lento o de servicio desde el portal de clientes de {{site.data.keyword.BluSoftlayer_notm}}. También puede utilizar supervisión Nimsoft, o avanzada, desde el portal de clientes o en uno de estos tres niveles: básico, avanzado y premium. Para obtener más información sobre los servidores nativos, específicamente, consulte [Guía de iniciación con servidores nativos](/docs/bare-metal?topic=bare-metal-getting-started#getting-started).
+Defina una supervisión para comprobar el estado del servidor y saber así cuándo escalar. Puede utilizar servicios de supervisión estándar o Nimsoft. Puede utilizar la supervisión estándar, o básica, con el método de ping y respuesta mediante el uso de un ping lento o de servicio desde el portal de clientes de {{site.data.keyword.BluSoftlayer_notm}}. También puede utilizar supervisión Nimsoft, o avanzada, desde el portal de clientes o en uno de estos tres niveles: básico, avanzado y premium. Para obtener más información sobre los servidores nativos, específicamente, consulte [Guía de iniciación a servidores nativos](/docs/bare-metal?topic=bare-metal-getting-started#getting-started).
 
 ## Supervisión de sucesos del sistema
 {: #cp_monevent}

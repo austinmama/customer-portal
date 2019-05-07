@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-25"
 
 keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
 
@@ -42,7 +42,7 @@ Es gibt zwei Arten von Zwei-Faktor-Authentifizierung. Beide Methoden der externe
 
 Führen Sie die folgenden Schritte aus, um die Zwei-Faktor-Authentifizierung einzurichten:
 
-1. Greifen Sie auf den Bildschirm **Benutzer** im Kundenportal zu.
+1. Wechseln Sie zu **Konto** > **Benutzer** und klicken Sie dann auf **Benutzerliste**. 
 2. Wählen Sie im Menü **Aktionen** für den Benutzer die Option **Externe Authentifizierung hinzufügen** aus.
 3. Führen Sie je nach Typ der bestellten externen Authentifizierung die folgenden Schritte aus:
     * Wenn Sie sich für Symantec Identity Protection entscheiden, wählen Sie **Symantec Identity Protection** aus und geben Sie dann die Berechtigungs-ID des Benutzers ein.
