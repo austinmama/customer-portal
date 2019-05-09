@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-04-25"
 
 keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
 
@@ -20,7 +20,7 @@ subcollection: customer-portal
 
 
 # 2 要素認証のセットアップ
-{: cp_setup-2fa}
+{: #cp_setup-2fa}
 
 カスタマー・ポータルの内部で外部 2 要素認証 (2FA) をアクティブにして、ポータルへのログイン時の保護をさらに追加できます。 セキュリティーのこの追加層は、アカウントを未検証アクセスから保護し、デバイス、データ、およびアカウント情報が確実に保護されるようにします。
 {:shortdesc}
@@ -42,7 +42,7 @@ SoftLayer アカウントに対する 2FA は IBMid 単位ではありません�
 
 2FA をセットアップするには、以下のステップを実行します。
 
-1. カスタマー・ポータルの**「ユーザー」**画面にアクセスします。
+1. **「アカウント」** > **「ユーザー」**と進み、**「ユーザー・リスト」**をクリックします。
 2. ユーザーの**「アクション」**メニューから**「外部認証の追加」**を選択します。
 3. 注文する外部認証のタイプに基づいて、以下のステップを実行します。
     * Symantec Identity Protection を選ぶ場合、**Symantec Identity Protection** を選択し、ユーザーの資格情報 ID を入力します。
