@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-05-03"
 
 keywords: SoftLayer account, new users, IBM Cloud account
 
@@ -28,7 +28,7 @@ subcollection: customer-portal
 ## 开始之前
 {: #prereqs}
 
-您需要 [{{site.data.keyword.Bluemix}} 帐户 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com){:new_window}。使用您的 IBM 标识凭证登录到客户门户网站。大部分新用户使用 [IBM 标识](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)进行认证。
+您需要 [{{site.data.keyword.Bluemix}} 帐户 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com){:new_window}。使用您的 IBM 标识凭证登录到客户门户网站。大部分新用户使用 [IBM 标识](/docs/account?topic=account-unifyingaccounts#switchtoIBMid)进行认证。
 
 如果不使用 IBM 标识进行认证以登录帐户，请使用唯一的 {{site.data.keyword.BluSoftlayer_notm}} 基础架构凭证登录到客户门户网站。
 {: tip}

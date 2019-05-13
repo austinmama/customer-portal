@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-06"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -60,7 +60,7 @@ subcollection: customer-portal
 
 对帐户级别的双因子认证 (2FA) 配置没有影响。2FA 不是按 IBM 标识的，它仍是按帐户的。当一个 IBM 标识与多个帐户相关联，而您在各帐户之间进行切换时，每次切换到要求 2FA 的不同帐户时都必须确认身份。即使旧帐户和新帐户都配置了相同的 2FA 机制，也是如此。
 
-有关使用 2FA 的 IBM 标识的更多信息，请参阅[链接的帐户中的多因子认证用法](/docs/account?topic=account-2fa#2fa)。
+有关使用 2FA 的 IBM 标识的更多信息，请参阅[链接的帐户中的多因子认证用法](/docs/account?topic=account-unifyingaccounts#2fa)。
 
 ## 谁可以链接帐户？
 {: #bicp_wholinkaccts}
@@ -106,7 +106,7 @@ subcollection: customer-portal
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-主用户和具有管理员许可权的用户对客户门户网站和 API 上的帐户具有完全 root 用户访问权。没有管理员许可权的用户的访问权由具有管理员角色的用户控制。在客户门户网站中，管理员可以通过[编辑用户概要文件](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)来更新这些许可权。如果您没有管理员许可权，那么可以在客户门户网站中通过单击顶部面板上的用户名来编辑用户概要文件。
+主用户和具有管理员许可权的用户对客户门户网站和 API 上的帐户具有完全 root 用户访问权。没有管理员许可权的用户的访问权由具有管理员角色的用户控制。在客户门户网站中，管理员可以通过[编辑用户概要文件](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)来更新这些许可权。如果您没有管理员许可权，那么可以在客户门户网站中通过单击用户名来编辑用户概要文件。
 
 ## 可以链接 {{site.data.keyword.Bluemix_notm}} 预订帐户吗？
 {: #bicp_linkbmxsubacct}

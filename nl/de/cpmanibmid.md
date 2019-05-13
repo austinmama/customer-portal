@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: IBMid accounts, softLayer account, IBM Cloud infrastructure authentication
 
@@ -24,7 +24,7 @@ subcollection: customer-portal
 Die Authentifizierung in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur nutzt jetzt IBMids, um eine einmalige Anmeldung bei {{site.data.keyword.Bluemix_notm}} zu ermöglichen.
 {:shortdesc}
 
-Falls Sie ein bestehendes SoftLayer-Konto besitzen, können Sie auf eine IBMid umsteigen. Ein Migrationsassistent hilft Ihnen bei dieser Umstellung. Weitere Informationen finden Sie unter [Zur IBMid wechseln](/docs/account?topic=account-switchtoIBMid#switchtoIBMid).
+Falls Sie ein bestehendes SoftLayer-Konto besitzen, können Sie auf eine IBMid umsteigen. Ein Migrationsassistent hilft Ihnen bei dieser Umstellung. Weitere Informationen finden Sie unter [Zur IBMid wechseln](/docs/account?topic=account-unifyingaccounts#switchtoIBMid).
 
 ## Mehrere SoftLayer-Konten einer einzigen IBMid zuordnen
 {: #cp_mapmultclinfrto1ibmid}

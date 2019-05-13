@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-06"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -60,7 +60,7 @@ Nein. Sie können ein neues {{site.data.keyword.Bluemix_notm}}-Konto erstellen o
 
 Auf der Kontoebene gibt es keine Auswirkung auf die Konfiguration der Zwei-Faktor-Authentifizierung (2FA). 2FA erfolgt nicht pro IBMid, sondern weiterhin pro Konto. Wenn eine IBMid vielen Konten zugeordnet ist und Sie zwischen den Konten wechseln, müssen Sie Ihre Identität bei jedem Wechsel zu einem anderen Konto bestätigen, für das eine Zwei-Faktor-Authentifizierung erforderlich ist. Dies gilt sogar dann, wenn das vorherige Konto und das neue Konto beide mit demselben 2FA-Verfahren konfiguriert sind.
 
-Weitere Informationen zur IBMid im Zusammenhang mit der Zwei-Faktor-Authentifizierung finden Sie unter [Mehrfaktorauthentifizierung bei verknüpften Konten](/docs/account?topic=account-2fa#2fa).
+Weitere Informationen zur IBMid im Zusammenhang mit der Zwei-Faktor-Authentifizierung finden Sie unter [Mehrfaktorauthentifizierung bei verknüpften Konten](/docs/account?topic=account-unifyingaccounts#2fa).
 
 ## Wer kann Konten verknüpfen?
 {: #bicp_wholinkaccts}
@@ -106,7 +106,7 @@ Falls Sie den Assistenten für den Wechsel zur IBMid durchgearbeitet und die E-M
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Masterbenutzer sowie Personen mit Administratorberechtigungen besitzen im Kundenportal und über die API uneingeschränkten Rootzugriff auf Konten. Die Zugriffsmöglichkeit von Benutzern ohne Administratorberechtigungen wird durch Benutzer mit Verwaltungsrollen gesteuert. Diese Berechtigungen können von Administratoren im Kundenportal aktualisiert werden, indem sie ein [Benutzerprofil bearbeiten](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Ohne Administratorberechtigungen können Sie Ihr Benutzerprofil im Kundenportal bearbeiten, indem Sie oben in der Anzeige auf Ihren Benutzernamen klicken.
+Masterbenutzer sowie Personen mit Administratorberechtigungen besitzen im Kundenportal und über die API uneingeschränkten Rootzugriff auf Konten. Die Zugriffsmöglichkeit von Benutzern ohne Administratorberechtigungen wird durch Benutzer mit Verwaltungsrollen gesteuert. Diese Berechtigungen können von Administratoren im Kundenportal aktualisiert werden, indem sie ein [Benutzerprofil bearbeiten](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Ohne Administratorberechtigungen können Sie Ihr Benutzerprofil im Kundenportal bearbeiten, indem Sie auf Ihren Benutzernamen klicken.
 
 ## Kann ich ein {{site.data.keyword.Bluemix_notm}}-Abonnementkonto verknüpfen?
 {: #bicp_linkbmxsubacct}

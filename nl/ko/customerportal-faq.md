@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-06"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -52,7 +52,7 @@ SoftLayer 계정의 마스터 사용자인 경우 고객 포털에 로그인한 
 {: #bicp_bmxusertolink}
 {: faq}
 
-아니오. 새 {{site.data.keyword.Bluemix_notm}} 계정을 작성하거나 기존 {{site.data.keyword.Bluemix_notm}} Lite 또는 종량과금제 계정을 연결할 수 있습니다.
+아니오. 새 {{site.data.keyword.Bluemix_notm}} 계정을 생성하거나 기존 {{site.data.keyword.Bluemix_notm}} Lite 또는 종량과금제 계정을 연결할 수 있습니다.
 
 ## 2단계 인증은 어떻게 작동됩니까?
 {: #bicp_2fa}
@@ -60,7 +60,7 @@ SoftLayer 계정의 마스터 사용자인 경우 고객 포털에 로그인한 
 
 계정 레벨에서는 2단계 인증(2FA) 구성에 영향이 없습니다. 2FA는 IBM ID별로 수행되지 않으며, 여전히 계정별로 수행됩니다. IBM ID가 여러 계정과 연관되어 있고, 계정 간에 전환할 때는 2FA가 필요한 다른 계정으로 전환할 때마다 ID를 확인해야 합니다. 이는 이전 계정과 새 계정이 모두 같은 2FA 메커니즘으로 구성된 경우에도 해당됩니다.
 
-2FA를 사용한 IBM ID에 대한 자세한 정보는 [연결된 계정에서 다단계 인증 사용](/docs/account?topic=account-2fa#2fa)을 참조하십시오.
+2FA를 사용한 IBM ID에 대한 자세한 정보는 [연결된 계정에서 다단계 인증 사용](/docs/account?topic=account-unifyingaccounts#2fa)을 참조하십시오.
 
 ## 누가 계정을 연결할 수 있습니까?
 {: #bicp_wholinkaccts}
@@ -106,7 +106,7 @@ IBM ID로 전환하기 위해 마법사를 따랐으나 이메일을 받지 못�
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-마스터 사용자와 관리자 권한이 있는 사용자는 고객 포털 및 API의 계정에 대한 전체 루트 액세스 권한이 있습니다. 관리자 권한이 없는 사용자는 관리자 역할이 있는 사용자가 제어하는 접근성을 갖고 있습니다. 고객 포털에서 관리자가 [사용자 프로파일을 편집](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)하여 이러한 권한을 업데이트할 수 있습니다. 관리자 권한이 없는 경우 고객 포털에서 맨 위 패널에 있는 사용자 이름을 클릭하여 사용자 프로파일을 편집할 수 있습니다.
+마스터 사용자와 관리자 권한이 있는 사용자는 고객 포털 및 API의 계정에 대한 전체 루트 액세스 권한이 있습니다. 관리자 권한이 없는 사용자는 관리자 역할이 있는 사용자가 제어하는 접근성을 갖고 있습니다. 고객 포털에서 관리자가 [사용자 프로파일을 편집](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)하여 이러한 권한을 업데이트할 수 있습니다. 관리자 권한이 없는 경우 고객 포털에서 사용자 이름을 클릭하여 사용자 프로파일을 편집할 수 있습니다.
 
 ## {{site.data.keyword.Bluemix_notm}} 구독 계정을 연결할 수 있습니까?
 {: #bicp_linkbmxsubacct}
@@ -125,7 +125,7 @@ IBM ID로 전환하기 위해 마법사를 따랐으나 이메일을 받지 못�
 {: #bicp_whatfindcompprof}
 {: faq}
 
-회사 프로파일은 계정이 작성된 당시에 제출된 정보이고 회사의 기본 연락처, 회사 이름, 주소 및 전화번호가 포함됩니다. 이 정보는 다양한 용도로 사용되며 항상 최신 상태로 유지되어야 합니다. 계정의 회사 프로파일을 보거나 변경을 요청하려면 [회사 프로파일 업데이트](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile)를 참조하십시오.
+회사 프로파일은 계정이 생성된 당시에 제출된 정보이고 회사의 기본 연락처, 회사 이름, 주소 및 전화번호가 포함됩니다. 이 정보는 다양한 용도로 사용되며 항상 최신 상태로 유지되어야 합니다. 계정의 회사 프로파일을 보거나 변경을 요청하려면 [회사 프로파일 업데이트](/docs/customer-portal?topic=customer-portal-cp_updateprofile#cp_updateprofile)를 참조하십시오.
 
 ## 내 디바이스 및 소프트웨어 비밀번호를 어디서 찾을 수 있습니까?
 {: #bicp_devswpw}

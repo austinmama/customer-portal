@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-05-03"
 
 keywords: SoftLayer account, new users, IBM Cloud account
 
@@ -28,7 +28,7 @@ subcollection: customer-portal
 ## 시작하기 전에
 {: #prereqs}
 
-[{{site.data.keyword.Bluemix}} 계정 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://cloud.ibm.com){:new_window}이 필요합니다. IBM ID 인증 정보를 사용하여 고객 포털에 로그인하십시오. 대부분의 신규 사용자는 인증에 [IBM ID](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)를 사용합니다.
+[{{site.data.keyword.Bluemix}} 계정 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://cloud.ibm.com){:new_window}이 필요합니다. IBM ID 인증 정보를 사용하여 고객 포털에 로그인하십시오. 대부분의 신규 사용자는 인증에 [IBM ID](/docs/account?topic=account-unifyingaccounts#switchtoIBMid)를 사용합니다.
 
 인증용 IBM ID를 사용하여 계정에 로그인하지 않는 경우에는 고유 {{site.data.keyword.BluSoftlayer_notm}} 인프라 인증 정보를 사용하여 고객 포털에 로그인하십시오.
 {: tip}
@@ -72,7 +72,7 @@ VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructur
 ## 4단계. 알림 구독
 {: #get-notified}
 
-시스템 문제 및 계획된 유지보수 이벤트에 대한 알림을 받으려면 이벤트 관리 시스템을 통해 알림을 구독할 수 있습니다. 계정을 작성하거나 계정에 추가되면 기본적으로 알림 구독이 해제됩니다.
+시스템 문제 및 계획된 유지보수 이벤트에 대한 알림을 받으려면 이벤트 관리 시스템을 통해 알림을 구독할 수 있습니다. 계정을 생성하거나 계정에 추가되면 기본적으로 알림 구독이 해제됩니다.
 
 고객 포털의 이벤트 관리 시스템에 액세스하여 구독할 알림을 선택하십시오.
   1. 메뉴 표시줄에서 **계정** > **관리** > **구독**을 클릭하십시오.

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: IBM Cloud infrastructure customer portal, IBM Cloud console, IBM Cloud infrastructure customer
 
@@ -26,8 +26,8 @@ Mit der {{site.data.keyword.Bluemix}}-Konsole können Sie einen Großteil Ihrer 
 {:shortdesc}
 
 Die Verwendung des Kundenportals der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anstelle der {{site.data.keyword.Bluemix_notm}}-Konsole könnte in den folgenden Situationen praktisch sein:
-  * Sie verwenden nur die {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices (und nicht die Plattformservices) und haben kein [verknüpftes Konto](/docs/account?topic=account-link_customer_accounts#link_customer_accounts).
-  * Sie verfügen nicht über eine [IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid).
+  * Sie verwenden nur die {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices (und nicht die Plattformservices) und haben kein [verknüpftes Konto](/docs/account?topic=account-unifyingaccounts#link_user_account).
+  * Sie verfügen nicht über eine [IBMid](/docs/account?topic=account-unifyingaccounts#switchtoIBMid).
   * Sie benötigen Zugriff auf die Umgebung einer wichtigen Behörde. Für eine Regierungsbehörde der Vereinigten Staaten ist z. B. möglicherweise ein sicherer gesperrtes Rechenzentrum mit begrenztem externem Zugriff erforderlich. In dieser Umgebung sind nur {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices verfügbar; Zugriff auf {{site.data.keyword.Bluemix_notm}}-Plattformen ist in einem US-Bundesrechenzentrum nicht verfügbar.
 
 In diesen Fällen können Sie im Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur die folgenden Tasks ausführen:

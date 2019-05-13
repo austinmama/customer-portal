@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: open support tickets, select support, general technical support ticket
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーで問題が発生し、リンクされたアカウントをお持ちでない場合、カスタマー・ポータルを使用して、問題の原因を判別し、解決策を特定するための支援を受けることができます。
 {:shortdesc}
 
-[リンクされたアカウント](/docs/account?topic=account-link_customer_accounts#link_customer_accounts)をお持ちの場合は、{{site.data.keyword.Bluemix_notm}} コンソールからサポートを利用することができます。 詳しくは、[サポートの利用](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)を参照してください。
+[リンクされたアカウント](/docs/account?topic=account-unifyingaccounts#link_user_account)をお持ちの場合は、{{site.data.keyword.Bluemix_notm}} コンソールからサポートを利用することができます。 詳しくは、[サポートの利用](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)を参照してください。
 
 リンクされたアカウントをお持ちでない場合は、一般的な技術問題またはアカウントに関連する問題に関する支援を受けるために、{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャー・カスタマー・ポータルでサポート・チケットをオープンすることができます。
 

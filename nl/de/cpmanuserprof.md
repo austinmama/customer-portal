@@ -66,7 +66,7 @@ Ein im Kundenportal erstelltes Benutzerprofil kann jederzeit bearbeitet werden. 
 {: caption="Tabelle 3. Weitere Konfigurationseinstellungen beim Bearbeiten eines Benutzerprofils" caption-side="top"}
 Nachdem Sie Bearbeitungen eines Benutzerprofils übergeben haben, werden die Änderungen sofort angewendet. Sie können das Benutzerprofil jederzeit erneut ändern, indem Sie die obigen Schritte wiederholen.
 
-Weitere Informationen zur Einstellung eines IBMid-Kontos finden Sie unter [Zur IBMid wechseln](/docs/account?topic=account-switchtoIBMid#switchtoIBMid).
+Weitere Informationen zur Einstellung eines IBMid-Kontos finden Sie unter [Zur IBMid wechseln](/docs/account?topic=account-unifyingaccounts#switchtoIBMid).
 
 ## Berechtigungen eines Benutzers für das Kundenportal bearbeiten
 {: #cp_editusercpperm}
@@ -176,4 +176,4 @@ Sie können angeben, dass die Unterstützung ausschließlich durch ein Support-T
 
 Falls die Option **Unterstützung in der EU** nicht verfügbar ist, ist möglicherweise für Benutzer in Ihrem Konto der PPTP-VPN-Zugriff aktiviert. Inaktivieren Sie den PPTP-VPN-Zugriff für alle Benutzer in Ihrem Konto, bevor Sie die Option **Unterstützung in der EU** aktivieren. Weitere Informationen zu diesem Thema finden Sie in [PPTP-VPN-Zugriff aktivieren oder inaktivieren](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn).
 
-Weitere Informationen zum Implementieren der Option **Unterstützung in der EU** beim Öffnen eines Support-Tickets enthält der Abschnitt [Support für Ressourcen in der Europäischen Union anfordern](/docs/get-support?topic=get-support-eusupported#eusupported).
+Weitere Informationen zum Implementieren der Option **Unterstützung in der EU** beim Öffnen eines Support-Tickets enthält der Abschnitt [Support für Ressourcen in der Europäischen Union anfordern](/docs/get-support?topic=get-support-getting-customer-support#eusupportedservices).

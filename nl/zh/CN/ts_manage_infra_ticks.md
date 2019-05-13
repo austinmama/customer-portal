@@ -4,7 +4,7 @@ copyright:
 
   years: 2019
 
-lastupdated: "2019-03-22"
+lastupdated: "2019-05-03"
 
 keywords: help managing tickets, resolve issues managing tickets, trouble working with tickets
 
@@ -43,7 +43,7 @@ subcollection: customer-portal
 帐户所有者尚未为您分配许可权来查看帐户中其他用户开具的凭单。目前，您只能查看分配给您自己的凭单。
 {: tsCauses}
  
-如果使用的是[客户门户网站](control.softlayer.com){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")，您必须确保自己分配有“查看所有凭单”和“添加新用户”许可权。要解决此问题，请与帐户所有者联系以请求相应的访问权。 
+如果使用的是[客户门户网站](https://control.softlayer.com/){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")，您必须确保自己分配有“查看所有凭单”和“添加新用户”许可权。要解决此问题，请与帐户所有者联系以请求相应的访问权。 
 
 如果您是帐户所有者，请完成以下步骤，为用户分配“查看所有凭单”和“添加新用户”许可权： 
 

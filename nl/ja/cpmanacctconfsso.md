@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: identity provider, IBM Cloud infrastructure, single sign-on  
 
@@ -71,4 +71,4 @@ ID プロバイダーをまだ持っていない場合、まず ID プロバイ�
 7. **「XML 構成のダウンロード (Download XML Configuration)」**をクリックして、サービス・プロバイダー・メタデータをダウンロードするか、情報をメモします。
 8. **「サービス・プロバイダー (Service Provider)」**メタデータを使用して、ご使用の ID プロバイダーの指示に基づいて ID プロバイダーを構成します。  
 
-フェデレーテッド ID を使用して {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーにログインできます。 フェデレーテッド ID について詳しくは、[{{site.data.keyword.Bluemix_notm}} への登録](/docs/account/adminpublic.html)および[IBMid Enterprise Federation Adoption Guide ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}を参照してください。
+フェデレーテッド ID を使用して {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーにログインできます。 フェデレーテッド ID について詳しくは、[{{site.data.keyword.Bluemix_notm}} への登録](/docs/account/adminpublic.html)および[IBMid Enterprise Federation Adoption Guide ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://ibm.ent.box.com/notes/78040808400?s=2gwm9ib2tlyoy8ivjjj94p4wo2eqkgvq){: new_window}を参照してください。

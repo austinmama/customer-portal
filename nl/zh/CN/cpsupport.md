@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: open support tickets, select support, general technical support ticket
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 如果遇到 {{site.data.keyword.BluSoftlayer_full}} 基础架构问题，并且没有链接的帐户，那么可以使用客户门户网站来获取有关确定问题原因并查找相应解决方案的帮助。
 {:shortdesc}
 
-如果您有[链接的帐户](/docs/account?topic=account-link_customer_accounts#link_customer_accounts)，那么可以通过 {{site.data.keyword.Bluemix_notm}} 控制台来获得支持。有关更多信息，请参阅[获取支持](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)。
+如果您有[链接的帐户](/docs/account?topic=account-unifyingaccounts#link_user_account)，那么可以通过 {{site.data.keyword.Bluemix_notm}} 控制台来获得支持。有关更多信息，请参阅[获取支持](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)。
 
 
 如果您没有链接的帐户，可以在 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户门户网站中开具支持凭单，以用于一般技术问题或帮助解决与您帐户相关的问题。

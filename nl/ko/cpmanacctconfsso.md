@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: identity provider, IBM Cloud infrastructure, single sign-on  
 
@@ -63,7 +63,7 @@ ID 제공자로부터 인증 유형을 수신하기 위해 {{site.data.keyword.B
   * 엔티티 ID
   * 싱글 사인온 URL
   * 인증서(인증서 요구사항은 ID 제공자에 따라 달라짐)
-2. SoftLayer 계정을 작성하는 데 사용한 마스터 사용자 이름 및 비밀번호를 사용하여 마스터 사용자로 {{site.data.keyword.BluSoftlayer_notm}} 인프라에 로그인하십시오.
+2. SoftLayer 계정을 생성하는 데 사용한 마스터 사용자 이름 및 비밀번호를 사용하여 마스터 사용자로 {{site.data.keyword.BluSoftlayer_notm}} 인프라에 로그인하십시오.
 3. **계정** > **관리** > **SAML 인증**을 클릭하십시오.
 4. **ID 제공자** 메타데이터를 입력하십시오.
 5. **저장**을 클릭하십시오.
@@ -71,4 +71,4 @@ ID 제공자로부터 인증 유형을 수신하기 위해 {{site.data.keyword.B
 7. **XML 구성 다운로드**를 클릭하여 서비스 제공자 메타데이터를 다운로드하거나 정보를 작성하십시오.
 8. **서비스 제공자** 메타데이터를 사용하여 ID 제공자의 지시사항에 따라 ID 제공자를 구성하십시오.  
 
-연합 ID를 사용하여 {{site.data.keyword.BluSoftlayer_notm}} 인프라에 로그인할 수 있습니다. 연합 ID에 대한 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 등록](/docs/account/adminpublic.html) 및 [IBMid Enterprise Federation Adoption Guide ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}를 참조하십시오.
+연합 ID를 사용하여 {{site.data.keyword.BluSoftlayer_notm}} 인프라에 로그인할 수 있습니다. 연합 ID에 관한 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 등록](/docs/account/adminpublic.html) 및 [IBMid Enterprise Federation Adoption Guide ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://ibm.ent.box.com/notes/78040808400?s=2gwm9ib2tlyoy8ivjjj94p4wo2eqkgvq){: new_window}를 참조하십시오.

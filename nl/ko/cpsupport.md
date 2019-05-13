@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: open support tickets, select support, general technical support ticket
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 {{site.data.keyword.BluSoftlayer_full}} 인프라에서 문제점이 발생하고 연결된 계정이 없는 경우 고객 포털을 사용하여 문제점의 원인을 판별하고 솔루션을 찾는 데 도움을 받을 수 있습니다.
 {:shortdesc}
 
-[링크된 계정](/docs/account?topic=account-link_customer_accounts#link_customer_accounts)이 있으면 {{site.data.keyword.Bluemix_notm}} 콘솔을 통해 지원을 받을 수 있습니다. 자세한 정보는 [지원 받기](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)를 참조하십시오.
+[링크된 계정](/docs/account?topic=account-unifyingaccounts#link_user_account)이 있으면 {{site.data.keyword.Bluemix_notm}} 콘솔을 통해 지원을 받을 수 있습니다. 자세한 정보는 [지원 받기](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)를 참조하십시오.
 
 연결된 계정이 없으면 일반 기술 문제에 대해 또는 계정과 관련된 문제에 대해 지원받기 위해 {{site.data.keyword.BluSoftlayer_full}} 인프라 고객 포털에서 지원 티켓을 열 수 있습니다.
 

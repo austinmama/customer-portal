@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: open support tickets, select support, general technical support ticket
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 Falls Sie Probleme mit der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur feststellen und kein verknüpftes Konto haben, können Sie Hilfe beim Bestimmen der Ursache des Problems und beim Finden einer Lösung über das Kundenportal abrufen.
 {:shortdesc}
 
-Wenn Sie ein [verknüpftes Konto](/docs/account?topic=account-link_customer_accounts#link_customer_accounts) haben, können Sie den Support über die {{site.data.keyword.Bluemix_notm}}-Konsole abrufen. Weitere Informationen finden Sie unter [Unterstützung abrufen](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support).
+Wenn Sie ein [verknüpftes Konto](/docs/account?topic=account-unifyingaccounts#link_user_account) haben, können Sie den Support über die {{site.data.keyword.Bluemix_notm}}-Konsole abrufen. Weitere Informationen finden Sie unter [Unterstützung abrufen](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support).
 
 Wenn Sie kein verknüpftes Konto haben, können Sie bei allgemeinen technischen Problemen oder bei Problemen mit Ihrem Konto Support-Tickets im Kundenportal für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur öffnen.
 

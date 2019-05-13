@@ -66,7 +66,7 @@ subcollection: customer-portal
 {: caption="表 3. ユーザー・プロファイルを編集するためのその他の構成設定" caption-side="top"}
 ユーザー・プロファイルに対する編集をサブミットすると、変更内容は即時に適用されます。 上の手順を繰り返すことによって、いつでもユーザー・プロファイルを再変更できます。
 
-IBMid アカウントのセットアップについて詳しくは、[IBMid への切り替え](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)を参照してください。
+IBMid アカウントのセットアップについて詳しくは、[IBMid への切り替え](/docs/account?topic=account-unifyingaccounts#switchtoIBMid)を参照してください。
 
 ## ユーザーのカスタマー・ポータル許可の編集
 {: #cp_editusercpperm}
@@ -176,4 +176,4 @@ IBMid アカウントのセットアップについて詳しくは、[IBMid へ�
 
 **「EU サポート対象 (EU Supported)」**オプションが使用できない場合、PPTP VPN アクセスが有効にされているユーザーがアカウントに含まれている可能性があります。 **「EU サポート対象 (EU Supported)」**オプションを使用可能にするため、最初にアカウントのすべてのユーザーの PPTP VPN アクセスを無効にしてください。 詳しくは、[PPTP VPN アクセスのアクティブ化または非アクティブ化](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn)を参照してください。
 
-サポート・チケットをオープンする際に**「EU サポート対象 (EU Supported)」**オプションを実装することについて詳しくは、[EU 内のリソースに関するサポートの依頼](/docs/get-support?topic=get-support-eusupported#eusupported)を参照してください。
+サポート・チケットをオープンする際に**「EU サポート対象 (EU Supported)」**オプションを実装することについて詳しくは、[EU 内のリソースに関するサポートの依頼](/docs/get-support?topic=get-support-getting-customer-support#eusupportedservices)を参照してください。

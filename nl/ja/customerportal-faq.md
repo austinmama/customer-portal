@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-06"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -60,7 +60,7 @@ SoftLayer アカウントのマスター・ユーザーである場合は、カ�
 
 アカウント・レベルで 2 要素認証 (2FA) 構成に影響は全くありません。 2FA は IBMid 単位ではありません。従来どおり、アカウント単位です。 IBMid が多くのアカウントに関連付けられていて、アカウント間で切り替えを行う場合、2FA を必要とする別のアカウントに切り替えるたびに ID を確認する必要があります。 これは、前のアカウントと新しいアカウントが両方とも同じ 2FA メカニズムを使用して構成されている場合でも同じです。
 
-2FA を使用した IBMid について詳しくは、[リンクされたアカウントでの多要素認証の使用法](/docs/account?topic=account-2fa#2fa)を参照してください。
+2FA を使用した IBMid について詳しくは、[リンクされたアカウントでの多要素認証の使用法](/docs/account?topic=account-unifyingaccounts#2fa)を参照してください。
 
 ## アカウントをリンクできるのは誰ですか?
 {: #bicp_wholinkaccts}
@@ -106,7 +106,7 @@ IBMid でログインすると、「この IBMid または E メールを認識�
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-マスター・ユーザーと、管理者許可を持つユーザーは、カスタマー・ポータルおよび API でアカウントに対してすべての root アクセス権限を持っています。 管理者許可を持たないユーザーは、管理役割を持つユーザーの制御に従ったアクセス権限を持ちます。 管理者は[ユーザー・プロファイルの編集](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)によって、カスタマー・ポータルからこれらの許可を更新できます。 管理者許可がなくても、先頭パネルで自分のユーザー名をクリックすることによって、カスタマー・ポータルで自分のユーザー・プロファイルを編集できます。
+マスター・ユーザーと、管理者許可を持つユーザーは、カスタマー・ポータルおよび API でアカウントに対してすべての root アクセス権限を持っています。 管理者許可を持たないユーザーは、管理役割を持つユーザーの制御に従ったアクセス権限を持ちます。 管理者は[ユーザー・プロファイルの編集](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)によって、カスタマー・ポータルからこれらの許可を更新できます。 管理者許可がなくても、自分のユーザー名をクリックすることによって、カスタマー・ポータルで自分のユーザー・プロファイルを編集できます。
 
 ## {{site.data.keyword.Bluemix_notm}} サブスクリプション・アカウントをリンクできますか?
 {: #bicp_linkbmxsubacct}

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-05-03"
 
 keywords: SoftLayer account, new users, IBM Cloud account
 
@@ -28,7 +28,7 @@ subcollection: customer-portal
 ## 始める前に
 {: #prereqs}
 
-[{{site.data.keyword.Bluemix}} アカウント ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://cloud.ibm.com){:new_window} が必要です。 IBMid の資格情報でカスタマー・ポータルにログインしてください。 ほとんどの新規ユーザーは、認証に [IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) を使用します。
+[{{site.data.keyword.Bluemix}} アカウント ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://cloud.ibm.com){:new_window} が必要です。 IBMid の資格情報でカスタマー・ポータルにログインしてください。 ほとんどの新規ユーザーは、認証に [IBMid](/docs/account?topic=account-unifyingaccounts#switchtoIBMid) を使用します。
 
 アカウントへのログインの認証に IBMid を使用しない場合は、固有の {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー資格情報を使用してカスタマー・ポータルにログインしてください。
 {: tip}

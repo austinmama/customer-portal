@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: IBMid accounts, softLayer account, IBM Cloud infrastructure authentication
 
@@ -24,7 +24,7 @@ subcollection: customer-portal
 现在，{{site.data.keyword.BluSoftlayer_notm}} 基础架构中的认证使用 IBM 标识来提供对{{site.data.keyword.Bluemix_notm}} 的单点登录。
 {:shortdesc}
 
-如果您已有 SoftLayer 帐户，那么可以切换到 IBM 标识。迁移向导有助于指导您完成此切换。有关更多信息，请参阅[切换到 IBM 标识](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)。
+如果您已有 SoftLayer 帐户，那么可以切换到 IBM 标识。迁移向导有助于指导您完成此切换。有关更多信息，请参阅[切换到 IBM 标识](/docs/account?topic=account-unifyingaccounts#switchtoIBMid)。
 
 ## 将多个 SoftLayer 帐户映射到一个 IBM 标识
 {: #cp_mapmultclinfrto1ibmid}

@@ -66,7 +66,7 @@ subcollection: customer-portal
 {: caption="표 3. 사용자 프로파일을 편집하기 위한 기타 구성 설정" caption-side="top"}
 사용자 프로파일에 대한 편집을 제출하면 변경사항이 즉시 적용됩니다. 이전 단계를 반복하여 언제든지 사용자 프로파일을 변경할 수 있습니다.
 
-IBM ID 계정 설정에 대한 자세한 정보는 [IBM ID로 전환](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)을 참조하십시오.
+IBM ID 계정 설정에 대한 자세한 정보는 [IBM ID로 전환](/docs/account?topic=account-unifyingaccounts#switchtoIBMid)을 참조하십시오.
 
 ## 사용자의 고객 포털 권한 편집
 {: #cp_editusercpperm}
@@ -176,4 +176,4 @@ PPTP VPN을 활성화하여 데스크탑 또는 전용 디바이스에서 실행
 
 **EU 지원** 옵션을 사용할 수 없는 경우 PPTP VPN 액세스가 사용 가능한 상태에서 계정의 사용자를 보유할 수 있습니다. **EU 지원** 옵션을 사용으로 설정하려면 먼저 계정에서 모든 사용자의 PPTP VPN 액세스를 사용 안함으로 설정하십시오. 자세한 정보는 [PPTP VPN 액세스 활성화 또는 비활성화](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn)를 참조하십시오.
 
-지원 티켓을 열 때 **EU 지원** 옵션 구현에 대한 자세한 정보는 [EU의 리소스에 대한 지원 요청](/docs/get-support?topic=get-support-eusupported#eusupported)을 참조하십시오.
+지원 티켓을 열 때 **EU 지원** 옵션 구현에 대한 자세한 정보는 [EU의 리소스에 대한 지원 요청](/docs/get-support?topic=get-support-getting-customer-support#eusupportedservices)을 참조하십시오.

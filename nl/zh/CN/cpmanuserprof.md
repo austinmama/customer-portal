@@ -66,7 +66,7 @@ subcollection: customer-portal
 {: caption="表 3. 用于编辑用户概要文件的其他配置设置" caption-side="top"}
 提交对用户概要文件的编辑后，将立即应用更改。您可以随时通过重复上述步骤，再次更改用户概要文件。
 
-有关设置 IBM 标识帐户的更多信息，请参阅[切换到 IBM 标识](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)。
+有关设置 IBM 标识帐户的更多信息，请参阅[切换到 IBM 标识](/docs/account?topic=account-unifyingaccounts#switchtoIBMid)。
 
 ## 编辑用户的客户门户网站许可权
 {: #cp_editusercpperm}
@@ -176,4 +176,4 @@ subcollection: customer-portal
 
 如果**欧盟支持**选项不可用，说明您的帐户中可能有用户启用了 PPTP VPN 访问。首先禁用帐户中所有用户的 PPTP VPN 访问，以启用**欧盟支持**选项。有关更多信息，请参阅[激活或停用 PPTP VPN 访问](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn)。
 
-有关在开具支持凭单时实施**欧盟支持**选项的更多信息，请参阅[请求对欧盟中资源的支持](/docs/get-support?topic=get-support-eusupported#eusupported)。
+有关在开具支持凭单时实施**欧盟支持**选项的更多信息，请参阅[请求对欧盟中资源的支持](/docs/get-support?topic=get-support-getting-customer-support#eusupportedservices)。
