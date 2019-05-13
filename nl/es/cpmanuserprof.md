@@ -66,7 +66,7 @@ Después de crear un perfil de usuario en el portal de clientes, puede editarlo 
 {: caption="Tabla 3. Otros valores de configuración para editar un perfil de usuario" caption-side="top"}
 Después de enviar las ediciones a un perfil de usuario, los cambios se aplicarán inmediatamente. Puede cambiar el perfil de usuario de nuevo en cualquier momento repitiendo los pasos anteriores.
 
-Consulte [Cambio a IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) para obtener más información sobre cómo configurar una cuenta de IBMid.
+Consulte [Cambio a IBMid](/docs/account?topic=account-unifyingaccounts#switchtoIBMid) para obtener más información sobre cómo configurar una cuenta de IBMid.
 
 ## Edición de los permisos de portal de clientes del usuario
 {: #cp_editusercpperm}
@@ -176,4 +176,4 @@ Puede indicar que desea soporte exclusivamente de un equipo de soporte ubicado f
 
 Si la opción **Soporte en la UE** no está disponible, podría tener usuarios en su cuenta con el acceso PPTP VPN habilitado. Inhabilite el acceso PPTP VPN para todos los usuarios de su cuenta en primer lugar para poder habilitar la opción **Soporte en la UE**. Para obtener más información, consulte [Activación o desactivación del acceso VPN de PPTP](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn).
 
-Para obtener más información sobre la implementación de la opción **Soporte en la UE** al abrir una incidencia de soporte, consulte [Solicitud de soporte para recursos en la Unión Europea](/docs/get-support?topic=get-support-eusupported#eusupported).
+Para obtener más información sobre la implementación de la opción **Soporte en la UE** al abrir una incidencia de soporte, consulte [Solicitud de soporte para recursos en la Unión Europea](/docs/get-support?topic=get-support-getting-customer-support#eusupportedservices).

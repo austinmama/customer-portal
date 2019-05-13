@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: open support tickets, select support, general technical support ticket
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 Se você tiver problemas com a infraestrutura do {{site.data.keyword.BluSoftlayer_full}} e não tiver uma conta vinculada, será possível obter ajuda para determinar a causa do problema e localizar uma solução usando o portal do cliente.
 {:shortdesc}
 
-Se você tiver uma [conta vinculada](/docs/account?topic=account-link_customer_accounts#link_customer_accounts), será possível obter suporte por meio do console do {{site.data.keyword.Bluemix_notm}}. Consulte [Obtendo suporte](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) para obter mais informações.
+Se você tiver uma [conta vinculada](/docs/account?topic=account-unifyingaccounts#link_user_account), será possível obter suporte por meio do console do {{site.data.keyword.Bluemix_notm}}. Consulte [Obtendo suporte](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) para obter mais informações.
 
 Se você não tiver uma conta vinculada, será possível abrir chamados de suporte no portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para problemas técnicos gerais ou para ajudar com problemas relacionados à sua conta.
 
@@ -37,14 +37,14 @@ Se você não tiver uma conta vinculada, será possível abrir chamados de supor
 1. Efetue login no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} usando suas credenciais exclusivas.
 2. Selecione **Suporte** > **Incluir chamado** no menu.
 3. Selecione a categoria que se enquadra melhor na razão para abrir um chamado na lista **Assunto**.
-4. Selecione seu nome de usuário na lista **Designar para**.<br/>
+4. Selecione o nome do usuário na lista **Designar para**.<br/>
 
   Se você estiver abrindo um chamado para outro usuário, selecione esse usuário na lista.
   {:tip}
 
 5. Insira uma breve descrição da dúvida ou problema no campo **Título**.
 6. Se atualizações de e-mail deverão ser enviadas quando o chamado for atualizado, indique para quem:
-  * Se as atualizações precisarem ser enviadas para o designado, selecione a caixa de seleção **Enviar e-mails de atualizações para mim?**. Se você não for o designado, marcar a caixa de seleção **Enviar e-mail de atualizações para mim?** resultará no envio de atualizações ao designado, pois ele está vinculado à lista **Designar a**.
+  * Se as atualizações precisarem ser enviadas para o designado, selecione a caixa de seleção **Enviar e-mails de atualizações para mim?**. Se você não for o designado, marcar a caixa de seleção **Enviar as atualizações para mim via e-mail?** resultará no envio das atualizações ao designado, pois ele está vinculado à lista **Designar para**.
   * Se as atualizações de e-mail precisarem ser enviadas para outros, no campo **Enviar e-mail para outros**, insira o endereço de e-mail do usuário para receber atualizações ou selecione o endereço de e-mail na lista. Em seguida, clique em **Incluir destinatário**. Repita essas etapas até que todos os destinatários tenham sido incluídos. É possível incluir até cinco destinatários por chamado, além do designado.
 7. Se os dispositivos estiverem associados a um chamado existente, insira o nome do dispositivo no campo **Dispositivos associados** ou selecione o dispositivo na lista, em seguida, clique em **Incluir dispositivo**. Repita essas etapas até que todos os dispositivos tenham sido incluídos.
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: open support tickets, select support, general technical support ticket
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 Si tiene problemas con la infraestructura de {{site.data.keyword.BluSoftlayer_full}} y no tiene una cuenta enlazada, puede obtener ayuda para determinar la causa del problema y encontrar una solución utilizando el portal de clientes.
 {:shortdesc}
 
-Si tiene una [cuenta enlazada](/docs/account?topic=account-link_customer_accounts#link_customer_accounts), puede obtener ayuda de soporte a través de la consola de {{site.data.keyword.Bluemix_notm}}. Consulte [Obtención de soporte](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) para obtener más información.
+Si tiene una [cuenta enlazada](/docs/account?topic=account-unifyingaccounts#link_user_account), puede obtener ayuda de soporte a través de la consola de {{site.data.keyword.Bluemix_notm}}. Consulte [Obtención de soporte](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) para obtener más información.
 
 Si no tiene una cuenta enlazada, puede abrir incidencias de soporte en el portal de clientes de infraestructura de {{site.data.keyword.BluSoftlayer_full}} con relación a problemas técnicos genéricos o para obtener ayuda con problemas relacionados con su cuenta.
 
@@ -37,7 +37,7 @@ Siga los siguientes pasos para abrir incidencias de soporte de {{site.data.keywo
 1. Inicie sesión en el [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Soporte** > **Añadir incidencia** en el menú.
 3. Seleccione la categoría que mejor se ajuste al motivo por el que abrir una incidencia de la lista **Asunto**.
-4. Seleccione el nombre de usuario en la lista **Asignar a**.<br/>
+4. Seleccione su nombre de usuario en la lista **Asignar a**.<br/>
 
   Si está abriendo una incidencia para otro usuario, seleccione el usuario en la lista.
   {:tip}

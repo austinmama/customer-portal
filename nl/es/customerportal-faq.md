@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-06"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -60,7 +60,7 @@ No. Puede crear una cuenta nueva de {{site.data.keyword.Bluemix_notm}} o enlazar
 
 No hay impacto en la configuración de la autenticación de dos factores (2FA) a nivel de cuenta. 2FA no se realiza por IBMid, sino por cuenta. Cuando un IBMid se asocie con muchas cuentas, y pueda cambiar entre ellas, debe confirmar su identidad cada vez que cambie a una cuenta distinta que necesite 2FA. Esto es cierto incluso aunque la cuenta anterior y la cuenta nueva estén configuradas con el mismo mecanismo de 2FA.
 
-Para obtener más información sobre IBMid con 2FA, consulte [Uso de la autenticación de multifactores en cuentas enlazadas](/docs/account?topic=account-2fa#2fa).
+Para obtener más información sobre IBMid con 2FA, consulte [Uso de la autenticación de multifactores en cuentas enlazadas](/docs/account?topic=account-unifyingaccounts#2fa).
 
 ## ¿Quién puede enlazar cuentas?
 {: #bicp_wholinkaccts}
@@ -106,7 +106,7 @@ Si ha seguido el asistente para cambiar a IBMid y no ha recibido el correo elect
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Los usuarios maestros, y aquellos con permisos de administrador, tienen acceso completo como usuario root a las cuentas del portal de clientes y de la API. Los usuarios sin permisos de administrador tienen la accesibilidad controlada por aquellos con roles de administración. Estos permisos los pueden actualizar administradores desde el portal de clientes [editando un perfil de usuario](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Sin permisos de administrador, puede editar el perfil de usuario en el portal de clientes pulsando su nombre de usuario en el panel superior.
+Los usuarios maestros, y aquellos con permisos de administrador, tienen acceso completo como usuario root a las cuentas del portal de clientes y de la API. Los usuarios sin permisos de administrador tienen la accesibilidad controlada por aquellos con roles de administración. Estos permisos los pueden actualizar administradores desde el portal de clientes [editando un perfil de usuario](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Sin permisos de administrador, puede editar el perfil de usuario en el portal de clientes pulsando su nombre de usuario.
 
 ## ¿Puedo enlazar una cuenta de suscripción de {{site.data.keyword.Bluemix_notm}}?
 {: #bicp_linkbmxsubacct}

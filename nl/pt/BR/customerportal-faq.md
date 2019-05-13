@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-06"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -60,7 +60,7 @@ Não. É possível criar uma nova conta do {{site.data.keyword.Bluemix_notm}} ou
 
 Não há nenhum impacto na configuração de autenticação de dois fatores (2FA) no nível da conta. A 2FA não é por IBMid; ainda é por conta. Quando um IBMid está associado a muitas contas e você alterna entre elas, deve-se confirmar sua identidade toda vez que alterna para uma conta diferente que requer 2FA. Isso é verdadeiro mesmo caso a conta anterior e a nova conta sejam ambas configuradas com o mesmo mecanismo de 2FA.
 
-Para obter mais informações sobre o IBMid com 2FA, consulte [Uso de autenticação de diversos fatores em contas vinculadas](/docs/account?topic=account-2fa#2fa).
+Para obter mais informações sobre o IBMid com 2FA, consulte [Uso de autenticação de diversos fatores em contas vinculadas](/docs/account?topic=account-unifyingaccounts#2fa).
 
 ## Quem pode vincular contas?
 {: #bicp_wholinkaccts}
@@ -106,7 +106,7 @@ Se você seguiu o assistente para alternar para o IBMid e não recebeu o e-mail,
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Os usuários principais e aqueles com permissões de administrador têm acesso raiz completo às contas no portal do cliente e à API. Os usuários sem permissões de administrador têm acessibilidade que é controlada por aqueles com funções administrativas. Essas permissões podem ser atualizadas pelos administradores do portal do cliente [editando um perfil do usuário](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Sem permissões de administrador, é possível editar seu perfil do usuário no portal do cliente clicando em seu nome do usuário no painel superior.
+Os usuários principais e aqueles com permissões de administrador têm acesso raiz completo às contas no portal do cliente e à API. Os usuários sem permissões de administrador têm acessibilidade que é controlada por aqueles com funções administrativas. Essas permissões podem ser atualizadas pelos administradores do portal do cliente [editando um perfil do usuário](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Sem permissões de administrador, é possível editar seu perfil do usuário no portal do cliente clicando em seu nome de usuário.
 
 ## Posso vincular uma conta de Assinatura do  {{site.data.keyword.Bluemix_notm}} ?
 {: #bicp_linkbmxsubacct}

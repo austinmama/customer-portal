@@ -4,7 +4,7 @@ copyright:
 
   years: 2019
 
-lastupdated: "2019-03-22"
+lastupdated: "2019-05-03"
 
 keywords: help managing tickets, resolve issues managing tickets, trouble working with tickets
 
@@ -43,7 +43,7 @@ Cuando intenta ver las incidencias de soporte, no puede ver las incidencias que 
 El propietario de la cuenta no le ha asignado los permisos para ver incidencias de la cuenta abiertos por otros usuarios. En este momento, solo puede ver las incidencias que tiene asignadas. 
 {: tsCauses}
  
-Si está utilizando el [portal de clientes](control.softlayer.com){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo"), debe asegurarse de que tenga asignados los permisos Ver todas las incidencias y Añadir nuevo usuario. Para solucionar el problema, póngase en contacto con el proveedor de la cuenta y solicite el acceso adecuado. 
+Si está utilizando el [portal de clientes](https://control.softlayer.com/){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo"), debe asegurarse de que tenga asignados los permisos Ver todas las incidencias y Añadir nuevo usuario. Para solucionar el problema, póngase en contacto con el proveedor de la cuenta y solicite el acceso adecuado. 
 
 Si es el propietario de la cuenta, siga los siguientes pasos para asignar a un usuario los permisos Ver todas las incidencias y Añadir nuevo usuario: 
 

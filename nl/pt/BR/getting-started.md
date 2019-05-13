@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-05-03"
 
 keywords: SoftLayer account, new users, IBM Cloud account
 
@@ -28,7 +28,7 @@ Nesse tutorial, passaremos pelo processo de introdução e execução com sua co
 ## Antes de começar
 {: #prereqs}
 
-É necessária uma conta do [{{site.data.keyword.Bluemix}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://cloud.ibm.com){:new_window}. Efetue login no portal do cliente com suas credenciais do IBMid. A maioria dos novos usuários usa o [IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) para autenticação.
+É necessária uma conta do [{{site.data.keyword.Bluemix}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://cloud.ibm.com){:new_window}. Efetue login no portal do cliente com suas credenciais do IBMid. A maioria dos novos usuários usa o [IBMid](/docs/account?topic=account-unifyingaccounts#switchtoIBMid) para autenticação.
 
 Se você não usa o IBMid para autenticação para efetuar login em sua conta, efetue login no portal do cliente com suas credenciais de infraestrutura exclusivas do {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: IBM Cloud infrastructure customer portal, IBM Cloud console, IBM Cloud infrastructure customer
 
@@ -26,8 +26,8 @@ Puede utilizar la consola de {{site.data.keyword.Bluemix}} para gestionar gran p
 {:shortdesc}
 
 Utilizaría el portal de clientes de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, en lugar de la consola de {{site.data.keyword.Bluemix_notm}}, por los siguientes motivos:
-  * Si está utilizando solo servicios de infraestructura de {{site.data.keyword.Bluemix_notm}} (no los servicios de la plataforma) y no tiene una [cuenta enlazada](/docs/account?topic=account-link_customer_accounts#link_customer_accounts).
-  * Si no tiene un [IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid).
+  * Si está utilizando solo servicios de infraestructura de {{site.data.keyword.Bluemix_notm}} (no los servicios de la plataforma) y no tiene una [cuenta enlazada](/docs/account?topic=account-unifyingaccounts#link_user_account).
+  * Si no tiene un [IBMid](/docs/account?topic=account-unifyingaccounts#switchtoIBMid).
   * Si necesita acceder a un entorno federal; por ejemplo, una agencia del gobierno de los Estados Unidos puede necesitar un centro de datos con un bloqueo más seguro con acceso externo limitado. En este entorno, solo están disponibles los servicios de infraestructura de {{site.data.keyword.Bluemix_notm}}, el acceso a la plataforma de {{site.data.keyword.Bluemix_notm}} no está disponible en un centro de datos federal.
 
 Utilizará luego el portal de clientes de la infraestructura de {{site.data.keyword.BluSoftlayer_full}} para las tareas siguientes:
