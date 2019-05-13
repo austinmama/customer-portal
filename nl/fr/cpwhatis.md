@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: IBM Cloud infrastructure customer portal, IBM Cloud console, IBM Cloud infrastructure customer
 
@@ -26,8 +26,8 @@ Vous pouvez utiliser la console {{site.data.keyword.Bluemix}} pour gérer la maj
 {:shortdesc}
 
 Utilisez le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} et non pas la console {{site.data.keyword.Bluemix_notm}} dans les circonstances suivantes :
-  * Si vous utilisez uniquement les services d'infrastructure {{site.data.keyword.Bluemix_notm}} (et non les services de plateforme) et ne disposez pas d'un [compte lié](/docs/account?topic=account-link_customer_accounts#link_customer_accounts).
-  * Si vous ne disposez pas d'un [IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid).
+  * Si vous utilisez uniquement les services d'infrastructure {{site.data.keyword.Bluemix_notm}} (et non les services de plateforme) et ne disposez pas d'un [compte lié](/docs/account?topic=account-unifyingaccounts#link_user_account).
+  * Si vous ne disposez pas d'un [IBMid](/docs/account?topic=account-unifyingaccounts#switchtoIBMid).
   * Si vous devez accéder à un environnement fédéral, par exemple, si une agence gouvernementale américaine requiert un centre de données avec un niveau de verrouillage plus sécurisé et un accès externe limité. Seuls les services d'infrastructure {{site.data.keyword.Bluemix_notm}} sont disponibles dans cet environnement ; la plateforme {{site.data.keyword.Bluemix_notm}} n'est pas disponible dans un centre de données fédéral.
 
 Vous utiliserez alors le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} pour les tâches suivantes :

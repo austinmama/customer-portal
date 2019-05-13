@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-06"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -61,7 +61,7 @@ Non. Vous pouvez créer un compte {{site.data.keyword.Bluemix_notm}} ou lier un 
 La configuration d'une authentification à deux facteurs (2FA) n'a pas d'impact au niveau du compte. L'authentification 2FA n'est pas effectuée par IBMid, mais par compte. Quand un IBMid est associé à plusieurs comptes et que vous basculez d'un compte à l'autre, vous devez confirmer votre identité chaque fois que vous passez à un compte différent qui nécessite une authentification 2FA. Cette règle s'applique même si le compte précédent et le nouveau compte sont tous les deux configurés avec le même mécanisme d'authentification 2FA.
 
 Pour plus d'informations sur l'IBMid avec authentification 2FA, voir [Utilisation de l'authentification multi-facteur
-dans les comptes liés](/docs/account?topic=account-2fa#2fa).
+dans les comptes liés](/docs/account?topic=account-unifyingaccounts#2fa).
 
 ## Qui peut lier des comptes ?
 {: #bicp_wholinkaccts}
@@ -107,7 +107,7 @@ Si vous avez suivi l'assistant pour passer à IBMid et n'avez pas reçu l'e-mail
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Les utilisateurs principaux et les utilisateurs dotés de droits d'administrateur possèdent des droits d'accès root complets sur le portail client et l'API. L'accessibilité des utilisateurs dotés de droits d'administrateur est contrôlée par les utilisateurs ayant un rôle administratif. Ces droits peuvent être mis à jour par des administrateurs à partir du portail client en [éditant un profil utilisateur](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Si vous ne disposez pas de droits d'administrateur, vous pouvez éditer votre profil utilisateur dans le portail client en cliquant sur votre nom d'utilisateur dans le panneau supérieur.
+Les utilisateurs principaux et les utilisateurs dotés de droits d'administrateur possèdent des droits d'accès root complets sur le portail client et l'API. L'accessibilité des utilisateurs dotés de droits d'administrateur est contrôlée par les utilisateurs ayant un rôle administratif. Ces droits peuvent être mis à jour par des administrateurs à partir du portail client en [éditant un profil utilisateur](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Si vous ne disposez pas de droits d'administrateur, vous pouvez éditer votre profil utilisateur dans le portail client en cliquant sur votre nom d'utilisateur. 
 
 ## Puis-je lier un compte {{site.data.keyword.Bluemix_notm}} de type Abonnement ?
 {: #bicp_linkbmxsubacct}

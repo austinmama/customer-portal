@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-05-03"
 
 keywords: SoftLayer account, new users, IBM Cloud account
 
@@ -28,7 +28,7 @@ Ce tutoriel détaille la procédure de mise en route de votre compte SoftLayer a
 ## Avant de commencer
 {: #prereqs}
 
-Vous aurez besoin d'un compte [{{site.data.keyword.Bluemix}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://cloud.ibm.com){:new_window}. Connectez-vous au portail client à l'aide de vos données d'identification IBMid. La plupart des nouveaux utilisateurs se servent de l'[IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) pour l'authentification.
+Vous aurez besoin d'un compte [{{site.data.keyword.Bluemix}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://cloud.ibm.com){:new_window}. Connectez-vous au portail client à l'aide de vos données d'identification IBMid. La plupart des nouveaux utilisateurs se servent de l'[IBMid](/docs/account?topic=account-unifyingaccounts#switchtoIBMid) pour l'authentification.
 
 Si vous n'utilisez pas un IBMid pour authentification lorsque vous vous connectez à votre compte, connectez-vous au portail client à l'aide de vos données d'identification uniques de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}

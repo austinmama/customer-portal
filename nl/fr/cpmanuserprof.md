@@ -66,7 +66,7 @@ Après qu'un profil utilisateur ait été créé sur le portail client, vous pou
 {: caption="Tableau 3. Autres paramètres de configuration pour l'édition d'un profil utilisateur" caption-side="top"}
 Une fois que les modifications apportées à un profil utilisateur sont soumises, les changements sont immédiatement appliqués. Vous pouvez modifier à nouveau le profil utilisateur quand vous le souhaitez en répétant les étapes précédentes.
 
-Voir [Passage à l'IBMid](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) pour plus d'informations sur la configuration d'un compte IBMid.
+Voir [Passage à l'IBMid](/docs/account?topic=account-unifyingaccounts#switchtoIBMid) pour plus d'informations sur la configuration d'un compte IBMid.
 
 ## Edition des droits du portail client pour un utilisateur
 {: #cp_editusercpperm}
@@ -176,4 +176,4 @@ Vous pouvez indiquer que vous souhaitez l'aide exclusive d'une équipe de suppor
 
 Si l'option **Support dans l'Union européenne** n'est pas disponible, il est possible que l'accès VPN PPTP de certains utilisateurs de votre compte soit activé. Désactivez d'abord l'accès de réseau privé virtuel sous PPTP pour tous les utilisateurs pour pouvoir activer l'option **Support dans l'Union européenne**. Pour plus d'informations, voir [Activation ou désactivation de l'accès VPN PPTP](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn).
 
-Pour plus d'informations sur la mise en oeuvre de l'option **Support dans l'Union européenne** lorsque vous ouvrez un ticket de demande de service, voir [Demande de support pour des ressources dans l'Union européenne](/docs/get-support?topic=get-support-eusupported#eusupported).
+Pour plus d'informations sur la mise en oeuvre de l'option **Support dans l'Union européenne** lorsque vous ouvrez un ticket de demande de service, voir [Demande de support pour des ressources dans l'Union européenne](/docs/get-support?topic=get-support-getting-customer-support#eusupportedservices).

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: open support tickets, select support, general technical support ticket
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 Si vous rencontrez des problèmes lors de l'utilisation de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} et que vous ne disposez pas d'un compte lié, vous pouvez utiliser le portail client pour vous aider à déterminer la cause de ces problèmes et trouver une solution.
 {:shortdesc}
 
-Si vous possédez un [compte lié](/docs/account?topic=account-link_customer_accounts#link_customer_accounts), vous pouvez obtenir de l'aide au moyen de la console {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations, voir [Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support).
+Si vous possédez un [compte lié](/docs/account?topic=account-unifyingaccounts#link_user_account), vous pouvez obtenir de l'aide au moyen de la console {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations, voir [Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support).
 
 Si vous ne possédez pas de compte lié, vous pouvez ouvrir des tickets de demande de service dans le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} pour signaler des problèmes techniques d'ordre général ou pour obtenir de l'aide dans la résolution des problèmes liés à votre compte.
 
@@ -37,7 +37,7 @@ Vous pouvez ouvrir des tickets dans le portail client de l'infrastructure {{site
 1. Connectez-vous au [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Support** > **Ajouter ticket** depuis le menu.
 3. Sélectionnez dans la liste **Objet** la catégorie qui correspond le mieux au motif d'ouverture d'un ticket.
-4. Dans la liste **Affecter à**, sélectionnez votre nom d'utilisateur.<br/>
+4. Sélectionnez votre nom d'utilisateur dans la liste **Affecter à**.<br/>
 
   Si vous ouvrez un ticket pour un autre utilisateur, sélectionnez cet utilisateur dans la liste.
   {:tip}
