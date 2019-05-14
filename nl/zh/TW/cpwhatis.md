@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: IBM Cloud infrastructure customer portal, IBM Cloud console, IBM Cloud infrastructure customer
 
@@ -26,8 +26,8 @@ subcollection: customer-portal
 {:shortdesc}
 
 基於下列原因，您將使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站，而非 {{site.data.keyword.Bluemix_notm}} 主控台：
-  * 如果您只要使用 {{site.data.keyword.Bluemix_notm}} 基礎架構服務（而不使用平台服務），而且沒有[已鏈結帳戶](/docs/account?topic=account-link_customer_accounts#link_customer_accounts)。
-  * 如果您沒有 [IBM ID](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)。
+  * 如果您只要使用 {{site.data.keyword.Bluemix_notm}} 基礎架構服務（而不使用平台服務），而且沒有[已鏈結帳戶](/docs/account?topic=account-unifyingaccounts#link_user_account)。
+  * 如果您沒有 [IBM ID](/docs/account?topic=account-unifyingaccounts#switchtoIBMid)。
   * 如果您需要存取聯邦環境，例如，美國政府機關可能需要能限制外部存取且更安全的封鎖資料中心。這個環境中僅可用 {{site.data.keyword.Bluemix_notm}} 基礎架構服務；聯邦資料中心不提供 {{site.data.keyword.Bluemix_notm}} 平台存取。
 
 您接著會使用 {{site.data.keyword.BluSoftlayer_full}} 基礎架構客戶入口網站來進行下列作業：

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-06"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -60,7 +60,7 @@ No. Puoi creare un nuovo account {{site.data.keyword.Bluemix_notm}} o collegare 
 
 Non vi è alcun impatto sulla configurazione dell'autenticazione a due fattori (2FA) a livello di account. 2FA non è per ogni ID IBM, bensì per ogni account. Quando un ID IBM è associato a molti account e tu passi da un account all'altro, devi confermare la tua identità ogni volta che passi a un account diverso che richiede la 2FA. Questo è vero anche se l'account precedente e il nuovo account sono entrambi configurati con lo stesso meccanismo 2FA.
 
-Per ulteriori informazioni sull'ID IBM con 2FA, vedi [Utilizzo dell'autenticazione multifattore negli account collegati](/docs/account?topic=account-2fa#2fa).
+Per ulteriori informazioni sull'ID IBM con 2FA, vedi [Utilizzo dell'autenticazione multifattore negli account collegati](/docs/account?topic=account-unifyingaccounts#2fa).
 
 ## Chi può collegare gli account?
 {: #bicp_wholinkaccts}
@@ -106,7 +106,7 @@ Se hai seguito la procedura guidata per passare all'ID IBM e non hai ricevuto l'
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Gli utenti master e quelli con autorizzazioni di amministratore hanno accesso root completo agli account sul portale clienti e sull'API. Gli utenti senza autorizzazioni di amministratore dispongono dell'accessibilità controllata da quelli con i ruoli di amministratore. Queste autorizzazioni possono essere aggiornate dagli amministratori dal portale clienti [modificando un profilo utente](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Senza le autorizzazioni di amministratore, puoi modificare il tuo profilo utente nel portale clienti facendo clic sul tuo nome utente nel pannello superiore.
+Gli utenti master e quelli con autorizzazioni di amministratore hanno accesso root completo agli account sul portale clienti e sull'API. Gli utenti senza autorizzazioni di amministratore dispongono dell'accessibilità controllata da quelli con i ruoli di amministratore. Queste autorizzazioni possono essere aggiornate dagli amministratori dal portale clienti [modificando un profilo utente](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Senza le autorizzazioni da amministratore, puoi modificare il tuo profilo utente nel portale clienti facendo clic sul tuo nome utente.
 
 ## Posso collegare un account Sottoscrizione {{site.data.keyword.Bluemix_notm}}?
 {: #bicp_linkbmxsubacct}

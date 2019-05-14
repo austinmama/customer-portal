@@ -66,7 +66,7 @@ subcollection: customer-portal
 {: caption="表 3. 用於編輯使用者設定檔的其他配置設定" caption-side="top"}
 提交對使用者設定檔的編輯之後，即會立即套用變更。您隨時都可以重複先前的步驟，來重新變更使用者設定檔。
 
-如需設定 IBM ID 帳戶的相關資訊，請參閱[切換至 IBM ID](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)。
+如需設定 IBM ID 帳戶的相關資訊，請參閱[切換至 IBM ID](/docs/account?topic=account-unifyingaccounts#switchtoIBMid)。
 
 ## 編輯使用者的客戶入口網站許可權
 {: #cp_editusercpperm}
@@ -177,4 +177,4 @@ subcollection: customer-portal
 
 如果無法使用**歐盟支援**選項，則帳戶中可能有使用者已啟用 PPTP VPN 存取權。先停用帳戶中所有使用者的 PPTP VPN 存取權，才能啟用**歐盟支援**選項。如需相關資訊，請參閱[啟動或取消啟動 PPTP VPN 存取權](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn)。
 
-如需開立支援問題單時實作**歐盟支援**選項的相關資訊，請參閱[要求歐盟資源的支援](/docs/get-support?topic=get-support-eusupported#eusupported)。
+如需開立支援問題單時實作**歐盟支援**選項的相關資訊，請參閱[要求歐盟資源的支援](/docs/get-support?topic=get-support-getting-customer-support#eusupportedservices)。

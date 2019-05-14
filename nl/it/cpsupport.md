@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: open support tickets, select support, general technical support ticket
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 Se riscontri dei problemi con l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} e non hai un account collegato, puoi ottenere aiuto per determinare la causa del problema e trovare una soluzione utilizzando il portale clienti.
 {:shortdesc}
 
-Se hai un [account collegato](/docs/account?topic=account-link_customer_accounts#link_customer_accounts), puoi ottenere assistenza attraverso la console {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, vedi [Richiesta di supporto](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support).
+Se hai un [account collegato](/docs/account?topic=account-unifyingaccounts#link_user_account), puoi ottenere assistenza attraverso la console {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, vedi [Richiesta di supporto](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support).
 
 Se non hai un account collegato, puoi aprire i ticket di supporto nel portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per problemi tecnici generali o per assistenza in caso di problemi relativi al tuo account.
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: IBMid accounts, softLayer account, IBM Cloud infrastructure authentication
 
@@ -24,7 +24,7 @@ subcollection: customer-portal
 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構中的鑑別現在使用 IBM ID 來提供 {{site.data.keyword.Bluemix_notm}} 的單一登入。
 {:shortdesc}
 
-如果您有現有的 SoftLayer 帳戶，則可以切換至 IBM ID。移轉精靈可協助引導您完成這項切換。如需相關資訊，請參閱[切換至 IBM ID](/docs/account?topic=account-switchtoIBMid#switchtoIBMid)。
+如果您有現有的 SoftLayer 帳戶，則可以切換至 IBM ID。移轉精靈可協助引導您完成這項切換。如需相關資訊，請參閱[切換至 IBM ID](/docs/account?topic=account-unifyingaccounts#switchtoIBMid)。
 
 ## 將多個 SoftLayer 帳戶對映至一個 IBM ID
 {: #cp_mapmultclinfrto1ibmid}

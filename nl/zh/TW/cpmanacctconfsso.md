@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-03"
 
 keywords: identity provider, IBM Cloud infrastructure, single sign-on  
 
@@ -71,4 +71,4 @@ subcollection: customer-portal
 7. 按一下**下載 XML 配置**，以下載服務提供者 meta 資料，或趕快記下資訊。
 8. 使用**服務提供者** meta 資料，以根據身分提供者指示來配置身分提供者。  
 
-您可以使用聯合 ID 來登入 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構。如需聯合 ID 的相關資訊，請參閱[註冊 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 及 [IBMid Enterprise Federation Adoption Guide ![外部鏈結圖示](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}。
+您可以使用聯合 ID 來登入 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構。如需聯合 ID 的相關資訊，請參閱[註冊 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 及 [IBMid Enterprise Federation Adoption Guide ![外部鏈結圖示](../icons/launch-glyph.svg)](https://ibm.ent.box.com/notes/78040808400?s=2gwm9ib2tlyoy8ivjjj94p4wo2eqkgvq){: new_window}。

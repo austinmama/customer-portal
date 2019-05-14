@@ -66,7 +66,7 @@ Una volta creato un profilo utente nel portale clienti, puoi modificarlo in qual
 {: caption="Tabella 3. Altre impostazioni di configurazione per la modifica di un profilo utente" caption-side="top"}
 Dopo aver inviato le modifiche per un profilo utente, tali modifiche vengono applicate immediatamente. Puoi modificare nuovamente il profilo utente in qualsiasi momento ripetendo i passi precedenti.
 
-Vedi [Passaggio all'ID IBM](/docs/account?topic=account-switchtoIBMid#switchtoIBMid) per ulteriori informazioni sulla configurazione di un account ID IBM.
+Vedi [Passaggio all'ID IBM](/docs/account?topic=account-unifyingaccounts#switchtoIBMid) per ulteriori informazioni sulla configurazione di un account ID IBM.
 
 ## Modifica delle autorizzazioni del portale clienti di un utente
 {: #cp_editusercpperm}
@@ -176,4 +176,4 @@ Puoi indicare che desideri ricevere assistenza esclusivamente da un team di supp
 
 Se l'opzione **Supportato UE** non è disponibile, è possibile che ci siano utenti nel tuo account con l'accesso VPN PPTP abilitato. Disabilita l'accesso VPN PPTP per tutti gli utenti nel tuo account per abilitare l'opzione **Supportato UE**. Per ulteriori informazioni, vedi [Attivazione o disattivazione dell'accesso VPN PPTP](/docs/customer-portal?topic=customer-portal-cp_pptpvpn#cp_pptpvpn).
 
-Per ulteriori informazioni sull'implementazione dell'opzione **Supportato UE** quando apri un ticket di supporto, vedi [Richiesta di supporto per le risorse nell'Unione Europea](/docs/get-support?topic=get-support-eusupported#eusupported).
+Per ulteriori informazioni sull'implementazione dell'opzione **Supportato UE** quando apri un ticket di supporto, vedi [Richiesta di supporto per le risorse nell'Unione Europea](/docs/get-support?topic=get-support-getting-customer-support#eusupportedservices).

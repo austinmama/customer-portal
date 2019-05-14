@@ -4,7 +4,7 @@ copyright:
 
   years: 2019
 
-lastupdated: "2019-03-22"
+lastupdated: "2019-05-03"
 
 keywords: help managing tickets, resolve issues managing tickets, trouble working with tickets
 
@@ -43,7 +43,7 @@ subcollection: customer-portal
 帳戶擁有者未指派您檢視帳戶中其他使用者開立之問題單的許可權。目前，您只能檢視指派給您自己的問題單。
 {: tsCauses}
  
-如果您使用[客戶入口網站](control.softlayer.com){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")，必須確定您已被指派「檢視所有問題單」及「新增使用者」許可權。若要解決此問題，請與帳戶擁有者聯絡，以要求適當的存取權。 
+如果您使用[客戶入口網站](https://control.softlayer.com/){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")，必須確定您已被指派「檢視所有問題單」及「新增使用者」許可權。若要解決此問題，請與帳戶擁有者聯絡，以要求適當的存取權。 
 
 如果您是帳戶擁有者，請完成下列步驟，以指派使用者「檢視所有問題單」及「新增使用者」許可權： 
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-06"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -60,7 +60,7 @@ subcollection: customer-portal
 
 不會影響位於帳戶層次的雙因子鑑別 (2FA) 配置。2FA 不是依據 IBM ID；它仍是根據帳戶。如果 IBM ID 與許多帳戶相關聯，而且您在帳戶之間切換，則每次切換至需要 2FA 的不同帳戶時都必須確認身分。即使前一個帳戶及新的帳戶都已配置相同的雙因子鑑別機制時也是如此。
 
-如需含 2FA 的 IBM ID 的相關資訊，請參閱[已鏈結帳戶中的多因子鑑別使用](/docs/account?topic=account-2fa#2fa)。
+如需含 2FA 的 IBM ID 的相關資訊，請參閱[已鏈結帳戶中的多因子鑑別使用](/docs/account?topic=account-unifyingaccounts#2fa)。
 
 ## 誰可以鏈結帳戶？
 {: #bicp_wholinkaccts}
@@ -106,7 +106,7 @@ subcollection: customer-portal
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-主要使用者及具有管理者許可權的使用者都會有客戶入口網站及 API 上帳戶的完整 root 存取權。沒有管理者許可權的使用者，其可存取性是由具有管理者角色的使用者所控制。管理者可以利用[編輯使用者設定檔](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)，從客戶入口網站更新這些許可權。如果沒有管理者許可權，您可以在客戶入口網站的頂端畫面上按一下使用者名稱，以編輯使用者設定檔。
+主要使用者及具有管理者許可權的使用者都會有客戶入口網站及 API 上帳戶的完整 root 存取權。沒有管理者許可權的使用者，其可存取性是由具有管理者角色的使用者所控制。管理者可以利用[編輯使用者設定檔](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile)，從客戶入口網站更新這些許可權。若沒有管理者許可權，您可以按一下使用者名稱，在客戶入口網站中編輯使用者設定檔。
 
 ## 我可以鏈結 {{site.data.keyword.Bluemix_notm}} 訂閱帳戶嗎？
 {: #bicp_linkbmxsubacct}
