@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-16"
 
 keywords: bandwidth pool, bandwidth usage, Add Servers list, optimizing badwidth 
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 Public data network traffic transferred Outbound from IBM Cloud data centers around the globe are assessed Outbound Bandwidth charges. The charges depend on where the resource transferring the data resides, the amount of data that is egressed and any bandwidth allotments that your purchased IBM cloud products are eligible for. 
 {:shortdesc} 
 
-Customers can optimize bandwidth usage by "pooling" all of the bandwidth together for servers into a bandwidth pool. Bandwidth overages for servers in a bandwidth pool are summed up as a whole and overages are calculated only if the total bandwidth of all servers exceeds the total allocated bandwidth for all servers versus metering at the individual server level. 
+Customers can optimize bandwidth usage by "pooling" all of the bandwidth together for servers into a bandwidth pool. Bandwidth averages for servers in a bandwidth pool are summed up as a whole and averages are calculated only if the total bandwidth of all servers exceeds the total allocated bandwidth for all servers versus metering at the individual server level. 
 
 The pool definitions are listed in the following table: 
 
