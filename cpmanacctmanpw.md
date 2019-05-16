@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-05-16"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -79,9 +79,9 @@ After you edit a user or password in the password tracking tool, the information
 ## Configuring an account for one time password access
 {: #cp_one-time}
 
-Before you can configure the account, you must first set up the Verisign "VIP Access" application. If VIP Access isn't set up, first download the application for one of the following devices:
-* For your phone:  [https://m.vip.symantec.com/home.v ![External link icon](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
-* For your desktop:  [https://idprotect.verisign.com/desktop/download.v ![External link icon](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
+Before you can configure the account, you must first set up the Verisign "VIP Access" application. If VIP Access isn't set up, first download the application:
+* [https://m.vip.symantec.com/home.v ![External link icon](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
+
 
 Then, complete the following steps:
 1. Open the application. Find the Credential ID and your current one-time password. You can ignore the password initially but you need the Credential ID for the portal, so keep the application open.
