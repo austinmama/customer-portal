@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-16"
 
 keywords: bandwidth pool, bandwidth usage, Add Servers list, optimizing badwidth 
 
@@ -25,8 +25,7 @@ subcollection: customer-portal
 從全球 IBM Cloud 資料中心出埠傳輸的公用資料網路資料流量，都會被評量計算出埠頻寬費用。費用取決於傳輸資料的資源所在處、送出的資料量，以及您購買 IBM Cloud 產品而符合資格的任何頻寬分配。
 {:shortdesc} 
 
-客戶可以將伺服器的所有頻寬全部「儲存 (pooling)」至「頻寬儲存區」，使頻寬的利用達到最佳化。頻寬儲存區中伺服器的頻寬超額會加總為一個，所有伺服器總頻寬超出所有伺服器總配置頻寬的情況下才會計算超額，而不是在個別伺服器層次計量。
- 
+客戶可以將伺服器的所有頻寬全部「儲存 (pooling)」至「頻寬儲存區」，使頻寬的利用達到最佳化。頻寬儲存區中伺服器的頻寬平均值會加總為一個，所有伺服器總頻寬超出所有伺服器總配置頻寬的情況下才會計算平均值，而不是在個別伺服器層次計量。 
 
 儲存區定義列出如下表： 
 
