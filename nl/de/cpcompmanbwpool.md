@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-16"
 
 keywords: bandwidth pool, bandwidth usage, Add Servers list, optimizing badwidth 
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 Für Netzverkehr im öffentlichen Datennetz, der von IBM Cloud-Rechenzentren auf der ganzen Welt abgeht, werden Gebühren für die abgehende Bandbreite berechnet. Die Kosten hängen davon ab, wo sich die Ressource befindet, von der die Daten übertragen werden, welche Datenmenge ausgegeben wird und zu welcher Bandbreitenzuteilung Ihre erworbenen IBM Cloud-Produkte berechtigt sind. 
 {:shortdesc} 
 
-Kunden können die Bandbreitennutzung optimieren, indem sie die gesamte Bandbreite für Server in einem Bandbreitenpool zusammenfassen. Bandbreitenüberschreitungen für Server in einem Bandbreitenpool werden als Summe aufaddiert und Überschreitungen nur dann berechnet, wenn die gesamte Bandbreite aller Server die insgesamt für alle Server zugeordnete Bandbreite überschreitet. Dies steht im Gegensatz zur Messung auf der Ebene einzelner Server. 
+Kunden können die Bandbreitennutzung optimieren, indem sie die gesamte Bandbreite für Server in einem Bandbreitenpool zusammenfassen. Durchschnittliche Bandbreiten für Server in einem Bandbreitenpool werden als Summe aufaddiert und Durchschnitte nur dann berechnet, wenn die gesamte Bandbreite aller Server die insgesamt für alle Server zugeordnete Bandbreite überschreitet. Dies steht im Gegensatz zur Messung auf der Ebene einzelner Server. 
 
 Die Pooldefinitionen sind in der folgenden Tabelle aufgeführt: 
 

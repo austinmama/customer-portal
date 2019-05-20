@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-16"
 
 keywords: bandwidth pool, bandwidth usage, Add Servers list, optimizing badwidth 
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 El tráfico de red de datos públicos de salida de los centros de datos de IBM Cloud en todo el mundo tiene cargos evaluados de ancho de banda de salida. Los cargos dependen del lugar en el que reside el recurso que transfiere los datos, de la cantidad de datos de salida y de las asignaciones de ancho de banda a las que pueden optar los productos de IBM Cloud adquiridos. 
 {:shortdesc} 
 
-Los clientes pueden optimizar el uso de ancho de banda "agrupando" todo el ancho de banda correspondiente a los servidores en una agrupación de ancho de banda. Los excedentes de ancho de banda para los servidores de una agrupación de ancho de banda se suman en su totalidad y los excedentes solo se calculan si el ancho de banda total de todos los servidores supera el ancho de banda asignado total para todos los servidores, en lugar de calcularse el nivel de cada servidor individual. 
+Los clientes pueden optimizar el uso de ancho de banda "agrupando" todo el ancho de banda correspondiente a los servidores en una agrupación de ancho de banda. Los promedios de ancho de banda para los servidores de una agrupación de ancho de banda se suman en su totalidad y los promedios solo se calculan si el ancho de banda total de todos los servidores supera el ancho de banda asignado total para todos los servidores, en lugar de calcularse el nivel de cada servidor individual. 
 
 Las definiciones de agrupaciones se muestran en la tabla siguiente: 
 
