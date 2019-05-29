@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-06"
+lastupdated: "2019-05-29"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -48,7 +48,7 @@ New accounts require IBMid for authentication. Existing accounts continue to use
 
 If you're the master user on your SoftLayer account, log in to the customer portal and click **Link an account** in the header. See [Linking IBMid user accounts](/docs/account?topic=account-unifyingaccounts#unifyingaccounts) for more information.
 
-## Do I must be an existing {{site.data.keyword.Bluemix_notm}} user to link accounts?
+## Do I have to be an existing {{site.data.keyword.Bluemix_notm}} user to link accounts?
 {: #bicp_bmxusertolink}
 {: faq}
 
