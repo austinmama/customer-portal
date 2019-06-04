@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-06"
+lastupdated: "2019-05-29"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -48,7 +48,7 @@ Novas contas requerem o IBMid para autenticação. As contas existentes continua
 
 Se você for o usuário principal na conta do SoftLayer, efetue login no portal do cliente e clique em **Vincular uma conta** no cabeçalho. Veja [Vinculando contas do usuário IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts) para obter informações adicionais.
 
-## Devo ser um usuário existente do {{site.data.keyword.Bluemix_notm}} para vincular contas?
+## Tenho que ser um usuário existente do {{site.data.keyword.Bluemix_notm}} para vincular contas?
 {: #bicp_bmxusertolink}
 {: faq}
 

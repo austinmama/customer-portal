@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-06"
+lastupdated: "2019-05-29"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -107,7 +107,7 @@ Si vous avez suivi l'assistant pour passer à IBMid et n'avez pas reçu l'e-mail
 {: #bicp_fullrootaccaccess}
 {: faq}
 
-Les utilisateurs principaux et les utilisateurs dotés de droits d'administrateur possèdent des droits d'accès root complets sur le portail client et l'API. L'accessibilité des utilisateurs dotés de droits d'administrateur est contrôlée par les utilisateurs ayant un rôle administratif. Ces droits peuvent être mis à jour par des administrateurs à partir du portail client en [éditant un profil utilisateur](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Si vous ne disposez pas de droits d'administrateur, vous pouvez éditer votre profil utilisateur dans le portail client en cliquant sur votre nom d'utilisateur. 
+Les utilisateurs principaux et les utilisateurs dotés de droits d'administrateur possèdent des droits d'accès root complets sur le portail client et l'API. L'accessibilité des utilisateurs dotés de droits d'administrateur est contrôlée par les utilisateurs ayant un rôle administratif. Ces droits peuvent être mis à jour par des administrateurs à partir du portail client en [éditant un profil utilisateur](/docs/customer-portal?topic=customer-portal-cp_edituserprofile#cp_edituserprofile). Si vous ne disposez pas de droits d'administrateur, vous pouvez éditer votre profil utilisateur dans le portail client en cliquant sur votre nom d'utilisateur.
 
 ## Puis-je lier un compte {{site.data.keyword.Bluemix_notm}} de type Abonnement ?
 {: #bicp_linkbmxsubacct}
