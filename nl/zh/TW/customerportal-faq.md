@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-06"
+lastupdated: "2019-05-29"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-06"
+lastupdated: "2019-05-29"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -48,7 +48,7 @@ subcollection: customer-portal
 
 SoftLayer アカウントのマスター・ユーザーである場合は、カスタマー・ポータルにログインし、ヘッダーにある**「アカウントのリンク (Link an account)」**をクリックします。 詳しくは、[IBMid ユーザー・アカウントのリンク](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)を参照してください。
 
-## アカウントにリンクするには、既存の {{site.data.keyword.Bluemix_notm}} ユーザーである必要がありますか?
+## アカウントをリンクするには、既存の {{site.data.keyword.Bluemix_notm}} ユーザーである必要がありますか?
 {: #bicp_bmxusertolink}
 {: faq}
 
