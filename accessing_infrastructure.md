@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-06-05"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -28,7 +28,7 @@ Use infrastructure resources to build virtual environments, provide storage, est
 
 To access infrastructure resources, you must have a Pay-As-You-Go account. The following table lists the different accounts and your options for accessing infrastructure resources.
 
-|{{site.data.keyword.Bluemix_notm}} Account Type |	Infrastructure Access? |	What Are My Options? |
+|{{site.data.keyword.Bluemix_notm}} Account Type |	Does My Account Have Infrastructure Access? |	What Are My Options? |
 |------------------|-----------------------|---------------|
 |Free account (Lite or 30-day trial) |	No access |	Upgrade your free account to a Pay-As-You-Go account |
 |Pay-As-You-Go account | Yes, if your account was created after 24 October 2016 | Nothing else is required |
