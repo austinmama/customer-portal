@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-06-05"
 
 keywords: user profile, administrative access, select account 
 
@@ -38,6 +38,10 @@ After a user profile is created in the customer portal, you can edit it at any t
 4. Edit the **User Profile** details as necessary. For users in accounts that use IBMid for authentication, update your email and password in your IBMid profile. See Table 1 for more information.
 5. If you want to reset your password after you log in, click **Reset Password** to generate an email that allows you to change your password.
 6. Click **Edit User** to submit the changes.
+
+### User profile detail fields 
+
+The following tables provide information about the different settings used to edit a user profile in customer portal. For more details about each account, see the sections that follow.
 
 | Field | Definition |
 |-----|----------|
