@@ -24,7 +24,7 @@ subcollection: customer-portal
 You can use infrastructure resources when you build your apps in the {{site.data.keyword.Bluemix_notm}} public environment.
 {: shortdesc}
 
-Use infrastructure resources to build virtual environments, provide storage, establish a network, and secure your environment. For more information, see [What is the {{site.data.keyword.Bluemix_notm}} platform](/docs/overview/ibm-cloud-platform.html).
+Use infrastructure resources to build virtual environments, provide storage, establish a network, and secure your environment. For more information, see [What is the {{site.data.keyword.Bluemix_notm}} platform](/docs/overview?topic=overview-whatis-platform).
 
 To access infrastructure resources, you must have a Pay-As-You-Go account. The following table lists the different accounts and your options for accessing infrastructure resources.
 
