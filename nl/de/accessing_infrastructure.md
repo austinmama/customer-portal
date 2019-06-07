@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-06-05"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -24,11 +24,11 @@ subcollection: customer-portal
 Beim Erstellen Ihrer Apps in der {{site.data.keyword.Bluemix_notm}} Public-Umgebung können Sie Infrastrukturressourcen verwenden.
 {: shortdesc}
 
-Infrastrukturressourcen können zum Erstellen virtueller Umgebungen verwendet werden, zur Bereitstellung von Speicherplatz, zum Aufbauen eines Netzwerks und Sichern der Umgebung. Weitere Informationen finden Sie in [Was ist die {{site.data.keyword.Bluemix_notm}}-Plattform?](/docs/overview/ibm-cloud-platform.html).
+Infrastrukturressourcen können zum Erstellen virtueller Umgebungen verwendet werden, zur Bereitstellung von Speicherplatz, zum Aufbauen eines Netzwerks und Sichern der Umgebung. Weitere Informationen finden Sie in [Was ist die {{site.data.keyword.Bluemix_notm}}-Plattform?](/docs/overview?topic=overview-whatis-platform).
 
 Um auf Infrastrukturressourcen zugreifen zu können, müssen Sie über ein Konto mit nutzungsabhängiger Zahlung verfügen. In der folgenden Tabelle sind die verschiedenen Konten und Ihre Optionen für den Zugriff auf Infrastrukturressource aufgelistet.
 
-|{{site.data.keyword.Bluemix_notm}}-Kontotyp |	Infrastrukturzugriff? |	Was sind meine Optionen? |
+|{{site.data.keyword.Bluemix_notm}}-Kontotyp |	Verfügt mein Konto über Infrastrukturzugriff? |	Was sind meine Optionen? |
 |------------------|-----------------------|---------------|
 |Kostenfreies Konto (Lite oder 30-tägiger Test) |	Kein Zugriff |	Führen Sie ein Upgrade Ihres kostenfreien Kontos auf ein nutzungsabhängiges Konto durch. |
 |Nutzungsabhängiges Konto | Ja, wenn Ihr Konto nach dem 24. Oktober 2016 erstellt wurde | Nichts anderes ist erforderlich. |

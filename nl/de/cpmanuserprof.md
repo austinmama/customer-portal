@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-06-05"
 
 keywords: user profile, administrative access, select account 
 
@@ -38,6 +38,10 @@ Ein im Kundenportal erstelltes Benutzerprofil kann jederzeit bearbeitet werden. 
 4. Bearbeiten Sie die Details für das **Benutzerprofil** wie gewünscht. Für Benutzer in Konten, die die IBMid für die Authentifizierung verwenden, aktualisieren Sie Ihre E-Mail-Adresse und Ihr Kennwort im IBMid-Profil. Weitere Informationen enthält Tabelle 1.
 5. Falls Sie Ihr Kennwort nach der Anmeldung zurücksetzen wollen, klicken Sie auf **Kennwort zurücksetzen**, um eine E-Mail zum Ändern des Kennworts zu generieren.
 6. Klicken Sie auf **Benutzer bearbeiten**, um die Änderungen zu übergeben.
+
+### Felder für Benutzerprofildetails 
+
+Die folgenden Tabellen enthalten Informationen zu den verschiedenen Einstellungen für die Bearbeitung eines Benutzerprofils im Kundenportal. Weitere Informationen zu den einzelnen Konten finden Sie in den folgenden Abschnitten.
 
 | Feld | Definition |
 |-----|----------|
