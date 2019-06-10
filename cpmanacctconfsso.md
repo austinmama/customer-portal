@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-03"
+lastupdated: "2019-06-10"
 
 keywords: identity provider, IBM Cloud infrastructure, single sign-on  
 
@@ -71,4 +71,4 @@ Use the following steps to set up {{site.data.keyword.BluSoftlayer_notm}} infras
 7. Click **Download XML Configuration** to download the service provider metadata or jot down the information.
 8. Use the **Service Provider** metadata to configure your identity provider based on the instructions of your identity provider.  
 
-You can log in to {{site.data.keyword.BluSoftlayer_notm}} infrastructure by using your federated ID. For more information about federated IDs, see [Signing up for {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) and [IBMid Enterprise Federation Adoption Guide ![External link icon](../icons/launch-glyph.svg)](https://ibm.ent.box.com/notes/78040808400?s=2gwm9ib2tlyoy8ivjjj94p4wo2eqkgvq){: new_window}.
+You can log in to {{site.data.keyword.BluSoftlayer_notm}} infrastructure by using your federated ID. For more information about federated IDs, see [Signing up for {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup) and [IBMid Enterprise Federation Adoption Guide ![External link icon](../icons/launch-glyph.svg)](https://ibm.ent.box.com/notes/78040808400?s=2gwm9ib2tlyoy8ivjjj94p4wo2eqkgvq){: new_window}.
