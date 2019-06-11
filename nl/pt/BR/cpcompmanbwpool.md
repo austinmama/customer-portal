@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-16"
 
 keywords: bandwidth pool, bandwidth usage, Add Servers list, optimizing badwidth 
 
@@ -25,7 +25,7 @@ subcollection: customer-portal
 O tráfego de rede pública de dados transferido como Saída dos data centers do IBM Cloud em todo o mundo é avaliado como encargos de Largura de banda de saída. Os encargos dependem de onde o recurso que está transferindo os dados reside, da quantia de dados que sai e de quaisquer dotações de largura de banda para as quais os produtos do IBM Cloud comprados são elegíveis. 
 {:shortdesc} 
 
-Os clientes podem otimizar o uso da largura da banda "agrupando" todas as larguras de banda para os servidores em um conjunto de largura da banda. Os excedentes de largura de banda para servidores em um conjunto de largura de banda são somados como um todo e os excedentes serão calculados somente se a largura de banda total de todos os servidores exceder o total de largura de banda alocada para todos os servidores versus a medição no nível de servidor individual. 
+Os clientes podem otimizar o uso da largura da banda "agrupando" todas as larguras de banda para os servidores em um conjunto de largura da banda. As médias de largura da banda para servidores em um conjunto de largura de banda são somadas como um todo e as médias são calculadas somente se a largura da banda total de todos os servidores excede a largura da banda alocada total para todos os servidores versus a medição no nível do servidor individual. 
 
 As definições de conjunto são listadas na tabela a seguir: 
 
