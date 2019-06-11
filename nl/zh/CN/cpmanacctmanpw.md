@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-05-16"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -79,9 +79,9 @@ subcollection: customer-portal
 ## 配置帐户进行一次性密码访问
 {: #cp_one-time}
 
-要配置帐户，必须先安装 Verisign 的“VIP Access”应用程序。如果未设置 VIP Access，请首先为以下某个设备下载该应用程序：
-* 手机：[https://m.vip.symantec.com/home.v ![外部链接图标](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
-* 桌面：[https://idprotect.verisign.com/desktop/download.v ![外部链接图标](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
+要配置帐户，必须先安装 Verisign 的“VIP Access”应用程序。如果未设置 VIP Access，请首先下载该应用程序：
+* [https://m.vip.symantec.com/home.v ![外部链接图标](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
+
 
 然后，完成以下步骤：
 1. 打开应用程序。找到“凭证标识”和当前的一次性密码。初始可以忽略该密码，但您需要门户网站的“凭证标识”，所以请使应用程序保持打开状态。

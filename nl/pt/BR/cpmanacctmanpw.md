@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-05-16"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -79,9 +79,9 @@ Depois que uma senha ou um usuário é editado na ferramenta de rastreamento de 
 ## Configurando uma conta para acesso de senha descartável
 {: #cp_one-time}
 
-Antes que seja possível configurar a conta, deve-se primeiro configurar o aplicativo "VIP Access" da Verisign. Se o Acesso VIP não estiver configurado, primeiro faça download do aplicativo para um dos dispositivos a seguir:
-* Para seu telefone: [https://m.vip.symantec.com/home.v ![Ícone de link externo](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
-* Para sua área de trabalho: [https://idprotect.verisign.com/desktop/download.v ![Ícone de link externo](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
+Antes que seja possível configurar a conta, deve-se primeiro configurar o aplicativo "VIP Access" da Verisign. Se o Acesso VIP não estiver configurado, primeiro faça download do aplicativo:
+* [https://m.vip.symantec.com/home.v ![Ícone de link externo](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
+
 
 Em seguida, conclua as etapas a seguir:
 1. Abra o aplicativo. Localize o ID de credencial e sua senha descartável atual. É possível ignorar a senha inicialmente, mas o ID de credencial será necessário para o portal, portanto, mantenha o aplicativo aberto.

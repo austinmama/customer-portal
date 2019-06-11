@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-05-16"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -79,9 +79,9 @@ Dopo aver modificato un utente o una password nello strumento di tracciamento de
 ## Configurazione di un account per l'accesso con password monouso
 {: #cp_one-time}
 
-Prima di poter configurare l'account, devi configurare l'applicazione "VIP Access" di Verisign. Se VIP Access non è configurato, per prima cosa scarica l'applicazione per uno dei seguenti dispositivi:
-* Per il tuo telefono: [https://m.vip.symantec.com/home.v ![Icona link esterno](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
-* Per il tuo desktop:  [https://idprotect.verisign.com/desktop/download.v ![Icona link esterno](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
+Prima di poter configurare l'account, devi configurare l'applicazione "VIP Access" di Verisign. Se VIP Access non è configurato, per prima cosa scarica l'applicazione:
+* [https://m.vip.symantec.com/home.v ![Icona link esterno](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
+
 
 Completa quindi la seguente procedura:
 1. Apri l'applicazione. Trova l'ID credenziale e la tua password monouso corrente. Inizialmente puoi ignorare la password ma ti servirà l'ID credenziale per il portale, quindi mantieni aperta l'applicazione.

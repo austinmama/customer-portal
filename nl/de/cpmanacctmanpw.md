@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-05-16"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -79,9 +79,9 @@ Nachdem Sie einen Benutzer oder ein Kennwort im Tool für die Kennwortaufzeichnu
 ## Konto für Zugriff mit Einmalkennwort konfigurieren
 {: #cp_one-time}
 
-Damit Sie das Konto konfigurieren können, müssen Sie zuerst die Verisign-Anwendung 'VIP Access' einrichten. Falls 'VIP Access' noch nicht installiert und eingerichtet ist, laden Sie zunächst die Anwendung für eines der folgenden Geräte herunter:
-* Telefon: [https://m.vip.symantec.com/home.v ![Symbol für externen Link](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
-* Desktop: [https://idprotect.verisign.com/desktop/download.v ![Symbol für externen Link](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
+Damit Sie das Konto konfigurieren können, müssen Sie zuerst die Verisign-Anwendung 'VIP Access' einrichten. Falls 'VIP Access' noch nicht installiert und eingerichtet ist, laden Sie zunächst die Anwendung herunter: 
+* [https://m.vip.symantec.com/home.v ![Symbol für externen Link](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
+
 
 Gehen Sie anschließend wie folgt vor:
 1. Öffnen Sie die Anwendung. Suchen Sie die Berechtigungsnachweis-ID und Ihr aktuelles Einmalkennwort. Das Kennwort können Sie zunächst ignorieren, aber die Berechtigungsnachweis-ID benötigen Sie für das Portal. Lassen Sie daher die Anwendung geöffnet.

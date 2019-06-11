@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-05-16"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -79,9 +79,9 @@ subcollection: customer-portal
 ## 配置帳戶進行一次性密碼存取
 {: #cp_one-time}
 
-您必須先設定 Verisign 的「VIP 存取」應用程式，才能配置帳戶。如果未設定 VIP 存取，請先下載下列其中一個裝置的應用程式：
-* 對於電話：[https://m.vip.symantec.com/home.v ![外部鏈結圖示](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
-* 對於桌上型電腦：[https://idprotect.verisign.com/desktop/download.v ![外部鏈結圖示](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
+您必須先設定 Verisign 的「VIP 存取」應用程式，才能配置帳戶。如果未設定 VIP 存取，請先下載應用程式：
+* [https://m.vip.symantec.com/home.v ![外部鏈結圖示](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
+
 
 然後，請完成下列步驟：
 1. 開啟應用程式。尋找「認證 ID」及您的現行一次性密碼。您一開始可以忽略密碼，但入口網站需要「認證 ID」，因此請保持開啟應用程式。

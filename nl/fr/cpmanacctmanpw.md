@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-05-16"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -79,9 +79,9 @@ Après qu'un utilisateur ou un mot de passe a été modifié dans l'outil de sui
 ## Configuration d'un compte pour un accès par mot de passe à usage unique
 {: #cp_one-time}
 
-Avant de pouvoir configurer le compte, vous devez d'abord configurer l'application Verisign "VIP Access". Si vous n'avez pas encore configuré VIP Access, commencez par télécharger l'application pour l'un des appareils suivants :
-* Pour votre téléphone : [https://m.vip.symantec.com/home.v ![Icône de lien externe](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
-* Pour votre bureau : [https://idprotect.verisign.com/desktop/download.v ![Icône de lien externe](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
+Avant de pouvoir configurer le compte, vous devez d'abord configurer l'application Verisign "VIP Access". Si vous n'avez pas encore configuré VIP Access, commencez par télécharger l'application :
+* [https://m.vip.symantec.com/home.v ![Icône de lien externe](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
+
 
 Procédez ensuite comme suit :
 1. Ouvrez l'application. Accédez à vos données d'identification et à votre mot de passe à usage unique. Vous pouvez ignorer initialement le mot de passe, mais aurez besoin des données d'identification pour le portail ; conservez donc l'application ouverte.

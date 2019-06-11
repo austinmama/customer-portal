@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-05-16"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -79,9 +79,9 @@ subcollection: customer-portal
 ## 일회성 비밀번호 액세스를 위한 계정 구성
 {: #cp_one-time}
 
-계정을 구성하기 전에 먼저 "VIP Access" 애플리케이션을 설정해야 합니다. VIP Access가 설정되지 않은 경우, 먼저 다음 디바이스 중 하나를 위한 애플리케이션을 다운로드하십시오.
-* 전화: [https://m.vip.symantec.com/home.v ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
-* 데스크탑: [https://idprotect.verisign.com/desktop/download.v ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
+계정을 구성하기 전에 먼저 "VIP Access" 애플리케이션을 설정해야 합니다. VIP Access가 설정되지 않은 경우 먼저 다음에서 애플리케이션을 다운로드하십시오.
+* [https://m.vip.symantec.com/home.v ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
+
 
 그런 다음, 다음 단계를 완료하십시오.
 1. 애플리케이션을 여십시오. 인증 정보 ID 및 현재 일회성 비밀번호를 찾으십시오. 비밀번호는 처음에는 무시할 수 있으나, 포털을 위해 인증 정보 ID는 필요하므로 애플리케이션을 열린 상태로 유지하십시오.

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-05-16"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -79,9 +79,9 @@ subcollection: customer-portal
 ## ワンタイム・パスワード・アクセス用のアカウントの構成
 {: #cp_one-time}
 
-アカウントを構成するには、その前にまず Verisign の「VIP Access」アプリケーションをセットアップする必要があります。 VIP Access がセットアップされていない場合、最初に、以下のいずれかのデバイス用のアプリケーションをダウンロードしてください。
-* 電話用: [https://m.vip.symantec.com/home.v ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
-* デスクトップ用:  [https://idprotect.verisign.com/desktop/download.v ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
+アカウントを構成するには、その前にまず Verisign の「VIP Access」アプリケーションをセットアップする必要があります。 VIP Access がセットアップされていない場合、最初に、アプリケーションをダウンロードしてください。
+* [https://m.vip.symantec.com/home.v ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
+
 
 次に、以下の手順を実行します。
 1. アプリケーションを開きます。 資格情報 ID と、現行ワンタイム・パスワードを見つけます。 　最初はパスワードを無視できますが、ポータル用に資格情報 ID が必要なのでアプリケーションは開いたままにしておきます。

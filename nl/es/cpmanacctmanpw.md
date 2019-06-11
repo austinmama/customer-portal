@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-05-16"
 
 keywords: master user, Password tracking, Select Devices, managing passwords, password tracking tool 
 
@@ -79,9 +79,9 @@ Después de editar un usuario o una contraseña en la herramienta de seguimiento
 ## Configuración de una cuenta para el acceso mediante contraseña única
 {: #cp_one-time}
 
-Antes de poder configurar la cuenta, primero debe configurar la aplicación "Acceso VIP" de Verisign. Si Acceso VIP no está configurado, descargue en primer lugar la aplicación para uno de los dispositivos siguientes:
-* Para su teléfono: [https://m.vip.symantec.com/home.v ![Icono de enlace externo](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
-* Para su escritorio: [https://idprotect.verisign.com/desktop/download.v ![Icono de enlace externo](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
+Antes de poder configurar la cuenta, primero debe configurar la aplicación "Acceso VIP" de Verisign. Si Acceso VIP no está configurado, descargue en primer lugar la aplicación:
+* [https://m.vip.symantec.com/home.v ![Icono de enlace externo](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
+
 
 A continuación, realice los pasos siguientes:
 1. Abra la aplicación. Busque el ID de credenciales y su contraseña única actual. Puede ignorar la contraseña inicialmente, pero necesita el ID de credenciales para el portal, por lo que mantenga la aplicación abierta.
