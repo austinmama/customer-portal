@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-06-05"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -24,11 +24,11 @@ subcollection: customer-portal
 當您在 {{site.data.keyword.Bluemix_notm}} 公用環境中建置應用程式時，可以使用基礎架構資源。
 {: shortdesc}
 
-請使用基礎架構資源來建置虛擬環境、提供儲存空間、建立網路，以及保護環境。如需相關資訊，請參閱[何謂 {{site.data.keyword.Bluemix_notm}} 平台](/docs/overview/ibm-cloud-platform.html)。
+請使用基礎架構資源來建置虛擬環境、提供儲存空間、建立網路，以及保護環境。如需相關資訊，請參閱[何謂 {{site.data.keyword.Bluemix_notm}} 平台](/docs/overview?topic=overview-whatis-platform)。
 
 若要存取基礎架構資源，您必須有「隨收隨付制」帳戶。下表列出不同的帳戶以及您用來存取基礎架構資源的選項。
 
-|{{site.data.keyword.Bluemix_notm}} 帳戶類型|	基礎架構存取？|	我的選項為何？|
+|{{site.data.keyword.Bluemix_notm}} 帳戶類型|	我的帳戶具有基礎架構存取權嗎？|	我的選項為何？|
 |------------------|-----------------------|---------------|
 |免費帳戶（精簡或 30 天試用）|	無法存取|	將免費帳戶升級至「隨收隨付制」帳戶|
 |隨收隨付制帳戶|可以，如果您的帳戶是在 2016 年 10 月 24 日之後建立|不需要執行任何其他動作|

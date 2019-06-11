@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-06-05"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -24,11 +24,11 @@ subcollection: customer-portal
 {{site.data.keyword.Bluemix_notm}} Public 環境でアプリを作成するときにインフラストラクチャー・リソースを使用できます。
 {: shortdesc}
 
-インフラストラクチャー・リソースを使用して、仮想環境の構築、ストレージの提供、ネットワークの確立、および環境の保護を行います。 詳しくは、[{{site.data.keyword.Bluemix_notm}} プラットフォームとは (What is the {{site.data.keyword.Bluemix_notm}} platform) ](/docs/overview/ibm-cloud-platform.html)を参照してください。
+インフラストラクチャー・リソースを使用して、仮想環境の構築、ストレージの提供、ネットワークの確立、および環境の保護を行います。 詳しくは、『[{{site.data.keyword.Bluemix_notm}} プラットフォームとは何ですか?](/docs/overview?topic=overview-whatis-platform)』を参照してください。
 
 インフラストラクチャー・リソースにアクセスするには、従量課金 (PAYG) アカウントを持っている必要があります。 以下の表に、各種のアカウントと、インフラストラクチャー・リソースにアクセスするためのオプションを示します。
 
-|{{site.data.keyword.Bluemix_notm}} アカウント・タイプ |	インフラストラクチャーへのアクセス権限の有無 |	実行可能なオプション |
+|{{site.data.keyword.Bluemix_notm}} アカウント・タイプ |	アカウントにインフラストラクチャーへのアクセス権限があるかどうか |	実行可能なオプション |
 |------------------|-----------------------|---------------|
 |無料アカウント (ライトまたは 30 日間トライアル) |	アクセス権限なし |	無料アカウントを従量課金 (PAYG) アカウントにアップグレードします |
 |「従量課金 (PAYG)」アカウント | アクセス権限あり (アカウントが 2016 年 10 月 24 日以降に作成された場合) | 他に何も必要ありません |

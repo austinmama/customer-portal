@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-06-05"
 
 keywords: user profile, administrative access, select account 
 
@@ -38,6 +38,10 @@ Depois que um perfil do usuário é criado no portal do cliente, é possível ed
 4. Edite os detalhes de **Perfil do usuário** conforme necessário. Para usuários em contas que usam IBMid para autenticação, atualize seu e-mail e senha em seu perfil do IBMid. Consulte a Tabela 1 para obter mais informações.
 5. Se desejar reconfigurar sua senha depois de efetuar login, clique em **Reconfigurar senha** para gerar um e-mail que permita mudar sua senha.
 6. Clique em **Editar usuário** para enviar as mudanças.
+
+### Campos de detalhe do perfil do usuário 
+
+As tabelas a seguir fornecem informações sobre as diferentes configurações usadas para editar um perfil de usuário no portal do cliente. Para obter mais detalhes sobre cada conta, consulte as seções a seguir.
 
 | Campo | Definição |
 |-----|----------|
