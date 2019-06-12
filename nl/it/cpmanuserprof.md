@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-06-05"
 
 keywords: user profile, administrative access, select account 
 
@@ -38,6 +38,10 @@ Una volta creato un profilo utente nel portale clienti, puoi modificarlo in qual
 4. Modifica i dettagli del **Profilo utente** secondo necessità. Per gli utenti negli account che utilizzano l'ID IBM per l'autenticazione, aggiorna l'e-mail e la password nel tuo profilo dell'ID IBM. Per ulteriori informazioni, vedi la Tabella 1.
 5. Se vuoi reimpostare la tua password dopo l'accesso, fai clic su **Reimposta password** per generare un'email che ti consente di modificare la password.
 6. Fai clic su **Modifica utente** per inviare le modifiche.
+
+### Campi dei dettagli del profilo utente 
+
+Le seguenti tabelle forniscono le informazioni sulle diverse impostazioni utilizzate per modificare un profilo utente nel portale clienti. Per ulteriori dettagli su ciascun account, vedi le sezioni che seguono.
 
 | Campo | Definizione |
 |-----|----------|

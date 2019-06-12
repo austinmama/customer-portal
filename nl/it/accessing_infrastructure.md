@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-06-05"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -24,11 +24,11 @@ subcollection: customer-portal
 Puoi utilizzare le risorse dell'infrastruttura quando crei le tue applicazioni nell'ambiente pubblico {{site.data.keyword.Bluemix_notm}}.
 {: shortdesc}
 
-Utilizza le risorse dell'infrastruttura per creare ambienti virtuali, fornire archiviazione, stabilire una rete e proteggere il tuo ambiente. Per ulteriori informazioni, vedi [Cos'è la piattaforma {{site.data.keyword.Bluemix_notm}}](/docs/overview/ibm-cloud-platform.html).
+Utilizza le risorse dell'infrastruttura per creare ambienti virtuali, fornire archiviazione, stabilire una rete e proteggere il tuo ambiente. Per ulteriori informazioni, vedi [Cos'è la piattaforma {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-whatis-platform).
 
 Per accedere alle risorse dell'infrastruttura, devi avere un account Pagamento a consumo. La seguente tabella elenca i diversi account e le opzioni per accedere alle risorse dell'infrastruttura.
 
-|Tipo di account {{site.data.keyword.Bluemix_notm}} |	Accesso all'infrastruttura? |	Quali sono le mie opzioni? |
+|Tipo di account {{site.data.keyword.Bluemix_notm}} |	Il mio account ha accesso all'infrastruttura? |	Quali sono le mie opzioni? |
 |------------------|-----------------------|---------------|
 |Account gratuito (Lite o 30 giorni di prova) |	Nessun accesso |	Aggiorna il tuo account gratuito a un account Pagamento a consumo |
 |Account Pagamento a consumo | Sì, se il tuo account è stato creato dopo il 24 ottobre 2016 | Non è richiesto altro |
