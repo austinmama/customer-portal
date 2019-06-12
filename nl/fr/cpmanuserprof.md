@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-06-05"
 
 keywords: user profile, administrative access, select account 
 
@@ -38,6 +38,10 @@ Après qu'un profil utilisateur ait été créé sur le portail client, vous pou
 4. Editez les détails du **Profil utilisateur** selon les besoins. Pour les utilisateurs de comptes utilisant IBMid pour l'authentification, mettez à jour vos adresse e-mail et mot de passe dans votre profil IBMid. Voir le tableau 1 pour plus d'informations.
 5. Si vous désirez réinitialiser votre mot de passe après vous être connecté, cliquez sur **Réinitialiser le mot de passe** afin de générer un courrier électronique qui vous permet de changer votre mot de passe.
 6. Cliquez sur **Editer l'utilisateur** pour soumettre les modifications.
+
+### Zones de détails de profil utilisateur 
+
+Les tableaux ci-après fournissent des informations sur les différents paramètres utilisés pour éditer un profil utilisateur dans le portail client. Pour plus de détails sur chaque compte, voir les sections qui suivent.
 
 | Zone | Définition |
 |-----|----------|

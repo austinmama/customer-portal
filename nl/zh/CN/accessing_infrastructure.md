@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-06-05"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -24,12 +24,12 @@ subcollection: customer-portal
 在 {{site.data.keyword.Bluemix_notm}} Public 环境中构建应用程序时，可以使用基础架构资源。
 {: shortdesc}
 
-使用基础架构资源可构建虚拟环境、提供存储器、建立网络并确保环境安全。有关更多信息，请参阅[什么是 {{site.data.keyword.Bluemix_notm}} 平台？](/docs/overview/ibm-cloud-platform.html)。
+使用基础架构资源可构建虚拟环境、提供存储器、建立网络并确保环境安全。有关更多信息，请参阅[什么是 {{site.data.keyword.Bluemix_notm}} 平台？](/docs/overview?topic=overview-whatis-platform)。
 
 
 要访问基础架构资源，您必须拥有现收现付帐户。下表列出了不同帐户以及为访问基础架构资源应选择的操作。
 
-|{{site.data.keyword.Bluemix_notm}} 帐户类型|	基础架构访问权？|	应选择的操作 |
+|{{site.data.keyword.Bluemix_notm}} 帐户类型|	帐户是否具有基础架构访问权？|	应选择的操作 |
 |------------------|-----------------------|---------------|
 |免费帐户（轻量或 30 天试用）|	无访问权|	将免费帐户升级为现收现付帐户|
 |现收现付帐户|有访问权（如果帐户是在 2016 年 10 月 24 日之后创建的话）|不需要任何其他操作|

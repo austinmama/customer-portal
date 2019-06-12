@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-06-05"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -24,11 +24,11 @@ subcollection: customer-portal
 Vous pouvez utiliser des ressources d'infrastructure lorsque vous générez vos applications dans l'environnement public {{site.data.keyword.Bluemix_notm}}.
 {: shortdesc}
 
-Utilisez des ressources d'infrastructure pour générer des environnements virtuels, fournir du stockage, établir un réseau et sécuriser votre environnement. Pour plus d'informations, voir [Qu'est-ce qu'une plateforme {{site.data.keyword.Bluemix_notm}} ?](/docs/overview/ibm-cloud-platform.html).
+Utilisez des ressources d'infrastructure pour générer des environnements virtuels, fournir du stockage, établir un réseau et sécuriser votre environnement. Pour plus d'informations, voir [Qu'est-ce qu'une plateforme {{site.data.keyword.Bluemix_notm}} ?](/docs/overview?topic=overview-whatis-platform).
 
 Pour accéder aux ressources d'infrastructure, vous devez disposer d'un compte de type Paiement à la carte. Le tableau suivant répertorie les différents types de comptes ainsi que les options correspondantes d'accès aux ressources d'infrastructure.
 
-|Type de compte {{site.data.keyword.Bluemix_notm}} |	Accès à l'infrastructure ? |	Quelles sont mes options ? |
+|Type de compte {{site.data.keyword.Bluemix_notm}} |	Mon compte a-t-il accès à l'infrastructure ? |	Quelles sont mes options ? |
 |------------------|-----------------------|---------------|
 |Compte gratuit (Lite ou essai de 30 jours) |	Aucun accès |	Mettez à niveau votre compte gratuit vers un compte de type Paiement à la carte |
 |Compte Paiement à la carte | Oui, si votre compte a été créé après 24 octobre 2016 | Rien d'autre n'est requis |
