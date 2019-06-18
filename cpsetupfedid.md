@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-18"
 
 keywords: service provider, identity federation, IBM Cloud infrastructure SSO
 
@@ -40,8 +40,8 @@ Multiple users can be assigned to a single role. Also, if a role exists in the i
 In this model, the following process occurs:
 * Users are created in both the identity provider and {{site.data.keyword.BluSoftlayer_notm}} infrastructure.
 * User permissions are assigned in {{site.data.keyword.BluSoftlayer}} infrastructure IMS by using the {{site.data.keyword.BluSoftlayer}} infrastructure customer portal or APIs.
-* Users authenticate with the identity provider and federate their credentials.
-* {{site.data.keyword.BluSoftlayer}} infrastructure consumes the credentials and access control is based on the permissions that are defined for the user in {{site.data.keyword.BluSoftlayer}} infrastructure IMS.
+* Users authenticate with the identity provider and federate their user identity.
+* {{site.data.keyword.BluSoftlayer}} infrastructure consumes the user identification and access control is based on the permissions that are defined for the user in {{site.data.keyword.BluSoftlayer}} infrastructure IMS.
 
 Accounts for users that need access to {{site.data.keyword.BluSoftlayer}} infrastructure are first created in {{site.data.keyword.BluSoftlayer}} infrastructure with random passwords. All permissions must be configured in {{site.data.keyword.BluSoftlayer}} infrastructure before the user can use SSO through the identity provider. Currently, permissions are set up based on the individual user.
 
@@ -74,8 +74,8 @@ The following example flow shows how user login authentication might work when y
 In this model, the following things happen:
 * Roles are created in the identity provider and assigned to the user.
 * Role and permission assignments are set up in {{site.data.keyword.BluSoftlayer}} infrastructure IMS by using {{site.data.keyword.BluSoftlayer}} infrastructure APIs.
-* Users authenticate with the identity provider and federate their credentials and role attributes.
-* {{site.data.keyword.BluSoftlayer}} infrastructure verifies the user credentials and role attributes. If the roles that are assigned to users by their identity provider match the roles in {{site.data.keyword.BluSoftlayer}} infrastructure, users are granted permissions for those roles when they log in to {{site.data.keyword.BluSoftlayer}} infrastructure.
+* Users authenticate with the identity provider and federate their user identity and role attributes.
+* {{site.data.keyword.BluSoftlayer}} infrastructure verifies the user identification and role attributes. If the roles that are assigned to users by their identity provider match the roles in {{site.data.keyword.BluSoftlayer}} infrastructure, users are granted permissions for those roles when they log in to {{site.data.keyword.BluSoftlayer}} infrastructure.
 * When the identity provider creates users, they're considered federated because they, and their roles, are authenticated through SAML 2.0.
 
 ### Setting up a role for a user
