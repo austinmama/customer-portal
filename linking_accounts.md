@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-20"
 
 keywords: IBM Cloud, single IBM Cloud invoice, linked accounts, billing linked accounts 
 
@@ -16,6 +16,7 @@ subcollection: customer-portal
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
+{:table: .aria-labeledby="caption"}
 {:new_window: target="_blank"}
 
 
@@ -40,7 +41,7 @@ Your {{site.data.keyword.Bluemix_notm}} usage continues to be measured for the c
 
 For example, if you link your accounts on 16 April 2017, you get a {{site.data.keyword.Bluemix_notm}} invoice for your April usage. Depending on when you linked your accounts, you might get a separate bill for your SoftLayer usage. Your combined usage during May is billed through your {{site.data.keyword.Bluemix_notm}} account.
 
-![Linking IBM Cloud and SoftLayer accounts summary](images/IBMCloudSoftLayerBill.svg)
+![Linking IBM Cloud and SoftLayer accounts summary](images/IBMCloudSoftLayerBill.svg){: caption="Figure 1. Linking IBM Cloud and SoftLayer accounts summary" caption-side="bottom"}
 
 After your bills are linked, your {{site.data.keyword.Bluemix_notm}} invoice lists the different charges for each resource that you used.
 
