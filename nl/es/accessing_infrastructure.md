@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-04-18"
+lastupdated: "2019-06-05"
 
 keywords: go account, different accounts, infrastructure resources, accessing infrastructure 
 
@@ -24,11 +24,11 @@ subcollection: customer-portal
 Puede utilizar los recursos de infraestructura al crear sus apps en el entorno público de {{site.data.keyword.Bluemix_notm}}.
 {: shortdesc}
 
-Utilice los recursos de infraestructura para crear entornos virtuales, proporcionar almacenamiento, establecer una red y proteger su entorno. Para obtener más información, consulte [Qué es la plataforma {{site.data.keyword.Bluemix_notm}}](/docs/overview/ibm-cloud-platform.html).
+Utilice los recursos de infraestructura para crear entornos virtuales, proporcionar almacenamiento, establecer una red y proteger su entorno. Para obtener más información, consulte [Qué es la plataforma {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-whatis-platform).
 
 Para acceder a los recursos de infraestructura, debe tener una cuenta de Pago según uso. La tabla siguiente lista las cuentas diferentes y las opciones para acceder a los recursos de infraestructura.
 
-|{{site.data.keyword.Bluemix_notm}} Tipo de cuenta |	¿Acceso de infraestructura? |	¿Qué opciones tengo? |
+|{{site.data.keyword.Bluemix_notm}} Tipo de cuenta |	¿Tiene mi cuenta acceso a la infraestructura? |	¿Qué opciones tengo? |
 |------------------|-----------------------|---------------|
 |Cuenta gratuita (Lite o Prueba de 30 días) |	Sin acceso |	Actualice su cuenta gratuita a una cuenta de Pago según uso |
 |Cuenta de Pago según uso | Sí, si su cuenta se creó después del 24 de octubre de 2016 | No es necesario nada más |

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-04-09"
+lastupdated: "2019-06-05"
 
 keywords: user profile, administrative access, select account 
 
@@ -38,6 +38,10 @@ Después de crear un perfil de usuario en el portal de clientes, puede editarlo 
 4. Edite los detalles del **Perfil de usuario** como sea necesario. Para los usuarios de las cuentas que utilizan IBMid para la autenticación, actualice su correo electrónico y contraseña en su perfil de IBMid. Consulte la Tabla 1 para obtener más información.
 5. Si desea restablecer la contraseña después de iniciar la sesión, pulse **Restablecer contraseña** para generar un correo electrónico que le permite cambiar su contraseña.
 6. Pulse **Editar usuario** para enviar los cambios.
+
+### Campos de detalles de perfil de usuario 
+
+Las tablas siguientes contienen información sobre los distintos valores utilizados para editar un perfil de usuario en el portal de clientes. Para obtener más detalles acerca de cada cuenta, consulte las siguientes secciones.
 
 | Campo | Definición |
 |-----|----------|
