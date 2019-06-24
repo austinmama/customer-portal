@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-03"
+lastupdated: "2019-06-10"
 
 keywords: identity provider, IBM Cloud infrastructure, single sign-on  
 
@@ -71,4 +71,4 @@ subcollection: customer-portal
 7. 单击**下载 XML 配置**以下载服务提供者元数据或记下信息。
 8. 使用**服务提供者**元数据以基于身份提供者的指示信息来配置身份提供者。  
 
-您现在可以使用联合标识登录到 {{site.data.keyword.BluSoftlayer_notm}} 基础架构。有关联合标识的更多信息，请参阅[注册 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 和 [IBMid Enterprise Federation Adoption Guide ![外部链接图标](../icons/launch-glyph.svg)](https://ibm.ent.box.com/notes/78040808400?s=2gwm9ib2tlyoy8ivjjj94p4wo2eqkgvq){: new_window}。
+您现在可以使用联合标识登录到 {{site.data.keyword.BluSoftlayer_notm}} 基础架构。有关联合标识的更多信息，请参阅[注册 {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup)。

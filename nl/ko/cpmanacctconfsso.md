@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-03"
+lastupdated: "2019-06-10"
 
 keywords: identity provider, IBM Cloud infrastructure, single sign-on  
 
@@ -71,4 +71,4 @@ ID 제공자로부터 인증 유형을 수신하기 위해 {{site.data.keyword.B
 7. **XML 구성 다운로드**를 클릭하여 서비스 제공자 메타데이터를 다운로드하거나 정보를 작성하십시오.
 8. **서비스 제공자** 메타데이터를 사용하여 ID 제공자의 지시사항에 따라 ID 제공자를 구성하십시오.  
 
-연합 ID를 사용하여 {{site.data.keyword.BluSoftlayer_notm}} 인프라에 로그인할 수 있습니다. 연합 ID에 관한 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 등록](/docs/account/adminpublic.html) 및 [IBMid Enterprise Federation Adoption Guide ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://ibm.ent.box.com/notes/78040808400?s=2gwm9ib2tlyoy8ivjjj94p4wo2eqkgvq){: new_window}를 참조하십시오.
+연합 ID를 사용하여 {{site.data.keyword.BluSoftlayer_notm}} 인프라에 로그인할 수 있습니다. 연합 ID에 관한 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 등록](/docs/account?topic=account-signup)을 참조하십시오.

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-03"
+lastupdated: "2019-06-10"
 
 keywords: identity provider, IBM Cloud infrastructure, single sign-on  
 
@@ -71,4 +71,4 @@ Utilizza la seguente procedura per configurare l'infrastruttura {{site.data.keyw
 7. Fai clic su **Scarica configurazione XML** per scaricare i metadati del provider di servizio o annotare le informazioni.
 8. Utilizza i metadati del **Provider di servizio** per configurare il tuo provider di identità in base alle istruzioni fornite da tale provider.  
 
-Puoi accedere all'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} utilizzando il tuo ID federato. Per ulteriori informazioni sugli ID federati, consulta [Registrazione per {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) e [IBMid Enterprise Federation Adoption Guide ![Icona link esterno](../icons/launch-glyph.svg)](https://ibm.ent.box.com/notes/78040808400?s=2gwm9ib2tlyoy8ivjjj94p4wo2eqkgvq){: new_window}.
+Puoi accedere all'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} utilizzando il tuo ID federato. Per ulteriori informazioni sugli ID federati, vedi [Registrazione a {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup).
