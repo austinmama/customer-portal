@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,20 +23,6 @@ subcollection: customer-portal
 
 # FAQs
 {: #bicpfaq}
-
-## Where do I find my SoftLayer resources in the IBM Cloud console?
-{: #softlayer-resources}
-{: faq}
-
-The formerly named SoftLayer is now called IBM Cloud classic infrastructure. To view your devices, storage, network, security, and services, click the **Menu icon** ![menu icon](../icons/icon_hamburger.svg) > **Classic Infrastructure**. You can also view your devices and storage items in the resource list by clicking the **Menu icon** ![menu icon](../icons/icon_hamburger.svg) > **Resource List**.
-
-## Where are my support tickets? 
-{: #softlayer-support-tickets}
-{: faq}
-
-Tickets are now called cases in IBM Cloud. To access support cases, go to **Support** > **Manage cases**.
-
-If you're unable to view your cases, try clicking **View archived cases**. If you still can't view them, you might not have the required permission. Ask your account owner to add you to the support case access group. For more information, see [SoftLayer account permissions](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions). 
 
 ## How do I retrieve my credentials for the customer portal?
 {: #bicp_retcreds}
@@ -62,12 +48,6 @@ New accounts require IBMid for authentication. Existing accounts continue to use
 
 If you're the master user on your SoftLayer account, log in to the customer portal and click **Link an account** in the header. See [Linking IBMid user accounts](/docs/account?topic=account-unifyingaccounts#unifyingaccounts) for more information.
 
-## Do I have to be an existing {{site.data.keyword.Bluemix_notm}} user to link accounts?
-{: #bicp_bmxusertolink}
-{: faq}
-
-No. You can create a new {{site.data.keyword.Bluemix_notm}} account or link an existing {{site.data.keyword.Bluemix_notm}} Lite or Pay-As-You-Go account.
-
 ## How does two-factor authentication work?
 {: #bicp_2fa}
 {: faq}
@@ -82,27 +62,11 @@ For more information about IBMid with 2FA, see [Multifactor authentication usage
 
 Only {{site.data.keyword.BluSoftlayer_notm}} infrastructure master users can link SoftLayer and {{site.data.keyword.Bluemix_notm}} accounts. A master user's email must also be associated to the primary owner of the {{site.data.keyword.Bluemix_notm}} account being linked.
 
-## What will I use to log in to each console?
-{: #bicp_logineachport}
-{: faq}
-
-Your account billing is linked and you can easily move between your SoftLayer and {{site.data.keyword.Bluemix_notm}} accounts, but your account identities remain separate.
-
-* If your account doesn't use IBMid for authentication, continue to use your SoftLayer ID for SoftLayer products and services, and use your IBMid for {{site.data.keyword.Bluemix_notm}} products and services.
-
-* If your account uses IBMid for authentication, you use your IBMid to access both your SoftLayer and your {{site.data.keyword.Bluemix_notm}} accounts.
-
 ## Why do I get an error when I try to log in with my SoftLayer user name?
 {: #bicp_SLloginerror}
 {: faq}
 
 After you switch to an IBMid, if you log in to the customer portal with your {{site.data.keyword.BluSoftlayer_notm}} infrastructure user name, the "Invalid login credentials provided" error is displayed. After you switch to an IBMid, you can no longer log in to the customer portal with your {{site.data.keyword.BluSoftlayer_notm}} infrastructure user name. You must click **Login with IBMid** in the Account Login dialog.
-
-## Why do I get an error when I try to log in with my IBMid?
-{: #bicp_IBMidloginerror}
-{: faq}
-
-When you log in with your IBMid, the "We didn't recognize this IBMid or email" error is displayed. Make sure that you enter a fully qualified email address. Also, make sure that you aren't using your {{site.data.keyword.BluSoftlayer_notm}} infrastructure user name.
 
 ## Can {{site.data.keyword.BluSoftlayer_notm}} infrastructure team members access my linked account?
 {: #bicp_linkgiveteamaccess}
