@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-18"
 
 keywords: service provider, identity federation, IBM Cloud infrastructure SSO
 
@@ -40,8 +40,8 @@ Un rôle unique peut être affecté à plusieurs utilisateurs. De même, si un r
 Dans ce modèle, la procédure suivante est exécutée :
 * Des utilisateurs sont créés dans le fournisseur d'identité et l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.
 * Des droits utilisateur sont affectés dans {{site.data.keyword.BluSoftlayer}} via le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer}} ou des API.
-* Les utilisateurs s'authentifient auprès du fournisseur d'identité et leurs données d'identification sont fédérées.
-* L'infrastructure {{site.data.keyword.BluSoftlayer}} consomme les données d'identification et le contrôle d'accès est basé sur les droits définis pour l'utilisateur dans le système IMS de l'infrastructure {{site.data.keyword.BluSoftlayer}}.
+* Les utilisateurs s'authentifient auprès du fournisseur d'identité et fédèrent leur identité utilisateur.
+* L'infrastructure {{site.data.keyword.BluSoftlayer}} consomme l'identification utilisateur et le contrôle d'accès est basé sur les droits définis pour l'utilisateur dans le système IMS de l'infrastructure {{site.data.keyword.BluSoftlayer}}.
 
 Les comptes des utilisateurs ayant besoin d'accéder à l'infrastructure {{site.data.keyword.BluSoftlayer}} sont d'abord créés dans l'infrastructure {{site.data.keyword.BluSoftlayer}} avec des mots de passe aléatoires. Tous les droits doivent être configurés dans l'infrastructure {{site.data.keyword.BluSoftlayer}} pour que l'utilisateur puisse utiliser la connexion unique via le fournisseur d'identité. Actuellement, les droits sont configurés sur la base de l'utilisateur individuel.
 
@@ -74,8 +74,8 @@ L'exemple de flux suivant illustre comment l'authentification de la connexion ut
 Dans ce modèle, les actions suivantes ont lieu :
 * Des rôles sont créés dans le fournisseur d'identité et affectés à l'utilisateur.
 * Des affectations de rôle et de droits sont configurées dans le système IMS de l'infrastructure {{site.data.keyword.BluSoftlayer}} via des API de l'infrastructure {{site.data.keyword.BluSoftlayer}}.
-* Les utilisateurs s'authentifient auprès du fournisseur d'identité et fédèrent leurs données d'identification et attributs de rôle.
-* L'infrastructure {{site.data.keyword.BluSoftlayer}} vérifie les données d'identification de l'utilisateur et les attributs de rôle. Si les rôles affectés aux utilisateurs par leur fournisseur d'identité correspondent à ceux dans l'infrastructure {{site.data.keyword.BluSoftlayer}}, des droits correspondant à ces rôles sont octroyés aux utilisateurs lorsqu'ils se connectent à l'infrastructure {{site.data.keyword.BluSoftlayer}}.
+* Les utilisateurs s'authentifient auprès du fournisseur d'identité et fédèrent leur identité utilisateur et les attributs de rôle.
+* L'infrastructure {{site.data.keyword.BluSoftlayer}} vérifie l'identification utilisateur et les attributs de rôle. Si les rôles affectés aux utilisateurs par leur fournisseur d'identité correspondent à ceux dans l'infrastructure {{site.data.keyword.BluSoftlayer}}, des droits correspondant à ces rôles sont octroyés aux utilisateurs lorsqu'ils se connectent à l'infrastructure {{site.data.keyword.BluSoftlayer}}.
 * Lorsque le fournisseur d'identité crée des utilisateurs, ceux-ci sont considérés comme fédérés vu que ces utilisateurs, ainsi que leurs rôles, sont authentifiés via SAML 2.0.
 
 ### Configuration d'un rôle pour un utilisateur

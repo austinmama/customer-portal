@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-20"
 
 keywords: IBM Cloud, single IBM Cloud invoice, linked accounts, billing linked accounts 
 
@@ -16,6 +16,7 @@ subcollection: customer-portal
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
+{:table: .aria-labeledby="caption"}
 {:new_window: target="_blank"}
 
 
