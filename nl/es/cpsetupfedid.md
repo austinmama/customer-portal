@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-18"
 
 keywords: service provider, identity federation, IBM Cloud infrastructure SSO
 
@@ -25,8 +25,8 @@ Puede configurar la federación de identidad para habilitar un proveedor de serv
 {:shortdesc}
 
 Puede configurar la federación de identidad en SSO de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} de una de las formas siguientes:
-* Creando usuarios en el proveedor de identidad y en la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}
-* Creando usuarios en el proveedor de identidad
+* Creación de usuarios en el proveedor de identidad y en la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}
+* Creación de usuarios en el proveedor de identidad
 
 Un rol define, para el proveedor de servicios, lo que el usuario está autorizado a hacer (mediante permisos) en su sistema después de que el usuario se haya autenticado. Por ejemplo, el rol *Usuario* podría tener permiso para ver solo distintas pantallas, pero no para actualizar ni añadir.
 
@@ -40,8 +40,8 @@ Pueden asignarse varios usuarios a un solo rol. Además, si existe un rol en el 
 En este modelo, ocurrirá lo siguiente:
 * Los usuarios se crean tanto en el proveedor de identidad como en la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.
 * Los permisos de usuario se asignan en IMS de la infraestructura de {{site.data.keyword.BluSoftlayer}} utilizando las API o el portal de clientes de la infraestructura de {{site.data.keyword.BluSoftlayer}}.
-* Los usuarios se autentican con el proveedor de identidad y federan sus credenciales.
-* La infraestructura de {{site.data.keyword.BluSoftlayer}} consume las credenciales y el control de acceso se basa en los permisos definidos para el usuario en IMS de infraestructura de {{site.data.keyword.BluSoftlayer}}.
+* Los usuarios se autentican con el proveedor de identidad y federan su identidad de usuario.
+* La infraestructura de {{site.data.keyword.BluSoftlayer}} consume la identificación de usuario y el control de acceso se basa en los permisos definidos para el usuario en IMS de infraestructura de {{site.data.keyword.BluSoftlayer}}.
 
 Las cuentas para los usuarios que necesitan acceso de infraestructura de {{site.data.keyword.BluSoftlayer}} se crean en primer lugar en la infraestructura de {{site.data.keyword.BluSoftlayer}} con contraseñas aleatorias. Todos los permisos deben configurarse en la infraestructura de {{site.data.keyword.BluSoftlayer}} antes de que el usuario pueda utilizar SSO a través del proveedor de identidad. Actualmente, los permisos se configuran basándose en el usuario individual.
 
@@ -68,14 +68,14 @@ El siguiente flujo de ejemplo muestra cómo podría funcionar la autenticación 
 6. El usuario inicia sesión en el portal de clientes de infraestructura de {{site.data.keyword.BluSoftlayer}} en función de la configuración de confianza entre el proveedor de identidad y la infraestructura de {{site.data.keyword.BluSoftlayer}}.
 
 
-## Creando usuarios en el proveedor de identidad
+## Creación de usuarios en el proveedor de identidad
 {: #cp_scenario2idp}
 
 En este modelo, ocurrirá lo siguiente:
 * Los roles se crean en el proveedor de identidad y se asignan al usuario.
 * Las asignaciones de roles y permisos se configuran en IMS de la infraestructura de {{site.data.keyword.BluSoftlayer}} utilizando las API de infraestructura de {{site.data.keyword.BluSoftlayer}}.
-* Los usuarios se autentican con el proveedor de identidad y federan sus credenciales y sus atributos de rol.
-* La infraestructura de {{site.data.keyword.BluSoftlayer}} verifica las credenciales de usuario y los atributos de rol. Si los roles asignados a los usuarios por su proveedor de identidad coinciden con los roles de la infraestructura de {{site.data.keyword.BluSoftlayer}}, se otorgarán permisos a los usuarios para dichos roles cuando inicien sesión en la infraestructura de {{site.data.keyword.BluSoftlayer}}.
+* Los usuarios se autentican con el proveedor de identidad y federan su identidad de usuario y sus atributos de rol.
+* La infraestructura de {{site.data.keyword.BluSoftlayer}} verifica la identificación de usuario y los atributos de rol. Si los roles asignados a los usuarios por su proveedor de identidad coinciden con los roles de la infraestructura de {{site.data.keyword.BluSoftlayer}}, se otorgarán permisos a los usuarios para dichos roles cuando inicien sesión en la infraestructura de {{site.data.keyword.BluSoftlayer}}.
 * Cuando el proveedor de identidad crea usuarios, estos se consideran como federados porque ellos, y sus roles, están autenticados a través de SAML 2.0.
 
 ### Configuración de un rol para un usuario

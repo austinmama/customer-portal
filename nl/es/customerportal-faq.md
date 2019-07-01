@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-20"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,6 +23,22 @@ subcollection: customer-portal
 
 # Preguntas más frecuentes
 {: #bicpfaq}
+
+## ¿Dónde puedo encontrar mis recursos de SoftLayer en la consola de IBM Cloud?
+{: #softlayer-resources}
+{: faq}
+
+La anteriormente denominada SoftLayer, ahora se denomina infraestructura clásica de IBM Cloud. Para ver sus dispositivos, almacenamiento, red, seguridad y servicios, pulse el **Icono Menú** ![Icono Menú](../icons/icon_hamburger.svg) > **Infraestructura clásica**. También puede ver sus dispositivos y elementos de almacenamiento en la lista de recursos pulsando sobre el **Icono Menú** ![Icono Menú](../icons/icon_hamburger.svg) > **Lista de recursos**.
+
+## ¿Dónde están mis incidencias de soporte? 
+{: #softlayer-support-tickets}
+{: faq}
+
+Las incidencias ahora se denominan casos en IBM Cloud. Para acceder a los casos de soporte, vaya a
+**Soporte** > **Gestionar casos**.
+
+Si no puede ver los casos, inténtelo pulsando **Ver casos archivados**. Si todavía no puede verlos, es posible que no tenga el permiso necesario. Solicite al propietario de la cuenta que le añada al grupo de acceso a casos de soporte. Para obtener más información, consulte
+[Permisos de cuenta de SoftLayer](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions). 
 
 ## ¿Cómo puedo recuperar mis credenciales para el portal de clientes?
 {: #bicp_retcreds}
