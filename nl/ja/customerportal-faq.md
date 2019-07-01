@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-20"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,6 +23,20 @@ subcollection: customer-portal
 
 # FAQ
 {: #bicpfaq}
+
+## 自分の SoftLayer リソースは IBM Cloud コンソール内のどこにありますか?
+{: #softlayer-resources}
+{: faq}
+
+以前の SoftLayer という名称は、現在、IBM Cloud クラシック・インフラストラクチャーと呼ばれています。お使いのデバイス、ストレージ、ネットワーク、セキュリティーを表示するには、**「メニュー」アイコン** ![「メニュー」アイコン](../icons/icon_hamburger.svg) > **「クラシック・インフラストラクチャー」**の順にクリックします。また、**「メニュー」アイコン** ![「メニュー」アイコン](../icons/icon_hamburger.svg) > **「リソース・リスト」**の順にクリックして、リソース・リストでデバイスとストレージ項目を表示することもできます。
+
+## サポート・チケットはどこにありますか?  
+{: #softlayer-support-tickets}
+{: faq}
+
+チケットは、IBM Cloud では Case と呼ばれるようになりました。サポート Case にアクセスするには、**「サポート」** > **「Case の管理」**へと進んでください。
+
+ご自分の Case を表示できない場合は、**「アーカイブされた Case の表示」**をクリックしてみてください。それでも表示できない場合は、必要な許可を持っていない可能性があります。サポート Case のアクセス・グループに追加するように、アカウント所有者に依頼してください。詳しくは、『[SoftLayer アカウント許可 (SoftLayer account permissions)](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions)』を参照してください。 
 
 ## カスタマー・ポータルの自分の資格情報を取得するには、どのようにすればよいですか?
 {: #bicp_retcreds}

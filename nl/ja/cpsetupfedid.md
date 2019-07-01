@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-18"
 
 keywords: service provider, identity federation, IBM Cloud infrastructure SSO
 
@@ -40,8 +40,8 @@ subcollection: customer-portal
 このモデルでは、以下のプロセスが行われます。
 * ID プロバイダーと {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーの両方にユーザーが作成されます。
 * {{site.data.keyword.BluSoftlayer}} インフラストラクチャーのカスタマー・ポータルまたは API を使用して、{{site.data.keyword.BluSoftlayer}} インフラストラクチャー IMS においてユーザー許可が割り当てられます。
-* ユーザーは ID プロバイダーを使用して認証され、資格情報が統合されます。
-* {{site.data.keyword.BluSoftlayer}} インフラストラクチャーはそれらの資格情報を取り込み、アクセス制御は {{site.data.keyword.BluSoftlayer}} インフラストラクチャー IMS 内でユーザーに定義された許可に基づきます。
+* ユーザーは ID プロバイダーを使用して認証され、ユーザー ID が統合されます。
+* {{site.data.keyword.BluSoftlayer}} インフラストラクチャーはそのユーザー ID を取り込み、アクセス制御は {{site.data.keyword.BluSoftlayer}} インフラストラクチャー IMS 内でユーザーに定義された許可に基づきます。
 
 {{site.data.keyword.BluSoftlayer}} インフラストラクチャーへのアクセスを必要とするユーザーのアカウントは、まず最初に、ランダム・パスワードと共に {{site.data.keyword.BluSoftlayer}} インフラストラクチャー内に作成されます。 ユーザーが ID プロバイダーを介して SSO を使用できるためには、その前に {{site.data.keyword.BluSoftlayer}} インフラストラクチャー内ですべての許可が構成される必要があります。 現在、許可は個々のユーザーに基づいてセットアップされます。
 
@@ -74,8 +74,8 @@ subcollection: customer-portal
 このモデルでは、以下のようになります。
 * ID プロバイダー内で役割が作成され、ユーザーに割り当てられます。
 * {{site.data.keyword.BluSoftlayer}} インフラストラクチャー API を使用して {{site.data.keyword.BluSoftlayer}} インフラストラクチャー IMS 内で役割および許可の割り当てがセットアップされます。
-* ユーザーは ID プロバイダーを使用して認証され、資格情報および役割属性が統合されます。
-* {{site.data.keyword.BluSoftlayer}} インフラストラクチャーは、ユーザー資格情報および役割属性を検証します。 ID プロバイダーによってユーザーに割り当てられた役割が、{{site.data.keyword.BluSoftlayer}} インフラストラクチャーにおける役割と一致している場合、ユーザーには、{{site.data.keyword.BluSoftlayer}} インフラストラクチャーにログインするときに、それらの役割の許可が付与されます。
+* ユーザーは ID プロバイダーを使用して認証され、ユーザー ID と役割の属性が統合されます。
+* {{site.data.keyword.BluSoftlayer}} インフラストラクチャーは、ユーザー ID と役割の属性を検証します。ID プロバイダーによってユーザーに割り当てられた役割が、{{site.data.keyword.BluSoftlayer}} インフラストラクチャーにおける役割と一致している場合、ユーザーには、{{site.data.keyword.BluSoftlayer}} インフラストラクチャーにログインするときに、それらの役割の許可が付与されます。
 * ID プロバイダーがユーザーを作成する場合、それらのユーザーは統合していると見なされます。これは、それらのユーザーおよびユーザーの役割が SAML 2.0 を介して認証されるためです。
 
 ### ユーザーの役割のセットアップ

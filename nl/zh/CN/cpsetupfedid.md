@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-18"
 
 keywords: service provider, identity federation, IBM Cloud infrastructure SSO
 
@@ -40,8 +40,8 @@ subcollection: customer-portal
 在此模型中，将执行以下过程：
 * 在身份提供者和 {{site.data.keyword.BluSoftlayer_notm}} 基础架构中创建用户。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基础架构客户门户网站或 API 在 {{site.data.keyword.BluSoftlayer}} 基础架构 IMS 中分配用户许可权。
-* 用户向身份提供者进行认证并联合自己的凭证。
-* {{site.data.keyword.BluSoftlayer}} 基础架构使用这些凭证，访问控制是基于为 {{site.data.keyword.BluSoftlayer}} 基础架构 IMS 中的用户定义的许可权。
+* 用户向身份提供者进行认证，并联合他们的用户身份。
+* {{site.data.keyword.BluSoftlayer}} 基础架构使用用户标识，并且访问控制是基于为 {{site.data.keyword.BluSoftlayer}} 基础架构 IMS 中的用户定义的许可权。
 
 首先，会在 {{site.data.keyword.BluSoftlayer}} 基础架构中使用随机密码为需要访问 {{site.data.keyword.BluSoftlayer}} 基础架构的用户创建帐户。必须先在 {{site.data.keyword.BluSoftlayer}} 基础架构中配置所有许可权，然后用户才能通过身份提供者使用 SSO。目前，许可权是基于单个用户设置的。
 
@@ -74,8 +74,8 @@ subcollection: customer-portal
 在此模型中，将执行以下操作：
 * 在身份提供者中创建角色，并将其分配给用户。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基础架构 API 在 {{site.data.keyword.BluSoftlayer}} 基础架构 IMS 中设置角色和许可权分配。
-* 用户向身份提供者进行认证并联合自己的凭证和角色属性。
-* {{site.data.keyword.BluSoftlayer}} 基础架构验证用户凭证和角色属性。如果通过用户的身份提供者为用户分配的角色与 {{site.data.keyword.BluSoftlayer}} 基础架构中的角色相匹配，那么当用户登录到 {{site.data.keyword.BluSoftlayer}} 基础架构时，会为用户授予这些角色的许可权。
+* 用户向身份提供者进行认证，并联合他们的用户身份和角色属性。
+* {{site.data.keyword.BluSoftlayer}} 基础架构验证用户标识和角色属性。如果通过用户的身份提供者为用户分配的角色与 {{site.data.keyword.BluSoftlayer}} 基础架构中的角色相匹配，那么当用户登录到 {{site.data.keyword.BluSoftlayer}} 基础架构时，会为用户授予这些角色的许可权。
 * 身份提供者创建用户时，会将这些用户视为联合用户，因为这些用户及其角色将通过 SAML 2.0 进行认证。
 
 ### 设置用户的角色

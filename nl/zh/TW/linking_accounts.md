@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-20"
 
 keywords: IBM Cloud, single IBM Cloud invoice, linked accounts, billing linked accounts 
 
@@ -16,6 +16,7 @@ subcollection: customer-portal
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
+{:table: .aria-labeledby="caption"}
 {:new_window: target="_blank"}
 
 
@@ -40,7 +41,7 @@ subcollection: customer-portal
 
 例如，如果您在 2017 年 4 月 16 日鏈結帳戶，則會收到 4 月用量的 {{site.data.keyword.Bluemix_notm}} 發票。視鏈結帳戶的時間而定，您可能會收到 SoftLayer 用量的個別帳單。針對您在 5 月裡的合併用量，會透過 {{site.data.keyword.Bluemix_notm}} 帳戶向您收費。
 
-![鏈結 IBM Cloud 及 SoftLayer 帳戶摘要](images/IBMCloudSoftLayerBill.svg)
+![鏈結 IBM Cloud 及 SoftLayer 帳戶摘要](images/IBMCloudSoftLayerBill.svg){: caption="圖 1. 鏈結 IBM Cloud 及 SoftLayer 帳戶摘要" caption-side="bottom"}
 
 鏈結帳單之後，{{site.data.keyword.Bluemix_notm}} 發票即會針對您所使用的每一項資源列出不同費用：
 

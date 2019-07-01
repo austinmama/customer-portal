@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-20"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,6 +23,21 @@ subcollection: customer-portal
 
 # 常见问题
 {: #bicpfaq}
+
+## 我在 IBM Cloud 控制台中什么地方可以找到我的 SoftLayer 资源？
+{: #softlayer-resources}
+{: faq}
+
+先前命名为 SoftLayer，现在称为 IBM Cloud 经典基础架构。
+要查看设备、存储器、网络、安全性和服务，请单击**菜单图标** ![菜单图标](../icons/icon_hamburger.svg) > **经典基础架构**。您还可以通过单击**菜单图标** ![菜单图标](../icons/icon_hamburger.svg) > **资源列表**来查看资源列表中的设备和存储项目。
+
+## 我的支持凭单在哪里？ 
+{: #softlayer-support-tickets}
+{: faq}
+
+现在，凭单在 IBM Cloud 中称为案例。要访问支持案例，请转至**支持** > **管理案例**。
+
+如果您无法查看案例，请尝试单击**查看归档案例**。如果您仍旧无法查看案例，说明您可能没有所需许可权。请求帐户所有者将您添加到支持案例访问组。有关更多信息，请参阅 [SoftLayer 帐户许可权](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions)。 
 
 ## 如何检索用于客户门户网站的凭证？
 {: #bicp_retcreds}

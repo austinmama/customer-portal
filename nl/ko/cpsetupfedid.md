@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-18"
 
 keywords: service provider, identity federation, IBM Cloud infrastructure SSO
 
@@ -40,8 +40,8 @@ subcollection: customer-portal
 이 모델에서는 다음 프로세스가 발생합니다.
 * 사용자는 ID 제공자 및 {{site.data.keyword.BluSoftlayer_notm}} 인프라 모두에서 작성됩니다 .
 * 사용자 권한은 {{site.data.keyword.BluSoftlayer}} 인프라 고객 포털 또는 API를 사용하여 {{site.data.keyword.BluSoftlayer}} 인프라에 지정됩니다.
-* 사용자는 ID 제공자로 인증하고 인증 정보를 연합합니다.
-* {{site.data.keyword.BluSoftlayer}} 인프라는 인증 정보를 이용하고 액세스 제어는 {{site.data.keyword.BluSoftlayer}} 인프라 IMS에서 사용자에 대해 정의된 권한을 기반으로 합니다.
+* 사용자는 ID 제공자로 인증하고 사용자 ID를 연합합니다.
+* {{site.data.keyword.BluSoftlayer}} 인프라는 사용자 ID를 이용하고 액세스 제어는 {{site.data.keyword.BluSoftlayer}} 인프라 IMS에서 사용자에 대해 정의된 권한을 기반으로 합니다.
 
 {{site.data.keyword.BluSoftlayer}} 인프라에 액세스하는 데 필요한 사용자의 계정은 먼저 랜덤 비밀번호를 포함하여
 {{site.data.keyword.BluSoftlayer}} 인프라에 작성됩니다. 사용자가 ID 제공자를 통해 SSO를 사용하려면 먼저 {{site.data.keyword.BluSoftlayer}} 인프라에서 모든 권한을 구성해야 합니다. 현재 권한은 개별 사용자를 기반으로 설정됩니다.
@@ -75,8 +75,8 @@ subcollection: customer-portal
 이 모델에서 다음 사항이 발생합니다.
 * 역할은 ID 제공자에서 작성되고 사용자에게 지정됩니다.
 * 역할 및 권한 지정은 {{site.data.keyword.BluSoftlayer}} 인프라 API를 사용하여 {{site.data.keyword.BluSoftlayer}} 인프라 IMS에서 설정됩니다.
-* 사용자는 ID 제공자로 인증하고 인증 정보 및 역할 속성을 연합합니다.
-* {{site.data.keyword.BluSoftlayer}} 인프라는 사용자 인증 정보 및 역할 속성을 확인합니다. ID 제공자가 사용자에게 지정한 역할이 {{site.data.keyword.BluSoftlayer}} 인프라의 역할과 일치하는 경우 사용자는 {{site.data.keyword.BluSoftlayer}} 인프라에 로그인할 때 해당 역할의 권한을 부여받습니다.
+* 사용자는 ID 제공자로 인증하고 사용자 ID 및 역할 속성을 연합합니다.
+* {{site.data.keyword.BluSoftlayer}} 인프라는 사용자 ID 및 역할 속성을 확인합니다. ID 제공자가 사용자에게 지정한 역할이 {{site.data.keyword.BluSoftlayer}} 인프라의 역할과 일치하는 경우 사용자는 {{site.data.keyword.BluSoftlayer}} 인프라에 로그인할 때 해당 역할의 권한을 부여받습니다.
 * ID 제공자가 사용자를 작성하는 경우, 이러한 사용자 및 해당 역할은 SAML 2.0을 통해 인증되므로 연합된 것으로 간주됩니다.
 
 ### 사용자에 대한 역할 설정

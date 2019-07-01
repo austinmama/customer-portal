@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-20"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,6 +23,21 @@ subcollection: customer-portal
 
 # 常見問題 (FAQ)
 {: #bicpfaq}
+
+## 我在 IBM Cloud 主控台中的哪處可以找到我的 SoftLayer 資源？
+{: #softlayer-resources}
+{: faq}
+
+先前命名為 SoftLayer，現在稱為 IBM Cloud 標準基礎架構。
+要檢視裝置、儲存空間、網路、安全和服務，請按一下**功能表圖示** ![功能表圖示](../icons/icon_hamburger.svg) > **標準基礎架構**。您還可以透過按一下**功能表圖示** ![功能表圖示](../icons/icon_hamburger.svg) > **資源清單**來檢視資源清單中的裝置和儲存空間項目。
+
+## 我的支援問題單在哪裡？ 
+{: #softlayer-support-tickets}
+{: faq}
+
+現在，問題單在 IBM Cloud 中稱為案例。要存取支援案例，請移至**支援** > **管理案例**。
+
+如果您無法檢視案例，請嘗試按一下**檢視保存案例**。如果您仍舊無法檢視案例，說明您可能沒有所需許可權。請求帳戶擁有者將您新增到支援案例存取群組。有關相關資訊，請參閱 [SoftLayer 帳戶許可權](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions)。 
 
 ## 如何擷取客戶入口網站的認證？
 {: #bicp_retcreds}
@@ -52,7 +67,7 @@ subcollection: customer-portal
 {: #bicp_bmxusertolink}
 {: faq}
 
-否。您可以建立新的 {{site.data.keyword.Bluemix_notm}} 帳戶，或鏈結現有 {{site.data.keyword.Bluemix_notm}} 精簡或隨收隨付制帳戶。
+否，您可以建立新的 {{site.data.keyword.Bluemix_notm}} 帳戶，也可以鏈結現有的 {{site.data.keyword.Bluemix_notm}} 精簡或隨收隨付制帳戶。
 
 ## 雙因子鑑別如何運作？
 {: #bicp_2fa}

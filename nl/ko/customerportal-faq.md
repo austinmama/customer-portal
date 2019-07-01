@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-20"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,6 +23,20 @@ subcollection: customer-portal
 
 # FAQ
 {: #bicpfaq}
+
+## IBM Cloud 콘솔의 어디에서 내 SoftLayer 리소스를 찾을 수 있습니까?
+{: #softlayer-resources}
+{: faq}
+
+이전의 SoftLayer를 이제 IBM Cloud 클래식 인프라라고 부릅니다. 디바이스, 스토리지, 네트워크, 보안 및 서비스를 보려면 **메뉴 아이콘** ![메뉴 아이콘](../icons/icon_hamburger.svg) > **클래식 인프라**를 클릭하십시오. 또한 **메뉴 아이콘** ![메뉴 아이콘](../icons/icon_hamburger.svg) > **리소스 목록**을 클릭하여 리소스 목록 내의 디바이스 및 스토리지 항목을 볼 수 있습니다.
+
+## 내 지원 티켓은 어디에 있습니까? 
+{: #softlayer-support-tickets}
+{: faq}
+
+IBM Cloud에서는 이제 티켓을 케이스라고 부릅니다. 지원 케이스에 액세스하려면 **지원** > **케이스 관리**로 이동하십시오.
+
+케이스가 표시되지 않으면 **아카이브된 케이스 보기**를 클릭해 보십시오. 그래도 여전히 표시되지 않으면 필요한 권한이 없을 수 있습니다. 계정 소유자에게 문의하여 사용자를 지원 케이스 액세스 그룹에 추가하도록 요청하십시오. 자세한 정보는 [SoftLayer 계정 권한](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions)을 참조하십시오. 
 
 ## 고객 포털에 대한 내 인증 정보를 검색하는 방법은 무엇입니까?
 {: #bicp_retcreds}

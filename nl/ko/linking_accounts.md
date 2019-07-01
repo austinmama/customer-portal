@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-20"
 
 keywords: IBM Cloud, single IBM Cloud invoice, linked accounts, billing linked accounts 
 
@@ -16,6 +16,7 @@ subcollection: customer-portal
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
+{:table: .aria-labeledby="caption"}
 {:new_window: target="_blank"}
 
 
@@ -40,7 +41,7 @@ subcollection: customer-portal
 
 예를 들어, 2017년 4월 16일에 계정을 연결한 경우에는 4월 사용량에 대해 {{site.data.keyword.Bluemix_notm}} 송장을 받습니다. 연결된 계정에 따라 SoftLayer 사용량에 대해 별도로 청구될 수 있습니다. 5월 중에 결합된 사용량이 {{site.data.keyword.Bluemix_notm}} 계정을 통해 청구됩니다.
 
-![IBM Cloud 및 SoftLayer 계정 연결 요약](images/IBMCloudSoftLayerBill.svg)
+![IBM Cloud 및 SoftLayer 계정 연결 요약](images/IBMCloudSoftLayerBill.svg){: caption="Figure 1. Linking IBM Cloud and SoftLayer accounts summary" caption-side="bottom"}
 
 청구서가 연결된 후에 {{site.data.keyword.Bluemix_notm}} 송장은 사용한 각 리소스에 대해 서로 다른 비용을 나열합니다.
 

@@ -6,6 +6,7 @@ Gerenciando recursos do SoftLayer
 
     {: .navgroup id="learn"}
     getting-started.md
+    redirect.md
     cpwhatis.md
     linking_accounts.md
     {: .navgroup-end}
@@ -43,6 +44,7 @@ Gerenciando recursos do SoftLayer
     {: .navgroup id="help"}
     cpsupport.md
     customerportal-faq.md
+    ts_manage_infra_ticks.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

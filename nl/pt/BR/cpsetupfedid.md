@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-18"
 
 keywords: service provider, identity federation, IBM Cloud infrastructure SSO
 
@@ -40,8 +40,8 @@ Múltiplos usuários podem ser designados a uma única função. Além disso, se
 Nesse modelo, o processo a seguir ocorre:
 * Os usuários são criados no provedor de identidade e na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}.
 * As permissões de usuário são designadas no IMS da infraestrutura do {{site.data.keyword.BluSoftlayer}} usando o portal do cliente ou as APIs da infraestrutura do {{site.data.keyword.BluSoftlayer}}.
-* Os usuários se autenticam no provedor de identidade e federam suas credenciais.
-* A infraestrutura do {{site.data.keyword.BluSoftlayer}} consome as credenciais e o controle de acesso baseia-se nas permissões definidas para o usuário no IMS da infraestrutura do {{site.data.keyword.BluSoftlayer}}.
+* Os usuários se autenticam com o provedor de identidade e federam sua identidade do usuário.
+* A infraestrutura do {{site.data.keyword.BluSoftlayer}} consome a identificação de usuário e o controle de acesso é baseado nas permissões que são definidas para o usuário no IMS da infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 
 Contas para usuários que precisam de acesso à infraestrutura do {{site.data.keyword.BluSoftlayer}} são criadas primeiro na infraestrutura do {{site.data.keyword.BluSoftlayer}} com senhas aleatórias. Todas as permissões devem ser configuradas na infraestrutura do {{site.data.keyword.BluSoftlayer}} antes que o usuário possa usar a SSO por meio do provedor de identidade. Atualmente, as permissões são configuradas com base no usuário individual.
 
@@ -74,8 +74,8 @@ O fluxo de exemplo a seguir mostra como a autenticação de login do usuário po
 Nesse modelo, as coisas acontecem conforme a seguir:
 * As funções são criadas no provedor de identidade e designadas ao usuário.
 * As designações de função e permissão são configuradas no IMS da infraestrutura do {{site.data.keyword.BluSoftlayer}} usando APIs de infraestrutura do {{site.data.keyword.BluSoftlayer}}.
-* Os usuários se autenticam no provedor de identidade e federam suas credenciais e atributos de função.
-* A infraestrutura do {{site.data.keyword.BluSoftlayer}} verifica as credenciais do usuário e os atributos de função. Se as funções designadas aos usuários por seu provedor de identidade corresponderem às funções na infraestrutura do {{site.data.keyword.BluSoftlayer}}, os usuários receberão permissões para essas funções quando efetuarem login na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
+* Os usuários se autenticam com o provedor de identidade e federam sua identidade do usuário e atributos de função.
+* A infraestrutura do {{site.data.keyword.BluSoftlayer}} verifica a identificação de usuário e os atributos de função. Se as funções designadas aos usuários por seu provedor de identidade corresponderem às funções na infraestrutura do {{site.data.keyword.BluSoftlayer}}, os usuários receberão permissões para essas funções quando efetuarem login na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 * Quando o provedor de identidade cria usuários, eles são considerados federados porque eles e suas funções são autenticados por meio do SAML 2.0.
 
 ### Configurando uma função para um usuário

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-18"
 
 keywords: service provider, identity federation, IBM Cloud infrastructure SSO
 
@@ -40,8 +40,8 @@ subcollection: customer-portal
 在此模型中，會發生下列處理程序：
 * 在身分提供者及 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構中，建立使用者。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基礎架構客戶入口網站或 API，在 {{site.data.keyword.BluSoftlayer}} 基礎架構 IMS 中指派使用者許可權。
-* 使用者會向身分提供者鑑別自己，並聯合其認證。
-* {{site.data.keyword.BluSoftlayer}} 基礎架構會使用認證，而且存取控制是根據在 {{site.data.keyword.BluSoftlayer}} 基礎架構 IMS 中針對使用者所定義的許可權。
+* 使用者向身分提供者進行鑑別，並聯合他們的使用者身分。
+* {{site.data.keyword.BluSoftlayer}} 基礎架構使用使用者識別，而且存取控制是根據在 {{site.data.keyword.BluSoftlayer}} 基礎架構 IMS 中針對使用者所定義的許可權。
 
 使用隨機密碼，先在 {{site.data.keyword.BluSoftlayer}} 基礎架構中建立需要存取 {{site.data.keyword.BluSoftlayer}} 基礎架構之使用者的帳戶。必須先在 {{site.data.keyword.BluSoftlayer}} 基礎架構中配置所有許可權，使用者才能透過身分提供者來使用 SSO。目前是根據個別使用者來設定許可權。
 
@@ -74,8 +74,8 @@ subcollection: customer-portal
 在此模型中，會發生下列事項：
 * 在身分提供者中建立角色，並將其指派給使用者。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基礎架構 API，在 {{site.data.keyword.BluSoftlayer}} 基礎架構 IMS 中設定角色及許可權指派。
-* 使用者會向身分提供者鑑別自己，並聯合其認證及角色屬性。
-* {{site.data.keyword.BluSoftlayer}} 基礎架構會驗證使用者認證及角色屬性。如果身分提供者指派給使用者的角色，符合 {{site.data.keyword.BluSoftlayer}} 基礎架構中的角色，則當使用者登入 {{site.data.keyword.BluSoftlayer}} 基礎架構時，會授與使用者那些角色的許可權。
+* 使用者向身分提供者進行鑑別，並聯合他們的使用者身分和角色屬性。
+* {{site.data.keyword.BluSoftlayer}} 基礎架構驗證使用者識別和角色屬性。如果身分提供者指派給使用者的角色，符合 {{site.data.keyword.BluSoftlayer}} 基礎架構中的角色，則當使用者登入 {{site.data.keyword.BluSoftlayer}} 基礎架構時，會授與使用者那些角色的許可權。
 * 當身分提供者建立使用者時，會將他們視為聯合，因為他們及其角色是透過 SAML 2.0 進行鑑別。
 
 ### 設定使用者的角色
