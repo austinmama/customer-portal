@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-18"
 
 keywords: service provider, identity federation, IBM Cloud infrastructure SSO
 
@@ -40,8 +40,8 @@ Einer einzigen Rolle können mehrere Benutzer zugeordnet sein. Wenn eine Rolle i
 In diesem Modell findet der folgende Prozess statt:
 * Benutzer werden sowohl im Identitätsprovider als auch in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur erstellt.
 * Benutzerberechtigungen werden im Identitätsmanagementsystem (IMS) der {{site.data.keyword.BluSoftlayer}}-Infrastruktur mithilfe des Kundenportals oder der APIs für die {{site.data.keyword.BluSoftlayer}}-Infrastruktur zugeordnet.
-* Benutzer authentifizieren sich beim Identitätsprovider und binden ihre Berechtigungsnachweise ein.
-* Die {{site.data.keyword.BluSoftlayer}}-Infrastruktur verarbeitet die Berechtigungsnachweise und die Zugriffssteuerung basiert auf den Berechtigungen, die für den Benutzer im IMS der {{site.data.keyword.BluSoftlayer}}-Infrastruktur definiert sind.
+* Benutzer authentifizieren sich beim Identitätsprovider und binden ihre Benutzeridentität ein.
+* Die {{site.data.keyword.BluSoftlayer}}-Infrastruktur verarbeitet die Benutzer-ID und die Zugriffssteuerung basierend auf den Berechtigungen, die für den Benutzer im IMS der {{site.data.keyword.BluSoftlayer}}-Infrastruktur definiert sind.
 
 Konten für Benutzer, die auf die {{site.data.keyword.BluSoftlayer}}-Infrastruktur zugreifen müssen, werden in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur anfänglich mit automatisch generierten Kennwörtern erstellt. Alle Berechtigungen müssen in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur konfiguriert worden sein, bevor der Benutzer das Single Sign-on (SSO) über den Identitätsprovider verwenden kann. Gegenwärtig werden Berechtigungen für jeden Benutzer separat konfiguriert.
 
@@ -74,8 +74,8 @@ Der folgende Beispielablauf veranschaulicht, wie die Authentifizierung bei der B
 Bei diesem Modell findet Folgendes statt:
 * Im Identitätsprovider werden Rollen erstellt und dem Benutzer zugeordnet.
 * Im IMS der {{site.data.keyword.BluSoftlayer}}-Infrastruktur werden mithilfe der APIs für die {{site.data.keyword.BluSoftlayer}}-Infrastruktur Rollen- und Berechtigungszuordnungen konfiguriert.
-* Benutzer authentifizieren sich beim Identitätsprovider und binden ihre Berechtigungsnachweise und Rollenattribute ein.
-* Die {{site.data.keyword.BluSoftlayer}}-Infrastruktur überprüft die Benutzerberechtigungsnachweise und die Rollenattribute. Wenn die Rollen, die den Benutzern von ihrem Identitätsprovider zugewiesen sind, mit den Rollen in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur übereinstimmen, erhalten diese Benutzer Berechtigungen für diese Rollen, wenn sie sich bei der {{site.data.keyword.BluSoftlayer}}-Infrastruktur anmelden.
+* Benutzer authentifizieren sich beim Identitätsprovider und binden ihre Benutzeridentität und Rollenattribute ein.
+* Die {{site.data.keyword.BluSoftlayer}}-Infrastruktur überprüft die Benutzer-ID und die Rollenattribute. Wenn die Rollen, die den Benutzern von ihrem Identitätsprovider zugewiesen sind, mit den Rollen in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur übereinstimmen, erhalten diese Benutzer Berechtigungen für diese Rollen, wenn sie sich bei der {{site.data.keyword.BluSoftlayer}}-Infrastruktur anmelden.
 * Die vom Identitätsprovider erstellten Benutzer gelten als eingebunden (föderiert), da die Authentifizierung für sie und ihre Rollen über SAML 2.0 erfolgt.
 
 ### Rolle für einen Benutzer konfigurieren
