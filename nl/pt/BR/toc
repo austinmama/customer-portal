@@ -6,7 +6,6 @@ Gerenciando recursos do SoftLayer
 
     {: .navgroup id="learn"}
     getting-started.md
-    redirect.md
     cpwhatis.md
     linking_accounts.md
     {: .navgroup-end}
