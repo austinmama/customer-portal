@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-04-25"
+lastupdated: "2019-7-12"
 
 keywords: PhoneFactor authentication, two-factor authentication, PIN type, 2FA 
 
@@ -110,3 +110,10 @@ If you set up PhoneFactor as the authentication type, you can choose one of the 
 <dt>PhoneFactor app with pin</dt>
 <dd>With this option, you set a pin, 4 - 8 numbers, in the portal. You then open the PhoneFactor application (Microsoft Authenticator) on your device. Next, enter your pin that was created in the portal and click <strong>Authenticate</strong> to log in to the portal.</dd>
 </dl>
+
+## Disabling 2FA
+{: #cp_disable_2FA}
+
+If you can access the customer portal successfully, go to your user profile to disable 2FA. If you're working in the {{site.data.keyword.Bluemix_notm}} console, check out [Types of multifactor authentication](/docs/iam?topic=iam-types) for more information. 
+
+If you can't access the customer portal due to issues with 2FA, contact the master user and request that they disable your 2FA. For further assistance, contact {{site.data.keyword.Bluemix_notm}} Support by using live chat, calling +1 866-403-7638, or creating a case. {{site.data.keyword.Bluemix_notm}} Support can verify the master user by using the provided security questions, email verification, or by calling the phone number listed on file before 2FA is disabled. 
