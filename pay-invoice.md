@@ -60,7 +60,7 @@ If you are located outside the United States, you use a tool called [Invoices](h
 ## Adding a payment method
 {: #cp_billpay}
 
-Each SoftLayer account is required to have a credit card on file that is automatically charged the invoice amount each month. This information must always be current to avoid late payments; you can update it at any time to ensure that the payment information is always accurate. If the credit card information on file is correct but you want to apply an alternative form of payment to the current balance, see [Managing your billing items](/docs/customer-portal?topic=customer-portal-manage-billing#manage-billing). Use the following steps to add a payment method for an account in the customer portal.
+Each SoftLayer account is required to have a credit card on file that is automatically charged the invoice amount each month. You can use a major credit card or standard debit card with a credit network logo. Prepaid debit cards are not an accepted payment method. This card information must always be current to avoid late payments; you can update it at any time to ensure that the payment information is always accurate. If the credit card information on file is correct but you want to apply an alternative form of payment to the current balance, see [Managing your billing items](/docs/customer-portal?topic=customer-portal-manage-billing#manage-billing). Use the following steps to add a payment method for an account in the customer portal.
 
 1. Click **Account** > **Billing** > **Payment Method** from the menu.
 2. Enter the required billing details for the card in each field in the **Billing Address** section.
@@ -74,7 +74,7 @@ After you add the payment method, the request is processed by SoftLayer account 
 ## Making a one-time payment
 {: #cp-one-payment}
 
-You can make one-time payments by using either a PayPal account or a major credit card and you can make payments for either a full or partial balance. One-time payment details aren't recorded for future use and don't modify current monthly payment methods for the account.
+You can make one-time payments by using either a PayPal account or a major credit card and you can make payments for either a full or partial balance. One-time payment details aren't recorded for future use and don't modify current monthly payment methods for the account. Prepaid debit cards aren't an accepted payment method.
 
 1. Go to the Make A One Time Payment page in the customer portal.
  * From the menu: Go to **Account** > **Make a Payment**.
