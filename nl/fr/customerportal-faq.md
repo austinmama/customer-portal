@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,20 +23,6 @@ subcollection: customer-portal
 
 # Foire aux questions
 {: #bicpfaq}
-
-## Où trouver mes ressources SoftLayer dans la console IBM Cloud ?
-{: #softlayer-resources}
-{: faq}
-
-L'élément précédemment nommé SoftLayer s'appelle désormais l'infrastructure classique IBM Cloud. Pour consulter périphériques, stockage, réseau, sécurité et services, cliquez sur l'**icône Menu** ![Icône Menu](../icons/icon_hamburger.svg) > **Infrastructure classique**. Vous pouvez également consulter vos périphériques et vos éléments de stockage dans la liste de ressources en cliquant sur l'**icône Menu** ![Icône Menu](../icons/icon_hamburger.svg) > **Liste de ressources**.
-
-## Où sont mes tickets de support ? 
-{: #softlayer-support-tickets}
-{: faq}
-
-Les tickets sont désormais appelés des cas dans IBM Cloud. Pour accéder aux cas de support, sélectionnez **Support** > **Gérer les cas**.
-
-Si vous n'arrivez pas à accéder à vos cas, cliquez sur **Afficher les cas archivés**. Si vous ne les voyez toujours pas, il est possible que vous ne disposiez pas des droits requis. Demandez à votre propriétaire de compte de vous ajouter au groupe d'accès des cas de support. Pour plus d'informations, voir [SoftLayer account permissions](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions). 
 
 ## Comment extraire mes données d'identification pour le portail client ?
 {: #bicp_retcreds}
@@ -62,12 +48,6 @@ Les nouveaux comptes nécessitent un IBMid pour l'authentification. Les comptes 
 
 Si vous êtes l'utilisateur principal sur votre compte SoftLayer, connectez-vous au portail client et cliquez sur **Lier le compte** dans l'en-tête. Voir [Liaison de comptes utilisateur IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts) pour plus d'informations.
 
-## Dois-je être un utilisateur {{site.data.keyword.Bluemix_notm}} existant pour lier des comptes ?
-{: #bicp_bmxusertolink}
-{: faq}
-
-Non. Vous pouvez créer un compte {{site.data.keyword.Bluemix_notm}} ou lier un compte {{site.data.keyword.Bluemix_notm}} existant de type Lite ou Paiement à la carte.
-
 ## Comment l'authentification à deux facteurs opère-t-elle ?
 {: #bicp_2fa}
 {: faq}
@@ -83,27 +63,11 @@ dans les comptes liés](/docs/account?topic=account-unifyingaccounts#2fa).
 
 Seuls les utilisateurs principaux de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} peuvent lier des comptes SoftLayer et {{site.data.keyword.Bluemix_notm}}. L'e-mail d'un utilisateur principal doit également être associé au propriétaire principal du compte {{site.data.keyword.Bluemix_notm}} à lier.
 
-## Que dois-je utiliser pour me connecter à chaque console ?
-{: #bicp_logineachport}
-{: faq}
-
-La facturation de vos comptes est liée et vous pouvez aisément passer de votre compte SoftLayer à votre compte {{site.data.keyword.Bluemix_notm}} et vice-versa, mais les identités de vos comptes restent distinctes.
-
-* Si votre compte n'utilise pas IBMid pour l'authentification, continuez à utiliser votre ID SoftLayer pour les produits et services SoftLayer et utilisez votre IBMid pour les produits et services {{site.data.keyword.Bluemix_notm}}.
-
-* Si votre compte utilise IBMid pour l'authentification, vous utilisez votre IBMid pour accéder à vos comptes SoftLayer et {{site.data.keyword.Bluemix_notm}}.
-
 ## Pourquoi une erreur est-elle renvoyée lorsque je tente de me connecter avec mon nom d'utilisateur SoftLayer ?
 {: #bicp_SLloginerror}
 {: faq}
 
 Une fois que vous êtes passé à un IBMid, si vous vous connectez au portail client avec votre nom d'utilisateur de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}, une erreur "Données d'identification incorrectes" est affichée. Une fois passé à un IBMid, vous ne pouvez plus vous connecter au portail client avec votre nom d'utilisateur de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Vous devez cliquer sur **Connexion avec identité IBM** dans la boîte de dialogue Connexion au Compte.
-
-## Pourquoi une erreur est-elle renvoyée lorsque je tente de me connecter avec mon IBMid ?
-{: #bicp_IBMidloginerror}
-{: faq}
-
-Lorsque vous vous connectez avec votre IBMid, l'erreur "Nous ne reconnaissons pas cet IBMid ou cette adresse électronique." s'affiche. Prenez soin d'entrer une adresse électronique qualifiée complète. Vérifiez également que vous n'utilisez pas votre nom d'utilisateur de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.
 
 ## Les membres de l'équipe d'infrastructure {{site.data.keyword.BluSoftlayer_notm}} peuvent-ils accéder à mon compte lié ?
 {: #bicp_linkgiveteamaccess}

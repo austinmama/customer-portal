@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,22 +23,6 @@ subcollection: customer-portal
 
 # Preguntas más frecuentes
 {: #bicpfaq}
-
-## ¿Dónde puedo encontrar mis recursos de SoftLayer en la consola de IBM Cloud?
-{: #softlayer-resources}
-{: faq}
-
-La anteriormente denominada SoftLayer, ahora se denomina infraestructura clásica de IBM Cloud. Para ver sus dispositivos, almacenamiento, red, seguridad y servicios, pulse el **Icono Menú** ![Icono Menú](../icons/icon_hamburger.svg) > **Infraestructura clásica**. También puede ver sus dispositivos y elementos de almacenamiento en la lista de recursos pulsando sobre el **Icono Menú** ![Icono Menú](../icons/icon_hamburger.svg) > **Lista de recursos**.
-
-## ¿Dónde están mis incidencias de soporte? 
-{: #softlayer-support-tickets}
-{: faq}
-
-Las incidencias ahora se denominan casos en IBM Cloud. Para acceder a los casos de soporte, vaya a
-**Soporte** > **Gestionar casos**.
-
-Si no puede ver los casos, inténtelo pulsando **Ver casos archivados**. Si todavía no puede verlos, es posible que no tenga el permiso necesario. Solicite al propietario de la cuenta que le añada al grupo de acceso a casos de soporte. Para obtener más información, consulte
-[Permisos de cuenta de SoftLayer](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions). 
 
 ## ¿Cómo puedo recuperar mis credenciales para el portal de clientes?
 {: #bicp_retcreds}
@@ -64,12 +48,6 @@ Las cuentas nuevas requieren IBMid para la autenticación. Las cuentas existente
 
 Si es el usuario maestro de la cuenta de SoftLayer, inicie sesión en el portal de clientes y pulse **Enlazar una cuenta** en la cabecera. Consulte [Cómo enlazar cuentas de usuario de IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts) para obtener más información.
 
-## ¿Tengo que ser un usuario existente de {{site.data.keyword.Bluemix_notm}} para enlazar cuentas?
-{: #bicp_bmxusertolink}
-{: faq}
-
-No. Puede crear una cuenta nueva de {{site.data.keyword.Bluemix_notm}} o enlazar una cuenta de Prueba o de Pago según uso existente de {{site.data.keyword.Bluemix_notm}}.
-
 ## ¿Cómo funciona la autenticación de dos factores?
 {: #bicp_2fa}
 {: faq}
@@ -84,27 +62,11 @@ Para obtener más información sobre IBMid con 2FA, consulte [Uso de la autentic
 
 Solo los usuarios maestros de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} pueden enlazar cuentas de SoftLayer y de {{site.data.keyword.Bluemix_notm}}. El correo electrónico de un usuario maestro también debe estar asociado al propietario principal de la cuenta de {{site.data.keyword.Bluemix_notm}} que se está enlazando.
 
-## ¿Qué utilizaré para iniciar sesión en cada consola?
-{: #bicp_logineachport}
-{: faq}
-
-La facturación de la cuenta está enlazada y puede moverse de forma sencilla entre las cuentas de SoftLayer y {{site.data.keyword.Bluemix_notm}}, pero sus identidades de cuenta permanecerán separadas.
-
-* Si la cuenta no utiliza IBMid para la autenticación, siga utilizando el ID de SoftLayer para los productos y servicios de SoftLayer, y utilice IBMid para los productos y servicios de {{site.data.keyword.Bluemix_notm}}.
-
-* Si la cuenta utiliza IBMid para la autenticación, utilice el IBMid para acceder a las cuentas de SoftLayer y {{site.data.keyword.Bluemix_notm}}.
-
 ## ¿Por qué obtengo un error al intentar iniciar sesión con mi nombre de usuario de SoftLayer?
 {: #bicp_SLloginerror}
 {: faq}
 
 Tras cambiar a un IBMid, si inicia sesión en el portal de clientes con el nombre de usuario de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, se mostrará el error "Se han proporcionado credenciales de inicio de sesión no válidas". Tras cambiar a un IBMid, ya no puede iniciar sesión en el portal de clientes con su nombre de usuario de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Debe pulsar **Iniciar sesión con IBMid** en el diálogo Inicio de sesión de cuenta.
-
-## ¿Por qué obtengo un error al intentar iniciar sesión con mi IBMid?
-{: #bicp_IBMidloginerror}
-{: faq}
-
-Al iniciar sesión con su IBMid, se mostrará el error "No hemos reconocido este IBMid o correo electrónico". Asegúrese de especificar una dirección de correo electrónico completa. Asegúrese también de que no está utilizando el nombre de usuario de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.
 
 ## ¿Pueden acceder los miembros del equipo de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} a mi cuenta enlazada?
 {: #bicp_linkgiveteamaccess}
