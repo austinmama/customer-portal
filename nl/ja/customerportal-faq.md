@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,20 +23,6 @@ subcollection: customer-portal
 
 # FAQ
 {: #bicpfaq}
-
-## 自分の SoftLayer リソースは IBM Cloud コンソール内のどこにありますか?
-{: #softlayer-resources}
-{: faq}
-
-以前の SoftLayer という名称は、現在、IBM Cloud クラシック・インフラストラクチャーと呼ばれています。お使いのデバイス、ストレージ、ネットワーク、セキュリティーを表示するには、**「メニュー」アイコン** ![「メニュー」アイコン](../icons/icon_hamburger.svg) > **「クラシック・インフラストラクチャー」**の順にクリックします。また、**「メニュー」アイコン** ![「メニュー」アイコン](../icons/icon_hamburger.svg) > **「リソース・リスト」**の順にクリックして、リソース・リストでデバイスとストレージ項目を表示することもできます。
-
-## サポート・チケットはどこにありますか?  
-{: #softlayer-support-tickets}
-{: faq}
-
-チケットは、IBM Cloud では Case と呼ばれるようになりました。サポート Case にアクセスするには、**「サポート」** > **「Case の管理」**へと進んでください。
-
-ご自分の Case を表示できない場合は、**「アーカイブされた Case の表示」**をクリックしてみてください。それでも表示できない場合は、必要な許可を持っていない可能性があります。サポート Case のアクセス・グループに追加するように、アカウント所有者に依頼してください。詳しくは、『[SoftLayer アカウント許可 (SoftLayer account permissions)](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions)』を参照してください。 
 
 ## カスタマー・ポータルの自分の資格情報を取得するには、どのようにすればよいですか?
 {: #bicp_retcreds}
@@ -62,12 +48,6 @@ subcollection: customer-portal
 
 SoftLayer アカウントのマスター・ユーザーである場合は、カスタマー・ポータルにログインし、ヘッダーにある**「アカウントのリンク (Link an account)」**をクリックします。 詳しくは、[IBMid ユーザー・アカウントのリンク](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)を参照してください。
 
-## アカウントをリンクするには、既存の {{site.data.keyword.Bluemix_notm}} ユーザーである必要がありますか?
-{: #bicp_bmxusertolink}
-{: faq}
-
-いいえ。新規の {{site.data.keyword.Bluemix_notm}} アカウントを作成するか、既存の {{site.data.keyword.Bluemix_notm}}  Lite アカウントまたは従量課金アカウントとしてリンクできます。
-
 ## 2 要素認証はどのように機能しますか?
 {: #bicp_2fa}
 {: faq}
@@ -82,27 +62,11 @@ SoftLayer アカウントのマスター・ユーザーである場合は、カ�
 
 SoftLayer アカウントと {{site.data.keyword.Bluemix_notm}} アカウントをリンクできるのは、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・マスター・ユーザーだけです。 マスター・ユーザーの E メールが、リンクされる {{site.data.keyword.Bluemix_notm}} アカウントの基本所有者に関連付けられることも必要です。
 
-## 何を使用して各コンソールにログインしますか?
-{: #bicp_logineachport}
-{: faq}
-
-アカウントの請求処理はリンクされ、SoftLayer アカウントと {{site.data.keyword.Bluemix_notm}} アカウントの間を簡単に移動できますが、アカウント ID は別々のままです。
-
-* アカウントが認証に IBMid を使用しない場合は、引き続き、SoftLayer の製品およびサービスには SoftLayer ID を使用し、{{site.data.keyword.Bluemix_notm}} の製品およびサービスには IBMid を使用します。
-
-* アカウントが認証に IBMid を使用する場合は、IBMid を使用して SoftLayer アカウントと {{site.data.keyword.Bluemix_notm}} アカウントの両方にアクセスします。
-
 ## SoftLayer ユーザー名でログインしようとするとエラーが表示されるのはなぜですか?
 {: #bicp_SLloginerror}
 {: faq}
 
 IBMid に切り替えた後、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・ユーザー名でカスタマー・ポータルにログインすると、「無効なログイン資格情報が提供されました」のエラーが表示されます。 IBMid に切り替えた後は、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・ユーザー名でカスタマー・ポータルにログインできなくなります。 必ず、「アカウントのログイン」ダイアログで**「IBMid でログイン」**をクリックしてください。
-
-## IBMid でログインしようとするとエラーが表示されるのはなぜですか?
-{: #bicp_IBMidloginerror}
-{: faq}
-
-IBMid でログインすると、「この IBMid または E メールを認識できません」のエラーが表示されます。 完全修飾 E メール・アドレスを入力していることを確認してください。 また、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・ユーザー名を使用していないことも確認してください。
 
 ## {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーのチーム・メンバーは、私のリンクされたアカウントにアクセスできますか?
 {: #bicp_linkgiveteamaccess}

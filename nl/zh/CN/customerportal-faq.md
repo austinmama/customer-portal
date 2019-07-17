@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,21 +23,6 @@ subcollection: customer-portal
 
 # 常见问题
 {: #bicpfaq}
-
-## 我在 IBM Cloud 控制台中什么地方可以找到我的 SoftLayer 资源？
-{: #softlayer-resources}
-{: faq}
-
-先前命名为 SoftLayer，现在称为 IBM Cloud 经典基础架构。
-要查看设备、存储器、网络、安全性和服务，请单击**菜单图标** ![菜单图标](../icons/icon_hamburger.svg) > **经典基础架构**。您还可以通过单击**菜单图标** ![菜单图标](../icons/icon_hamburger.svg) > **资源列表**来查看资源列表中的设备和存储项目。
-
-## 我的支持凭单在哪里？ 
-{: #softlayer-support-tickets}
-{: faq}
-
-现在，凭单在 IBM Cloud 中称为案例。要访问支持案例，请转至**支持** > **管理案例**。
-
-如果您无法查看案例，请尝试单击**查看归档案例**。如果您仍旧无法查看案例，说明您可能没有所需许可权。请求帐户所有者将您添加到支持案例访问组。有关更多信息，请参阅 [SoftLayer 帐户许可权](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions)。 
 
 ## 如何检索用于客户门户网站的凭证？
 {: #bicp_retcreds}
@@ -63,12 +48,6 @@ subcollection: customer-portal
 
 如果您是 SoftLayer 帐户的主用户，请登录到客户门户网站并单击标题中的**链接帐户**。有关更多信息，请参阅[链接 IBM 标识用户帐户](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)。
 
-## 我必须是现有 {{site.data.keyword.Bluemix_notm}} 用户才能链接帐户吗？
-{: #bicp_bmxusertolink}
-{: faq}
-
-不，您可以创建新的 {{site.data.keyword.Bluemix_notm}} 帐户，也可以链接现有的 {{site.data.keyword.Bluemix_notm}} 轻量或现收现付帐户。
-
 ## 双因子认证如何工作？
 {: #bicp_2fa}
 {: faq}
@@ -83,27 +62,11 @@ subcollection: customer-portal
 
 只有 {{site.data.keyword.BluSoftlayer_notm}} 基础架构主用户可以链接 SoftLayer 和 {{site.data.keyword.Bluemix_notm}} 帐户。主用户的电子邮件还必须关联到所链接的 {{site.data.keyword.Bluemix_notm}} 帐户的主要所有者。
 
-## 我将使用什么来登录每个控制台？
-{: #bicp_logineachport}
-{: faq}
-
-您的帐户帐单已链接，您可以轻松地在 SoftLayer 和 {{site.data.keyword.Bluemix_notm}} 帐户之间切换，但您的帐户身份保持独立。
-
-* 如果您的帐户不使用 IBM 标识进行认证，请继续将 SoftLayer 标识用于 SoftLayer 产品和服务，并将 IBM 标识用于 {{site.data.keyword.Bluemix_notm}} 产品和服务。
-
-* 如果您的帐户使用 IBM 标识进行认证，那么您可使用 IBM 标识来访问 SoftLayer 和 {{site.data.keyword.Bluemix_notm}} 帐户。
-
 ## 为何在尝试使用我的 SoftLayer 用户名登录时收到错误？
 {: #bicp_SLloginerror}
 {: faq}
 
 切换到 IBM 标识后，如果使用您的 {{site.data.keyword.BluSoftlayer_notm}} 基础架构用户名登录到客户门户网站，将显示“提供的登录凭证无效”错误。在切换到 IBM 标识后，您不能再使用 {{site.data.keyword.BluSoftlayer_notm}} 基础架构用户名来登录到客户门户网站。您必须在“帐户登录”对话框中单击**使用 IBM 标识登录**。
-
-## 为何在尝试使用我的 IBM 标识登录时收到错误？
-{: #bicp_IBMidloginerror}
-{: faq}
-
-在使用 IBM 标识登录时，将显示“无法识别此 IBM 标识或电子邮件”错误。确保输入标准电子邮件地址。另请确保您使用的不是 {{site.data.keyword.BluSoftlayer_notm}} 基础架构用户名。
 
 ## {{site.data.keyword.BluSoftlayer_notm}} 基础架构团队成员能否访问链接的帐户？
 {: #bicp_linkgiveteamaccess}

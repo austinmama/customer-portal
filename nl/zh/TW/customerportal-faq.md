@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,21 +23,6 @@ subcollection: customer-portal
 
 # 常見問題 (FAQ)
 {: #bicpfaq}
-
-## 我在 IBM Cloud 主控台中的哪處可以找到我的 SoftLayer 資源？
-{: #softlayer-resources}
-{: faq}
-
-先前命名為 SoftLayer，現在稱為 IBM Cloud 標準基礎架構。
-要檢視裝置、儲存空間、網路、安全和服務，請按一下**功能表圖示** ![功能表圖示](../icons/icon_hamburger.svg) > **標準基礎架構**。您還可以透過按一下**功能表圖示** ![功能表圖示](../icons/icon_hamburger.svg) > **資源清單**來檢視資源清單中的裝置和儲存空間項目。
-
-## 我的支援問題單在哪裡？ 
-{: #softlayer-support-tickets}
-{: faq}
-
-現在，問題單在 IBM Cloud 中稱為案例。要存取支援案例，請移至**支援** > **管理案例**。
-
-如果您無法檢視案例，請嘗試按一下**檢視保存案例**。如果您仍舊無法檢視案例，說明您可能沒有所需許可權。請求帳戶擁有者將您新增到支援案例存取群組。有關相關資訊，請參閱 [SoftLayer 帳戶許可權](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions)。 
 
 ## 如何擷取客戶入口網站的認證？
 {: #bicp_retcreds}
@@ -63,12 +48,6 @@ subcollection: customer-portal
 
 如果您是 SoftLayer 帳戶上的主要使用者，請登入客戶入口網站，然後按一下標頭中的**鏈結帳戶**。如需相關資訊，請參閱[鏈結 IBM ID 使用者帳戶](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)。
 
-## 我必須是現有 {{site.data.keyword.Bluemix_notm}} 使用者才能鏈結帳戶嗎？
-{: #bicp_bmxusertolink}
-{: faq}
-
-否，您可以建立新的 {{site.data.keyword.Bluemix_notm}} 帳戶，也可以鏈結現有的 {{site.data.keyword.Bluemix_notm}} 精簡或隨收隨付制帳戶。
-
 ## 雙因子鑑別如何運作？
 {: #bicp_2fa}
 {: faq}
@@ -83,27 +62,11 @@ subcollection: customer-portal
 
 只有 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構主要使用者才能鏈結 SoftLayer 及 {{site.data.keyword.Bluemix_notm}} 帳戶。主要使用者的電子郵件也必須與所鏈結 {{site.data.keyword.Bluemix_notm}} 帳戶的主要擁有者相關聯。
 
-## 將使用什麼來登入每一個主控台？
-{: #bicp_logineachport}
-{: faq}
-
-會鏈結您的帳戶計費，而且您可以輕鬆地在 SoftLayer 與 {{site.data.keyword.Bluemix_notm}} 帳戶之間移動，但您的帳戶身分仍然不同。
-
-* 如果您的帳戶未使用 IBM ID 進行鑑別，請繼續將 SoftLayer ID 用於 SoftLayer 產品及服務，並將 IBM ID 用於 {{site.data.keyword.Bluemix_notm}} 產品及服務。
-
-* 如果您的帳戶使用 IBM ID 進行鑑別，則會使用 IBM ID 來存取 SoftLayer 及 {{site.data.keyword.Bluemix_notm}} 帳戶。
-
 ## 我嘗試使用 SoftLayer 使用者名稱登入時，為什麼收到錯誤？
 {: #bicp_SLloginerror}
 {: faq}
 
 在您切換至 IBM ID 之後，如果使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構使用者名稱來登入客戶入口網站，則會顯示「提供的登入認證無效」錯誤。在您切換至 IBM ID 之後，就無法再使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構使用者名稱來登入客戶入口網站。您必須按一下「帳戶登入」對話框中的**使用 IBM ID 登入**。
-
-## 我嘗試使用 IBM ID 登入時，為什麼收到錯誤？
-{: #bicp_IBMidloginerror}
-{: faq}
-
-使用 IBM ID 進行登入時，會顯示「無法辨識此 IBM ID 或電子郵件」錯誤。請確定您輸入的是完整電子郵件位址。也請確定您不是使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構使用者名稱。
 
 ## {{site.data.keyword.BluSoftlayer_notm}} 基礎架構團隊成員可以存取我的已鏈結帳戶嗎？
 {: #bicp_linkgiveteamaccess}

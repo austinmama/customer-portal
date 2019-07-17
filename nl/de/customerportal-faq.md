@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,20 +23,6 @@ subcollection: customer-portal
 
 # Häufig gestellte Fragen (FAQs)
 {: #bicpfaq}
-
-## Wo finde ich meine SoftLayer-Ressourcen in der IBM Cloud-Konsole?
-{: #softlayer-resources}
-{: faq}
-
-Das frühere SoftLayer wird jetzt als "klassische IBM Cloud-Infrastruktur" bezeichnet. Um Ihre Geräte, Speicherung, Ihr Netz, Ihre Sicherheit und Services anzuzeigen, klicken Sie auf **Menüsymbol** ![Menüsymbol](../icons/icon_hamburger.svg) > **Klassische Infrastruktur**. Sie können auch Ihre Geräte und Speicherelemente in der Ressourcenliste anzeigen, indem Sie auf **Menüsymbol** ![Menüsymbol](../icons/icon_hamburger.svg) > **Ressourcenliste** klicken.
-
-## Wo befinden sich meine Support-Tickets? 
-{: #softlayer-support-tickets}
-{: faq}
-
-Tickets werden in IBM Cloud jetzt als "Fälle" bezeichnet. Für den Zugriff auf Supportfälle wechseln Sie zu **Support** > **Fälle verwalten**.
-
-Wenn Sie Ihre Fälle nicht anzeigen können, versuchen Sie es mit Klicken auf **Archivierte Fälle anzeigen**. Wenn sie immer noch nicht angezeigt werden, verfügen Sie vielleicht nicht über die erforderliche Berechtigung. Bitten Sie Ihren Kontoeigner, Sie zur Zugriffsgruppe für Supportfälle hinzuzufügen. Weitere Informationen finden Sie in [SoftLayer-Kontoberechtigungen](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions). 
 
 ## Wie kann ich meine Berechtigungsnachweise für das Kundenportal abrufen?
 {: #bicp_retcreds}
@@ -62,12 +48,6 @@ Neue Konten müssen zur Authentifizierung die IBMid verwenden. Bestehende Konten
 
 Als Masterbenutzer des SoftLayer-Kontos melden Sie sich beim Kundenportal an und klicken Sie im Header auf **Konto verknüpfen**. Weitere Informationen finden Sie unter [IBMid-Benutzerkonten verknüpfen](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
-## Muss ich bestehender {{site.data.keyword.Bluemix_notm}}-Benutzer sein, damit ich Konten verknüpfen kann?
-{: #bicp_bmxusertolink}
-{: faq}
-
-Nein. Sie können ein neues {{site.data.keyword.Bluemix_notm}}-Konto erstellen oder ein bestehendes {{site.data.keyword.Bluemix_notm}}-Lite-Konto bzw. nutzungsabhängiges Konto verknüpfen.
-
 ## Wie funktioniert die Zwei-Faktor-Authentifizierung?
 {: #bicp_2fa}
 {: faq}
@@ -82,27 +62,11 @@ Weitere Informationen zur IBMid im Zusammenhang mit der Zwei-Faktor-Authentifizi
 
 Nur Masterbenutzer der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur können SoftLayer- und {{site.data.keyword.Bluemix_notm}}-Konten verknüpfen. Dem primären Eigner des verknüpften {{site.data.keyword.Bluemix_notm}}-Kontos muss außerdem die E-Mail-Adresse eines Masterbenutzers zugeordnet sein.
 
-## Was verwende ich zur Anmeldung bei den einzelnen Konsolen?
-{: #bicp_logineachport}
-{: faq}
-
-Ihre Kontoabrechnung ist verknüpft; Sie können einfach zwischen Ihren SoftLayer- und {{site.data.keyword.Bluemix_notm}}-Konten wechseln, aber die Kontoidentitäten bleiben separat.
-
-* Falls Ihr Konto keine IBMid für die Authentifizierung verwendet, nutzen Sie weiterhin Ihre SoftLayer-ID für SoftLayer-Produkte und -Services sowie Ihre IBMid für {{site.data.keyword.Bluemix_notm}}-Produkte und -Services.
-
-* Falls Ihr Konto eine IBMid für die Authentifizierung verwendet, nutzen Sie Ihre IBMid für den Zugriff sowohl auf Ihr SoftLayer- als auch auf Ihr {{site.data.keyword.Bluemix_notm}}-Konto.
-
 ## Warum erhalte ich beim Versuch, mich mit meinem SoftLayer-Benutzernamen anzumelden, eine Fehlernachricht?
 {: #bicp_SLloginerror}
 {: faq}
 
 Wenn Sie zu einer IBMid gewechselt haben und sich beim Kundenportal mit Ihrem Benutzernamen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anzumelden versuchen, wird der Fehler 'Es wurden falsche Anmeldeberechtigungsnachweise angegeben' angezeigt. Nach dem Wechsel zu einer IBMid können Sie sich nicht mehr mit Ihrem Benutzernamen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur beim Kundenportal anmelden. Sie müssen im Dialogfeld 'Kontoanmeldung' auf **Mit IBMid anmelden** klicken.
-
-## Warum erhalte ich beim Versuch, mich mit meiner IBMid anzumelden, eine Fehlernachricht?
-{: #bicp_IBMidloginerror}
-{: faq}
-
-Bei der Anmeldung mit Ihrer IBMid wird der Fehler ' Diese IBMid oder E-Mail wurde nicht erkannt' angezeigt. Stellen Sie sicher, dass Sie eine vollständig qualifizierte E-Mail-Adresse eingeben. Denken Sie außerdem daran, nicht Ihren Benutzernamen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur zu verwenden.
 
 ## Können Teammitglieder der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur auf mein verknüpftes Konto zugreifen?
 {: #bicp_linkgiveteamaccess}

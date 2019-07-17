@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -23,20 +23,6 @@ subcollection: customer-portal
 
 # FAQ
 {: #bicpfaq}
-
-## IBM Cloud 콘솔의 어디에서 내 SoftLayer 리소스를 찾을 수 있습니까?
-{: #softlayer-resources}
-{: faq}
-
-이전의 SoftLayer를 이제 IBM Cloud 클래식 인프라라고 부릅니다. 디바이스, 스토리지, 네트워크, 보안 및 서비스를 보려면 **메뉴 아이콘** ![메뉴 아이콘](../icons/icon_hamburger.svg) > **클래식 인프라**를 클릭하십시오. 또한 **메뉴 아이콘** ![메뉴 아이콘](../icons/icon_hamburger.svg) > **리소스 목록**을 클릭하여 리소스 목록 내의 디바이스 및 스토리지 항목을 볼 수 있습니다.
-
-## 내 지원 티켓은 어디에 있습니까? 
-{: #softlayer-support-tickets}
-{: faq}
-
-IBM Cloud에서는 이제 티켓을 케이스라고 부릅니다. 지원 케이스에 액세스하려면 **지원** > **케이스 관리**로 이동하십시오.
-
-케이스가 표시되지 않으면 **아카이브된 케이스 보기**를 클릭해 보십시오. 그래도 여전히 표시되지 않으면 필요한 권한이 없을 수 있습니다. 계정 소유자에게 문의하여 사용자를 지원 케이스 액세스 그룹에 추가하도록 요청하십시오. 자세한 정보는 [SoftLayer 계정 권한](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions)을 참조하십시오. 
 
 ## 고객 포털에 대한 내 인증 정보를 검색하는 방법은 무엇입니까?
 {: #bicp_retcreds}
@@ -62,12 +48,6 @@ IBM Cloud에서는 이제 티켓을 케이스라고 부릅니다. 지원 케이�
 
 SoftLayer 계정의 마스터 사용자인 경우 고객 포털에 로그인한 후 헤더에서 **계정 연결**을 클릭하십시오. 자세한 정보는 [IBM ID 사용자 계정 연결](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)을 참조하십시오.
 
-## 기존 {{site.data.keyword.Bluemix_notm}} 사용자만 계정에 연결할 수 있습니까?
-{: #bicp_bmxusertolink}
-{: faq}
-
-아니오. 새 {{site.data.keyword.Bluemix_notm}} 계정을 생성하거나 기존 {{site.data.keyword.Bluemix_notm}} Lite 또는 종량과금제 계정을 연결할 수 있습니다.
-
 ## 2단계 인증은 어떻게 작동됩니까?
 {: #bicp_2fa}
 {: faq}
@@ -82,27 +62,11 @@ SoftLayer 계정의 마스터 사용자인 경우 고객 포털에 로그인한 
 
 {{site.data.keyword.BluSoftlayer_notm}} 인프라 마스터 사용자만 SoftLayer와 {{site.data.keyword.Bluemix_notm}} 계정을 연결할 수 있습니다. 마스터 사용자의 이메일도 연결되어 있는 {{site.data.keyword.Bluemix_notm}} 계정의 기본 소유자와 연관되어야 합니다.
 
-## 각 콘솔에 로그인하려면 무엇을 사용해야 합니까?
-{: #bicp_logineachport}
-{: faq}
-
-계정 청구가 연결되어 있고 SoftLayer와 {{site.data.keyword.Bluemix_notm}} 계정 간에 쉽게 이동할 수 있으나 계정 ID는 계속 분리되어 있습니다.
-
-* 계정에서 인증을 위해 IBM ID를 사용하지 않는 경우 계속해서 SoftLayer 제품 및 서비스에 SoftLayer ID를 사용하고 {{site.data.keyword.Bluemix_notm}} 제품 및 서비스에 IBM ID를 사용하십시오.
-
-* 계정에서 인증을 위해 IBM ID를 사용하는 경우 IBM ID를 사용하여 SoftLayer 및 {{site.data.keyword.Bluemix_notm}} 계정 모두에 액세스하십시오.
-
 ## 내 SoftLayer 사용자 이름을 사용하여 로그인하려고 하면 오류가 발생하는 이유는 무엇입니까?
 {: #bicp_SLloginerror}
 {: faq}
 
 IBM ID로 전환한 후 {{site.data.keyword.BluSoftlayer_notm}} 인프라 사용자 이름으로 고객 포털에 로그인하는 경우 "Invalid login credentials provided" 오류가 표시됩니다. IBM ID로 전환한 후에는 더 이상 {{site.data.keyword.BluSoftlayer_notm}} 인프라 사용자 이름으로 고객 포털에 로그인할 수 없습니다. 계정 로그인 대화 상자에서 **IBM ID로 로그인**을 클릭해야 합니다.
-
-## 내 IBM ID를 사용하여 로그인하려고 하면 오류가 발생하는 이유는 무엇입니까?
-{: #bicp_IBMidloginerror}
-{: faq}
-
-IBM ID로 로그인할 때 "We didn't recognize this IBMid or email" 오류가 표시됩니다. 완전한 이메일 주소를 입력했는지 확인하십시오. 또한 {{site.data.keyword.BluSoftlayer_notm}} 인프라 사용자 이름을 사용하지 않았는지 확인하십시오.
 
 ## {{site.data.keyword.BluSoftlayer_notm}} 인프라 팀 구성원이 연결된 내 계정에 액세스할 수 있습니까?
 {: #bicp_linkgiveteamaccess}
