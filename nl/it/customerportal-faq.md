@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud user, user name, portal account, cp FAQs 
 
@@ -48,12 +48,6 @@ I nuovi account richiedono l'ID IBM per l'autenticazione. Gli account esistenti 
 
 Se sei l'utente master nel tuo account SoftLayer, accedi al portale clienti e fai clic su **Collega un account** nell'intestazione. Per ulteriori informazioni, vedi [Collegamento degli account utente ID IBM](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
-## Devo essere un utente {{site.data.keyword.Bluemix_notm}} esistente per collegare gli account?
-{: #bicp_bmxusertolink}
-{: faq}
-
-No. Puoi creare un nuovo account {{site.data.keyword.Bluemix_notm}} o collegare un account Lite o Pagamento a consumo {{site.data.keyword.Bluemix_notm}} esistente.
-
 ## Come funziona l'autenticazione a due fattori?
 {: #bicp_2fa}
 {: faq}
@@ -68,27 +62,11 @@ Per ulteriori informazioni sull'ID IBM con 2FA, vedi [Utilizzo dell'autenticazio
 
 Solo gli utenti master dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} possono collegare gli account SoftLayer e {{site.data.keyword.Bluemix_notm}}. È necessario inoltre associare l'e-mail di utente master al proprietario principale dell'account {{site.data.keyword.Bluemix_notm}} che viene collegato.
 
-## Cosa utilizzerò per eseguire l'accesso a ciascuna console?
-{: #bicp_logineachport}
-{: faq}
-
-La fatturazione dell'account è collegata e puoi spostarti facilmente tra i tuoi account SoftLayer e {{site.data.keyword.Bluemix_notm}}, ma le identità dei tuoi account rimangono separate.
-
-* Se il tuo account non utilizza l'ID IBM per l'autenticazione, continua a usare il tuo ID SoftLayer per i prodotti e i servizi SoftLayer e il tuo ID IBM per i prodotti e i servizi {{site.data.keyword.Bluemix_notm}}.
-
-* Se il tuo account utilizza l'ID IBM per l'autenticazione, utilizza il tuo ID IBM per accedere a entrambi i tuoi account SoftLayer e {{site.data.keyword.Bluemix_notm}}.
-
 ## Perché ottengo un errore quando provo ad eseguire l'accesso con il mio nome utente SoftLayer?
 {: #bicp_SLloginerror}
 {: faq}
 
 Una volta che passi a un ID IBM, se esegui l'accesso al portale clienti con il tuo nome utente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}, viene visualizzato l'errore "Invalid login credentials provided". Una volta che passi a un ID IBM, non puoi più eseguire l'accesso al portale clienti con il tuo nome utente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Devi invece fare clic su **Accedi con ID IBM** nella finestra di dialogo Accesso account.
-
-## Perché ottengo un errore quando provo ad eseguire l'accesso con il mio ID IBM?
-{: #bicp_IBMidloginerror}
-{: faq}
-
-Quando esegui l'accesso con il tuo ID IBM, viene visualizzato l'errore "We didn't recognize this IBMid or email". Assicurati di immettere un indirizzo email completo. Inoltre, assicurati di non utilizzare il tuo nome utente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.
 
 ## I membri del team dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} possono accedere al mio account collegato?
 {: #bicp_linkgiveteamaccess}
