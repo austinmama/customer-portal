@@ -34,8 +34,9 @@ Managing SoftLayer resources
         cpsub2not.md
         cpprotectsys.md
         cpcompsegapptiers.md
-        cpcompmanlic.md
-        cprebootserver.md
+        [Managing servers](/vsi/virtual-servers-managing-virtual-servers)
+        [Managing control panel licenses](/infrastructure/software/software-cp_compacclisc)
+        [Managing software passwords](/infrastructure/software/software-cp_bpmanacctresp)
         cpcompmanbwpool.md
         cpcompuschrootkittool.md
     {: .navgroup-end}
