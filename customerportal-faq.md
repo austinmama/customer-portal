@@ -66,7 +66,7 @@ For more information about IBMid with 2FA, see [Multifactor authentication usage
 {: #bicp_wholinkaccts}
 {: faq}
 
-Only {{site.data.keyword.BluSoftlayer_notm}} infrastructure master users can link SoftLayer and {{site.data.keyword.Bluemix_notm}} accounts. A master user's email must also be associated to the primary owner of the {{site.data.keyword.Bluemix_notm}} account being linked.
+Only {{site.data.keyword.BluSoftlayer_notm}} infrastructure master users can link SoftLayer and {{site.data.keyword.Bluemix_notm}} accounts. A master user's email must also be associated to the primary owner of the {{site.data.keyword.Bluemix_notm}} account that's being linked.
 
 ## Why do I get an error when I try to log in with my SoftLayer user name?
 {: #bicp_SLloginerror}
