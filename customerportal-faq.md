@@ -4,9 +4,9 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-06-28"
+lastupdated: "2019-09-24"
 
-keywords: IBM Cloud user, user name, portal account, cp FAQs 
+keywords: IBM Cloud user, user name, portal account, cp FAQs, customer portal 
 
 
 subcollection: customer-portal
@@ -23,6 +23,12 @@ subcollection: customer-portal
 
 # FAQs
 {: #bicpfaq}
+
+## How can I find the list of VPN access points?
+{: #vpn-access}
+{: faq}
+
+When you try to access the Software Library in the customer portal, you might find that the link to more options for establishing a VPN connection is broken in the Downloads page prompt. See [VPN Access](https://www.ibm.com/cloud/vpn-access){: external} for the list of VPN access points. 
 
 ## How do I retrieve my credentials for the customer portal?
 {: #bicp_retcreds}
