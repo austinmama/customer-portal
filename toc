@@ -42,7 +42,11 @@ Managing SoftLayer resources
 
     {: .navgroup id="help"}
     cpsupport.md
+
+    {: .topicgroup}
+    redirect-faq.md
     customerportal-faq.md
+
     ts_manage_infra_ticks.md
     {: .navgroup-end}
 
