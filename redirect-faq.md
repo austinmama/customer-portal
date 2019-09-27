@@ -23,10 +23,10 @@ subcollection: customer-portal
 {:faq: data-hd-content-type='faq'}
 
 
-# FAQs about migrating to {{site.data.keyword.cloud_notm}}
+# FAQs about migrating from the customer portal to the console
 {: #redirect-faq}
 
-FAQs about migrating from SoftLayer to {{site.data.keyword.cloud}} might include questions about navigating the {{site.data.keyword.Bluemix_notm}} console, setting the operating system (OS) for a new device, reconfiguring a device with different software, or managing a user's access to infrastructure resources. 
+FAQs about migrating from the customer portal to the {{site.data.keyword.cloud}} console might include questions about navigating the {{site.data.keyword.Bluemix_notm}} console, setting the operating system (OS) for a new device, access for working with support cases, or managing a user's access to infrastructure resources. 
 {:shortdesc}
 
 The formerly named SoftLayer is now called {{site.data.keyword.cloud_notm}} classic infrastructure. 
@@ -54,18 +54,6 @@ To view your devices, storage, network, security, and services, you can use any 
 * Click the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Resource list**. 
 * Click any of the links that are listed in the Classic infrastructure widget on your dashboard. Go to **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Dashboard**.
 
-## How do I set the OS for a new bare metal server?
-{: #set-os-bm}
-{: faq}
-
-When you're creating a bare metal server from the {{site.data.keyword.cloud_notm}} catalog, you can set the OS by scrolling to the Image section on the configuration page and selecting from the available options. 
-
-## How do I reconfigure my device with different software?
-{: #reload-os}
-{: faq}
-
-Perform an OS reload to reconfigure your device with different software. From your console dashboard, click **Devices** in the Resource summary widget > *device-name* > **Actions** > **OS reload**. For more information, see [Reloading the OS](/docs/infrastructure/software?topic=software-reloading-the-os#reloading-the-os). 
-
 ## How can I find the list of VPN access points?
 {: #vpn-access}
 {: faq}
@@ -79,6 +67,16 @@ When you try to access the Software Library in the customer portal, you might fi
 Support tickets are now called support cases in IBM Cloud. To access support cases, go to **Support** > **Manage cases**. 
 
 If you're unable to view your cases, try clicking **View archived cases**. If you still can't view them, you might not have the required permission. Ask your account owner to add you to the support case access group. For more information, see [SoftLayer account permissions](https://test.cloud.ibm.com/docs/iam?topic=iam-migrated_permissions). 
+
+## What access is needed to work with support cases? 
+{: #access_supportcases}
+{: faq}
+
+By default, users in your account don't have access to create, update, search, or view cases. As the account owner, you must provide users access by assigning an Identity and Access Management (IAM) access policy. 
+
+When you create a case, you can give other users full access to that case by adding their email on the **Add another person to this case** field. Any added users have access to view, edit, and update only that case in the account. They also receive notifications when the case is updated. 
+
+For classic infrastructure users, the permissions to assign support case access is now available in [migrated classic infrastructure permission access groups](/docs/iam?topic=iam-infrapermission).
 
 ## Where do I manage a user's access to infrastructure? 
 {: #infrastructure-devices}
@@ -95,3 +93,15 @@ If you need to assign access to IAM-enabled infrastructure services, such as {{s
 {: support}
 
 All permissions that were previously assigned in your SoftLayer account can be managed in the {{site.data.keyword.Bluemix_notm}} console. Account permissions for managing billing information and support cases are now available in [migrated permissions access groups](/docs/iam?topic=iam-migrated_permissions). All users who were previously assigned these permissions in your SoftLayer account were migrated to these access groups, which are assigned the same level of access by using an IAM policy on the access group.
+
+## How do I set the OS for a new bare metal server?
+{: #set-os-bm}
+{: faq}
+
+When you're creating a bare metal server from the {{site.data.keyword.cloud_notm}} catalog, you can set the OS by scrolling to the Image section on the configuration page and selecting from the available options. 
+
+## How do I reconfigure my device with different software?
+{: #reload-os}
+{: faq}
+
+Perform an OS reload to reconfigure your device with different software. From your console dashboard, click **Devices** in the Resource summary widget > *device-name* > **Actions** > **OS reload**. For more information, see [Reloading the OS](/docs/infrastructure/software?topic=software-reloading-the-os#reloading-the-os). 
