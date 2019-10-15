@@ -1,0 +1,191 @@
+{
+    "learn-redirect": [
+      "what is IBM Cloud console",
+      "SoftLayer is now called IBM Cloud classic infrastructure",
+      "navigate the IBM Cloud console",
+      "navigate to classic infrastructure",
+      "cloud console navigation"
+    ],
+    "slid": [
+      "use my SoftLayer ID to log in",
+      "log in with softlayer id",
+      "logging in using id from softlayer",
+      "softlayer id log in",
+      "log on with softlayer id"
+    ],
+    "slitems": [
+      "find my SoftLayer resources",
+      "finding SoftLayer devices",
+      "find the classic infrastructure resources",
+      "view my SoftLayer resources",
+      "view SoftLayer storage",
+      "view SoftLayer network",
+      "control.softlayer.com to retire",
+      "new experience at cloud.ibm.com"
+    ],
+    "vpn-access": [
+      "VPN access points listing",
+      "VPN access list",
+      "access list for VPN",
+      "listing for VPN access",
+      "list for VPN portals"
+    ],
+    "view-support-cases": [
+      "can't see my support tickets",
+      "unable to view my support cases",
+      "cant I see my cases",
+      "can't see a support ticket I opened",
+      "unable to view my tickets"
+    ],
+    "access_supportcases": [
+      "access is required to work with a support case",
+      "permissions to assign support case access",
+      "access for support cases",
+      "support case access",
+      "access to work with support tickets",
+      "support ticket access"
+    ],
+    "infrastructure-devices": [
+      "manage access for users in Console",
+      "manage user's access to infrastructure",
+      "managing classic infrastructure access",
+      "access to IAM-enabled infrastructure services management",
+      "managing access for users"
+    ],
+    "migrated-permissions-faq": [
+      "manage access for users previously assigned billing and support permissions",
+      "manage access for users with support permissions",
+      "access management for users who have permissions",
+      "how to manage permissions from softlayer",
+      "what about migrated permissions",
+      "permissions in your SoftLayer account migration"
+    ],
+    "set-os-bm": [
+      "set the OS for a new bare metal server",
+      "new bare metal need to set O/S",
+      "set up operating system for bare metal",
+      "creating a bare metal server and need to set OS",
+      "operating system set up for bare-metal"
+    ],
+    "reload-os": [
+      "reconfigure my device with different software",
+      "reconfiguring my server with different software",
+      "different software configuration on my server",
+      "upgrade my server with new software",
+      "updating my device with different software"
+    ],
+    "bicp_retcreds": [
+      "retrieve my credentials for the customer portal",
+      "need my IBMID for customer portal",
+      "forgot my user name for the portal",
+      "reset my IBMid",
+      "forgot my password to login to the portal"
+    ],
+    "bicp_whatisibmid": [
+      "what's an IBMid",
+      "why do I need an IBMid",
+      "what is the IBMid for",
+      "explain the purpose of IBMid",
+      "tell me about IBMid"
+    ],
+    "bicp_linkbmxacct": [
+      "link an existing SoftLayer account",
+      "link my softlayer account",
+      "linking the softlayer account",
+      "softlayer account linking",
+      "softlayer account linkage"
+    ],
+    "bicp_2fa": [
+      "two-factor authentication work",
+      "using 2 factor authentication",
+      "use two factor authentication",
+      "what is 2FA",
+      "how does 2FA work"
+    ],
+    "bicp_wholinkaccts": [
+      "who can link accounts",
+      "can I link my account",
+      "permission to link accounts",
+      "who can perform account linkage",
+      "who's allowed to link accounts"
+    ],
+    "bicp_SLloginerror": [
+      "Invalid login credentials provided",
+      "error about invalid login",
+      "error when I try to log in with softlayer",
+      "invalid login credentials",
+      "no longer login to my softlayer account"
+    ],
+    "bicp_linkgiveteamaccess": [
+      "Cloud infrastructure team members access my linked account",
+      "can softlayer users access my linked account",
+      "give softlayer users linked account access",
+      "access to my linked account for softlayer users",
+      "access to my linked account for infrastructure users"
+    ],
+    "bicp_ibmidswitchemail": [
+      "email to complete the switch to IBMid",
+      "can't complete the switch to IBMid",
+      "missing the email to get my IBMid",
+      "did not yet receive the email with IBMid",
+      "IBMid email"
+    ],
+    "bicp_fullrootaccaccess": [
+      "full root access to my account",
+      "full root access to accounts",
+      "do not have administrator permissions",
+      "full root access"
+    ],
+    "bicp_linkbmxsubacct": [
+      "link an IBM Cloud Subscription account",
+      "link to a subscription account",
+      "linking my subscription account",
+      "subscription account linking",
+      "subscription account be linked"
+    ],
+    "bicp_unlinkacct": [
+      "unlink my account",
+      "accounts no longer be linked",
+      "unlinking the accounts",
+      "do not want my accounts linked",
+      "accounts not linked"
+    ],
+    "bicp_devswpw": [
+      "find my device and software passwords",
+      "locate my server password",
+      "find my software passwords",
+      "looking for my virtual machine's password",
+      "finding the server password",
+      "retrieve the device credentials",
+      "location of root or admin user name and password",
+      "retrieve software credentials"
+    ],
+    "bicp_webdatasync": [
+      "keep my web data in sync",
+      "sync my web data",
+      "sync up data",
+      "synchronize data without incurring charges",
+      "web data synchronization"
+    ],
+    "bicp_whatisems": [
+      "describe Event Management System",
+      "tell me about Event Management System",
+      "use the Event Management System for",
+      "do I need an Event Management System",
+      "Event Management System purpose"
+    ],
+    "bicp_candev": [
+      "cancel a device",
+      "virtual server cancellation",
+      "cancelling a virtual server",
+      "bare metal cancellation",
+      "cancel my VM"
+    ],
+    "ts_viewtickdetails": [
+      "can't I view all tickets in the account",
+      "unable to see all my account tickets",
+      "cant I see all the cases attached to this account",
+      "unable to view the support ticket",
+      "problem with managing tickets with Cloud infrastructure"
+    ]
+}
