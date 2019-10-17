@@ -4,7 +4,7 @@ copyright:
 
   years: 2019
 
-lastupdated: "2019-09-27"
+lastupdated: "2019-10-17"
 
 keywords: IBM Cloud user, control portal, SoftLayer, IBM Cloud console, FAQ, frequently asked questions, migrate, devices
 
@@ -52,7 +52,7 @@ To view your devices, storage, network, security, and services, you can use any 
 
 * Click the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Classic Infrastructure**.
 * Click the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Resource list**. 
-* Click any of the links that are listed in the Classic infrastructure widget on your dashboard. Go to **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Dashboard**.
+* Click any of the links that are listed in the Classic infrastructure widget on your dashboard. Go to **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Dashboard** to access the Classic infrastructure widget. 
 
 ## How can I find the list of VPN access points?
 {: #vpn-access}
