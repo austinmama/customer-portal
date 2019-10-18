@@ -179,7 +179,11 @@
       "virtual server cancellation",
       "cancelling a virtual server",
       "bare metal cancellation",
-      "cancel my VM"
+      "cancel my VM",
+      "delete one server",
+      "remove a virtual server",
+      "removing a VM",
+      "deleting a server"
     ],
     "ts_viewtickdetails": [
       "can't I view all tickets in the account",
